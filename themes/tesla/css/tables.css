@@ -1,0 +1,160 @@
+/* ===============================
+ * Table Styles 
+ * ==============================*/
+table th,table td {
+  border-bottom: 1px solid #ebded2;
+  padding: 8px 5px;
+}
+
+/* Order table */
+.borer0.table-bordered>tbody>tr>td,.borer0.table-bordered>thead>tr>th {
+  border: 0 none;
+}
+
+.borer0.table>tbody>tr>td,.borer0.table>thead>tr>th {
+  border-top: 1px solid #ddd;
+}
+
+#summary th {
+  background-color: #f4e9e3;
+  background-image: -webkit-linear-gradient(top,#faf5f2,#ecd7cd);
+  background-image: linear-gradient(to bottom,#faf5f2,#ecd7cd);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffaf4f1',endColorstr='#ffecd6cc',GradientType=0);
+  color: #623825;
+  text-shadow: 1px 1px 0 #fff;
+  border-bottom-color: #dbc3af;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+
+table .price,table .price-shipping,table .price-discount,table .delivery_option_price,table td.carrier_price {
+  color: #623825;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#summary .cart_unit,#summary .cart_quantity {
+  text-align: center;
+}
+
+#summary td.cart_unit,#summary td.cart_quantity,#summary td.cart_total {
+  line-height: 85px;
+}
+
+#summary td {
+  padding: 8px 5px;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+
+table#summary_voucher {
+  background: #fff;
+  border: 1px solid #ebded2;
+  border-bottom: 0;
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+}
+
+#summary_voucher td {
+  background: #f9f9f9;
+  padding: 10px 10px 15px;
+}
+
+table#summary_voucher th,table td {
+  border-bottom: 1px solid #ebded2;
+  padding: 8px 5px;
+}
+
+#std table {
+  background: #fff;
+  border: 1px solid #ebded2;
+  border-bottom: 0;
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+}
+
+#std table th {
+  background-color: #f4e9e3;
+  background-image: -webkit-linear-gradient(top,#faf5f2,#ecd7cd);
+  background-image: linear-gradient(to bottom,#faf5f2,#ecd7cd);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffaf4f1',endColorstr='#ffecd6cc',GradientType=0);
+  color: #623825;
+  text-shadow: 1px 1px 0 #fff;
+  border-bottom-color: #dbc3af;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+table {
+  background: #fff;
+  border: 1px solid #ebded2;
+  border-bottom: 0;
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+}
+
+table th {
+  background-color: #f4e9e3;
+  background-image: -webkit-linear-gradient(top,#faf5f2,#ecd7cd);
+  background-image: linear-gradient(to bottom,#faf5f2,#ecd7cd);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffaf4f1',endColorstr='#ffecd6cc',GradientType=0);
+  color: #623825;
+  text-shadow: 1px 1px 0 #fff;
+  border-bottom-color: #dbc3af;
+  //font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  font-size: 18px;
+  color: #945C42;
+  height: 50px;
+}
+
+table#compare_shipping_form th,table td {
+  border-bottom: 1px solid #ebded2;
+  padding: 8px 5px;
+}
+
+#compare_shipping_form #availableCarriers_table th,#compare_shipping_form #availableCarriers_table td {
+  padding: 5px 10px;
+}
+
+table td.carrier_name,table .delivery_option_title,table .delivery_option_icon {
+  font-weight: 700;
+}
+
+table td.carrier_price {
+  color: #623825;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+table th.carrier_price {
+  text-align: right;
+}
+
+.cart_price{
+  text-align: center;
+  vertical-align: middle !important;
+}
+.carrier_list a{
+  text-decoration: underline;
+}
+.table-account td{
+  vertical-align: middle !important;
+}
+.quotation-detail li:before{
+  content: none !important;
+}

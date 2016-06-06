@@ -1,0 +1,29 @@
+[{
+	"sections": [{
+		"0": "sec_home_center",
+		"1": "sec_front_footer",
+		"2": "sec_admin_bar",
+		"3": "sec_product_button",
+		"4": "sec_sidebar",
+		"5": "sec_cart",
+		"6":"sec_payment",
+		"7":"sec_carrierfront",
+		"8":"sec_history",
+		"9":"sec_top_product",
+		"10":"sec_register_form",
+		"11":"sec_order_page",
+		"12":"sec_payment_list",
+		"13":"sec_footer_link",
+		"14":"sec_category_page",
+		"15":"sec_footer_company",
+		"16":"sec_footerblocks",
+		"17":"sec_payment_top_list",
+		"18":"sec_capture"
+
+	}],
+	"name": "Maroc Artisana",
+	"author": "Soft Hight Tech",
+	"author_url": "http://softhighttech.com",
+	"description":"Vente des produits artisanal.",
+	"version":"1.0.0"
+}]
