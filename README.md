@@ -1,2 +1,2 @@
-# okadshop
-okad shop is an open source E-commerce CMS
+# OKADshop
+OKADshop is an open source E-commerce CMS
