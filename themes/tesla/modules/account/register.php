@@ -1,13 +1,13 @@
 <?php   
 	if (!isset($_POST['submitAccount']) && isset($_POST['email'])) {
 		if(getUserMail($_POST['email']))
-			$resultregister['error'][] = l('E-mail déjà enregistré','artiza').', <a href="'.WebSite.'account/login">'.l('connectez-vous','artiza').'</a> !';
+			$resultregister['error'][] = l('E-mail déjà enregistré','tesla').', <a href="'.WebSite.'account/login">'.l('connectez-vous','tesla').'</a> !';
 	}
 ?>
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
-	  <li class="active"><?= l("Identifiant", "artiza");?></li>
+	  <li><a href="#" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
+	  <li class="active"><?= l("Identifiant", "tesla");?></li>
 	</ol>
 	<?php 
 		if (isset($resultregister) && !empty($resultregister)) {
@@ -15,23 +15,23 @@
 				//goHome();
 				?>
 				<div class="alert alert-success" role="alert">
-					<?php $ifCongé = select_mete_value("shop_is_vacance", "artiza");?>
+					<?php $ifCongé = select_mete_value("shop_is_vacance", "tesla");?>
 					<p>
 					<?php if ($ifCongé && $ifCongé == 1): ?>
 					<?= l("Nous sommes actuellement en congés, <br>
-					nous procéderons à la validation de votre compte dès notre retour prévu le :", "artiza");?> <?= select_mete_value("shop_is_vacance_return_date", "artiza");?><br>
-					<?= l("Merci de votre compréhension", "artiza");?> <br>	
+					nous procéderons à la validation de votre compte dès notre retour prévu le :", "tesla");?> <?= select_mete_value("shop_is_vacance_return_date", "tesla");?><br>
+					<?= l("Merci de votre compréhension", "tesla");?> <br>	
 					<?php else: ?>
-					<?= l("Bonjour", "artiza");?> « <?= htmlentities($_POST['lastname']); ?> »,  <?= l("nous vous remercions de vous être inscrit(e) chez OKADSHOP. <br><br>
+					<?= l("Bonjour", "tesla");?> « <?= htmlentities($_POST['lastname']); ?> »,  <?= l("nous vous remercions de vous être inscrit(e) chez OKADSHOP. <br><br>
 					Après vérification des données fournies, nous vous enverrons un e-mail de confirmation contenant vos identifiants et mot de passe. (sous 24h à 48h ouvrées)<br><br>
 					Vous pourrez alors vous connecter, découvrir nos tarifs réservés aux professionnels et effectuer votre première demande de devis en ligne.<br><br>
-					Dans l’attente, nous vous invitons à prendre connaissance des différentes rubriques d’informations :", "artiza");?><br><br>
+					Dans l’attente, nous vous invitons à prendre connaissance des différentes rubriques d’informations :", "tesla");?><br><br>
 					<ul class="list-inline">
-						<li><a href="<?=WebSite ?>cms/56-devis"><?= l("Demander une devis", "artiza");?></a></li>
-						<li><a href="<?=WebSite ?>cms/51-Transport"><?= l("Transport et Taxes", "artiza");?></a></li>
-						<li><a href="<?=WebSite ?>cms/55-Paiement"><?= l("Paiement sécurisé", "artiza");?></a></li>
-						<li><a href="<?=WebSite ?>cms/57-Programme"><?= l("Programme de fidélité", "artiza");?></a></li>
-						<li><a href="<?=WebSite ?>cms/53-Conditions"><?= l("Conditions d’utilisation", "artiza");?></a></li>
+						<li><a href="<?=WebSite ?>cms/56-devis"><?= l("Demander une devis", "tesla");?></a></li>
+						<li><a href="<?=WebSite ?>cms/51-Transport"><?= l("Transport et Taxes", "tesla");?></a></li>
+						<li><a href="<?=WebSite ?>cms/55-Paiement"><?= l("Paiement sécurisé", "tesla");?></a></li>
+						<li><a href="<?=WebSite ?>cms/57-Programme"><?= l("Programme de fidélité", "tesla");?></a></li>
+						<li><a href="<?=WebSite ?>cms/53-Conditions"><?= l("Conditions d’utilisation", "tesla");?></a></li>
 					</ul>
 				 	<?php endif ?>
 				 	</p>
@@ -58,33 +58,33 @@
 <?php if (!isset($resultregister['login']) || (isset($resultregister['login']) && $resultregister['login'] <=0)): ?>
 	
 	<div class="authentication">
-		<h1><?= l("Créez votre compte", "artiza");?></h1>
+		<h1><?= l("Créez votre compte", "tesla");?></h1>
 		<form role="form" method="POST" id="registerForm" enctype="multipart/form-data"><!-- begin form -->
 			<div class="user-info"><!-- user info -->
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 				  	<h3 class="panel-title">
-				  		<strong><?= l("Vos informations personnelles", "artiza");?></strong>
+				  		<strong><?= l("Vos informations personnelles", "tesla");?></strong>
 				  	</h3>
 				  </div>
 				  <div class="panel-body">
-			   		<span><?= l("Civilité", "artiza");?></span><sup>*</sup>
+			   		<span><?= l("Civilité", "tesla");?></span><sup>*</sup>
 			   		<label for="gender1">
-			   				<input type="radio" name="id_gender" id="id_gender1" value="1" required="required" <?= (htmlentities($_POST['id_gender']) == '1') ? 'checked="checked"':''; ?>> <?= l("Mr", "artiza");?>
+			   				<input type="radio" name="id_gender" id="id_gender1" value="1" required="required" <?= (htmlentities($_POST['id_gender']) == '1') ? 'checked="checked"':''; ?>> <?= l("Mr", "tesla");?>
 			   		</label>
 			   		<label for="gender2">
-			   				<input type="radio" name="id_gender" id="id_gender2" value="2" <?= (htmlentities($_POST['id_gender']) == '2') ? 'checked="checked"':''; ?>> <?= l("Mme", "artiza");?> 	
+			   				<input type="radio" name="id_gender" id="id_gender2" value="2" <?= (htmlentities($_POST['id_gender']) == '2') ? 'checked="checked"':''; ?>> <?= l("Mme", "tesla");?> 	
 			   		</label>
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label ><?= l("Prénom", "artiza");?><sup>*</sup></label>
+							    <label ><?= l("Prénom", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="lastname" id="lastname" required="required" value="<?php if(isset($_POST['lastname'])) echo htmlentities($_POST['lastname']); ?>" onkeyup="cloneText('#lastname','#adresse_lastname')">
 							  </div>
 			   			</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label ><?= l("Nom", "artiza");?><sup>*</sup></label>
+							    <label ><?= l("Nom", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="firstname" id="firstname"  required="required" value="<?php if(isset($_POST['firstname'])) echo  htmlentities($_POST['firstname']); ?>" onkeyup="cloneText('#firstname','#adresse_firstname')">
 							  </div>
 							</div>
@@ -92,13 +92,13 @@
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 							  <div class="form-group">
-							    <label for="exampleInputEmail1"><?= l("Adresse e-mail", "artiza");?><sup>*</sup></label>
+							    <label for="exampleInputEmail1"><?= l("Adresse e-mail", "tesla");?><sup>*</sup></label>
 							    <input type="email" class="form-control" name="email" required="required" value="<?= htmlentities($_POST['email']); ?>" >
 							  </div>
 							  <div class="form-group">
-							    <label for="exampleInputEmail1"><?= l("Mot de passe", "artiza");?><sup>*</sup></label>
+							    <label for="exampleInputEmail1"><?= l("Mot de passe", "tesla");?><sup>*</sup></label>
 							    <input type="password" class="form-control" name="password" required="required" value="<?= htmlentities($_POST['password']); ?>">
-							    <span class="form_info"><?= l("(5 caractères min.)", "artiza");?></span>
+							    <span class="form_info"><?= l("(5 caractères min.)", "tesla");?></span>
 							  </div>
 							  <!-- birthday -->
 							   <!-- <div class="form-group">
@@ -157,18 +157,18 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 				  	<h3 class="panel-title">
-				  		<strong><?= l("Votre société", "artiza");?></strong>
+				  		<strong><?= l("Votre société", "tesla");?></strong>
 				  	</h3>
 				  </div>
 				  <div class="panel-body">
 				  	<div class="row" id="statuts">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="statuts"><?= l("Statuts", "artiza");?> <sup>*</sup></label>
+							    <label for="statuts"><?= l("Statuts", "tesla");?> <sup>*</sup></label>
 							    <p>   
-							    <label><input type="checkbox" class="form-control" name="statuts" id="statuts1" required="required"  value="2"><?= l("Je suis un professionnel", "artiza");?></label></p>
+							    <label><input type="checkbox" class="form-control" name="statuts" id="statuts1" required="required"  value="2"><?= l("Je suis un professionnel", "tesla");?></label></p>
 									<p><label>  
-									<input type="checkbox" class="form-control" name="statuts" id="statuts2"   value="3"><?= l("Je suis en création d’entreprise", "artiza");?> </label> </p>
+									<input type="checkbox" class="form-control" name="statuts" id="statuts2"   value="3"><?= l("Je suis en création d’entreprise", "tesla");?> </label> </p>
 								</div>
 							</div>
 						</div>
@@ -177,7 +177,7 @@
 				   		<div class="row">
 				   			<div class="col-xs-12 col-md-6">
 				   				<div class="form-group">
-								    <label for="Soci"><?= l("Société", "artiza");?> <sup>*</sup></label>
+								    <label for="Soci"><?= l("Société", "tesla");?> <sup>*</sup></label>
 								    <input type="text" class="form-control required_statu" name="company"  value="<?= htmlentities($_POST['company']); ?>">
 									</div>
 								</div>
@@ -185,7 +185,7 @@
 				   		<div class="row">
 				   			<div class="col-xs-12 col-md-6">
 				   				<div class="form-group">
-								    <label for="activite"><?= l("Activité", "artiza");?> <sup>*</sup></label>
+								    <label for="activite"><?= l("Activité", "tesla");?> <sup>*</sup></label>
 								    <input type="text" class="form-control required_statu" name="activite"  value="<?= htmlentities($_POST['activite']); ?>">
 									</div>
 								</div>
@@ -193,7 +193,7 @@
 							<div class="row">
 				   			<div class="col-xs-12 col-md-6">
 				   				<div class="form-group">
-								    <label for="website"><?= l("Site web", "artiza");?></label>
+								    <label for="website"><?= l("Site web", "tesla");?></label>
 								    <input type="text" class="form-control required_statu" name="website" value="<?= htmlentities($_POST['website']); ?>">
 									</div>
 								</div>
@@ -201,7 +201,7 @@
 							<div class="row">
 				   			<div class="col-xs-12 col-md-6">
 				   				<div class="form-group">
-								    <label for="siret_tva"><?= l("N° de siret / TVA", "artiza");?><sup>*</sup></label>
+								    <label for="siret_tva"><?= l("N° de siret / TVA", "tesla");?><sup>*</sup></label>
 								    <input type="text" class="form-control required_statu" name="siret_tva" value="<?= htmlentities($_POST['siret_tva']); ?>">
 								  </div>
 								</div>
@@ -209,26 +209,26 @@
 							<div class="row">
 				   			<div class="col-xs-12">
 				   				<div class="form-group">
-				   					<div><br><b><?= l("Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)", "artiza");?></b></div>
-								    <label for="joindre"><?= l("Registre du commerce", "artiza");?> </label>
+				   					<div><br><b><?= l("Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)", "tesla");?></b></div>
+								    <label for="joindre"><?= l("Registre du commerce", "tesla");?> </label>
 								    <input type="file" class="form-control" name="attachement" value="<?= htmlentities($_POST['attachement']); ?>">
 									</div>
 								</div>
 							</div>
-							<div style="margin-top: 12px;" class="alert alert-warning" role="alert"><?= l("Ces données seront vérifiées, veillez donc à nous communiquer un numéro d’entreprise correct (le votre et non celui d’un tiers) auquel cas votre demande ne pourra aboutir.", "artiza");?></div>
+							<div style="margin-top: 12px;" class="alert alert-warning" role="alert"><?= l("Ces données seront vérifiées, veillez donc à nous communiquer un numéro d’entreprise correct (le votre et non celui d’un tiers) auquel cas votre demande ne pourra aboutir.", "tesla");?></div>
 						</div>
 						<div id="company_bloc2" style="display:none;">
 							<div class="row">
 				   			<div class="col-xs-12">
 				   				<div class="form-group">
-				   					<div><br><b><?= l("Si vous êtes en création d’entreprise", "artiza");?> </b></div>
-								    <label for="siret"><?= l("Indiquez « en cours » dans les champs société, activité et siret", "artiza");?></label>
+				   					<div><br><b><?= l("Si vous êtes en création d’entreprise", "tesla");?> </b></div>
+								    <label for="siret"><?= l("Indiquez « en cours » dans les champs société, activité et siret", "tesla");?></label>
 									</div>
 								</div>
 							</div>	
 				   		<div class="row">
 				   			<div class="col-md-6">
-				   					<label for="join-file"><?= l("Préciser la date de début de votre activité", "artiza");?><sup>*</sup></label>
+				   					<label for="join-file"><?= l("Préciser la date de début de votre activité", "tesla");?><sup>*</sup></label>
 				   				<div class="input-group date" data-provide="datepicker">
 										<input type="text" class="form-control required_statu" name="date_activite" value="<?= htmlentities($_POST['date_activite']); ?>">
 										<div class="input-group-addon">
@@ -240,12 +240,12 @@
 				   		<div class="row">
 				   			<div class="col-xs-12">
 				   				<div class="form-group">
-				   					<label for="join-file"><?= l("Parlez nous de votre projet :", "artiza");?><sup>*</sup></label>	
+				   					<label for="join-file"><?= l("Parlez nous de votre projet :", "tesla");?><sup>*</sup></label>	
 								   	<textarea class="form-control required_statu" rows="3" name="info" ><?= htmlentities($_POST['info']); ?></textarea>
 				   				</div>
 				   			</div>
 				  		</div>
-				  		<div style="margin-top: 12px;" class="alert alert-warning" role="alert"><?= l("Attention ! Votre demande d’ouverture de compte fera l’objet d’une étude. Dans le cas où votre demande serait acceptée, la création de votre entreprise devra nous être confirmée 15 jours avant la date prévue de votre début d’activité. Si tel n’était pas le cas, votre compte sera alors suspendu jusqu’à réception de votre confirmation.", "artiza");?></div>
+				  		<div style="margin-top: 12px;" class="alert alert-warning" role="alert"><?= l("Attention ! Votre demande d’ouverture de compte fera l’objet d’une étude. Dans le cas où votre demande serait acceptée, la création de votre entreprise devra nous être confirmée 15 jours avant la date prévue de votre début d’activité. Si tel n’était pas le cas, votre compte sera alors suspendu jusqu’à réception de votre confirmation.", "tesla");?></div>
 			  		</div>
 			   	</div>
 			  </div>
@@ -256,20 +256,20 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 				  	<h3 class="panel-title">
-				  		<strong><?= l("Votre adresse", "artiza");?></strong>
+				  		<strong><?= l("Votre adresse", "tesla");?></strong>
 				  	</h3>
 				  </div>
 				  <div class="panel-body">
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="name"><?= l("Prénom", "artiza");?><sup>*</sup></label>
+							    <label for="name"><?= l("Prénom", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="adresse_lastname" id="adresse_lastname" required="required" value="<?= htmlentities($_POST['adresse_lastname']); ?>">
 							  </div>
 			   			</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="lname"><?= l("Nom", "artiza");?><sup>*</sup></label>
+							    <label for="lname"><?= l("Nom", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="adresse_firstname" id="adresse_firstname" required="required" value="<?= htmlentities($_POST['adresse_firstname']); ?>">
 							  </div>
 							</div>
@@ -277,7 +277,7 @@
 						<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="adress"><?= l("Adresse", "artiza");?><sup>*</sup></label>
+							    <label for="adress"><?= l("Adresse", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="adress" required="required" value="<?= htmlentities($_POST['adress']); ?>">
 							    
 							  </div>
@@ -293,13 +293,13 @@
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="codep"><?= l("Code postal", "artiza");?><sup>*</sup></label>
+							    <label for="codep"><?= l("Code postal", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="zipcode" required="required" value="<?= htmlentities($_POST['zipcode']); ?>">
 							  </div>
 							</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="city"><?= l("Ville", "artiza");?><sup>*</sup></label>
+							    <label for="city"><?= l("Ville", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="city" required="required" value="<?= htmlentities($_POST['city']); ?>">
 							  </div>
 			   			</div>
@@ -307,7 +307,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="pays"><?= l("Pays", "artiza");?><sup>*</sup></label>
+							    <label for="pays"><?= l("Pays", "tesla");?><sup>*</sup></label>
 							    <p>
 							    	<select id="pays" name="id_country" >
 							    		<?php
@@ -335,13 +335,13 @@
 			   			<div class="col-xs-12"></label></div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="teld"><?= l("Téléphone fixe", "artiza");?></label>
+							    <label for="teld"><?= l("Téléphone fixe", "tesla");?></label>
 							    <input type="text" class="form-control" name="phone" value="<?= htmlentities($_POST['phone']); ?>">
 							  </div>
 							</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="telp"><?= l("Téléphone portable", "artiza");?> <sup>*</sup></label>
+							    <label for="telp"><?= l("Téléphone portable", "tesla");?> <sup>*</sup></label>
 							    <input type="text" class="form-control" name="mobile" required="required" value="<?= htmlentities($_POST['mobile']); ?>">
 							  </div>
 			   			</div>
@@ -349,7 +349,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="adr"><?= l("Nom de l'adresse", "artiza");?><sup>*</sup></label>
+							    <label for="adr"><?= l("Nom de l'adresse", "tesla");?><sup>*</sup></label>
 							     <input type="text" class="form-control" name="adresse_name" required="required" value="Facturation" value="<?= htmlentities($_POST['adresse_name']); ?>">
 							  </div>
 			   			</div>
@@ -357,7 +357,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="infos"><?= l("Informations complémentaires", "artiza");?></label>
+							    <label for="infos"><?= l("Informations complémentaires", "tesla");?></label>
 							    <textarea class="form-control" rows="3" name="info_sup"></textarea>
 							  </div>
 			   			</div>
@@ -447,7 +447,7 @@
 				  <div class="panel-body">
 			   		<div class="row">
 			   			<div class="col-md-6">
-							   <label for="champ"><sup>*</sup><?= l("Champs requis", "artiza");?></label>
+							   <label for="champ"><sup>*</sup><?= l("Champs requis", "tesla");?></label>
 			   			</div>
 			   			<div class="col-md-6">
 			   				<input type="submit" name="submitAccount" id="submitAccount" value="S'inscrire" class="exclusive" style="float: right;">

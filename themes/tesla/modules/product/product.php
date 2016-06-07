@@ -27,8 +27,8 @@
 <input type="hidden" value="<?= $productdetail['id']; ?>" id="product_id">
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="Accueil"><?=l("Accueil", "artiza");?></a></li>
-	  <li class=""><a href="#" title=""><?=l("Products", "artiza");?></a></li>
+	  <li><a href="#" title="Accueil"><?=l("Accueil", "tesla");?></a></li>
+	  <li class=""><a href="#" title=""><?=l("Products", "tesla");?></a></li>
 <!-- 	  <li class=""><a href="#" title="">Sous-catégorie</a></li>
 	  <li class=""><a href="#" title="">Sous-catégorie</a></li> -->
 	  <li class="active"><?= $productdetail['name'] ?></li>
@@ -122,7 +122,7 @@
 					</div>
 					<p class="buttons_bottom_block">
 						<?php if ($have_long_description): ?>
-						<a class="lnk plus-detail" href="#"><?=l("Plus de détails...", "artiza");?></a>
+						<a class="lnk plus-detail" href="#"><?=l("Plus de détails...", "tesla");?></a>
 						<?php endif ?>
 					</p>
 					<div class="short_description_pack">
@@ -163,7 +163,7 @@
 								<div class="clearfix"></div>
 								<!-- <p class="pack_price"><span>174,60 €</span> hors pack</p> -->
 								<?php if (!empty($productdetail['reference'])): ?>
-									<p id="product_reference"> <label><?= l("Référence :", "artiza");?> </label> <span class="editable"><?= $productdetail['reference'] ?></span></p>
+									<p id="product_reference"> <label><?= l("Référence :", "tesla");?> </label> <span class="editable"><?= $productdetail['reference'] ?></span></p>
 								<?php endif ?>
 								<!-- <p id="availability_statut"> <span id="availability_label">Disponibilité :</span> 
 									<?php /*if ($productdetail['qty']>0): ?>
@@ -188,11 +188,11 @@
 				<div class="not_in_comm">
 					<div class="alert alert-danger">
 						<?=l("Ce produit n'existe pas dans cette déclinaison. <br> 
-						Vous pouvez néanmoins en sélectionner une autre.", "artiza");?>
+						Vous pouvez néanmoins en sélectionner une autre.", "tesla");?>
 					</div>
 				</div>
 				
-					 <p class="align_justify" id="loyalty"><?=l("En achetant ce produit vous pouvez gagner jusqu'à ", "artiza");?> <b><span id="loyalty_points"><?= $productdetail['loyalty_points']; ?></span> <?=l("points de fidélité", "artiza");?></b>.</p>
+					 <p class="align_justify" id="loyalty"><?=l("En achetant ce produit vous pouvez gagner jusqu'à ", "tesla");?> <b><span id="loyalty_points"><?= $productdetail['loyalty_points']; ?></span> <?=l("points de fidélité", "tesla");?></b>.</p>
 				
 			<!-- 	<?php if (isset($productdetail['loyalty_points']) && $productdetail['loyalty_points'] != 0): ?>
 				<?php endif ?> -->
@@ -228,10 +228,10 @@
 			  <!-- Nav tabs -->
 			  <ul class="nav nav-tabs idTabs idTabsShort clearfix" role="tablist">
 			  	<?php if ($have_long_description): ?>
-			    <li role="presentation" class="active"><a href="#idTab1" aria-controls="idTab1" role="tab" data-toggle="tab"><?=l("En savoir plus", "artiza");?></a></li>
+			    <li role="presentation" class="active"><a href="#idTab1" aria-controls="idTab1" role="tab" data-toggle="tab"><?=l("En savoir plus", "tesla");?></a></li>
 			    <?php endif ?>
 			    <?php if ($product_attachments && !empty($product_attachments)): ?>
-			    <li role="presentation"><a href="#idTab2" <?php if(!$have_long_description) echo 'class="active"';?> aria-controls="idTab2" role="tab" data-toggle="tab"><?=l("Télécharger la fiche technique", "artiza");?></a></li>
+			    <li role="presentation"><a href="#idTab2" <?php if(!$have_long_description) echo 'class="active"';?> aria-controls="idTab2" role="tab" data-toggle="tab"><?=l("Télécharger la fiche technique", "tesla");?></a></li>
 			    <?php endif ?>
 <!-- 			    <li role="presentation"><a href="#idTab3" aria-controls="idTab3" role="tab" data-toggle="tab">Personnalisation</a></li> -->
 			  </ul>
@@ -264,7 +264,7 @@
 			<div id="accessories_block">
 			  <!-- Nav tabs -->
 			  <ul class="nav nav-tabs  idTabs idTabsShort clearfix" role="tablist">
-			    <li role="presentation" class="active"><a href="#Accessoires" aria-controls="Accessoires" role="tab" data-toggle="tab"><?=l("Accessoires", "artiza");?></a></li>
+			    <li role="presentation" class="active"><a href="#Accessoires" aria-controls="Accessoires" role="tab" data-toggle="tab"><?=l("Accessoires", "tesla");?></a></li>
 			  </ul>
 
 			  <!-- Tab panes -->
@@ -287,7 +287,7 @@
 								     </p>
 								     <p class="accessories_btn">
 								     	<a href="<?= WebSite.'product/'.$associated['id_product'].'-'.$associated['permalink']; ?>" class="button"><i class="fa fa-search"></i></a>
-			  							<a href="<?= WebSite.'product/'.$associated['id_product'].'-'.$associated['permalink']; ?>" class="exclusive"><?=l("Voir ce Produit", "artiza");?></a>
+			  							<a href="<?= WebSite.'product/'.$associated['id_product'].'-'.$associated['permalink']; ?>" class="exclusive"><?=l("Voir ce Produit", "tesla");?></a>
 								     </p>	
 								     <div class="clearfix"></div>
 								  </li>
@@ -301,7 +301,7 @@
 		<?php endif ?>
 	</div>
 	<?php if ($product_similair && !empty($product_similair)): ?>
-		<h2 id="productscategory_h2"><?= count($product_similair);?> <?=l("autres produits dans la même catégorie :", "artiza");?></h2>
+		<h2 id="productscategory_h2"><?= count($product_similair);?> <?=l("autres produits dans la même catégorie :", "tesla");?></h2>
 		<div id="productscategory">
 			<div class="carousel slide media-carousel" id="media">
 		    <div class="carousel-inner">

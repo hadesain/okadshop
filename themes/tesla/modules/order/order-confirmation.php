@@ -11,28 +11,28 @@
 ?>
 <!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="<?= l("Accueil", "artiza");?>"><?= l("Accueil", "artiza");?></a></li>
-	  <li class="active"><?= l("Confirmation de commande", "artiza");?></li>
+	  <li><a href="#" title="<?= l("Accueil", "tesla");?>"><?= l("Accueil", "tesla");?></a></li>
+	  <li class="active"><?= l("Confirmation de commande", "tesla");?></li>
 	</ol>
 
-  <h1><?= l("Confirmation de commande", "artiza");?></h1>
+  <h1><?= l("Confirmation de commande", "tesla");?></h1>
   <ul class="step" id="order_step">
     <li class="step_line"></li>
     <li class="step_done">
       <p class="number">1</p>
-      <p class="name"><a href="#"><?= l("Résumé", "artiza");?></a></p>
+      <p class="name"><a href="#"><?= l("Résumé", "tesla");?></a></p>
     </li>
     <li class="step_done">
       <p class="number">2</p>
-      <p class="name"><a href="#"><?= l("Adresse", "artiza");?></a></p>
+      <p class="name"><a href="#"><?= l("Adresse", "tesla");?></a></p>
     </li>
     <li class="step_done">
       <p class="number">3</p>
-      <p class="name"><?= l("Livraison", "artiza");?></p>
+      <p class="name"><?= l("Livraison", "tesla");?></p>
     </li>
     <li class="step_current" id="step_end">
       <p class="number">4</p>
-      <p class="name"><?= l("Envoi Devis", "artiza");?></p>
+      <p class="name"><?= l("Envoi Devis", "tesla");?></p>
     </li>
   </ul>
 <?php if ($resultConfirm): ?>
@@ -40,11 +40,11 @@
 
     </div>
   <ul class="footer_links">
-    <li><a href="" title="<?= l("Retour à votre compte", "artiza");?>"><?= l("Retour aux commandes", "artiza");?></a></li>
-    <li><a href="<?= WebSite; ?>" title="<?= l("Accueil", "artiza");?>"><?= l("Retour à l'accueil", "artiza");?></a></li>
+    <li><a href="" title="<?= l("Retour à votre compte", "tesla");?>"><?= l("Retour aux commandes", "tesla");?></a></li>
+    <li><a href="<?= WebSite; ?>" title="<?= l("Accueil", "tesla");?>"><?= l("Retour à l'accueil", "tesla");?></a></li>
   </ul>
 <?php else: ?>
-  <div class="alert alert-danger" role="alert"><?= l("Votre commande n'a pas enregistrée", "artiza");?></div>
+  <div class="alert alert-danger" role="alert"><?= l("Votre commande n'a pas enregistrée", "tesla");?></div>
 <?php endif ?>
 
 	

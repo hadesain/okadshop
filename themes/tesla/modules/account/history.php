@@ -4,26 +4,26 @@
 	?>
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
-	  <li><a href="#" title="acount"><?= l("Mon compte", "artiza");?></a></li>
-	  <li class="active"><?= l("Historique de vos commandes", "artiza");?></li>
+	  <li><a href="#" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
+	  <li><a href="#" title="acount"><?= l("Mon compte", "tesla");?></a></li>
+	  <li class="active"><?= l("Historique de vos commandes", "tesla");?></li>
 	</ol>
 
 
 
 	 <div class="block-center" id="block-history">
-		<h1><?= l("Historique de vos commandes", "artiza");?></h1>
+		<h1><?= l("Historique de vos commandes", "tesla");?></h1>
 
 	<?php  if ($user_orders): ?>
 		<table>
 			<thead>
 				<tr>
-					<th><?= l("Commande", "artiza");?></th>
-					<th><?= l("Date", "artiza");?></th>
-					<th><?= l("Prix total", "artiza");?></th>
-					<th><?= l("Paiement", "artiza");?></th>
-					<th><?= l("État", "artiza");?></th>
-					<th><?= l("Télécharger", "artiza");?></th>
+					<th><?= l("Commande", "tesla");?></th>
+					<th><?= l("Date", "tesla");?></th>
+					<th><?= l("Prix total", "tesla");?></th>
+					<th><?= l("Paiement", "tesla");?></th>
+					<th><?= l("État", "tesla");?></th>
+					<th><?= l("Télécharger", "tesla");?></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -44,7 +44,7 @@
 			</tbody>
 		</table>
 	<?php else: ?>	
-		<p class="warning"><?= l("Vous n'avez pas encore passé de commande.", "artiza");?></p>
+		<p class="warning"><?= l("Vous n'avez pas encore passé de commande.", "tesla");?></p>
 	<?php endif ?>	
 	</div>
 
@@ -53,14 +53,14 @@
 		  <div class="">
 		    <h3 class="order-detail-title"></h3>
 		    <p>
-		    	<strong><?= l("Méthode de paiement :", "artiza");?></strong> <span class="payment-methode"></span>
+		    	<strong><?= l("Méthode de paiement :", "tesla");?></strong> <span class="payment-methode"></span>
 		    </p>
-		    <h4><?= l("Suivre votre commande pas à pas :", "artiza");?></h4>
+		    <h4><?= l("Suivre votre commande pas à pas :", "tesla");?></h4>
 		    <table>
 					<thead>
 						<tr>
-							<th><?= l("Date", "artiza");?></th>
-							<th><?= l("État", "artiza");?></th>
+							<th><?= l("Date", "tesla");?></th>
+							<th><?= l("État", "tesla");?></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -73,7 +73,7 @@
 			 <div class="row">
 	    	<div class="col-sm-6">
 	    		<ul class="address item" id="address_fact">
-		        <li class="address_title"><?= l("Facturation", "artiza");?></li>
+		        <li class="address_title"><?= l("Facturation", "tesla");?></li>
 		        <li class="address_firstname lastname"></li>
 		        <li class="address_address1"></li>
 		        <li class="address_postcode"></li>
@@ -84,7 +84,7 @@
 	    	</div>
 	    	<div class="col-sm-6">
 	    		<ul class="address item" id="address_liv">
-		        <li class="address_title"><?= l("Livraison", "artiza");?></li>
+		        <li class="address_title"><?= l("Livraison", "tesla");?></li>
 		        <li class="address_firstname lastname"></li>
 		        <li class="address_address1"></li>
 		        <li class="address_postcode"></li>
@@ -97,10 +97,10 @@
 	    <table id="product-order-list">
 					<thead>
 						<tr>
-							<th><?= l("Produit", "artiza");?></th>
-							<th><?= l("Qté", "artiza");?></th>
-							<th><?= l("Prix unitaire", "artiza");?></th>
-							<th><?= l("Prix total", "artiza");?></th>
+							<th><?= l("Produit", "tesla");?></th>
+							<th><?= l("Qté", "tesla");?></th>
+							<th><?= l("Prix unitaire", "tesla");?></th>
+							<th><?= l("Prix total", "tesla");?></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -108,7 +108,7 @@
 					</tbody>
 					<tfoot>
 						<tr class="totalprice item">
-							<td colspan="4"> <?= l("Total TTC :", "artiza");?> <span class="price"></span></td>
+							<td colspan="4"> <?= l("Total TTC :", "tesla");?> <span class="price"></span></td>
 						</tr>
 					</tfoot>
 				</table>
@@ -119,6 +119,6 @@
 
 
 	<ul class="footer_links">
-		<li><a href="<?= WebSite;?>account/" title="Retour à votre compte"><?= l("Retour à votre compte", "artiza");?></a></li>
-		<li><a href="<?= WebSite;?>" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
+		<li><a href="<?= WebSite;?>account/" title="Retour à votre compte"><?= l("Retour à votre compte", "tesla");?></a></li>
+		<li><a href="<?= WebSite;?>" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
 	</ul>

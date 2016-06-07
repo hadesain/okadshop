@@ -12,13 +12,13 @@ if (isset($_POST['search_query']) && !empty($_POST['search_query'])) {
 
 ?>
 <ol class="breadcrumb">
-	<li><a href="#" title=""><?= l("Accueil", "artiza");?></a></li>
-	<li class="active"><?= l("Recherche", "artiza");?></li>
+	<li><a href="#" title=""><?= l("Accueil", "tesla");?></a></li>
+	<li class="active"><?= l("Recherche", "tesla");?></li>
 </ol>
 
 <!-- <h1>Recherche "<?= $_POST['search_query']; ?>"</h1> -->
 <?php if (isset($productdetail) && $productdetail && !empty($productdetail)): ?>
-<p class="warning"> <span class="big"><?= count($productdetail); ?>&nbsp;<?= l("résultats ont été trouvés.", "artiza");?></span></p>
+<p class="warning"> <span class="big"><?= count($productdetail); ?>&nbsp;<?= l("résultats ont été trouvés.", "tesla");?></span></p>
 
 
 <div class="product-list">
@@ -33,7 +33,7 @@ if (isset($_POST['search_query']) && !empty($_POST['search_query'])) {
 			  			<a class="product_image"  href="<?= WebSite.'product/'.$value['id'].'-'.$value['permalink']; ?>">
 			  				<img src="<?php if($img) echo WebSite.$img; else echo $themeDir.'images/no-image.jpg' ?>">
 			  			</a>
-			  			<a class="lnk_view"  href="<?= WebSite.'product/'.$value['id'] ?>" title="<?= l("Voir ce produit", "artiza");?>"><?= l("Voir ce produit", "artiza");?></a>
+			  			<a class="lnk_view"  href="<?= WebSite.'product/'.$value['id'] ?>" title="<?= l("Voir ce produit", "tesla");?>"><?= l("Voir ce produit", "tesla");?></a>
 			  		</div>
 			  		<div class="product_desc">
 			  			<p>
@@ -66,9 +66,9 @@ if (isset($_POST['search_query']) && !empty($_POST['search_query'])) {
 			  			<!-- <a href="" class="exclusive ">Ajouter au panier</a> -->
 						<!-- <a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> Voir ce produit</a> -->
 			  			<?php if (isConnected()): ?>
-			  				<a href="#add_to_quoataion_form" class="exclusive add_to_quoataion_btn" idproduct="<?= $value['id']; ?>"><?= l("Ajouter au devis", "artiza");?></a>
+			  				<a href="#add_to_quoataion_form" class="exclusive add_to_quoataion_btn" idproduct="<?= $value['id']; ?>"><?= l("Ajouter au devis", "tesla");?></a>
 			  			<?php else: ?>
-			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?= l("Voir ce produit", "artiza");?></a>
+			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?= l("Voir ce produit", "tesla");?></a>
 			  			<?php endif ?>
 			  		</div>
 	  			</div>
@@ -79,5 +79,5 @@ if (isset($_POST['search_query']) && !empty($_POST['search_query'])) {
 </div>
 
 <?php else: ?>	
-	<p class="warning"> <span class="big"><?= l("Aucun résultat trouvé", "artiza");?> "<?php if(isset($_POST['search_query'])) echo $_POST['search_query']; ?>"</span></p>
+	<p class="warning"> <span class="big"><?= l("Aucun résultat trouvé", "tesla");?> "<?php if(isset($_POST['search_query'])) echo $_POST['search_query']; ?>"</span></p>
 <?php endif ?>

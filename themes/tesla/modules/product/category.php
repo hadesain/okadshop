@@ -46,8 +46,8 @@
 ?>
 
 <ol class="breadcrumb">
-	<li><a href="#" title=""><?=l("Accueil", "artiza");?></a></li>
-	<li><a href="#" title=""><?=l("Categories", "artiza");?></a></li>
+	<li><a href="#" title=""><?=l("Accueil", "tesla");?></a></li>
+	<li><a href="#" title=""><?=l("Categories", "tesla");?></a></li>
 	<li class="active"><?= $categorydetail['name']; ?></li>
 </ol>
 
@@ -57,9 +57,9 @@
 		$nbcat = getCount('product_category' ,$condition); 
 	?>
 	<?php if (!$nbcat || $nbcat ==0): ?>
-		<span class="category-product-count"> <?=l("Aucun produit dans cette catégorie.", "artiza");?></span>
+		<span class="category-product-count"> <?=l("Aucun produit dans cette catégorie.", "tesla");?></span>
 	<?php else: ?>
-	<span class="category-product-count"> <?=l("Il y a", "artiza");?>  <?= $nbcat; ?> <?=l("produits", "artiza");?>.</span>
+	<span class="category-product-count"> <?=l("Il y a", "tesla");?>  <?= $nbcat; ?> <?=l("produits", "tesla");?>.</span>
 	<?php endif ?>
 </h1>
 
@@ -112,7 +112,7 @@
 				<input type="submit" class="bt_compare exclusive" value="Comparer">
 			</p> -->
 			<p>
-				<label><?=l("Afficher :", "artiza");?></label>
+				<label><?=l("Afficher :", "tesla");?></label>
 				<select  name="perpage" class="submit-filter"><!-- id="perpage-select" -->
 					<option value="24" <?php if($perpage == 24) echo 'selected="selected"'; ?>>24</option>
 					<option value="48" <?php if($perpage == 48) echo 'selected="selected"'; ?>>48</option>
@@ -121,13 +121,13 @@
 				</select>
 			</p>
 			<p>
-				<label><?=l("Tri :", "artiza");?></label>
+				<label><?=l("Tri :", "tesla");?></label>
 				<select class="submit-filter" name="orderby">
 					<option <?= (!isset($_SESSION['orderby'])) ? 'selected="selected"' : '' ?>>--</option>
-					<option value="1" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==1) ? 'selected="selected"' : '' ?>><?= l("Du – cher au + cher", "artiza");?></option>
-					<option value="2" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==2) ? 'selected="selected"' : '' ?>><?= l("Du + cher au – cher", "artiza");?></option>
-					<option value="3" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==3) ? 'selected="selected"' : '' ?>><?= l("Nouveauté", "artiza");?></option>
-					<option value="4" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==4) ? 'selected="selected"' : '' ?>><?= l("Popularité", "artiza");?></option>
+					<option value="1" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==1) ? 'selected="selected"' : '' ?>><?= l("Du – cher au + cher", "tesla");?></option>
+					<option value="2" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==2) ? 'selected="selected"' : '' ?>><?= l("Du + cher au – cher", "tesla");?></option>
+					<option value="3" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==3) ? 'selected="selected"' : '' ?>><?= l("Nouveauté", "tesla");?></option>
+					<option value="4" <?= (isset($_SESSION['orderby']) && $_SESSION['orderby'] ==4) ? 'selected="selected"' : '' ?>><?= l("Popularité", "tesla");?></option>
 				</select>
 			</p>
 			<span class="gridorlist hidden-xs"> 
@@ -150,7 +150,7 @@
 			  			<a class="product_image"  href="<?= WebSite.'product/'.$value['id'].'-'.$value['permalink']; ?>">
 			  				<img src="<?php if($img) echo WebSite.$img; else echo $themeDir.'images/no-image.jpg' ?>">
 			  			</a>
-			  			<a class="lnk_view"  href="<?= WebSite.'product/'.$value['id'] ?>" title="<?= l("Voir ce produit", "artiza");?>"><?=l("Voir ce produit", "artiza");?> </a>
+			  			<a class="lnk_view"  href="<?= WebSite.'product/'.$value['id'] ?>" title="<?= l("Voir ce produit", "tesla");?>"><?=l("Voir ce produit", "tesla");?> </a>
 			  		</div>
 			  		<div class="product_desc">
 			  			<p>
@@ -169,9 +169,9 @@
 			  		</div>
 			  		<?php endif ?>
 			  		<?php if ($value['qty']>0): ?>
-							<span class="available" id="availability_value"><i class="fa fa-check"></i><?=l("En stock", "artiza");?> </span>
+							<span class="available" id="availability_value"><i class="fa fa-check"></i><?=l("En stock", "tesla");?> </span>
 						<?php else: ?>
-							<span class="" id="availability_value"><?=l("Out of stock", "artiza");?></span>
+							<span class="" id="availability_value"><?=l("Out of stock", "tesla");?></span>
 						<?php endif ?>
 
 			  		<!-- <p class="compare"> 
@@ -180,14 +180,14 @@
 			  		</p> -->
 			  		<div class="btns">
 			  			<a class="button"><i class="fa fa-search"></i></a>
-			  			<a l="<?=$value['id']; ?>" t="<?=$value['name']; ?>" q="1" href="#" class="exclusive ajax_add_to_cart_button" idproduct="<?= $value['id']; ?>" p="<?= $value['sell_price'];?>"><?=l("Ajouter au panier", "artiza");?></a>
+			  			<a l="<?=$value['id']; ?>" t="<?=$value['name']; ?>" q="1" href="#" class="exclusive ajax_add_to_cart_button" idproduct="<?= $value['id']; ?>" p="<?= $value['sell_price'];?>"><?=l("Ajouter au panier", "tesla");?></a>
 			  			<!-- <a href="" class="exclusive ">Ajouter au panier</a> -->
 						<!-- <a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> Voir ce produit</a> -->
 			  			
 			  			<!-- <?php if ($value['qty']>0): ?>
-			  				<a href="#" class="exclusive ajax_add_to_cart_button" idproduct="<?= $value['id']; ?>"><?=l("Ajouter au panier", "artiza");?></a>
+			  				<a href="#" class="exclusive ajax_add_to_cart_button" idproduct="<?= $value['id']; ?>"><?=l("Ajouter au panier", "tesla");?></a>
 			  			<?php else: ?>
-			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?=l("Voir ce produit", "artiza");?></a>
+			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?=l("Voir ce produit", "tesla");?></a>
 			  			<?php endif ?> -->
 
 			  		</div>

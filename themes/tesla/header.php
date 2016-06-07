@@ -1,10 +1,11 @@
 <?php
 $cUser = getCurrentUser();
 header('Cache-Control: max-age=900');
+$floatdir = "right";
 ?>
 
 <!DOCTYPE html>
-<html lang="fr">
+<html dir="<?= $direction ?>" lang="<?= $lang_sign; ?>">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +19,9 @@ header('Cache-Control: max-age=900');
   <title><?= (!empty($meta_title)) ? $meta_title :$hooks->select_mete_value("website_title"); ?></title>
   <!-- CSS -->
   <link href="<?=$themeDir;?>css/bootstrap.min.css" rel="stylesheet">
+  
+  
+  
   <link href="<?=$themeDir;?>css/font-awesome.min.css" rel="stylesheet">
    <link href="<?=$themeDir;?>css/datepicker/datepicker3.min.css" rel="stylesheet" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="<?=$themeDir;?>css/flexslider.css" type="text/css" media="screen" />
@@ -29,6 +33,14 @@ header('Cache-Control: max-age=900');
  
   <link rel="stylesheet" href="<?=$themeDir;?>css/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 
+  <?php if ($lang_sign == 'ar'): ?>
+    <?php $floatdir = "left"; ?>
+    <!-- Load Bootstrap RTL theme from RawGit -->
+    <link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
+    <!-- Load Bootstrap RTL theme from RawGit -->
+    <link rel="stylesheet" href="<?=$themeDir;?>css/arabic-style.css">
+  <?php endif ?>
+  
   <script type="text/javascript">
     //Global JavaScript variable
     WebSite = '<?= WebSite; ?>';
@@ -40,7 +52,6 @@ header('Cache-Control: max-age=900');
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-75525205-1', 'auto');
     ga('send', 'pageview');
   </script>
@@ -49,6 +60,15 @@ header('Cache-Control: max-age=900');
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <script>
+    (function(w,d,s,g,js,fs){
+      g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
+      js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
+      js.src='https://apis.google.com/js/platform.js';
+      fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
+    }(window,document,'script'));
+  </script>
+  <?=os_head();?>
 </head>
 <body class="wrapper">
   <header id="header">
@@ -58,21 +78,20 @@ header('Cache-Control: max-age=900');
         <?php if ($top_header_description = $hooks->select_meta_value("top_header_description")): ?>
           <h1 style="text-align: center;"><?=$top_header_description; ?></h1>
         <?php endif ?>   
-        <!--  l("Grossiste / fournisseur artisanat marocain, mode &amp; déco orientale, produits de beauté cosmétiques naturels bio, soins rituel du hammam. Vente en gros à l'export", "artiza")  -->
       </div>
     </div>
     <div class="container padding0">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="float:left;">
           <ul class="links">
-            <li><a href="<?= WebSite;?>" title="<?=l("Accueil", "artiza");?>" class="selected"><?=l("Accueil", "artiza");?></span></a></li><!-- <i class="fa fa-home"></i><span>  -->
-            <li><a href="<?= WebSite;?>cms/contact" title="<?=l("Contact", "artiza");?>"><span> <?=l("Contact", "artiza");?></span></a></li><!-- <i class="fa fa-envelope"></i> -->
-            <li><a href="<?= WebSite;?>cms/sitemap" title="<?=l("Plan du site", "artiza");?>"><span> <?=l("Plan du site", "artiza");?></span></a></li><!-- <i class="fa fa-sitemap"></i> -->
+            <li><a href="<?= WebSite;?>" title="<?=l("Accueil", "tesla");?>" class="selected"><?=l("Accueil", "tesla");?></span></a></li><!-- <i class="fa fa-home"></i><span>  -->
+            <li><a href="<?= WebSite;?>cms/contact" title="<?=l("Contact", "tesla");?>"><span> <?=l("Contact", "tesla");?></span></a></li><!-- <i class="fa fa-envelope"></i> -->
+            <li><a href="<?= WebSite;?>cms/sitemap" title="<?=l("Plan du site", "tesla");?>"><span> <?=l("Plan du site", "tesla");?></span></a></li><!-- <i class="fa fa-sitemap"></i> -->
           </ul>
 
           <div class="selectbox">
             <form action="" id="setCurrency" method="post">
-              <select>
+              <select id="currency">
                 <option value="1">&euro;</option>
                 <option value="2" class="selected">$</option>
               </select>
@@ -83,7 +102,7 @@ header('Cache-Control: max-age=900');
             /*if (isset($_POST['lang_list'])) {
               $_SESSION['code_lang'] = $_POST['lang_list'];
             }*/
-            $langs = $hooks->select('langs',array('*'));
+            $langs = $hooks->select('langs',array('*'),'WHERE active=1');
           ?>
           <div class="selectbox">
             <form action="" id="lang_list_form" method="post">
@@ -100,12 +119,12 @@ header('Cache-Control: max-age=900');
           <ul class="links pull-right">
             <?php if ($cUser): ?>
               <li><?= $cUser['first_name'].' ' .$cUser['last_name'] ; ?></li>
-              <li><a href="<?=  WebSite;?>account/logout" title="" class=""><?=l("Déconnexion", "artiza");?></a></li>
+              <li><a href="<?=  WebSite;?>account/logout" title="" class=""><?=l("Déconnexion", "tesla");?></a></li>
             <?php else: ?>
-              <li><?=l("Bienvenue", "artiza");?></li>
-              <li><a href="<?=  WebSite;?>account/login" title="" class="selected"><?=l("Identifiez-vous", "artiza");?></a></li>
+              <li><?=l("Bienvenue", "tesla");?></li>
+              <li><a href="<?=  WebSite;?>account/login" title="" class="selected"><?=l("Identifiez-vous", "tesla");?></a></li>
             <?php endif ?>
-            <li><a href="<?php if($cUser) echo WebSite.'account'; else  echo WebSite.'account/login'; ?>" title="" class="selected"><?=l("Mon compte", "artiza");?></a></li>
+            <li><a href="<?php if($cUser) echo WebSite.'account'; else  echo WebSite.'account/login'; ?>" title="" class="selected"><?=l("Mon compte", "tesla");?></a></li>
           </ul><!--/ .links  -->
         </div><!--/ .col-sm-6  -->
       </div><!--/ .row -->
@@ -118,8 +137,8 @@ header('Cache-Control: max-age=900');
         </div><!--/ .col-sm-6  -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div id="shopping_cart">
-              <a href="<?= WebSite;?>cart" title="<?=l("Panier", "artiza");?>">
-                <span class="cart_title"><?=l("Panier", "artiza");?></span> 
+              <a href="<?= WebSite;?>cart" title="<?=l("Panier", "tesla");?>">
+                <span class="cart_title"><?=l("Panier", "tesla");?></span> 
                 <span class="product_total_montant product_total" style="font-size: 16px;color: #a6754b;">
                 <?php 
                   if (function_exists('DevisMontantGlobal') && displayPrice()) {
@@ -132,9 +151,9 @@ header('Cache-Control: max-age=900');
             </div>
           
           <!--/ .shopping_cart -->
-          <form action="<?= WebSite;?>search" class="searchbox pull-right" method="POST">
+          <form action="<?= WebSite;?>search" class="searchbox pull-<?=$floatdir; ?>" method="POST">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="<?=l("Rechercher un produit...", "artiza");?>" name="search_query" value="<?= htmlentities($_POST['search_query']) ?>">
+              <input type="text" class="form-control" placeholder="<?=l("Rechercher un produit...", "tesla");?>" name="search_query" value="<?= htmlentities($_POST['search_query']) ?>">
               <span class="input-group-btn">
                 <input type="submit" class="btn btn-default" value="OK"></input>
               </span>
@@ -154,7 +173,7 @@ header('Cache-Control: max-age=900');
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?= WebSite;?>" class="active"><i class="fa fa-home"></i></a>
+                <a class="navbar-brand navbar-brand-home-menu" href="<?= WebSite;?>" class="active"><i class="fa fa-home"></i></a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <?php $homeCategory = getcategoryByParent(2); ?>
@@ -187,16 +206,16 @@ header('Cache-Control: max-age=900');
                   } 
                   ?>
                  
-                  <li class=""><a href="<?= WebSite; ?>views/new-products"><?=l("Nouveautés", "artiza");?></a></li>
-                  <li><a href="<?= WebSite; ?>views/promos"><?=l("Promotions", "artiza");?></a></li>
+                  <li class=""><a href="<?= WebSite; ?>views/new-products"><?=l("Nouveautés", "tesla");?></a></li>
+                  <li><a href="<?= WebSite; ?>views/promos"><?=l("Promotions", "tesla");?></a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-<?=$floatdir;?>">
                   <?php if (!$cUser): ?>
-                    <li><a href="<?= WebSite; ?>account/login"><?=l("Créer un compte", "artiza");?></a></li>
+                    <li><a href="<?= WebSite; ?>account/login"><?=l("Créer un compte", "tesla");?></a></li>
                   <?php else: ?>
-                    <li><a href="<?= WebSite; ?>account"><?=l("Mon compte", "artiza");?></a></li>
+                    <li><a href="<?= WebSite; ?>account"><?=l("Mon compte", "tesla");?></a></li>
                   <?php endif ?>
-                  <li><a href="<?= WebSite; ?>cms/contact"><?=l("Contact", "artiza");?></a></li>
+                  <li><a href="<?= WebSite; ?>cms/contact"><?=l("Contact", "tesla");?></a></li>
                 </ul>
               </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->

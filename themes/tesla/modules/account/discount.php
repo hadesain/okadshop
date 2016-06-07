@@ -3,22 +3,22 @@
   ?>
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
-	  <li><a href="#" title="acount"><?= l("Mon compte", "artiza");?></a></li>
-	  <li class="active"><?= l("Vos bons de réductions", "artiza");?></li>
+	  <li><a href="#" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
+	  <li><a href="#" title="acount"><?= l("Mon compte", "tesla");?></a></li>
+	  <li class="active"><?= l("Vos bons de réductions", "tesla");?></li>
 	</ol>
 
-	<h1><?= l("Vos bons de réductions", "artiza");?></h1>
+	<h1><?= l("Vos bons de réductions", "tesla");?></h1>
   <?php $cart_rule_user = getUserCartRule($user); ?>
 	<table class="discount std table_block">
     <thead>
       <tr>
-        <th class="discount_code first_item"><?= l("Code", "artiza");?></th>
-        <th class="discount_description item"><?= l("Description", "artiza");?></th>
-        <th class="discount_quantity item center"><?= l("Qté", "artiza");?></th>
-        <th class="discount_value item center"><?= l("Valeur", "artiza");?>*</th>
-        <th class="discount_minimum item center"><?= l("Minimum", "artiza");?></th>
-        <th class="discount_expiration_date last_item"><?= l("Expiration", "artiza");?></th>
+        <th class="discount_code first_item"><?= l("Code", "tesla");?></th>
+        <th class="discount_description item"><?= l("Description", "tesla");?></th>
+        <th class="discount_quantity item center"><?= l("Qté", "tesla");?></th>
+        <th class="discount_value item center"><?= l("Valeur", "tesla");?>*</th>
+        <th class="discount_minimum item center"><?= l("Minimum", "tesla");?></th>
+        <th class="discount_expiration_date last_item"><?= l("Expiration", "tesla");?></th>
       </tr>
     </thead>
     <tbody>
@@ -36,9 +36,9 @@
       <?php endif ?>
     </tbody>
   </table>
-  <p> *<?= l("Taxes comprises", "artiza");?></p>
+  <p> *<?= l("Taxes comprises", "tesla");?></p>
 
 	<ul class="footer_links">
-		<li><a href="" title="Retour à votre compte"><?= l("Retour à votre compte", "artiza");?></a></li>
-		<li><a href="/" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
+		<li><a href="" title="Retour à votre compte"><?= l("Retour à votre compte", "tesla");?></a></li>
+		<li><a href="/" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
 	</ul>

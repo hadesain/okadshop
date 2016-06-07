@@ -53,12 +53,12 @@
 ?>
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="<?= WebSite ?>" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
-	  <li class="active"><?= l("Mot de passe oublié ?", "artiza");?></li>
+	  <li><a href="<?= WebSite ?>" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
+	  <li class="active"><?= l("Mot de passe oublié ?", "tesla");?></li>
 	</ol>
 	
 	 <div class="block-center" id="block-history">
-		<h1><?= l("Mot de passe oublié ?", "artiza");?></h1>
+		<h1><?= l("Mot de passe oublié ?", "tesla");?></h1>
 		<?php if (isset($result) && $result): ?>
 			<div class="alert alert-success" role="alert"><?= $success; ?></div>
 		<?php elseif(isset($result) && !$result): ?>
@@ -70,20 +70,20 @@
 		  <div class="panel-body">
 		   	<form role="form" method="POST">
 				  <div class="form-group">
-				    <label for="exampleInputEmail1"><?= l("Adresse e-mail", "artiza");?></label>
+				    <label for="exampleInputEmail1"><?= l("Adresse e-mail", "tesla");?></label>
 				    <input type="email" class="form-control" style="border-radius:0px" name="email" required value="<?= htmlentities($_POST['email']); ?>">
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleInputEmail1"><?= l("Mot de passe", "artiza");?></label>
+				    <label for="exampleInputEmail1"><?= l("Mot de passe", "tesla");?></label>
 				    <input type="password" class="form-control" style="border-radius:0px" name="password" required value="">
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleInputEmail1"><?= l("Confiré Mot de passe", "artiza");?></label>
+				    <label for="exampleInputEmail1"><?= l("Confiré Mot de passe", "tesla");?></label>
 				    <input type="password" class="form-control" style="border-radius:0px" name="confirmpassword" required value="">
 				  </div>
 				  <input type="hidden" name="q" value="<?= htmlentities($_GET['ID2']) ?>"/>
 				  <p class="submit-btn">
-				  	<button type="submit" class="btn btn-sm btn-default" name="ResetPasswordForm"><?= l("Valider", "artiza");?></button>
+				  	<button type="submit" class="btn btn-sm btn-default" name="ResetPasswordForm"><?= l("Valider", "tesla");?></button>
 				  </p>	  
 				</form>
 		  </div>
@@ -92,13 +92,13 @@
 		<div class="panel panel-default">
 		  <div class="panel-body">
 		   	<form role="form" method="POST">
-		   		<strong><?= l("Veuillez renseigner votre adresse e-mail afin de recevoir votre nouveau mot de passe.", "artiza");?></strong>
+		   		<strong><?= l("Veuillez renseigner votre adresse e-mail afin de recevoir votre nouveau mot de passe.", "tesla");?></strong>
 				  <div class="form-group">
-				    <label for="exampleInputEmail1"><?= l("Adresse e-mail", "artiza");?></label>
+				    <label for="exampleInputEmail1"><?= l("Adresse e-mail", "tesla");?></label>
 				    <input type="email" class="form-control" style="border-radius:0px" name="email" required value="<?= htmlentities($_POST['email']); ?>">
 				  </div>
 				  <p class="submit-btn">
-				  	<button type="submit" class="btn btn-sm btn-default" name="recoverUserPassword"><?= l("Valider", "artiza");?></button>
+				  	<button type="submit" class="btn btn-sm btn-default" name="recoverUserPassword"><?= l("Valider", "tesla");?></button>
 				  </p>	  
 				</form>
 		  </div>
@@ -106,5 +106,5 @@
 	<?php endif ?>
 
 	<ul class="footer_links">
-		<li><a href="<?= WebSite;?>account/login" title="Retour à la page d'identification"><?= l("Retour à la page d'identification", "artiza");?></a></li>
+		<li><a href="<?= WebSite;?>account/login" title="Retour à la page d'identification"><?= l("Retour à la page d'identification", "tesla");?></a></li>
 	</ul>

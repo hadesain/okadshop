@@ -4,27 +4,27 @@
 	?>
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="<?= WebSite ?>" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
-	  <li><a href="<?= WebSite.'account' ?>" title="acount"><?= l("Mon compte", "artiza");?></a></li>
-	  <li class="active"><?= l("Historique de vos factures.", "artiza");?></li>
+	  <li><a href="<?= WebSite ?>" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
+	  <li><a href="<?= WebSite.'account' ?>" title="acount"><?= l("Mon compte", "tesla");?></a></li>
+	  <li class="active"><?= l("Historique de vos factures.", "tesla");?></li>
 	</ol>
 
 
 
 	 <div class="block-center" id="block-history">
-		<h1><?= l("Historique de vos factures", "artiza");?></h1>
+		<h1><?= l("Historique de vos factures", "tesla");?></h1>
 
 	<?php  if ($user_invoices && !empty($user_invoices)): ?>
 		<table>
 			<thead>
 				<tr>
-					<th><?= l("Facture", "artiza");?></th>
-					<th><?= l("Date", "artiza");?></th>
-					<th><?= l("Prix total", "artiza");?></th>
-					<th><?= l("Paiement", "artiza");?></th>
-					<th><?= l("État", "artiza");?></th>
-					<th><?= l("Commande", "artiza");?></th>
-					<th><?= l("Télécharger", "artiza");?></th>
+					<th><?= l("Facture", "tesla");?></th>
+					<th><?= l("Date", "tesla");?></th>
+					<th><?= l("Prix total", "tesla");?></th>
+					<th><?= l("Paiement", "tesla");?></th>
+					<th><?= l("État", "tesla");?></th>
+					<th><?= l("Commande", "tesla");?></th>
+					<th><?= l("Télécharger", "tesla");?></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -46,7 +46,7 @@
 			</tbody>
 		</table>
 	<?php else: ?>	
-		<p class="warning"><?= l("Vous n'avez pas de facture", "artiza");?>.</p>
+		<p class="warning"><?= l("Vous n'avez pas de facture", "tesla");?>.</p>
 	<?php endif ?>	
 	</div>
 <!-- 
@@ -121,6 +121,6 @@
 
 
 	<ul class="footer_links">
-		<li><a href="<?= WebSite;?>account/" title="Retour à votre compte"><?= l("Retour à votre compte", "artiza");?></a></li>
-		<li><a href="<?= WebSite;?>" title="Accueil"><?= l("Accueil", "artiza");?></a></li>
+		<li><a href="<?= WebSite;?>account/" title="Retour à votre compte"><?= l("Retour à votre compte", "tesla");?></a></li>
+		<li><a href="<?= WebSite;?>" title="Accueil"><?= l("Accueil", "tesla");?></a></li>
 	</ul>

@@ -1,13 +1,13 @@
 <?php 
 	$cms = getCms($_GET['ID']);
 	if (!$cms || empty($cms)) {
-		goHome();
+		//goHome();
 	}
 ?>
 
 <!-- Main content start here -->
 <ol class="breadcrumb">
-  <li><a href="#" title="<?= l("Accueil", "artiza");?>"><?= l("Accueil", "artiza");?></a></li>
+  <li><a href="#" title="<?= l("Accueil", "tesla");?>"><?= l("Accueil", "tesla");?></a></li>
   <li class="active"><?= $cms['title']; ?></li>
 </ol>
 

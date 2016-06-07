@@ -27,8 +27,8 @@
 
   <!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="Accueil"><?=l("Accueil", "artiza");?></a></li>
-	  <li><a href="#" title="acount"><?=l("Mon compte", "artiza");?></a></li>
+	  <li><a href="#" title="Accueil"><?=l("Accueil", "tesla");?></a></li>
+	  <li><a href="#" title="acount"><?=l("Mon compte", "tesla");?></a></li>
 	  <li class="active"><?= $breadcrumb_active; ?></li>
 	</ol>
 	<h1><?= $breadcrumb_title; ?></h1>
@@ -66,20 +66,20 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 				  	<h3 class="panel-title">
-				  		<strong><?= l("Votre adresse", "artiza");?></strong>
+				  		<strong><?= l("Votre adresse", "tesla");?></strong>
 				  	</h3>
 				  </div>
 				  <div class="panel-body">
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="name"><?= l("Prénom", "artiza");?><sup>*</sup></label>
+							    <label for="name"><?= l("Prénom", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="lastname" id="lastname" required="required" value="<?php if(isset($userAdresses['lastname'])) echo $userAdresses['lastname']; else if(isset($_POST['lastname'])) echo htmlentities($_POST['lastname']);  else echo $currentUser['last_name']; ?>">
 							  </div>
 			   			</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="lname"><?= l("Nom", "artiza");?><sup>*</sup></label>
+							    <label for="lname"><?= l("Nom", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="firstname" id="firstname" required="required" value="<?php if(isset($userAdresses['firstname'])) echo $userAdresses['firstname']; else if(isset($_POST['firstname'])) echo htmlentities($_POST['firstname']); else echo $currentUser['first_name'];  ?>">
 							  </div>
 							</div>
@@ -87,7 +87,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="Soci"><?= l("Société", "artiza");?></label>
+							    <label for="Soci"><?= l("Société", "tesla");?></label>
 							    <input type="text" class="form-control" name="company" value="<?php if(isset($userAdresses['company'])) echo $userAdresses['company']; else echo htmlentities($_POST['company']); ?>">
 							  </div>
 							</div>
@@ -95,7 +95,7 @@
 						<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="adress"><?= l("Adresse", "artiza");?><sup>*</sup></label>
+							    <label for="adress"><?= l("Adresse", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="addresse" required="required" value="<?php if(isset($userAdresses['addresse'])) echo $userAdresses['addresse']; else echo htmlentities($_POST['addresse']); ?>">
 							    
 							  </div>
@@ -104,13 +104,13 @@
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="codep"><?= l("Code postal", "artiza");?><sup>*</sup></label>
+							    <label for="codep"><?= l("Code postal", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="codepostal" required="required" value="<?php if(isset($userAdresses['codepostal'])) echo $userAdresses['codepostal']; else echo htmlentities($_POST['codepostal']); ?>">
 							  </div>
 							</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="city"><?= l("Ville", "artiza");?><sup>*</sup></label>
+							    <label for="city"><?= l("Ville", "tesla");?><sup>*</sup></label>
 							    <input type="text" class="form-control" name="city" required="required" value="<?php if(isset($userAdresses['city'])) echo $userAdresses['city']; else echo htmlentities($_POST['city']); ?>">
 							  </div>
 			   			</div>
@@ -118,7 +118,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="pays"><?= l("Pays", "artiza");?><sup>*</sup></label>
+							    <label for="pays"><?= l("Pays", "tesla");?><sup>*</sup></label>
 							    <p>
 							    	<select id="pays" name="id_country" >
 							    		<?php
@@ -142,13 +142,13 @@
 			   			<div class="col-xs-12"></label></div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="teld"><?= l("Téléphone fixe", "artiza");?></label>
+							    <label for="teld"><?= l("Téléphone fixe", "tesla");?></label>
 							    <input type="text" class="form-control" name="phone" value="<?php if(isset($userAdresses['phone'])) echo $userAdresses['phone']; else echo htmlentities($_POST['phone']); ?>">
 							  </div>
 							</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="telp"><?= l("Téléphone portable", "artiza");?> <sup>*</sup></label>
+							    <label for="telp"><?= l("Téléphone portable", "tesla");?> <sup>*</sup></label>
 							    <input type="text" class="form-control" name="mobile" required="required" value="<?php if(isset($userAdresses['mobile'])) echo $userAdresses['mobile']; else echo htmlentities($_POST['mobile']); ?>">
 							  </div>
 			   			</div>
@@ -156,7 +156,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="adr"><?= l("Nom de l'adresse", "artiza");?><sup>*</sup></label>
+							    <label for="adr"><?= l("Nom de l'adresse", "tesla");?><sup>*</sup></label>
 							     <input type="text" class="form-control" name="adresse_name" required="required" value="<?php if(isset($userAdresses['name'])) echo $userAdresses['name']; else echo htmlentities($_POST['adresse_name']); ?>">
 							  </div>
 			   			</div>
@@ -164,7 +164,7 @@
 			   		<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="infos"><?= l("Informations complémentaires", "artiza");?></label>
+							    <label for="infos"><?= l("Informations complémentaires", "tesla");?></label>
 							    <textarea class="form-control" rows="3" name="info" ><?php if(isset($userAdresses['info'])) echo $userAdresses['info']; else echo htmlentities($_POST['info']); ?></textarea>
 							  </div>
 			   			</div>
@@ -180,7 +180,7 @@
 			   		<input type="submit" name="submitAdresse" id="submitAdresse" value="Valider" class="button" >
 				  </div>
 				</div>
-				 <label for="champ"><sup>*</sup><?= l("Champs requis", "artiza");?></label>
+				 <label for="champ"><sup>*</sup><?= l("Champs requis", "tesla");?></label>
 			</div><!-- ./submitform -->
 		</form><!-- ./end form -->
 
@@ -193,6 +193,6 @@
 					$cancel_url = WebSite.'account/addresses';
 				}
 			?>
-			<li><a href="<?= $cancel_url;?>" title="Annuler"><?= l("Annuler", "artiza");?></a></li>
-			<li><a href="<?= WebSite;?>account/" title="Retour à votre compte"><?= l("Retour à votre compte", "artiza");?></a></li>
+			<li><a href="<?= $cancel_url;?>" title="Annuler"><?= l("Annuler", "tesla");?></a></li>
+			<li><a href="<?= WebSite;?>account/" title="Retour à votre compte"><?= l("Retour à votre compte", "tesla");?></a></li>
 		</ul>

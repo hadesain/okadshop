@@ -13,13 +13,7 @@
         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
           <div class="company_infos">
             <?php execute_section_hooks('sec_footercompany'); ?>
-           <!--  <img style="background: #fff;" class="logo" src="<?= $themeDir;?>images/logo.jpg" alt=""> -->
-           <!--  <img alt="" src="<?=  $themeDir;?>images/footer_img.png">
-            <p class="title">Tismaro SARL</p>
-            <p class="address1">lot Karam</p>
-            <p class="address2">44000 Essaouira Maroc</p>
-            <p class="phone">+212 (0) 662 494 991</p>
-            <p class="mail">contact@maroc-artiza.com</p> -->
+
           </div>
         </div><!--/ .col-md-2 --> 
         <span class="devider hidden-xs hidden-sm"></span>
@@ -67,14 +61,14 @@
           <?php if (isConnected()): ?>
             <div class="newsletter">
               <p>
-                <span class="title"><?=l("Newsletter", "artiza");?></span> 
-                <span class="message"><?=l("Inscrivez-vous à notre newsletter pour recevoir des offres exclusives", "artiza");?></span>
+                <span class="title"><?=l("Newsletter", "tesla");?></span> 
+                <span class="message"><?=l("Inscrivez-vous à notre newsletter pour recevoir des offres exclusives", "tesla");?></span>
               </p>
               <form action="#" class="searchbox" method="get">
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="<?=l("Votre adresse mail", "artiza");?>">
+                  <input type="text" class="form-control" placeholder="<?=l("Votre adresse mail", "tesla");?>">
                   <span class="input-group-btn">
-                    <button class="btn btn-default" type="button"><?=l("OK", "artiza");?></button>
+                    <button class="btn btn-default" type="button"><?=l("OK", "tesla");?></button>
                   </span>
                 </div>
               </form>
@@ -101,38 +95,38 @@
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/51-Livraison"><?=l("Livraison", "artiza");?></a></p>
-            <p class="content"><?=l("Où que vous soyez, nous pouvons vous livrer !", "artiza");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/51-Transport" title="<?=l("Cliquez ici pour en savoir plus", "artiza");?>"><?=l("En savoir plus", "artiza");?></a></p>
+            <p class="title"><a href="<?= WebSite; ?>cms/51-Livraison"><?=l("Livraison", "tesla");?></a></p>
+            <p class="content"><?=l("Où que vous soyez, nous pouvons vous livrer !", "tesla");?></p>
+            <p class="link"><a href="<?= WebSite; ?>cms/51-Transport" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p>
           </div>
         </div><!--/ .col-md-3 -->
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/55-Paiement"><?=l("Paiement sécurisé ", "artiza");?></a></p>
-            <p class="content"><?=l("Règlement 100% sécurisé !", "artiza");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/55-Paiement" title="<?=l("Cliquez ici pour en savoir plus", "artiza");?>"><?=l("En savoir plus", "artiza");?></a></p>
+            <p class="title"><a href="<?= WebSite; ?>cms/55-Paiement"><?=l("Paiement sécurisé ", "tesla");?></a></p>
+            <p class="content"><?=l("Règlement 100% sécurisé !", "tesla");?></p>
+            <p class="link"><a href="<?= WebSite; ?>cms/55-Paiement" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p>
           </div>
         </div><!--/ .col-md-3 -->
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/57-fidélité"><?=l("Programme fidélité", "artiza");?></a></p>
-            <p class="content"><?=l("Votre fidélité récompensée ! ", "artiza");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/57-fidélité" title="<?=l("Cliquez ici pour en savoir plus", "artiza");?>"><?=l("En savoir plus", "artiza");?></a></p>
+            <p class="title"><a href="<?= WebSite; ?>cms/57-fidélité"><?=l("Programme fidélité", "tesla");?></a></p>
+            <p class="content"><?=l("Votre fidélité récompensée ! ", "tesla");?></p>
+            <p class="link"><a href="<?= WebSite; ?>cms/57-fidélité" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p>
           </div>
         </div><!--/ .col-md-3 -->
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/58-client"><?=l("Service client", "artiza");?></a></p>
-            <p class="content"><?=l("Notre service client est à votre disposition du Lundi au vendredi de 10h à 17h et le Samedi de 10 à 12h.", "artiza");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/58-client" title="Cliquez ici pour en savoir plus"><?=l("En savoir plus", "artiza");?></a></p>
+            <p class="title"><a href="<?= WebSite; ?>cms/58-client"><?=l("Service client", "tesla");?></a></p>
+            <p class="content"><?=l("Notre service client est à votre disposition du Lundi au vendredi de 10h à 17h et le Samedi de 10 à 12h.", "tesla");?></p>
+            <p class="link"><a href="<?= WebSite; ?>cms/58-client" title="Cliquez ici pour en savoir plus"><?=l("En savoir plus", "tesla");?></a></p>
           </div>
         </div><!--/ .col-md-3 -->
 
         <p class="description text-center">
-          <span><?=l("Grossiste/ fournisseur en artisanat marocain.", "artiza");?></span>
+          <span><?=l("Grossiste/ fournisseur", "tesla");?></span>
         </p>
         <p class="text-center"><img src="<?= themeDir; ?>images/logo_payment.png" alt="payment"></p>
 
@@ -141,7 +135,7 @@
       </section><!--/ #services  -->
 
       <div class="container" id="copyright">
-        &copy; OKADSHOP 2004-<?= date("Y");  ?>. <?=l("Tous droits réservés", "artiza");?>
+        &copy; OKADSHOP 2004-<?= date("Y");  ?>. <?=l("Tous droits réservés", "tesla");?>
       </div>
 
 
@@ -205,7 +199,7 @@
   </script>
   <?php
 
-/*
+
   if (isset($_POST['lang_list'])) {
   $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   $lang = explode('_', $_SESSION['code_lang']);
@@ -227,18 +221,18 @@
 
   }
   echo '<script> window.location.replace("'.$actual_link.'"); </script>';
-}*/
+}
 
-addLangToUrl();
+//addLangToUrl();
    ?>
 
   <?php if (isset($_GET['lang'])): ?>
-    <!-- <script>
+    <script>
       var lang = "<?= $_GET['lang']; ?>";
       var old_link = "<?= WebSite; ?>";
       var new_link = "<?= WebSite; ?>"+lang+"/";
       if( lang != null ){
-        $("a:not([href*='javascript:;'])").each(function(){
+        $("a:not([href*='javascript:;']):not(.product_image_galery)").each(function(){
           var href = $(this).attr("href"); 
           if( href != undefined )
           {
@@ -246,7 +240,7 @@ addLangToUrl();
           }
         });
       }
-    </script> -->
+    </script>
   <?php endif ?>
   
   <?php 

@@ -73,14 +73,14 @@ if (isset($_POST['submitContact'])) {
 
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title="<?= l("Accueil", "artiza");?>"><?= l("Accueil", "artiza");?></a></li>
-	  <li class="active"><?= l("Contact", "artiza");?></li>
+	  <li><a href="#" title="<?= l("Accueil", "tesla");?>"><?= l("Accueil", "tesla");?></a></li>
+	  <li class="active"><?= l("Contact", "tesla");?></li>
 	</ol>
 
-	<h1><?= l("Service client - Contactez-nous", "artiza");?></h1>
+	<h1><?= l("Service client - Contactez-nous", "tesla");?></h1>
 	<?php if (isset($resMSG) && $resMSG): ?>
 		<div class="alert alert-success" role="alert">
-			<?= l("Nous vous remercions pour votre message. Une réponse vous sera apportée dans les plus brefs délais (max 48h)", "artiza");?>
+			<?= l("Nous vous remercions pour votre message. Une réponse vous sera apportée dans les plus brefs délais (max 48h)", "tesla");?>
 		</div>
 	<?php else: ?>
 
@@ -88,7 +88,7 @@ if (isset($_POST['submitContact'])) {
 		<div class="panel panel-default">
 		  <div class="panel-heading">
 		  	<h3 class="panel-title">
-		  		<strong><?= l("Envoyez un message", "artiza");?></strong>
+		  		<strong><?= l("Envoyez un message", "tesla");?></strong>
 		  	</h3>
 		  </div>
 		  <?php if (isset($error) && !empty($error)): ?>
@@ -100,12 +100,12 @@ if (isset($_POST['submitContact'])) {
 		  <?php endif ?>
 		  <div class="panel-body">
 		   	<form role="form" enctype="multipart/form-data" method="POST"> 
-		   		<p class="bold"><?= l("Pour des questions à propos d'une commande ou des informations sur nos produits.", "artiza");?></p>
+		   		<p class="bold"><?= l("Pour des questions à propos d'une commande ou des informations sur nos produits.", "tesla");?></p>
 				  <br>
 				  <?php if (!isconnected()): ?>
 				  	<div style="color: #DA9B39;padding-left: 10px;">
-				  		<p><?= l("Vous êtes un professionnel ou en création d’entreprise et vous souhaitez avoir accès à nos tarifs ?", "artiza");?> <a class="text-underline" href="<?= WebSite;?>account/register"><?= l("Créez votre compte", "artiza");?></a></p>
-				  		<p><?= l("Vous possédez déjà un compte ?", "artiza");?> <a class="text-underline" href="<?= WebSite;?>account/login"><?= l("Connectez vous", "artiza");?></a></p>
+				  		<p><?= l("Vous êtes un professionnel ou en création d’entreprise et vous souhaitez avoir accès à nos tarifs ?", "tesla");?> <a class="text-underline" href="<?= WebSite;?>account/register"><?= l("Créez votre compte", "tesla");?></a></p>
+				  		<p><?= l("Vous possédez déjà un compte ?", "tesla");?> <a class="text-underline" href="<?= WebSite;?>account/login"><?= l("Connectez vous", "tesla");?></a></p>
 				  	</div>
 				  <?php endif ?>
 				 
@@ -113,7 +113,7 @@ if (isset($_POST['submitContact'])) {
 			   		
 			   		<div class="col-xs-12 col-md-6">
 			   			<div class="form-group">
-							  <label ><?= l("Prénom", "artiza");?><sup>*</sup></label>
+							  <label ><?= l("Prénom", "tesla");?><sup>*</sup></label>
 							  <p>
 							  	<input type="text" class="form-control" name="lastname" value="<?= 	(isset($CurrentUser['last_name']) && !empty($CurrentUser['last_name'])) ? $CurrentUser['last_name'] : htmlentities($_POST['lastname']) ?>" required="required">
 								</p>
@@ -121,7 +121,7 @@ if (isset($_POST['submitContact'])) {
 			   		</div>
 			   		<div class="col-xs-12 col-md-6">
 			   			<div class="form-group">
-							  <label ><?= l("Nom", "artiza");?><sup>*</sup></label>
+							  <label ><?= l("Nom", "tesla");?><sup>*</sup></label>
 							  <p>
 							 		<input type="text" class="form-control" name="firstname" value="<?= (isset($CurrentUser['first_name']) && !empty($CurrentUser['first_name'])) ? $CurrentUser['first_name'] : htmlentities($_POST['firstname']); ?>" required="required">
 								</p>
@@ -131,7 +131,7 @@ if (isset($_POST['submitContact'])) {
 			   	<div class="row">
 		   			<div class="col-xs-12 col-md-6">
 		   				<div class="form-group">
-						    <label for=""><?= l("Société", "artiza");?></label>
+						    <label for=""><?= l("Société", "tesla");?></label>
 						    <p>
 						    	<input type="text" class="form-control" name="company" value="<?= (isset($CurrentUser['company']) && !empty($CurrentUser['company'])) ? $CurrentUser['company'] : htmlentities($_POST['company']); ?>">
 								</p>
@@ -141,7 +141,7 @@ if (isset($_POST['submitContact'])) {
 					<div class="row">
 		   			<div class="col-xs-12 col-md-6">
 		   				<div class="form-group">
-						    <label for="siret_tva"><?= l("N° de siret / TVA<", "artiza");?>/label>
+						    <label for="siret_tva"><?= l("N° de siret / TVA<", "tesla");?>/label>
 						    <p>
 						    	<input type="text" class="form-control" name="siret_tva" value="<?=  (isset($CurrentUser['siret_tva']) && !empty($CurrentUser['siret_tva'])) ? $CurrentUser['siret_tva'] : htmlentities($_POST['siret_tva']); ?>" >
 						  	</p>
@@ -151,7 +151,7 @@ if (isset($_POST['submitContact'])) {
 		   		<div class="row">
 			   		<div class="col-xs-12 col-md-6">
 							<div class="form-group">
-							  <label for="exampleInputEmail1"><?= l("Adresse e-mail", "artiza");?><sup>*</sup></label>
+							  <label for="exampleInputEmail1"><?= l("Adresse e-mail", "tesla");?><sup>*</sup></label>
 							  <input type="email" class="form-control" name="email" value="<?= (isset($CurrentUser['email']) && !empty($CurrentUser['email'])) ? $CurrentUser['email'] : htmlentities($_POST['email']); ?>" required="required">
 							</div>
 						</div>
@@ -159,7 +159,7 @@ if (isset($_POST['submitContact'])) {
 		   		<div class="row">
 			   		<div class="col-xs-12 col-md-6">
 			   			<div class="form-group">
-							  <label for="adresse"><?= l("Adresse", "artiza");?></label>
+							  <label for="adresse"><?= l("Adresse", "tesla");?></label>
 							  <p>
 							  <input type="text" class="form-control" name="adresse" value="<?= (isset($CurrentUser['addresse']) && !empty($CurrentUser['addresse'])) ? $CurrentUser['addresse'] : htmlentities($_POST['adresse']); ?>">
 							  <p>
@@ -173,7 +173,7 @@ if (isset($_POST['submitContact'])) {
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
 							    <p>
-							    	<label for="codep"><?= l("Code postal", "artiza");?></label>
+							    	<label for="codep"><?= l("Code postal", "tesla");?></label>
 							    </p>
 							    <p>
 							    	<input type="text" class="form-control" name="zipcode" value="<?= (isset($CurrentUser['codepostal']) && !empty($CurrentUser['codepostal'])) ? $CurrentUser['codepostal'] : htmlentities($_POST['zipcode']); ?>">
@@ -182,7 +182,7 @@ if (isset($_POST['submitContact'])) {
 							</div>
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="city"><?= l("Ville", "artiza");?></label>
+							    <label for="city"><?= l("Ville", "tesla");?></label>
 							    <p>
 							    	<input type="text" class="form-control" name="city" value="<?= (isset($CurrentUser['city']) && !empty($CurrentUser['city'])) ? $CurrentUser['city'] : htmlentities($_POST['city']); ?>">
 							  	</p>
@@ -192,7 +192,7 @@ if (isset($_POST['submitContact'])) {
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="pays"><?= l("Pays", "artiza");?><sup>*</sup></label>
+							    <label for="pays"><?= l("Pays", "tesla");?><sup>*</sup></label>
 							    <p>
 							    	<select id="pays" name="id_country" >
 							    		<?php
@@ -219,7 +219,7 @@ if (isset($_POST['submitContact'])) {
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
-							    <label for="telp"><?= l("Téléphone", "artiza");?> <sup>*</sup></label>
+							    <label for="telp"><?= l("Téléphone", "tesla");?> <sup>*</sup></label>
 							    <p>
 							    	<input type="text" class="form-control" name="mobile" value="<?=  (isset($CurrentUser['mobile']) && !empty($CurrentUser['mobile'])) ? $CurrentUser['mobile'] : htmlentities($_POST['mobile']); ?>" required="required">
 							  	</p>
@@ -231,11 +231,11 @@ if (isset($_POST['submitContact'])) {
 			   		<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="infos"><?= l("Message", "artiza");?> <sup>*</sup></label>
+							    <label for="infos"><?= l("Message", "tesla");?> <sup>*</sup></label>
 							    <textarea class="form-control" rows="3" name="message" required="required"><?=  htmlentities($_POST['message']); ?></textarea>
 							  </div>
 							  <div class="form-group">
-							    <label for="Fichier"><?= l("Fichier joint", "artiza");?> </label>
+							    <label for="Fichier"><?= l("Fichier joint", "tesla");?> </label>
 							    <p>
 							    	<input type="file" name="attachement" style="width:50%">
 							    </p>
@@ -246,11 +246,11 @@ if (isset($_POST['submitContact'])) {
 			   		<div class="row">
 			   			<div class="col-xs-12">
 			   				<div class="form-group">
-							    <label for="captcha"><?= l("Captcha", "artiza");?> <sup>*</sup></label>
+							    <label for="captcha"><?= l("Captcha", "tesla");?> <sup>*</sup></label>
 							    <p>
 							    <?php
 						   			$_SESSION['captcha'] = simple_php_captcha();
-										echo '<img src="' . $_SESSION['captcha']['image_src'] . '" alt="'.l("CAPTCHA", "artiza").'" />';  
+										echo '<img src="' . $_SESSION['captcha']['image_src'] . '" alt="'.l("CAPTCHA", "tesla").'" />';  
 						   		?>
 						   		</p>
 						   		<p><input type="text" name="captcha"  required="required"></p>
@@ -259,7 +259,7 @@ if (isset($_POST['submitContact'])) {
 							</div>
 						</div>
 				  <p class="submit-btn">
-				  	<input type="submit" name="submitContact" id="submitContact" value="<?= l("Envoyer", "artiza");?>" class="exclusive btn btn-sm btn-default button_large" style="float: right;">
+				  	<input type="submit" name="submitContact" id="submitContact" value="<?= l("Envoyer", "tesla");?>" class="exclusive btn btn-sm btn-default button_large" style="float: right;">
 					</p>
 				</form>
 		  </div>

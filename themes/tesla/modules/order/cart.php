@@ -7,17 +7,17 @@
 
 	<!-- Main content start here -->
 	<ol class="breadcrumb">
-	  <li><a href="#" title=""><?= l("Accueil", "artiza");?></a></li>
-	  <li class="active"><?= l("Votre devis", "artiza");?></li>
+	  <li><a href="#" title=""><?= l("Accueil", "tesla");?></a></li>
+	  <li class="active"><?= l("Votre devis", "tesla");?></li>
 	</ol>
 
-	<h1><?= l("Récapitulatif des produits ajoutés au devis", "artiza");?></h1>
+	<h1><?= l("Récapitulatif des produits ajoutés au devis", "tesla");?></h1>
 
   <ul class="step" id="order_step">
     <li class="step_line"></li>
     <li class="step_current">
       <p class="number">1</p>
-      <p class="name"><?= l("Résumé", "artiza");?></p>
+      <p class="name"><?= l("Résumé", "tesla");?></p>
     </li>
     <!-- <li class="step_todo">
       <p class="number">2</p>
@@ -25,19 +25,19 @@
     </li> -->
     <li class="step_todo">
       <p class="number">2</p>
-      <p class="name"><?= l("Adresse", "artiza");?></p>
+      <p class="name"><?= l("Adresse", "tesla");?></p>
     </li>
     <li class="step_todo">
       <p class="number">3</p>
-      <p class="name"><?= l("Livraison", "artiza");?></p>
+      <p class="name"><?= l("Livraison", "tesla");?></p>
     </li>
     <!-- <li class="step_todo">
       <p class="number">4</p>
-      <p class="name"><?= l("Devis", "artiza");?></p>
+      <p class="name"><?= l("Devis", "tesla");?></p>
     </li> -->
     <li class="step_todo" id="step_end">
       <p class="number">4</p>
-      <p class="name"><?= l("Paiement", "artiza");?></p>
+      <p class="name"><?= l("Paiement", "tesla");?></p>
     </li>
   </ul>
 <?php if (isset($nbProduct) &&  $nbProduct >0 ): ?>
@@ -45,11 +45,11 @@
     <table class="table table-bordered borer0" id="summary">
       <thead>
         <tr>
-          <th class="product first_item"><?= l("Produit", "artiza");?></th>
-          <th class="description item"><?= l("Description", "artiza");?></th>
-          <th class="unit item"><?= l("Prix unitaire", "artiza");?></th>
-          <th class="quantity item"><?= l("Qté", "artiza");?></th>
-          <th class="total item"><?= l("Prix total", "artiza");?></th>
+          <th class="product first_item"><?= l("Produit", "tesla");?></th>
+          <th class="description item"><?= l("Description", "tesla");?></th>
+          <th class="unit item"><?= l("Prix unitaire", "tesla");?></th>
+          <th class="quantity item"><?= l("Qté", "tesla");?></th>
+          <th class="total item"><?= l("Prix total", "tesla");?></th>
         </tr>
       </thead>
       <tbody>
@@ -60,13 +60,13 @@
       		if (!$product || empty($product)) {
       			continue;
       		}
-      		$img = getThumbnail($product['id'],'45x45');
+      		$img = getThumbnail($product['id'],'80x80');
       	?>
 
         <tr class="" id="product_<?= $product['id'];?>"><!-- first_item odd -->
           <td class="cart_product">
             <a href="#" title="<?= $product['name'];?>">
-              <img alt="<?= $product['name'];?>" class="replace-2x" src="<?php if($img) echo WebSite.$img; else echo $themeDir.'images/no-image-sm.jpg' ?>" style="height:45px;width:45px">
+              <img alt="<?= $product['name'];?>" class="replace-2x" src="<?php if($img) echo WebSite.$img; else echo $themeDir.'images/no-image-sm.jpg' ?>" style="height:80px;width:80px">
             </a>
           </td>
           <td class="cart_description">
@@ -74,13 +74,13 @@
               <a href="#" title=""><?= $product['name']; ?></a>
             </p>
             <?= substr(strip_tags($product['short_description']), 0,100) ; ?>...
-            <p class="bold"><?= l("Référence :", "artiza");?> <?= $product['reference']; ?></p>
+            <p class="bold"><?= l("Référence :", "tesla");?> <?= $product['reference']; ?></p>
             <?php if ($product['qty']>0): ?>
-            	<p class="availability bold available"><?= l("En stock", "artiza");?></p>
+            	<p class="availability bold available"><?= l("En stock", "tesla");?></p>
 			<?php else: ?>
-				<p class="availability bold"><?= l("Out of stock", "artiza");?></p>
+				<p class="availability bold"><?= l("Out of stock", "tesla");?></p>
 			<?php endif ?>
-            <p class="delete"><a class="quantity_delete ajax_delete_product_cart" href="#" id="" rel="nofollow" title="" l="<?= $product['id']; ?>"><?= l("Supprimer ce produit", "artiza");?></a></p>
+            <p class="delete"><a class="quantity_delete ajax_delete_product_cart" href="#" id="" rel="nofollow" title="" l="<?= $product['id']; ?>"><?= l("Supprimer ce produit", "tesla");?></a></p>
           </td>
           <td class="cart_unit"><span class="price" id=""><?= $product['sell_price']; ?> €</span></td>
           <td class="cart_quantity">
@@ -102,26 +102,7 @@
 
 
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <!-- <table id="summary_voucher">
-          <tbody>
-            <tr>
-              <td class="cart_voucher" id="cart_voucher">
-                <p class="title_voucher" id="title_voucher"><?= l("Utiliser un code promotionnel :", "artiza");?></p>
-                <form action="order.php" id="voucher" class="searchbox" method="post" name="voucher">
-                  <p><label for="discount_name"><?= l("Code promo:", "artiza");?></label></p>
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="<?= l("Votre adresse mail", "artiza");?>">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button"><?= l("OK", "artiza");?></button>
-                    </span>
-                  </div>
-                </form>
-              </td>
-            </tr>
-          </tbody>
-       </table> -->
-      </div>
+      
       <?php 
       	$totalht = MontantGlobal();
       ?>
@@ -129,19 +110,19 @@
         <table class="table table-bordered borer0" id="summary_total">
           <tbody>
             <tr class="cart_total_price">
-              <td><?= l("Total produits HT :", "artiza");?></td>
+              <td><?= l("Total produits HT :", "tesla");?></td>
               <td class="price" id="total_product"><?= $totalht; ?> €</td>
             </tr>
             <tr class="cart_total_delivery">
-              <td><?= l("Total livraison TTC :", "artiza");?></td>
+              <td><?= l("Total livraison TTC :", "tesla");?></td>
               <td class="price" id="total_shipping">--</td>
             </tr>
             <tr class="">
-              <td><?= l("Taux TVA :", "artiza");?></td>
+              <td><?= l("Taux TVA :", "tesla");?></td>
               <td class="price" id="">--</td>
             </tr>
             <tr class="cart_total_price">
-              <td><?= l("Total TVA :", "artiza");?></td>
+              <td><?= l("Total TVA :", "tesla");?></td>
               <td class="price" id="total_price_without_tax">--</td>
             </tr>
             
@@ -150,11 +131,31 @@
               <td class="price" id="total_tax">17,05 €</td>
             </tr> -->
             <tr class="cart_total_price">
-              <td class="total_price" id="total_price_label"><?= l("Total TTC :", "artiza");?></td>
+              <td class="total_price" id="total_price_label"><?= l("Total TTC :", "tesla");?></td>
               <td class="total_price price" id="total_price_amount"><?= $totalht; ?> €</td>
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <!-- <table id="summary_voucher">
+          <tbody>
+            <tr>
+              <td class="cart_voucher" id="cart_voucher">
+                <p class="title_voucher" id="title_voucher"><?= l("Utiliser un code promotionnel :", "tesla");?></p>
+                <form action="order.php" id="voucher" class="searchbox" method="post" name="voucher">
+                  <p><label for="discount_name"><?= l("Code promo:", "tesla");?></label></p>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="<?= l("Votre adresse mail", "tesla");?>">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><?= l("OK", "tesla");?></button>
+                    </span>
+                  </div>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+       </table> -->
       </div>
     </div>
 
@@ -215,9 +216,9 @@
     </form> -->
 
     <p class="cart_navigation">
-      <a class="exclusive" href="javascript:;" title="<?= l("actualiser le panier", "artiza");?>" id="cart_panel_refresh"><?= l("Actualiser le panier", "artiza");?></a> 
-      <a class="exclusive standard-checkout pull-right" href="<?= WebSite;?>cart/adresse/" title="Suivant"><?= l("Suivant", "artiza");?> »</a> 
-      <a class="button_large" href="<?= WebSite;?>" title="<?= l("Continuer mes achats", "artiza");?>">« <?= l("Continuer mes achats", "artiza");?></a>
+      <a class="exclusive" href="javascript:;" title="<?= l("actualiser le panier", "tesla");?>" id="cart_panel_refresh"><?= l("Actualiser le panier", "tesla");?></a> 
+      <a class="exclusive standard-checkout pull-right" href="<?= WebSite;?>cart/adresse/" title="Suivant"><?= l("Suivant", "tesla");?> »</a> 
+      <a class="button_large" href="<?= WebSite;?>" title="<?= l("Continuer mes achats", "tesla");?>">« <?= l("Continuer mes achats", "tesla");?></a>
     </p>
 <?php else: ?>    
 	<!-- ca -->

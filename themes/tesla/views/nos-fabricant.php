@@ -3,11 +3,11 @@ global $common;
 $mf = $common->select('manufacturers');
 ?>
 <ol class="breadcrumb">
-	<li><a href="#" title="<?=l("Accueil", "artiza");?>"><?=l("Accueil", "artiza");?></a></li>
-	<li class="active"><?=l("Nos fabricant", "artiza");?></li>
+	<li><a href="#" title="<?=l("Accueil", "tesla");?>"><?=l("Accueil", "tesla");?></a></li>
+	<li class="active"><?=l("Nos fabricant", "tesla");?></li>
 </ol>
-<h1><?=l("Nos fabricant", "artiza");?></h1>
-<p class="warning"><span><?=l("Il y a", "artiza");?>&nbsp;<?=count($mf);?>&nbsp;<?=l("marques.", "artiza");?></span></p>
+<h1><?=l("Nos fabricant", "tesla");?></h1>
+<p class="warning"><span><?=l("Il y a", "tesla");?>&nbsp;<?=count($mf);?>&nbsp;<?=l("marques.", "tesla");?></span></p>
 
 <style>
 #manufacturers_list li {
