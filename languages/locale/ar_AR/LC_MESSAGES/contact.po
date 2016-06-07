@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-27 16:02+0000\n"
+"PO-Revision-Date: 2016-05-30 12:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-contact\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact.module.php:34 contact.module.php:47
+msgid "Formulaire de Contact"
+msgstr "نموذج الاتصال"
+
+#: contact.module.php:35
+msgid "Afficher les emails envyé depuis le formulaire de contact."
+msgstr "عرض الرسائل المرسلة من نموذج الاتصال."
+
+#: contact.module.php:48 pages/messages.php:46
+msgid "Liste des Messages"
+msgstr "قائمة الرسالة"
+
+#: contact.module.php:49 pages/contact-config.php:41
+msgid "Paramètres de Messagerie"
+msgstr "إعدادات البريد"
+
+#: pages/contact-config.php:47
+msgid "Signature des messages"
+msgstr "توقيع رسالة"
+
+#: pages/contact-config.php:52
+msgid "Signature..."
+msgstr "التوقيع ..."
+
+#: pages/contact-config.php:57
+msgid "Souvegarder la signature"
+msgstr "حفظ التوقيع"
+
+#: pages/messages.php:52
+msgid "Numéro"
+msgstr "عدد"
+
+#: pages/messages.php:53
+msgid "Date et heure"
+msgstr "التاريخ والوقت"
+
+#: pages/messages.php:54 pages/view-message.php:218
+msgid "Expéditeur"
+msgstr "مرسل"
+
+#: pages/messages.php:55 pages/view-message.php:219
+msgid "Société"
+msgstr "شركة"
+
+#: pages/messages.php:56 pages/view-message.php:220
+msgid "Numéro d’entreprise"
+msgstr "عدد الأعمال"
+
+#: pages/messages.php:57 pages/view-message.php:221
+msgid "E-mail"
+msgstr "البريد الالكتروني"
+
+#: pages/messages.php:58 pages/view-message.php:225
+msgid "Pays"
+msgstr "بلد"
+
+#: pages/messages.php:59 pages/messages.php:74
+msgid "Actions"
+msgstr "الأوراق المالية"
+
+#: pages/messages.php:76
+msgid "Voir le message"
+msgstr "عرض مشاركة"
+
+#: pages/view-message.php:205
+msgid "Mesagerie"
+msgstr "الرسائل"
+
+#: pages/view-message.php:208
+msgid "Liste des messages"
+msgstr "قائمة الرسالة"
+
+#: pages/view-message.php:222
+msgid "Adresse"
+msgstr "عنوان"
+
+#: pages/view-message.php:223
+msgid "Code Postal"
+msgstr "الرقم البريدي"
+
+#: pages/view-message.php:224
+msgid "Ville"
+msgstr "مدينة"
+
+#: pages/view-message.php:226
+msgid "Addresse IP"
+msgstr "عنوان IP"
+
+#: pages/view-message.php:227
+msgid "Téléphone"
+msgstr "هاتف"
+
+#: pages/view-message.php:231
+msgid "Ce client est un nouveau prospect."
+msgstr "هذا العميل هو افاق جديدة."
+
+#: pages/view-message.php:232
+msgid "Créer un compte"
+msgstr "إفتح حساب"
+
+#: pages/view-message.php:234
+msgid "Ce client est en compte."
+msgstr "يتم تضمين هذا العميل."
+
+#: pages/view-message.php:235
+msgid "Voir le profile"
+msgstr "مشاهدة الملف الشخصي"
+
+#: pages/view-message.php:248
+msgid "Objet de message"
+msgstr "رسالة كائن"
+
+#: pages/view-message.php:251
+msgid "Message..."
+msgstr "رسالة ..."
+
+#: pages/view-message.php:258
+msgid "Envoyez"
+msgstr "إرسال"
+
+#: pages/view-message.php:291 pages/view-message.php:363
+msgid "Ajouter un Dossier"
+msgstr "إضافة مجلد"
+
+#: pages/view-message.php:308
+msgid "Sans sujet"
+msgstr "أي موضوع"
+
+#: pages/view-message.php:308
+msgid "N°"
+msgstr "لا."
+
+#: pages/view-message.php:316
+msgid "Déplacer"
+msgstr "خطوة"
+
+#: pages/view-message.php:323
+msgid "Répondre"
+msgstr "إجابة"
+
+#: pages/view-message.php:324
+msgid "Transférer"
+msgstr "نقل"
+
+#: pages/view-message.php:325
+msgid "Supprimer"
+msgstr "نقل"
+
+#: pages/view-message.php:326
+msgid "Spam"
+msgstr "البريد المزعج"
+
+#: pages/view-message.php:329
+msgid "Le client ne l'a pas encore lu"
+msgstr "وقد كان الزبون لا تقرأ بعد"
+
+#: pages/view-message.php:342
+msgid "Pas de messages dans ce dossier !"
+msgstr "أية رسائل في هذا المجلد!"
+
+#: pages/view-message.php:348
+msgid "Supprimer ce Dossier"
+msgstr "حذف هذا المجلد"
+
+#: pages/view-message.php:367
+msgid "Nom de dossier"
+msgstr "اسم المجلد"
+
+#: pages/view-message.php:375
+msgid "Souvegarder"
+msgstr "حفظ"
+
+#: pages/view-message.php:390
+msgid ""
+"Cette action supprime définitivement le dossier et ces messages de la base de "
+"donné. Êtes-vous vraiment sûr ?"
+msgstr "يحذف هذا الإجراء بشكل دائم المجلد ورسائل من قاعدة معينة. هل أنت متأكد حقا؟"
+
+#: pages/view-message.php:399
+msgid "Le dossier a été supprimer."
+msgstr "تم حذف الملف."
+
+#: pages/view-message.php:439
+msgid "Le message a été supprimer."
+msgstr "تم حذف الرسالة."

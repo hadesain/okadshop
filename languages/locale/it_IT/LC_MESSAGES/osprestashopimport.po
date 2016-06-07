@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:50+0100\n"
+"PO-Revision-Date: 2016-05-30 13:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-mandatpostal\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mandatpostal.module.php:48 mandatpostal.module.php:49
+msgid "Payer par Mandat Postal International"
+msgstr "Pagare con Vaglia Postale"
+
+#: mandatpostal.module.php:56
+msgid "Payer par virement bancaire"
+msgstr "Pagare con bonifico bancario"
+
+#: mandatpostal.module.php:56
+msgid "Vous avez choisi de régler votre commande par Mandat Postal International."
+msgstr "Si è scelto di pagare tramite Vaglia Postale."
+
+#: mandatpostal.module.php:58
+msgid "Veuillez trouver ci-dessous les informations nécessaires pour établir le transfert :"
+msgstr "Di seguito riportiamo le informazioni necessarie per stabilire il trasferimento:"
+
+#: mandatpostal.module.php:69
+msgid "Un email contenant ces informations vous a été envoyé."
+msgstr "Una e-mail contenente le informazioni inviate a voi."
+
+#: mandatpostal.module.php:72
+msgid "Merci de nous communiquer votre confirmation pour le"
+msgstr "Grazie per darci la conferma per"
+
+#: mandatpostal.module.php:72
+msgid "au plus tard."
+msgstr "al più tardi."
+
+#: mandatpostal.module.php:74
+msgid "Votre commande sera enregistrée dès réception de votre transfert."
+msgstr "Il vostro ordine verrà registrato al ricevimento del vostro trasferimento."
+
+#: mandatpostal.module.php:75
+msgid ""
+"Dans l’attente, notre service client se tient à votre entière disposition pour toute question ou information "
+"complémentaire."
+msgstr "Nel frattempo, il nostro servizio clienti è a vostra disposizione per qualsiasi domanda o ulteriori informazioni."
+
+#: mandatpostal.module.php:103
+msgid "Bien Enregistré"
+msgstr "Anche se Registrato"
+
+#: mandatpostal.module.php:112
+msgid "Mandat Postal"
+msgstr "Vaglia postale"
+
+#: mandatpostal.module.php:117
+msgid "Mandat Postal DETAILS"
+msgstr "Postale di denaro DETTAGLI"
+
+#: mandatpostal.module.php:122
+msgid "Propriétaire"
+msgstr "proprietario"
+
+#: mandatpostal.module.php:126
+msgid "Détails"
+msgstr "dettagli"
+
+#: mandatpostal.module.php:131
+msgid "Enregistrer"
+msgstr "record"

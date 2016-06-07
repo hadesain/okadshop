@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-27 16:02+0000\n"
+"PO-Revision-Date: 2016-05-30 12:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-contact\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact.module.php:34 contact.module.php:47
+msgid "Formulaire de Contact"
+msgstr "Formulario de contacto"
+
+#: contact.module.php:35
+msgid "Afficher les emails envyé depuis le formulaire de contact."
+msgstr "Afficher les emails envoyé depuis le formulaire de contact."
+
+#: contact.module.php:48 pages/messages.php:46
+msgid "Liste des Messages"
+msgstr "Lista de mensajes"
+
+#: contact.module.php:49 pages/contact-config.php:41
+msgid "Paramètres de Messagerie"
+msgstr "Configuración de Mensajes"
+
+#: pages/contact-config.php:47
+msgid "Signature des messages"
+msgstr "firma del mensaje"
+
+#: pages/contact-config.php:52
+msgid "Signature..."
+msgstr "Firma ..."
+
+#: pages/contact-config.php:57
+msgid "Souvegarder la signature"
+msgstr "Sauvegarder la signature"
+
+#: pages/messages.php:52
+msgid "Numéro"
+msgstr "número"
+
+#: pages/messages.php:53
+msgid "Date et heure"
+msgstr "Fecha y Hora"
+
+#: pages/messages.php:54 pages/view-message.php:218
+msgid "Expéditeur"
+msgstr "remitente"
+
+#: pages/messages.php:55 pages/view-message.php:219
+msgid "Société"
+msgstr "empresa"
+
+#: pages/messages.php:56 pages/view-message.php:220
+msgid "Numéro d’entreprise"
+msgstr "Número de negocios"
+
+#: pages/messages.php:57 pages/view-message.php:221
+msgid "E-mail"
+msgstr "E-mail"
+
+#: pages/messages.php:58 pages/view-message.php:225
+msgid "Pays"
+msgstr "país"
+
+#: pages/messages.php:59 pages/messages.php:74
+msgid "Actions"
+msgstr "valores"
+
+#: pages/messages.php:76
+msgid "Voir le message"
+msgstr "Ver Mensaje"
+
+#: pages/view-message.php:205
+msgid "Mesagerie"
+msgstr "mesagerie"
+
+#: pages/view-message.php:208
+msgid "Liste des messages"
+msgstr "Lista de mensajes"
+
+#: pages/view-message.php:222
+msgid "Adresse"
+msgstr "dirección"
+
+#: pages/view-message.php:223
+msgid "Code Postal"
+msgstr "Código postal"
+
+#: pages/view-message.php:224
+msgid "Ville"
+msgstr "ciudad"
+
+#: pages/view-message.php:226
+msgid "Addresse IP"
+msgstr "dirección IP"
+
+#: pages/view-message.php:227
+msgid "Téléphone"
+msgstr "teléfono"
+
+#: pages/view-message.php:231
+msgid "Ce client est un nouveau prospect."
+msgstr "Este cliente es una nueva perspectiva."
+
+#: pages/view-message.php:232
+msgid "Créer un compte"
+msgstr "Crear una cuenta"
+
+#: pages/view-message.php:234
+msgid "Ce client est en compte."
+msgstr "se incluye este cliente."
+
+#: pages/view-message.php:235
+msgid "Voir le profile"
+msgstr "Ver perfil"
+
+#: pages/view-message.php:248
+msgid "Objet de message"
+msgstr "objeto mensaje"
+
+#: pages/view-message.php:251
+msgid "Message..."
+msgstr "Mensaje ..."
+
+#: pages/view-message.php:258
+msgid "Envoyez"
+msgstr "enviar"
+
+#: pages/view-message.php:291 pages/view-message.php:363
+msgid "Ajouter un Dossier"
+msgstr "Añadir una carpeta"
+
+#: pages/view-message.php:308
+msgid "Sans sujet"
+msgstr "no hay temas"
+
+#: pages/view-message.php:308
+msgid "N°"
+msgstr "No."
+
+#: pages/view-message.php:316
+msgid "Déplacer"
+msgstr "movimiento"
+
+#: pages/view-message.php:323
+msgid "Répondre"
+msgstr "respuesta"
+
+#: pages/view-message.php:324
+msgid "Transférer"
+msgstr "transferencia"
+
+#: pages/view-message.php:325
+msgid "Supprimer"
+msgstr "eliminar"
+
+#: pages/view-message.php:326
+msgid "Spam"
+msgstr "correo no deseado"
+
+#: pages/view-message.php:329
+msgid "Le client ne l'a pas encore lu"
+msgstr "El cliente no ha leído todavía"
+
+#: pages/view-message.php:342
+msgid "Pas de messages dans ce dossier !"
+msgstr "No hay mensajes en esta carpeta!"
+
+#: pages/view-message.php:348
+msgid "Supprimer ce Dossier"
+msgstr "Eliminar esta carpeta"
+
+#: pages/view-message.php:367
+msgid "Nom de dossier"
+msgstr "nombre de la carpeta"
+
+#: pages/view-message.php:375
+msgid "Souvegarder"
+msgstr "Souvegarder"
+
+#: pages/view-message.php:390
+msgid ""
+"Cette action supprime définitivement le dossier et ces messages de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Esta acción elimina permanentemente la carpeta y los mensajes de la base dada. ¿Estás realmente seguro?"
+
+#: pages/view-message.php:399
+msgid "Le dossier a été supprimer."
+msgstr "se eliminó el archivo."
+
+#: pages/view-message.php:439
+msgid "Le message a été supprimer."
+msgstr "Se ha eliminado el mensaje."

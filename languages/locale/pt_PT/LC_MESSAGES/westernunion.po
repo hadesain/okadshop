@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:58+0100\n"
+"PO-Revision-Date: 2016-05-30 12:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/westernunion\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: westernunion.module.php:50
+msgid "Payer par"
+msgstr "pagar por"
+
+#: westernunion.module.php:57
+msgid "Vous avez choisi de régler votre commande par"
+msgstr "Você escolheu a pagar pela"
+
+#: westernunion.module.php:59
+msgid "Veuillez trouver ci-dessous les informations nécessaires pour établir le transfert"
+msgstr "Veja abaixo as informações necessárias para estabelecer a transferência"
+
+#: westernunion.module.php:70
+msgid "Un email contenant ces informations vous a été envoyé"
+msgstr "Um e-mail contendo estas informações enviadas para você"
+
+#: westernunion.module.php:73
+msgid "Merci de nous communiquer votre confirmation pour le"
+msgstr "Obrigado a dar-nos a sua confirmação para"
+
+#: westernunion.module.php:73
+msgid "au plus tard"
+msgstr "o mais tardar"
+
+#: westernunion.module.php:75
+msgid "Votre commande sera enregistrée dès réception de votre transfert"
+msgstr "Seu pedido será registrado após o recebimento da sua transferência"
+
+#: westernunion.module.php:76
+msgid ""
+"Dans l’attente, notre service client se tient à votre entière disposition pour toute question ou information "
+"complémentaire"
+msgstr "Enquanto isso, nosso serviço ao cliente está à sua disposição para quaisquer dúvidas ou informações adicionais"
+
+#: westernunion.module.php:102
+msgid "Bien Enregistré"
+msgstr "embora registrado"
+
+#: westernunion.module.php:116
+msgid "DETAILS"
+msgstr "DETALHES"
+
+#: westernunion.module.php:121
+msgid "Propriétaire"
+msgstr "proprietário"
+
+#: westernunion.module.php:125
+msgid "Détails"
+msgstr "detalhes"
+
+#: westernunion.module.php:130
+msgid "Enregistrer"
+msgstr "gravar"

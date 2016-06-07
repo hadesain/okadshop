@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:27+0100\n"
+"PO-Revision-Date: 2016-05-30 13:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../modules/os-lang\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax/product.php:20
+msgid "Veuillez sélectionner le produit et la langue"
+msgstr "Si prega di selezionare il prodotto e la lingua"
+
+#: ajax/product.php:31 ajax/product.php:80
+msgid "La Traduction a été mise a jour."
+msgstr "La traduzione è stata aggiornata."
+
+#: ajax/product.php:41 ajax/product.php:89
+msgid "La Traduction a été bien ajouté."
+msgstr "La traduzione è stato ben detto."
+
+#: ajax/product.php:70
+msgid "Veuillez sélectionner la categorie et la langue"
+msgstr "Si prega di selezionare la categoria e la lingua"
+
+#: oslang.module.php:46 pages/oslang_product_translate.php:15
+#: pages/oslang_settings.php:25
+msgid "Traduire une produit"
+msgstr "tradurre prodotto"
+
+#: oslang.module.php:47 pages/oslang_categories_translate.php:15
+#: pages/oslang_settings.php:29
+msgid "Traduire une categorie"
+msgstr "Tradurre una categoria"
+
+#: oslang.module.php:48 pages/oslang_cms_translate.php:15
+msgid "Traduire une Page"
+msgstr "Tradurre una pagina"
+
+#: pages/oslang_categories_translate.php:19
+msgid "Liste des categories"
+msgstr "lista delle categorie"
+
+#: pages/oslang_categories_translate.php:27
+msgid "Ajouter la traduction d'une categorie"
+msgstr "Aggiungere traduzione di una categoria"
+
+#: pages/oslang_categories_translate.php:30
+msgid "Nom Original du categorie"
+msgstr "Nome originale della categoria"
+
+#: pages/oslang_categories_translate.php:33
+msgid "Sélectionnez une categorie"
+msgstr "Seleziona una categoria"
+
+#: pages/oslang_categories_translate.php:43 pages/oslang_cms_translate.php:43
+#: pages/oslang_product_translate.php:43
+msgid "Langue"
+msgstr "Lingua"
+
+#: pages/oslang_categories_translate.php:46 pages/oslang_cms_translate.php:46
+#: pages/oslang_product_translate.php:46
+msgid "Sélectionnez une Langue"
+msgstr "Scegliere la lingua"
+
+#: pages/oslang_categories_translate.php:57 pages/oslang_cms_translate.php:57
+#: pages/oslang_product_translate.php:57
+msgid "Nom"
+msgstr "Io o coordinatore?"
+
+#: pages/oslang_categories_translate.php:63 pages/oslang_cms_translate.php:63
+#: pages/oslang_product_translate.php:69
+msgid "Description"
+msgstr "Descrizione."
+
+#: pages/oslang_categories_translate.php:70 pages/oslang_cms_translate.php:76
+#: pages/oslang_product_translate.php:76
+msgid "Annuler"
+msgstr "Cancella"
+
+#: pages/oslang_categories_translate.php:72 pages/oslang_cms_translate.php:78
+#: pages/oslang_product_translate.php:78
+msgid "Sauvegarder"
+msgstr "salvare"
+
+#: pages/oslang_cms_translate.php:19
+msgid "Liste des Page"
+msgstr "lista Pagina"
+
+#: pages/oslang_cms_translate.php:27
+msgid "Ajouter la traduction d'une Page"
+msgstr "Aggiungere la definizione di pagina"
+
+#: pages/oslang_cms_translate.php:30
+msgid "Nom Original du Page"
+msgstr "Nome originale di Pagina"
+
+#: pages/oslang_cms_translate.php:33
+msgid "Sélectionnez une Page"
+msgstr "Seleziona Pagina"
+
+#: pages/oslang_cms_translate.php:69
+msgid "content"
+msgstr "contenuto"
+
+#: pages/oslang_product_translate.php:19
+msgid "Liste des produit"
+msgstr "Elenco di Prodotto"
+
+#: pages/oslang_product_translate.php:27
+msgid "Ajouter la traduction d'un produit"
+msgstr "Aggiungere la definizione di un prodotto"
+
+#: pages/oslang_product_translate.php:30
+msgid "Nom Original du produit"
+msgstr "Nome del prodotto originale"
+
+#: pages/oslang_product_translate.php:33
+msgid "Sélectionnez un produit"
+msgstr "Selezionare un prodotto"
+
+#: pages/oslang_product_translate.php:63
+msgid "Résumé"
+msgstr "Sommario"
+
+#: pages/oslang_settings.php:13
+msgid "Page configuration"
+msgstr "pagina di configurazione"

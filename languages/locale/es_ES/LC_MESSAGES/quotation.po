@@ -1,0 +1,898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop Quotations\n"
+"POT-Creation-Date: 2016-05-30 12:42+0000\n"
+"PO-Revision-Date: 2016-05-30 12:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-quotations\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax/based-product.php:10 pages/quote.php:504
+msgid "Sélectionnez une attribut"
+msgstr "Seleccione un atributo"
+
+#: ajax/delete-quote.php:40
+msgid "Quotation was deleted."
+msgstr "La cita ha sido eliminada."
+
+#: ajax/email/state.php:49
+msgid "Email de changements de statuts a été envoyé au Client."
+msgstr "el cambio de correo electrónico de estado se envía al cliente."
+
+#: ajax/form/carrier.php:62
+msgid "Le transporteur été souvegarder avec success."
+msgstr "El portador fue souvegarder con éxito."
+
+#: ajax/form/carrier.php:65
+msgid "Le transporteur été mise a jour."
+msgstr "El portador se ha actualizado."
+
+#: ajax/form/config.php:64
+msgid "La configuration a été mise a jour."
+msgstr "La configuración se ha actualizado."
+
+#: ajax/form/informations.php:47
+msgid "Les informations de vente ont été mise a jour."
+msgstr "La información de ventas se ha actualizado."
+
+#: ajax/form/messages.php:102
+msgid "Supprimer ce message"
+msgstr "Eliminar este mensaje"
+
+#: ajax/form/messages.php:110
+msgid "Le message a été envoyer sur le compte client."
+msgstr "El mensaje fue enviado a la cuenta del cliente."
+
+#: ajax/form/messages.php:116
+msgid "Le message a été envoyer par mail et sur le compte."
+msgstr "El mensaje fue enviado por correo electrónico y en la cuenta."
+
+#: ajax/form/product.php:127
+msgid "Le produit a été insérer dans le catalogue des produit et dans les details de devis."
+msgstr "El producto se insertó en el catálogo de productos y las especificaciones de detalles."
+
+#: ajax/form/product.php:143
+msgid "Le produit a été ajouter les details de devis."
+msgstr "El producto era poner las especificaciones de detalles."
+
+#: ajax/form/product.php:158
+msgid "Le produit a été mise a jour."
+msgstr "El producto se ha actualizado."
+
+#: ajax/form/promos.php:53
+msgid "Les promotions ont été mise a jour."
+msgstr "Las promociones se han actualizado."
+
+#: ajax/form/terms.php:53
+msgid "Les conditions de vente ont été mise a jour."
+msgstr "Los términos de la venta se han actualizado."
+
+#: ajax/remove/message.php:36
+msgid "le message a été supprimer avec success."
+msgstr "el mensaje ha sido eliminado con éxito."
+
+#: ajax/remove/product.php:10
+msgid "le produit a été supprimer avec success."
+msgstr "el producto ha sido eliminado con éxito."
+
+#: ajax/remove/state.php:34
+msgid "quotation_status"
+msgstr "quotation_status"
+
+#: ajax/remove/state.php:36
+msgid "le statut a été supprimer avec success."
+msgstr "de estado ha sido eliminado con éxito."
+
+#: ajax/update/quantity.php:35
+msgid "La quantité a été mise a jour."
+msgstr "Cantidad se ha actualizado."
+
+#: ajax/update/refresh.php:107 pages/quote.php:241
+msgid "Total produits HT"
+msgstr "Total productos HT"
+
+#: ajax/update/refresh.php:112 pages/quote.php:246 pages/quote.php:688
+msgid "Remise globale"
+msgstr "descuento global"
+
+#: ajax/update/refresh.php:119 pages/quote.php:252 pages/quote.php:702
+msgid "Bon de réduction"
+msgstr "Bono de descuento"
+
+#: ajax/update/refresh.php:126 pages/quote.php:258 pages/quote.php:726
+msgid "Avoir"
+msgstr "tener"
+
+#: ajax/update/refresh.php:133 pages/quote.php:264
+msgid "Code promo"
+msgstr "código promocional"
+
+#: ajax/update/refresh.php:139 pages/quote.php:269 pages/quote.php:803
+msgid "Frais de transport"
+msgstr "Tarifas de transporte"
+
+#: ajax/update/refresh.php:143 pages/quote.php:273
+msgid "TOTAL HT"
+msgstr "Total HT"
+
+#: ajax/update/refresh.php:147
+msgid "Acompte"
+msgstr "pago inicial"
+
+#: ajax/update/refresh.php:151
+msgid "Solde"
+msgstr "equilibrio"
+
+#: ajax/update/refresh.php:155 pages/quote.php:285
+msgid "Poids total"
+msgstr "Peso total"
+
+#: ajax/update/states.php:37
+msgid "Le statut a été ajouter avec success."
+msgstr "El estado se ha añadido con éxito."
+
+#: ajax/update/states.php:42
+msgid "Le statut a été mise a jour."
+msgstr "El estado se ha actualizado."
+
+#: pages/quotations.php:11 quotations.module.php:47
+msgid "Liste des Devis"
+msgstr "Lista de Trabajo"
+
+#: pages/quotations.php:14 pages/quote.php:108
+msgid "Créer un devis"
+msgstr "crear Cita"
+
+#: pages/quotations.php:20
+msgid "Numéro de devis"
+msgstr "número de cotización"
+
+#: pages/quotations.php:21
+msgid "Date"
+msgstr "fecha"
+
+#: pages/quotations.php:22 pages/quote.php:402
+msgid "Client"
+msgstr "cliente"
+
+#: pages/quotations.php:23 pages/quote.php:779
+msgid "Pays"
+msgstr "país"
+
+#: pages/quotations.php:24 pages/quote.php:309 pages/quote.php:442
+msgid "Statut du client"
+msgstr "estado de los clientes"
+
+#: pages/quotations.php:25
+msgid "Méthode de paiement"
+msgstr "Método de pago"
+
+#: pages/quotations.php:26 pages/quote.php:360
+msgid "Statut du devis"
+msgstr "cotizaciones de estado"
+
+#: pages/quotations.php:27 pages/quote-abandoned.php:105 pages/quote-states.php:27 pages/quote.php:180
+msgid "Actions"
+msgstr "valores"
+
+#: pages/quotations.php:35
+msgid "Devis en étude"
+msgstr "las estimaciones del estudio"
+
+#: pages/quotations.php:40
+msgid "En attente du règlement"
+msgstr "Reglamento de espera"
+
+#: pages/quotations.php:43
+msgid "Commande enregistrée"
+msgstr "orden registrada"
+
+#: pages/quotations.php:48
+msgid "Devis annulé"
+msgstr "cita cancelada"
+
+#: pages/quotations.php:51
+msgid "Devis expiré"
+msgstr "cotización caducado"
+
+#: pages/quotations.php:77 pages/quote.php:114
+msgid "Télécharger en PDF"
+msgstr "Descargar PDF"
+
+#: pages/quotations.php:79
+msgid "Dupliquer ce devis"
+msgstr "Duplicar esta cita"
+
+#: pages/quotations.php:80
+msgid "Supprimer ce devis"
+msgstr "Retire esta cita"
+
+#: pages/quotations.php:115
+msgid "Le Devis a été Dupliquer avec success."
+msgstr "La estimación fue duplicado con éxito."
+
+#: pages/quotations.php:125
+msgid "Cette action supprime définitivement ce devis de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Esta acción elimina permanentemente el presupuesto de la base dada. ¿Estás realmente seguro?"
+
+#: pages/quotations.php:135
+msgid "Le Devis a été supprimer avec success."
+msgstr "La cita se ha eliminado con éxito."
+
+#: pages/quote-abandoned.php:40
+msgid "Une email a été envoyé au Client."
+msgstr "Un correo electrónico ha sido enviado al Cliente."
+
+#: pages/quote-abandoned.php:42
+msgid "Une erreur est survenu lors de l'envoie de l'email."
+msgstr "Se ha producido un error al enviar correo electrónico."
+
+#: pages/quote-abandoned.php:68 quotations.module.php:49
+msgid "Devis abandonnés"
+msgstr "cotización abandonada"
+
+#: pages/quote-abandoned.php:74
+msgid "Une erreur est survenue !"
+msgstr "Se ha producido un error!"
+
+#: pages/quote-abandoned.php:83
+msgid "Opération Effectué !"
+msgstr "Trato hecho!"
+
+#: pages/quote-abandoned.php:96
+msgid "ID"
+msgstr "identificación"
+
+#: pages/quote-abandoned.php:97
+msgid "Réference"
+msgstr "referencia"
+
+#: pages/quote-abandoned.php:98
+msgid "Status actuel"
+msgstr "Estado actual"
+
+#: pages/quote-abandoned.php:99
+msgid "Method de payment"
+msgstr "Forma de pago"
+
+#: pages/quote-abandoned.php:100 pages/quote.php:588 pages/quote.php:667
+msgid "Points de fidélité"
+msgstr "fidelidad"
+
+#: pages/quote-abandoned.php:101
+msgid "Nom de Client"
+msgstr "Nombre del Cliente"
+
+#: pages/quote-abandoned.php:102
+msgid "Prénom"
+msgstr "primer nombre"
+
+#: pages/quote-abandoned.php:103
+msgid "Email"
+msgstr "e-mail"
+
+#: pages/quote-abandoned.php:104
+msgid "Email Envoyés"
+msgstr "El correo electrónico enviado"
+
+#: pages/quote-abandoned.php:122
+msgid "Renvoyer l'email"
+msgstr "Vuelva a enviar el correo electrónico"
+
+#: pages/quote-states.php:9 quotations.module.php:51
+msgid "Statuts de devis"
+msgstr "Cita los artículos"
+
+#: pages/quote-states.php:16
+msgid "Statuts de Desvis"
+msgstr "estatutos Desvis"
+
+#: pages/quote-states.php:17
+msgid "Ajouter une statut"
+msgstr "Añadir estatus"
+
+#: pages/quote-states.php:24 pages/quote.php:1058
+msgid "N°"
+msgstr "No."
+
+#: pages/quote-states.php:25
+msgid "Permalien de statut"
+msgstr "estado de enlace permanente"
+
+#: pages/quote-states.php:26
+msgid "Nom de Statut"
+msgstr "nombre Estado"
+
+#: pages/quote-states.php:56
+msgid "Ajouter une Statut"
+msgstr "Añadir un Estado"
+
+#: pages/quote-states.php:61
+msgid "Label de statut"
+msgstr "estado de la etiqueta"
+
+#: pages/quote-states.php:65
+msgid "Nom de statut"
+msgstr "estado del nombre"
+
+#: pages/quote-states.php:70
+msgid "Enregistrer et Fermer"
+msgstr "Guardar y cerrar"
+
+#: pages/quote-states.php:102
+msgid "Veuillez remplir tous les champs SVP!"
+msgstr "Por favor, complete todos los campos por favor!"
+
+#: pages/quote-states.php:122
+msgid "Cette action supprime définitivement le statut de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Esta acción elimina permanentemente el estado de la base dada. ¿Estás realmente seguro?"
+
+#: pages/quote.php:108
+msgid "Modifier le devis"
+msgstr "Editar la cita"
+
+#: pages/quote.php:112
+msgid "Liste des devis"
+msgstr "Lista de citas"
+
+#: pages/quote.php:137
+msgid "Tableau (Résumé)"
+msgstr "Tabla (Resumen)"
+
+#: pages/quote.php:138 pages/quote.php:340
+msgid "Configuration"
+msgstr "configuración"
+
+#: pages/quote.php:139 pages/quote.php:480
+msgid "Ajouter un produit"
+msgstr "Añadir Producto"
+
+#: pages/quote.php:140 pages/quote.php:652
+msgid "Promotions"
+msgstr "promociones"
+
+#: pages/quote.php:141 pages/quote.php:764
+msgid "Transport"
+msgstr "transporte"
+
+#: pages/quote.php:142 pages/quote.php:894 pages/settings.php:99
+msgid "Conditions de vente"
+msgstr "Condiciones de venta"
+
+#: pages/quote.php:143 pages/quote.php:866 pages/quote.php:952 pages/quote.php:979
+msgid "Informations complémentaires"
+msgstr "Informaciones complementarias"
+
+#: pages/quote.php:144 pages/quote.php:1014
+msgid "Statut et messages"
+msgstr "Y mensajes de estado"
+
+#: pages/quote.php:160
+msgid "Commande deja enrigestrer."
+msgstr "Enrigestrer ya controlan."
+
+#: pages/quote.php:161
+msgid "Voir la commande"
+msgstr "Ver pedido"
+
+#: pages/quote.php:168
+msgid "Tableau des Produits"
+msgstr "Productos gráfico"
+
+#: pages/quote.php:173
+msgid "Produit"
+msgstr "producto"
+
+#: pages/quote.php:174 pages/quote.php:516
+msgid "Référence"
+msgstr "referencia"
+
+#: pages/quote.php:175
+msgid "Description"
+msgstr "descripción"
+
+#: pages/quote.php:176
+msgid "Prix unitaire"
+msgstr "Precio unitario"
+
+#: pages/quote.php:177
+msgid "Qté"
+msgstr "Cantidad"
+
+#: pages/quote.php:178
+msgid "Prix total"
+msgstr "Precio total"
+
+#: pages/quote.php:179
+msgid "Disponibilité"
+msgstr "disponibilidad"
+
+#: pages/quote.php:203
+msgid "Colisage :"
+msgstr "embalaje:"
+
+#: pages/quote.php:203
+msgid "unités"
+msgstr "unidades"
+
+#: pages/quote.php:204
+msgid "Poids (kg) :"
+msgstr "Peso (kg):"
+
+#: pages/quote.php:222
+msgid "Mettre à jour"
+msgstr "Poner al día"
+
+#: pages/quote.php:225
+msgid "Supprimer ce produit"
+msgstr "Eliminar este artículo"
+
+#: pages/quote.php:294
+msgid "CLIENT"
+msgstr "CLIENTE"
+
+#: pages/quote.php:297
+msgid "Nom / Prénom"
+msgstr "Apellido nombre"
+
+#: pages/quote.php:301 pages/quote.php:418
+msgid "Société"
+msgstr "empresa"
+
+#: pages/quote.php:305 pages/quote.php:436
+msgid "Adresse de livraison"
+msgstr "Dirección de entrega"
+
+#: pages/quote.php:322 pages/quote.php:466 pages/quote.php:631 pages/quote.php:742 pages/quote.php:873 pages/quote.php:959 pages/quote.php:990 pages/quote.php:1091
+#: pages/settings.php:107
+msgid "Annuler"
+msgstr "cancelar"
+
+#: pages/quote.php:323 pages/quote.php:469 pages/quote.php:634 pages/quote.php:745 pages/quote.php:876 pages/quote.php:962 pages/quote.php:993
+msgid "Suivant"
+msgstr "siguiente"
+
+#: pages/quote.php:329 pages/quote.php:641 pages/quote.php:752 pages/quote.php:883 pages/quote.php:969 pages/quote.php:1000 pages/quote.php:1098
+msgid "Il y a 1 avertissement."
+msgstr "Hay 1 advertencia."
+
+#: pages/quote.php:330
+msgid "Vous devez enregistrer ce devis avant de consulter les produits."
+msgstr "Debe guardar esta cita antes de productos de consultoría."
+
+#: pages/quote.php:343
+msgid "N° de devis"
+msgstr "No se cita"
+
+#: pages/quote.php:371
+msgid "Valider"
+msgstr "validar"
+
+#: pages/quote.php:378
+msgid "Valider la Commande"
+msgstr "Enviar pedido"
+
+#: pages/quote.php:385
+msgid "Envoi d'un mail au client à propos de ce statut."
+msgstr "El envío de correo al cliente sobre el estado."
+
+#: pages/quote.php:387
+msgid "Si activé, une alert sera envoyé au client sur le statut du devis sélectionné; utile pour informer celui-ci sur les changements de statuts de son devis."
+msgstr "Si está habilitado, una alerta se envía al cliente sobre el estado de las citas seleccionadas; útil que le informe acerca de los cambios en el estado de su estimación."
+
+#: pages/quote.php:391
+msgid "Nom du devis"
+msgstr "Cita Nombre"
+
+#: pages/quote.php:396 pages/quote.php:521
+msgid "Générer"
+msgstr "generar"
+
+#: pages/quote.php:424
+msgid "N° de"
+msgstr "No."
+
+#: pages/quote.php:430
+msgid "Adresse de facturation"
+msgstr "Dirección de facturación"
+
+#: pages/quote.php:447
+msgid "Consulter"
+msgstr "consultar"
+
+#: pages/quote.php:453
+msgid "Lier à cet employé"
+msgstr "Enlace a este empleado"
+
+#: pages/quote.php:468 pages/quote.php:633 pages/quote.php:744 pages/quote.php:875 pages/quote.php:961 pages/quote.php:992 pages/settings.php:108
+msgid "Sauvegarder et rester"
+msgstr "Guardar y mantenerse"
+
+#: pages/quote.php:488 pages/quote.php:532
+msgid "Nom du produit"
+msgstr "nombre del producto"
+
+#: pages/quote.php:491
+msgid "Sélectionnez un produit"
+msgstr "Seleccione un producto"
+
+#: pages/quote.php:501
+msgid "Attributs"
+msgstr "atributos"
+
+#: pages/quote.php:511
+msgid "Charger les informations de ce produit"
+msgstr "información de carga para este producto"
+
+#: pages/quote.php:512
+msgid "Réinialiser"
+msgstr "Réinialiser"
+
+#: pages/quote.php:538
+msgid "Image du produit"
+msgstr "imagen del producto"
+
+#: pages/quote.php:545
+msgid "Colisage"
+msgstr "embalaje"
+
+#: pages/quote.php:551
+msgid "Quantité minimale"
+msgstr "cantidad mínima"
+
+#: pages/quote.php:557
+msgid "Quantité commandée"
+msgstr "cantidad de la orden"
+
+#: pages/quote.php:563
+msgid "Quantité disponible en stock"
+msgstr "Cantidad en stock"
+
+#: pages/quote.php:569
+msgid "Prix de vente de base"
+msgstr "Fundamentales Precio Venta"
+
+#: pages/quote.php:575
+msgid "Prix de vente remisé"
+msgstr "Precio de venta con descuento:"
+
+#: pages/quote.php:582
+msgid "Prix d’achat unitaire"
+msgstr "precio de compra por unidad"
+
+#: pages/quote.php:594
+msgid "Poids"
+msgstr "peso"
+
+#: pages/quote.php:598
+msgid "KG"
+msgstr "KG"
+
+#: pages/quote.php:603
+msgid "Hauteur"
+msgstr "altura"
+
+#: pages/quote.php:607 pages/quote.php:616
+msgid "CM"
+msgstr "CM"
+
+#: pages/quote.php:612
+msgid "Largeur"
+msgstr "ancho"
+
+#: pages/quote.php:621
+msgid "Profondeur"
+msgstr "profundidad"
+
+#: pages/quote.php:625
+msgid "m"
+msgstr "m"
+
+#: pages/quote.php:642
+msgid "Vous devez enregistrer ce devis avant d'ajouter des produits."
+msgstr "Debe guardar esta cita antes de añadir los productos."
+
+#: pages/quote.php:655
+msgid "Total achats"
+msgstr "compras totales"
+
+#: pages/quote.php:661
+msgid "Marge bénéficiaire estimée"
+msgstr "Margen estimado"
+
+#: pages/quote.php:673
+msgid "Activer"
+msgstr "activar"
+
+#: pages/quote.php:674
+msgid "Désactiver"
+msgstr "desactivar"
+
+#: pages/quote.php:681
+msgid "1 points"
+msgstr "1 punto"
+
+#: pages/quote.php:705
+msgid "Sélectionnez un code"
+msgstr "Seleccionar un código"
+
+#: pages/quote.php:735
+msgid "Total économisé"
+msgstr "total ahorrado"
+
+#: pages/quote.php:753
+msgid "Vous devez enregistrer ce devis avant d'ajouter des promostions."
+msgstr "Debe guardar esta cita antes de añadir promostions."
+
+#: pages/quote.php:767
+msgid "Formule"
+msgstr "fórmula"
+
+#: pages/quote.php:773
+msgid "Poids total hors emballage"
+msgstr "Peso total sin embalaje"
+
+#: pages/quote.php:785
+msgid "Transporteur"
+msgstr "portador"
+
+#: pages/quote.php:788
+msgid "Sélectionnez un Transport"
+msgstr "Seleccionar un Transporte"
+
+#: pages/quote.php:797
+msgid "Nom de Transporteur"
+msgstr "Nombre de la compañía"
+
+#: pages/quote.php:809
+msgid "Délai de livraison"
+msgstr "entrega"
+
+#: pages/quote.php:812 pages/quote.php:833
+msgid "Entre"
+msgstr "entre"
+
+#: pages/quote.php:818 pages/quote.php:839
+msgid "Et"
+msgstr "y"
+
+#: pages/quote.php:824 pages/quote.php:845
+msgid "Jours"
+msgstr "días"
+
+#: pages/quote.php:825 pages/quote.php:846
+msgid "Semaines"
+msgstr "semanas"
+
+#: pages/quote.php:830
+msgid "Délai de préparation"
+msgstr "tiempo de preparación"
+
+#: pages/quote.php:851
+msgid "Poids total estimé emballage compris"
+msgstr "El peso total estimado incluyendo el empaquetado"
+
+#: pages/quote.php:855
+msgid "Kg"
+msgstr "kg"
+
+#: pages/quote.php:860
+msgid "Nombre de colis estimé"
+msgstr "Estimación del número de parcelas"
+
+#: pages/quote.php:884
+msgid "Vous devez enregistrer ce devis avant de modifier le transporteur."
+msgstr "Debe guardar esta cita antes de cambiar el portador."
+
+#: pages/quote.php:897
+msgid "Montant total du devis"
+msgstr "estimación total"
+
+#: pages/quote.php:903
+msgid "Mode de règlement acceptés"
+msgstr "Moda Solución amistosa"
+
+#: pages/quote.php:915
+msgid "Modalités de règlement"
+msgstr "Las condiciones del acuerdo"
+
+#: pages/quote.php:925
+msgid "Devis fait le"
+msgstr "Cita hecho"
+
+#: pages/quote.php:934
+msgid "Devis valable jusqu’au"
+msgstr "Cita válido hasta"
+
+#: pages/quote.php:943
+msgid "Ce devis peut être commandé"
+msgstr "Esta estimación se puede controlar"
+
+#: pages/quote.php:947
+msgid "fois"
+msgstr "tiempo"
+
+#: pages/quote.php:970
+msgid "Vous devez enregistrer ce devis avant de modifier les conditions de vente."
+msgstr "Debe guardar esta cita ante las condiciones cambiantes."
+
+#: pages/quote.php:983
+msgid "Informations"
+msgstr "información"
+
+#: pages/quote.php:1001
+msgid "Vous devez enregistrer ce devis avant de modifier les informations complémentaires."
+msgstr "Debe guardar esta cita antes de cambiar la información adicional."
+
+#: pages/quote.php:1017
+msgid "E-mail(s) de(s) destinataire(s)"
+msgstr "E-mail (s) (s) destinatario (s)"
+
+#: pages/quote.php:1020
+msgid "Séparer les mail avec la virgule ou cliquer sur entrer pour ajouter une autre."
+msgstr "correo electrónico por separado por comas o haga clic en Enter para agregar otro."
+
+#: pages/quote.php:1024
+msgid "Sujet"
+msgstr "sujeto"
+
+#: pages/quote.php:1030
+msgid "Message personnalisé"
+msgstr "Mensaje personalizado"
+
+#: pages/quote.php:1036
+msgid "Joindre un fichier"
+msgstr "adjuntar archivo"
+
+#: pages/quote.php:1044
+msgid "Envoyer par mail"
+msgstr "Enviar por correo electrónico"
+
+#: pages/quote.php:1045
+msgid "Envoyer sur le compte client"
+msgstr "Enviar la cuenta del cliente"
+
+#: pages/quote.php:1046
+msgid "Envoyer par mail et sur le compte"
+msgstr "Enviar correo y la cuenta"
+
+#: pages/quote.php:1052
+msgid "Message entre l’administrateur et le client"
+msgstr "Mensaje entre el administrador y el cliente"
+
+#: pages/quote.php:1059
+msgid "Objet"
+msgstr "objeto"
+
+#: pages/quote.php:1060
+msgid "Destinataire(s)"
+msgstr "Destinatario (s)"
+
+#: pages/quote.php:1061
+msgid "Message"
+msgstr "mensaje"
+
+#: pages/quote.php:1062
+msgid "Fichier"
+msgstr "expediente"
+
+#: pages/quote.php:1063
+msgid "Action"
+msgstr "acción"
+
+#: pages/quote.php:1099
+msgid "Vous devez enregistrer ce devis avant d'envoyer des messages."
+msgstr "Debe guardar esta cita antes de enviar mensajes."
+
+#: pages/quote.php:1117
+msgid "Fermer"
+msgstr "cerca"
+
+#: pages/quote.php:1153
+msgid "En cours de Génération de la Commande."
+msgstr "Durante la generación de la Orden."
+
+#: pages/quote.php:1187
+msgid "Sélectionnez une attribut."
+msgstr "Seleccione un atributo."
+
+#: pages/quote.php:1224
+msgid "Cette action supprime définitivement le produit de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Esta acción elimina permanentemente el producto de la base dada. ¿Estás realmente seguro?"
+
+#: pages/quote.php:1235
+msgid "Le produit a été supprimer avec success."
+msgstr "El producto ha sido eliminado con éxito."
+
+#: pages/quote.php:1257
+msgid "Vous êtes en mode d'edition de produit."
+msgstr "Estás edición del producto de usuario."
+
+#: pages/quote.php:1267
+msgid "Produit chargé avec success."
+msgstr "Producto cargado con éxito."
+
+#: pages/quote.php:1271
+msgid "Veuillez sélectionnez un produit."
+msgstr "Por favor seleccione un producto."
+
+#: pages/quote.php:1382
+msgid "Cette action supprime définitivement le message de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Esta acción elimina el mensaje de la base dada. ¿Estás realmente seguro?"
+
+#: pages/quote.php:1406
+msgid "Les e-mail(s) de(s) destinataire(s) sont obligatoire."
+msgstr "E-mail (s) (s) destinatario (s) son obligatorios."
+
+#: pages/quote.php:1408
+msgid "Le contenu de message est obligatoire."
+msgstr "El contenido del mensaje es obligatorio."
+
+#: pages/quote.php:1498
+msgid "Vous devez cocher l'option d'envoi d'email."
+msgstr "Debe marcar la opción Enviar correo electrónico."
+
+#: pages/quote.php:1506
+msgid "Le champs [Société] doit être remplis."
+msgstr "El campo [de la empresa] debe ser llenado."
+
+#: pages/quote.php:1574
+msgid "Le produit a été changé avec success."
+msgstr "El producto fue cambiada con éxito."
+
+#: pages/quote.php:1588
+msgid "Les champs ont été Réinialisé avec success."
+msgstr "Los campos estaban Réinialisé con éxito."
+
+#: pages/settings.php:36
+msgid "Les paramètres ont été mise à jour."
+msgstr "La configuración se ha actualizado."
+
+#: pages/settings.php:41
+msgid "Les paramètres ont été sauvegarder avec success."
+msgstr "La configuración se ha guardado con éxito."
+
+#: pages/settings.php:78
+msgid "Parametres de devis"
+msgstr "parámetros de cotización"
+
+#: pages/settings.php:82
+msgid "Pied de page"
+msgstr "Pie de página"
+
+#: pages/settings.php:84
+msgid "Saisissez vos informations..."
+msgstr "Introduzca su información ..."
+
+#: pages/settings.php:88
+msgid "Logo en tête et de pied de page"
+msgstr "Logotipo en la cabeza y pie de página"
+
+#: quotations.module.php:33
+msgid "Devis sur mesure"
+msgstr "presupuesto personalizado"
+
+#: quotations.module.php:34
+msgid "Créer des Devis sur mesure."
+msgstr "Crear oferta personalizada."
+
+#: quotations.module.php:46
+msgid "Gestion des Devis"
+msgstr "Administración de Cotizaciones"
+
+#: quotations.module.php:48
+msgid "Ajouter un Devis"
+msgstr "Añadir un Presupuesto"
+
+#: quotations.module.php:50
+msgid "Paramètres de devis"
+msgstr "parámetros de cotización"

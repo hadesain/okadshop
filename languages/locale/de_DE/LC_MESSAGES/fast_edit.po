@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-27 16:41+0000\n"
+"PO-Revision-Date: 2016-05-30 13:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-fast-product-edit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: pages/new-product.php:16 pages/new-product.php:22
+msgid "Produits Nouveaux"
+msgstr "Neue Produkte"
+
+#: pages/new-product.php:26
+msgid "Nombre des jours"
+msgstr "Anzahl der Tage,"
+
+#: pages/new-product.php:29
+msgid ""
+"Nombre des jours pour que le produit doit être nouveau a partir de sa date "
+"de création"
+msgstr "Anzahl der Tage für das Produkt muss neu ab dem Tag der Schöpfung"
+
+#: pages/new-product.php:35 pages/product-edit.php:117
+msgid "Annuler"
+msgstr "stornieren"
+
+#: pages/new-product.php:36
+msgid "Sauvegarder"
+msgstr "speichern"
+
+#: pages/product-edit.php:15
+msgid "Caractéristiques de produit"
+msgstr "Produkt-Eigenschaften"
+
+#: pages/product-edit.php:20
+msgid "Informations de Produit"
+msgstr "Produktinformationen"
+
+#: pages/product-edit.php:25 pages/product-edit.php:27
+msgid "Sélectionnez un produit"
+msgstr "Wählen Sie ein Produkt"
+
+#: pages/product-edit.php:36
+msgid "Quantité"
+msgstr "Menge"
+
+#: pages/product-edit.php:39
+msgid "Quantité minimal"
+msgstr "Mindestbetrag"
+
+#: pages/product-edit.php:44
+msgid "Nom de produit"
+msgstr "Produktname"
+
+#: pages/product-edit.php:47
+msgid "Référence"
+msgstr "Referenz"
+
+#: pages/product-edit.php:50
+msgid "Points de fidélité"
+msgstr "Treue"
+
+#: pages/product-edit.php:55
+msgid "Code-barres EAN-13 ou JAN"
+msgstr "EAN-13-Barcode oder im Januar"
+
+#: pages/product-edit.php:58
+msgid "Code-barres UPC"
+msgstr "UPC-Barcode"
+
+#: pages/product-edit.php:62
+msgid "Nouveau"
+msgstr "neu"
+
+#: pages/product-edit.php:63
+msgid "Utilisé"
+msgstr "im Einsatz"
+
+#: pages/product-edit.php:64
+msgid "Reconditionné"
+msgstr "Reformiert"
+
+#: pages/product-edit.php:70
+msgid "Prix de vente HT"
+msgstr "Verkaufspreis ohne Steuer"
+
+#: pages/product-edit.php:74
+msgid "Règle de taxe"
+msgstr "Regelsteuer"
+
+#: pages/product-edit.php:84
+msgid "Remise"
+msgstr "Rabatt"
+
+#: pages/product-edit.php:97
+msgid "Poids"
+msgstr "Gewicht"
+
+#: pages/product-edit.php:98
+msgid "KG"
+msgstr "KG"
+
+#: pages/product-edit.php:103
+msgid "Hauteur"
+msgstr "Höhe"
+
+#: pages/product-edit.php:104 pages/product-edit.php:110
+msgid "CM"
+msgstr "CM"
+
+#: pages/product-edit.php:109
+msgid "Largeur"
+msgstr "Breite"
+
+#: pages/product-edit.php:118
+msgid "Sauvegarder les informations"
+msgstr "Daten speichern"
+
+#: pages/product-edit.php:152
+msgid "Le produit a été chargé avec success."
+msgstr "Das Produkt wurde mit Erfolg geladen."
+
+#: pages/product-edit.php:185
+msgid "Le produit a été mise à jour avec success."
+msgstr "Das Produkt wurde mit Erfolg aktualisiert."
+
+#: product.module.php:31 product.module.php:43
+msgid "Products Fast Edit"
+msgstr "Produkte Fast Edit"
+
+#: product.module.php:32
+msgid "Module permettant la modification rapide des caractéristiques produits."
+msgstr "Modul ermöglicht eine schnelle Änderung Spezifikationen."

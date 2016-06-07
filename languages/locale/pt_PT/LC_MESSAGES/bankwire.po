@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:07+0100\n"
+"PO-Revision-Date: 2016-05-30 13:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/bankwire\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: bankwire.module.php:42
+msgid "Payer par virement bancaire"
+msgstr "Pagar por transferência bancária"
+
+#: bankwire.module.php:43
+msgid "Payer par Virement Bancaire"
+msgstr "Pagar por transferência bancária"
+
+#: bankwire.module.php:55
+msgid "Vous avez choisi de régler votre commande par virement bancaire."
+msgstr "Você optou por pagar por transferência bancária."
+
+#: bankwire.module.php:57
+msgid "Veuillez trouver ci-dessous nos coordonnées bancaires :"
+msgstr "Veja abaixo os dados bancários:"
+
+#: bankwire.module.php:59
+msgid "Banque :"
+msgstr "Banco:"
+
+#: bankwire.module.php:75
+msgid "Code banque"
+msgstr "código do banco"
+
+#: bankwire.module.php:76
+msgid "Code ville"
+msgstr "código da cidade"
+
+#: bankwire.module.php:77
+msgid "Numéro de compte"
+msgstr "número de conta"
+
+#: bankwire.module.php:78
+msgid "Clé RIB"
+msgstr "chave RIB"
+
+#: bankwire.module.php:79
+msgid "Devise"
+msgstr "moeda"
+
+#: bankwire.module.php:93
+msgid "Numéro de devis :"
+msgstr "número de citações:"
+
+#: bankwire.module.php:93
+msgid ""
+" à indiquer dans le sujet de votre virement\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t<br><b>Montant du virement  :"
+msgstr " para indicar no assunto da sua transferência \\ n \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t \\ t <br> <b> Montante da caução:"
+
+#: bankwire.module.php:97
+msgid "Frais bancaires (émission et réception):"
+msgstr "encargos bancários (transmissão e recepção):"
+
+#: bankwire.module.php:97
+msgid "A la charge du donneur d’ordre "
+msgstr "A expensas do responsável principal "
+
+#: bankwire.module.php:98
+msgid "Un email contenant ces informations vous a été envoyé. "
+msgstr "Um e-mail contendo esta informação enviado a você. "
+
+#: bankwire.module.php:106
+msgid ""
+"Important ! Les virements internationaux n’étant crédités que sous 5 à 10 jours, nous vous invitonsà nous communiquer l’ordre de transfert (swift) validé par votre banque afin de pouvoir anticiper l’enregistrement de "
+"votre commande."
+msgstr "Importante! transferências internacionais não são creditados que, em 5 a 10 dias, iremos fornecer-nos invitonsà a ordem de transferência (SWIFT) validado pelo seu banco a fim de antecipar o registro de seu pedido."
+
+#: bankwire.module.php:107
+msgid "Merci de nous communiquer votre confirmation pour le"
+msgstr "Obrigado a dar-nos a sua confirmação para"
+
+#: bankwire.module.php:107
+msgid "au plus tard."
+msgstr "o mais tardar."
+
+#: bankwire.module.php:109
+msgid "Votre commande sera enregistrée dès réception de votre confirmation."
+msgstr "Seu pedido será registrado após o recebimento de sua confirmação."
+
+#: bankwire.module.php:110
+msgid "Dans l’attente, notre service client se tient à votre entière disposition pour toute question ou information complémentaire."
+msgstr "Enquanto isso, nosso serviço ao cliente está à sua disposição para quaisquer dúvidas ou informações adicionais."
+
+#: bankwire.module.php:162
+msgid "Bien Enregistré"
+msgstr "embora registrado"
+
+#: bankwire.module.php:174
+msgid "Virement Bancaire"
+msgstr "Transferência bancária"
+
+#: bankwire.module.php:174
+msgid "Configuration"
+msgstr "configuração"
+
+#: bankwire.module.php:179
+msgid "Contact detail"
+msgstr "detalhes de contato"
+
+#: bankwire.module.php:183
+msgid "Propriétaire du compte"
+msgstr "proprietário da conta"
+
+#: bankwire.module.php:187
+msgid "details"
+msgstr "detalhes"
+
+#: bankwire.module.php:193
+msgid "Adresse de la banque"
+msgstr "Endereço do Banco"

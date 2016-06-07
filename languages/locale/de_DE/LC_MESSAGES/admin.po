@@ -1,0 +1,2462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-30 12:05+0000\n"
+"PO-Revision-Date: 2016-05-30 12:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../admin\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: includes/plugins\n"
+"X-Poedit-SearchPath-1: includes/ajax\n"
+"X-Poedit-SearchPath-2: adminbar.php\n"
+"X-Poedit-SearchPath-3: adminmenu.php\n"
+"X-Poedit-SearchPath-4: footer.php\n"
+"X-Poedit-SearchPath-5: header.php\n"
+"X-Poedit-SearchPath-6: index.php\n"
+"X-Poedit-SearchPath-7: includes/classes/modules/init.php\n"
+"X-Poedit-SearchPath-8: includes/classes/tables/tables.class.php\n"
+
+#: adminbar.php:19
+msgid "OKADSHOP CMS"
+msgstr "OKADSHOP CMS"
+
+#: adminbar.php:55 includes/plugins/general/dashboard/list.php:155
+msgid "Bonjour"
+msgstr "hallo"
+
+#: adminbar.php:58
+msgid "Mon Compte"
+msgstr "mijn account"
+
+#: adminbar.php:60
+msgid "Ma Boutique"
+msgstr "mijn Store"
+
+#: adminbar.php:61
+msgid "Voir le Profile"
+msgstr "Bekijk profiel"
+
+#: adminbar.php:62
+msgid "Déconnexion"
+msgstr "Afmelden"
+
+#: adminmenu.php:10
+msgid "En Ligne"
+msgstr "online"
+
+#: includes/ajax/c/form.php:74
+msgid "La Catégorie a été bien mise à jour."
+msgstr "Klasse was goed bijgewerkt."
+
+#: includes/ajax/c/form.php:83
+msgid "La Catégorie a été bien ajouter."
+msgstr "Klasse was goed toe te voegen."
+
+#: includes/ajax/invoices/form/carrier.php:47 includes/ajax/orders/form/carrier.php:47
+msgid "Le Transporteur a été mise à jour."
+msgstr "De Carrier is bijgewerkt."
+
+#: includes/ajax/invoices/form/product.php:56 includes/ajax/orders/form/product.php:56
+msgid "Mettre à jour"
+msgstr "bijwerken"
+
+#: includes/ajax/invoices/form/product.php:57 includes/ajax/orders/form/product.php:57
+msgid "Supprimer ce produit"
+msgstr "Verwijder dit artikel"
+
+#: includes/ajax/invoices/refresh/total.php:47 includes/ajax/orders/refresh/total.php:47 includes/plugins/orders/invoices/data.php:191 includes/plugins/orders/orders/data.php:204
+msgid "Total produits HT"
+msgstr "Totaal HT producten"
+
+#: includes/ajax/invoices/refresh/total.php:52 includes/ajax/orders/refresh/total.php:52 includes/plugins/orders/invoices/data.php:196 includes/plugins/orders/invoices/list.php:31 includes/plugins/orders/orders/data.php:209
+#: includes/plugins/orders/orders/list.php:32
+msgid "Remise globale"
+msgstr "algehele korting"
+
+#: includes/ajax/invoices/refresh/total.php:59 includes/ajax/orders/refresh/total.php:59 includes/plugins/orders/invoices/data.php:202 includes/plugins/orders/invoices/list.php:32 includes/plugins/orders/orders/data.php:215
+#: includes/plugins/orders/orders/list.php:33
+msgid "Bon de réduction"
+msgstr "bon"
+
+#: includes/ajax/invoices/refresh/total.php:66 includes/ajax/orders/refresh/total.php:66 includes/plugins/orders/invoices/data.php:208 includes/plugins/orders/invoices/list.php:33 includes/plugins/orders/orders/data.php:221
+#: includes/plugins/orders/orders/list.php:34
+msgid "Avoir"
+msgstr "hebben"
+
+#: includes/ajax/invoices/refresh/total.php:73 includes/ajax/orders/refresh/total.php:73 includes/plugins/cart/cart/list.php:19 includes/plugins/orders/invoices/data.php:214 includes/plugins/orders/orders/data.php:227
+msgid "Code promo"
+msgstr "couponcode"
+
+#: includes/ajax/invoices/refresh/total.php:79 includes/ajax/orders/refresh/total.php:79 includes/plugins/orders/invoices/data.php:219 includes/plugins/orders/invoices/data.php:393 includes/plugins/orders/orders/data.php:232
+#: includes/plugins/orders/orders/data.php:406
+msgid "Frais de transport"
+msgstr "vervoerskosten"
+
+#: includes/ajax/invoices/refresh/total.php:83 includes/ajax/orders/refresh/total.php:83 includes/plugins/orders/invoices/data.php:223 includes/plugins/orders/orders/data.php:236
+msgid "TOTAL HT"
+msgstr "TOTAL HT"
+
+#: includes/ajax/invoices/refresh/total.php:87 includes/ajax/orders/refresh/total.php:87
+msgid "Acompte"
+msgstr "aanbetaling"
+
+#: includes/ajax/invoices/refresh/total.php:91 includes/ajax/orders/refresh/total.php:91
+msgid "Solde"
+msgstr "balans"
+
+#: includes/ajax/invoices/refresh/total.php:95 includes/ajax/orders/refresh/total.php:95 includes/plugins/orders/invoices/data.php:235 includes/plugins/orders/orders/data.php:248
+msgid "Poids total"
+msgstr "totaalgewicht"
+
+#: includes/ajax/m/form.php:60
+msgid "Le Fabricant a été bien mise à jour."
+msgstr "De fabrikant is goed bijgewerkt."
+
+#: includes/ajax/m/form.php:69
+msgid "Le Fabricant a été bien ajouter."
+msgstr "De fabrikant was goed toe te voegen."
+
+#: includes/ajax/modules/hook-disable.php:15 includes/ajax/modules/hook-enable.php:15 includes/ajax/modules/module_disable.php:20 includes/ajax/modules/module_enable.php:20 includes/ajax/modules/module_install.php:132
+msgid "Opération Effectué"
+msgstr "gedaan operatie"
+
+#: includes/ajax/modules/hook-filter.php:40
+msgid "Aucun Hook Trouvé."
+msgstr "Geen Hook gevonden."
+
+#: includes/ajax/products/delete-attachment.php:17
+msgid "Attachment was removed."
+msgstr "Attachment werd verwijderd."
+
+#: includes/ajax/products/delete-declinaison.php:14
+msgid "Opération Effectué."
+msgstr "Uitgemaakte zaak."
+
+#: includes/ajax/products/delete-image.php:33
+msgid "Image was deleted."
+msgstr "Afbeelding is verwijderd."
+
+#: includes/classes/modules/init.php:30
+msgid "Tableau de bord"
+msgstr "dashboard"
+
+#: includes/classes/modules/init.php:32
+msgid "Catalogue"
+msgstr "catalogus"
+
+#: includes/classes/modules/init.php:33
+msgid "Liste des Produits"
+msgstr "Lijst van Producten"
+
+#: includes/classes/modules/init.php:34
+msgid "Catégories"
+msgstr "Categorieën"
+
+#: includes/classes/modules/init.php:35 includes/plugins/products/manufacturers/data.php:48
+msgid "Fabricants"
+msgstr "fabrikanten"
+
+#: includes/classes/modules/init.php:36
+msgid "Attributs et Valeurs"
+msgstr "Attributen en waarden"
+
+#: includes/classes/modules/init.php:37 includes/plugins/products/products/data.php:464
+msgid "Caractéristiques"
+msgstr "bestek"
+
+#: includes/classes/modules/init.php:38
+msgid "Mots clés (Tags)"
+msgstr "Trefwoorden (tags)"
+
+#: includes/classes/modules/init.php:40 includes/classes/modules/init.php:41 includes/plugins/general/dashboard/list.php:191 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:272
+#: includes/plugins/users/users/data.php:349
+msgid "Commandes"
+msgstr "commando's"
+
+#: includes/classes/modules/init.php:42 includes/plugins/general/dashboard/list.php:200 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:273
+msgid "Factures"
+msgstr "facturen"
+
+#: includes/classes/modules/init.php:44 includes/plugins/general/dashboard/list.php:173
+msgid "Clients"
+msgstr "klanten"
+
+#: includes/classes/modules/init.php:45
+msgid "Liste des Clients"
+msgstr "Lijst van Cliënten"
+
+#: includes/classes/modules/init.php:47
+msgid "Groups des Clients"
+msgstr "groepen Gast"
+
+#: includes/classes/modules/init.php:49
+msgid "Promotions"
+msgstr "promoties"
+
+#: includes/classes/modules/init.php:50
+msgid "Règles panier"
+msgstr "regels cart"
+
+#: includes/classes/modules/init.php:52
+msgid "Livraison"
+msgstr "levering"
+
+#: includes/classes/modules/init.php:53 includes/plugins/general/dashboard/list.php:209
+msgid "Transporteurs"
+msgstr "carriers"
+
+#: includes/classes/modules/init.php:54
+msgid "Ajouter un transport"
+msgstr "transport toevoegen"
+
+#: includes/classes/modules/init.php:56
+msgid "Localisation"
+msgstr "plaats"
+
+#: includes/classes/modules/init.php:57 includes/plugins/localisation/taxes_rules_group/data.php:184 includes/plugins/localisation/taxes_rules_group/data.php:222 includes/plugins/orders/invoices/data.php:258
+#: includes/plugins/orders/invoices/data.php:381 includes/plugins/orders/orders/data.php:271 includes/plugins/orders/orders/data.php:394 includes/plugins/users/users/data.php:415 includes/plugins/users/users/list.php:32
+msgid "Pays"
+msgstr "land"
+
+#: includes/classes/modules/init.php:58 includes/plugins/localisation/currencies/data.php:83
+msgid "Devises"
+msgstr "valuta"
+
+#: includes/classes/modules/init.php:59 includes/plugins/localisation/zones/data.php:80
+msgid "Zones"
+msgstr "gebieden"
+
+#: includes/classes/modules/init.php:60 includes/plugins/localisation/taxes/data.php:81 includes/plugins/localisation/taxes_rules_group/data.php:197 includes/plugins/localisation/taxes_rules_group/data.php:223
+#: includes/plugins/shipping/shipping/data.php:369
+msgid "Taxes"
+msgstr "belastingen"
+
+#: includes/classes/modules/init.php:61 includes/plugins/localisation/taxes_rules_group/data.php:160
+msgid "Règles de taxes"
+msgstr "regels belastingen"
+
+#: includes/classes/modules/init.php:63
+msgid "Préférences"
+msgstr "voorkeuren"
+
+#: includes/classes/modules/init.php:64
+msgid "Produits Nouveaux"
+msgstr "nieuwe producten"
+
+#: includes/classes/modules/init.php:66
+msgid "Modules et Services"
+msgstr "Modules en Services"
+
+#: includes/classes/modules/init.php:67 includes/plugins/modules/modules/modules-directory.php:90
+msgid "Liste des Modules"
+msgstr "Lijst van Modules"
+
+#: includes/classes/modules/init.php:68
+msgid "Modules Positions"
+msgstr "modules posities"
+
+#: includes/classes/modules/init.php:70
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/classes/modules/init.php:71
+msgid "Liste des Pages"
+msgstr "Lijst van Pages"
+
+#: includes/classes/modules/init.php:72
+msgid "Catégories des Pages"
+msgstr "categories Pages"
+
+#: includes/classes/modules/init.php:74
+msgid "Template"
+msgstr "sjabloon"
+
+#: includes/classes/tables/tables.class.php:313 includes/plugins/products/manufacturers/data.php:113 includes/plugins/shipping/shipping/data.php:263
+msgid "activé"
+msgstr "geactiveerd"
+
+#: includes/classes/tables/tables.class.php:317
+msgid "desactivé"
+msgstr "gedeactiveerd"
+
+#: includes/classes/tables/tables.class.php:341 includes/plugins/users/users/data.php:491
+msgid "Télécharger le fichier"
+msgstr "Download het bestand"
+
+#: includes/classes/tables/tables.class.php:341
+msgid "Télécharger"
+msgstr "downloaden"
+
+#: includes/classes/tables/tables.class.php:344
+msgid "Fichier introuvable"
+msgstr "bestand niet gevonden"
+
+#: includes/classes/tables/tables.class.php:349 includes/classes/tables/tables.class.php:353
+msgid "Deplacer en bas"
+msgstr "omlaag"
+
+#: includes/classes/tables/tables.class.php:351 includes/classes/tables/tables.class.php:354
+msgid "Deplacer en haut"
+msgstr "Move up"
+
+#: includes/classes/tables/tables.class.php:366
+msgid "Editer"
+msgstr "uitgeven"
+
+#: includes/classes/tables/tables.class.php:366
+msgid "Edit"
+msgstr "uitgeven"
+
+#: includes/classes/tables/tables.class.php:371
+msgid "View"
+msgstr "uitzicht"
+
+#: includes/classes/tables/tables.class.php:375
+msgid "Invoice"
+msgstr "factuur"
+
+#: includes/classes/tables/tables.class.php:379
+msgid "Download"
+msgstr "Download"
+
+#: includes/classes/tables/tables.class.php:383
+msgid "Delete"
+msgstr "Verwijder"
+
+#: includes/plugins/cart/cart/data.php:153 includes/plugins/cart/cart/data.php:164 includes/plugins/cart/cart/data.php:207
+msgid "Informations"
+msgstr "informatie"
+
+#: includes/plugins/cart/cart/data.php:154
+msgid "Conditions"
+msgstr "termen"
+
+#: includes/plugins/cart/cart/data.php:155 includes/plugins/cart/cart/data.php:362 includes/plugins/localisation/taxes_rules_group/data.php:225 includes/plugins/orders/invoices/data.php:121 includes/plugins/orders/invoices/data.php:165
+#: includes/plugins/orders/invoices/data.php:289 includes/plugins/orders/orders/data.php:133 includes/plugins/orders/orders/data.php:178 includes/plugins/orders/orders/data.php:302 includes/plugins/products/attributes/list.php:15
+#: includes/plugins/products/categories/list.php:15 includes/plugins/products/manufacturers/list.php:19 includes/plugins/products/products/data.php:1282 includes/plugins/products/products/data.php:1374 includes/plugins/products/tags/list.php:15
+#: includes/plugins/products/values/list.php:15 includes/plugins/users/groups/list.php:11
+msgid "Actions"
+msgstr "voorraad"
+
+#: includes/plugins/cart/cart/data.php:168 includes/plugins/products/attributes/list.php:13 includes/plugins/products/categories/list.php:13 includes/plugins/products/manufacturers/list.php:16 includes/plugins/products/products/data.php:504
+#: includes/plugins/products/products/data.php:1145 includes/plugins/products/tags/list.php:13 includes/plugins/products/values/list.php:13 includes/plugins/users/users/list.php:29
+msgid "Nom"
+msgstr "naam"
+
+#: includes/plugins/cart/cart/data.php:174 includes/plugins/localisation/taxes_rules_group/data.php:210 includes/plugins/localisation/taxes_rules_group/data.php:224 includes/plugins/products/categories/data.php:72
+#: includes/plugins/products/manufacturers/data.php:72 includes/plugins/products/products/data.php:565 includes/plugins/products/products/data.php:1346 includes/plugins/products/products/data.php:1373
+msgid "Description"
+msgstr "beschrijving"
+
+#: includes/plugins/cart/cart/data.php:180
+msgid "Code"
+msgstr "code"
+
+#: includes/plugins/cart/cart/data.php:185
+msgid "Générer"
+msgstr "genereren"
+
+#: includes/plugins/cart/cart/data.php:191 includes/plugins/products/products/data.php:528
+msgid "État"
+msgstr "staat"
+
+#: includes/plugins/cart/cart/data.php:199 includes/plugins/cart/cart/data.php:354 includes/plugins/cart/cart/data.php:452 includes/plugins/localisation/currencies/data.php:135 includes/plugins/localisation/taxes/data.php:109
+#: includes/plugins/localisation/taxes_rules_group/data.php:248 includes/plugins/localisation/zones/data.php:100 includes/plugins/products/categories/data.php:119 includes/plugins/products/manufacturers/data.php:119
+#: includes/plugins/products/products/data.php:579 includes/plugins/products/products/data.php:643 includes/plugins/products/products/data.php:786 includes/plugins/products/products/data.php:818 includes/plugins/products/products/data.php:863
+#: includes/plugins/products/products/data.php:1187 includes/plugins/products/products/data.php:1245 includes/plugins/products/products/data.php:1321 includes/plugins/products/products/data.php:1397 includes/plugins/shipping/shipping/data.php:332
+#: includes/plugins/shipping/shipping/data.php:463 includes/plugins/shipping/shipping/data.php:549 includes/plugins/shipping/shipping/data.php:606 includes/plugins/users/users/data.php:456 includes/plugins/users/users/data.php:533
+#: includes/plugins/users/users/data.php:677 includes/plugins/users/users/data.php:696 includes/plugins/users/users/data.php:716 includes/plugins/users/users/data.php:811 includes/plugins/users/users/data.php:886
+msgid "Annuler"
+msgstr "annuleren"
+
+#: includes/plugins/cart/cart/data.php:200 includes/plugins/cart/cart/data.php:355 includes/plugins/cart/cart/data.php:453 includes/plugins/localisation/taxes_rules_group/data.php:135 includes/plugins/localisation/taxes_rules_group/data.php:249
+#: includes/plugins/products/categories/data.php:120 includes/plugins/products/manufacturers/data.php:120 includes/plugins/products/products/data.php:426 includes/plugins/products/products/data.php:580
+#: includes/plugins/products/products/data.php:644 includes/plugins/products/products/data.php:787 includes/plugins/products/products/data.php:819 includes/plugins/products/products/data.php:864 includes/plugins/products/products/data.php:1116
+#: includes/plugins/products/products/data.php:1188 includes/plugins/products/products/data.php:1246 includes/plugins/products/products/data.php:1322 includes/plugins/products/products/data.php:1398 includes/plugins/shipping/shipping/data.php:220
+#: includes/plugins/shipping/shipping/data.php:333 includes/plugins/shipping/shipping/data.php:464 includes/plugins/shipping/shipping/data.php:550 includes/plugins/shipping/shipping/data.php:607 includes/plugins/users/users/data.php:305
+#: includes/plugins/users/users/data.php:313
+msgid "Sauvegarder et rester"
+msgstr "Opslaan en blijf"
+
+#: includes/plugins/cart/cart/data.php:210
+msgid "Limiter à un seul client"
+msgstr "Beperk tot één klant"
+
+#: includes/plugins/cart/cart/data.php:213
+msgid "Sélectionnez un Client"
+msgstr "Selecteer een Client"
+
+#: includes/plugins/cart/cart/data.php:229
+msgid "Valide"
+msgstr "geldig"
+
+#: includes/plugins/cart/cart/data.php:232
+msgid "Du"
+msgstr "van"
+
+#: includes/plugins/cart/cart/data.php:241
+msgid "Au"
+msgstr "de"
+
+#: includes/plugins/cart/cart/data.php:248 includes/plugins/cart/cart/list.php:21
+msgid "Montant minimum"
+msgstr "minimum"
+
+#: includes/plugins/cart/cart/data.php:253 includes/plugins/cart/cart/data.php:374 includes/plugins/products/products/data.php:950
+msgid "TTC"
+msgstr "TTC"
+
+#: includes/plugins/cart/cart/data.php:258
+msgid "Quantité totale disponible"
+msgstr "Totale beschikbare hoeveelheid"
+
+#: includes/plugins/cart/cart/data.php:264
+msgid "Quantité disponible pour chaque utilisateur"
+msgstr "Beschikbare hoeveelheid voor elke gebruiker"
+
+#: includes/plugins/cart/cart/data.php:270
+msgid "Restrictions"
+msgstr "beperkingen"
+
+#: includes/plugins/cart/cart/data.php:273
+msgid "Sélection de transporteurs"
+msgstr "Selectie van de vervoerders"
+
+#: includes/plugins/cart/cart/data.php:299
+msgid "Sélection de groupes de clients"
+msgstr "Selectie van klantgroepen"
+
+#: includes/plugins/cart/cart/data.php:325
+msgid "Sélection de produit"
+msgstr "product selectie"
+
+#: includes/plugins/cart/cart/data.php:365 includes/plugins/shipping/shipping/data.php:352
+msgid "Frais de port offerts"
+msgstr "gratis verzending"
+
+#: includes/plugins/cart/cart/data.php:371
+msgid "Appliquer une réduction"
+msgstr "Breng een korting"
+
+#: includes/plugins/cart/cart/data.php:386
+msgid "Appliquer la réduction à"
+msgstr "Kortingen van toepassing op"
+
+#: includes/plugins/cart/cart/data.php:391
+msgid "La commande (hors frais de port)"
+msgstr "De bestelling (exclusief verzendkosten)"
+
+#: includes/plugins/cart/cart/data.php:397
+msgid "Un produit spécifique"
+msgstr "Een specifiek product"
+
+#: includes/plugins/cart/cart/data.php:409
+msgid "Le(s) produit(s) sélectionné(s)"
+msgstr "(S) product (en) geselecteerd (s)"
+
+#: includes/plugins/cart/cart/data.php:411
+msgid "Vous devez sélectionner au moins un produit"
+msgstr "U moet ten minste één product selecteren"
+
+#: includes/plugins/cart/cart/data.php:418 includes/plugins/cart/cart/data.php:439 includes/plugins/orders/invoices/data.php:128 includes/plugins/orders/orders/data.php:141 includes/plugins/products/products/data.php:593
+msgid "Sélectionnez un produit"
+msgstr "Selecteer een Product"
+
+#: includes/plugins/cart/cart/data.php:431
+msgid "Envoyer un cadeau"
+msgstr "Verstuur een cadeau"
+
+#: includes/plugins/cart/cart/list.php:17 includes/plugins/localisation/countries/list.php:21 includes/plugins/localisation/currencies/list.php:8 includes/plugins/localisation/taxes/list.php:8
+#: includes/plugins/localisation/taxes_rules_group/list.php:8 includes/plugins/localisation/zones/list.php:8 includes/plugins/orders/invoices/data.php:335 includes/plugins/orders/invoices/list.php:25 includes/plugins/orders/orders/data.php:348
+#: includes/plugins/orders/orders/list.php:26 includes/plugins/products/attributes/list.php:12 includes/plugins/products/categories/list.php:12 includes/plugins/products/manufacturers/list.php:15 includes/plugins/products/products/data.php:610
+#: includes/plugins/products/products/list.php:47 includes/plugins/products/tags/list.php:12 includes/plugins/products/values/list.php:12 includes/plugins/shipping/shipping/list.php:24 includes/plugins/users/groups/list.php:9
+#: includes/plugins/users/users/data.php:831 includes/plugins/users/users/data.php:862 includes/plugins/users/users/list.php:26
+msgid "ID"
+msgstr "ID"
+
+#: includes/plugins/cart/cart/list.php:18
+msgid "Nom de la Règle"
+msgstr "Naam van regel"
+
+#: includes/plugins/cart/cart/list.php:20
+msgid "Date d\\'expiration"
+msgstr "\\ Vervaldatum"
+
+#: includes/plugins/cart/cart/list.php:22
+msgid "Quantité disponible"
+msgstr "beschikbare hoeveelheid"
+
+#: includes/plugins/cart/cart/list.php:23
+msgid "Réduction"
+msgstr "reductie"
+
+#: includes/plugins/cart/cart/list.php:24 includes/plugins/localisation/countries/list.php:26 includes/plugins/localisation/taxes_rules_group/list.php:10 includes/plugins/localisation/zones/list.php:10
+#: includes/plugins/products/products/list.php:52 includes/plugins/shipping/shipping/data.php:261 includes/plugins/users/users/data.php:425 includes/plugins/users/users/data.php:521
+msgid "Statut"
+msgstr "toestand"
+
+#: includes/plugins/cart/cart/list.php:25 includes/plugins/localisation/countries/list.php:28 includes/plugins/localisation/currencies/list.php:14 includes/plugins/localisation/taxes/list.php:11
+#: includes/plugins/localisation/taxes_rules_group/list.php:11 includes/plugins/localisation/zones/list.php:11 includes/plugins/orders/invoices/list.php:35 includes/plugins/orders/orders/list.php:36 includes/plugins/products/products/list.php:54
+#: includes/plugins/shipping/shipping/list.php:33 includes/plugins/users/users/list.php:34
+msgid "Operations"
+msgstr "Operations"
+
+#: includes/plugins/cart/cart/list.php:28
+msgid "Ajouter une Règle"
+msgstr "Regel toevoegen"
+
+#: includes/plugins/general/dashboard/list.php:156
+msgid "Voici ce qui se passe avec votre magasin dès maintenant."
+msgstr "Hier is wat er gebeurt met uw winkel nu."
+
+#: includes/plugins/general/dashboard/list.php:164 includes/plugins/orders/invoices/data.php:87 includes/plugins/orders/orders/data.php:91
+msgid "Produits"
+msgstr "producten"
+
+#: includes/plugins/general/dashboard/list.php:182 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:271
+msgid "Devis"
+msgstr "citaat"
+
+#: includes/plugins/general/dashboard/list.php:227
+msgid "Devis, Commandes et Factures pour ce mois."
+msgstr "Offertes, orders en facturen voor deze maand."
+
+#: includes/plugins/general/dashboard/list.php:241
+msgid "Total de Devis, Commandes et Factures pour ce mois."
+msgstr "Totaal schattingen, orders en facturen voor deze maand."
+
+#: includes/plugins/general/dashboard/list.php:271 includes/plugins/general/dashboard/list.php:272
+msgid "Au moins"
+msgstr "minstens"
+
+#: includes/plugins/general/dashboard/list.php:273
+msgid "Environ"
+msgstr "over"
+
+#: includes/plugins/localisation/countries/data.php:80
+msgid "Modifier une Pays"
+msgstr "Wijzigen van een Land"
+
+#: includes/plugins/localisation/countries/data.php:80 includes/plugins/localisation/countries/list.php:31
+msgid "Ajouter une Pays"
+msgstr "Country toevoegen"
+
+#: includes/plugins/localisation/countries/data.php:84 includes/plugins/localisation/countries/data.php:162 includes/plugins/localisation/currencies/data.php:78 includes/plugins/localisation/currencies/data.php:136
+#: includes/plugins/localisation/taxes/data.php:76 includes/plugins/localisation/taxes/data.php:110 includes/plugins/localisation/zones/data.php:75 includes/plugins/localisation/zones/data.php:101 includes/plugins/orders/invoices/data.php:463
+#: includes/plugins/orders/orders/data.php:476 includes/plugins/products/products/data.php:580 includes/plugins/products/products/data.php:644 includes/plugins/products/products/data.php:787 includes/plugins/products/products/data.php:819
+#: includes/plugins/products/products/data.php:864 includes/plugins/products/products/data.php:1116 includes/plugins/products/products/data.php:1188 includes/plugins/products/products/data.php:1246 includes/plugins/products/products/data.php:1322
+#: includes/plugins/products/products/data.php:1398 includes/plugins/products/values/data.php:54 includes/plugins/products/values/data.php:162
+msgid "Mise à jour"
+msgstr "bijwerken"
+
+#: includes/plugins/localisation/countries/data.php:84 includes/plugins/localisation/countries/data.php:162 includes/plugins/localisation/currencies/data.php:78 includes/plugins/localisation/currencies/data.php:136
+#: includes/plugins/localisation/taxes/data.php:76 includes/plugins/localisation/taxes/data.php:110 includes/plugins/localisation/zones/data.php:75 includes/plugins/localisation/zones/data.php:101
+msgid "Enregister"
+msgstr "Registreer"
+
+#: includes/plugins/localisation/countries/data.php:89
+msgid "countries"
+msgstr "landen"
+
+#: includes/plugins/localisation/countries/data.php:94
+msgid "Nom du pays *"
+msgstr "Naam van het land *"
+
+#: includes/plugins/localisation/countries/data.php:102 includes/plugins/localisation/countries/list.php:25 includes/plugins/localisation/currencies/data.php:96 includes/plugins/localisation/currencies/list.php:10
+msgid "Code ISO"
+msgstr "ISO-code"
+
+#: includes/plugins/localisation/countries/data.php:110
+msgid "Indicatif téléphonique"
+msgstr "telefoonverkeer"
+
+#: includes/plugins/localisation/countries/data.php:117
+msgid "Devise par défaut"
+msgstr "standaard valuta"
+
+#: includes/plugins/localisation/countries/data.php:120
+msgid "Devise du magasin par défaut"
+msgstr "Default winkel munt"
+
+#: includes/plugins/localisation/countries/data.php:131
+msgid "Zone géographique du pays."
+msgstr "geografisch gebied van het land."
+
+#: includes/plugins/localisation/countries/data.php:131 includes/plugins/localisation/countries/list.php:23
+msgid "Zone"
+msgstr "zone"
+
+#: includes/plugins/localisation/countries/data.php:144
+msgid "Format du code postal"
+msgstr "Postcode formaat"
+
+#: includes/plugins/localisation/countries/data.php:147
+msgid ""
+"Indiquez le format du code postal : utilisez L pour une lettre, N pour un nombre, et C pour le code ISO 3166-1 alpha-2 du pays. Par exemple, NNNNN pour les États-Unis, la France, la Pologne et beaucoup d'autres ; LNNNNLLL pour l'Argentine, etc."
+msgstr "Voer de postcode-indeling: Gebruik L om een ​​brief aan een aantal N en C voor de ISO 3166-1 alpha-2-code van het land. Bijvoorbeeld NNNNN voor de Verenigde Staten, Frankrijk, Polen en vele anderen; LNNNNLLL voor Argentinië, enz."
+
+#: includes/plugins/localisation/countries/data.php:153 includes/plugins/localisation/currencies/data.php:127 includes/plugins/localisation/taxes/data.php:101 includes/plugins/localisation/taxes_rules_group/data.php:172
+#: includes/plugins/localisation/zones/data.php:92 includes/plugins/modules/modules/modules-directory.php:215 includes/plugins/products/manufacturers/data.php:111 includes/plugins/products/products/data.php:704
+#: includes/plugins/users/users/data.php:428
+msgid "Activer"
+msgstr "activeren"
+
+#: includes/plugins/localisation/countries/list.php:22
+msgid "Nom de Pays"
+msgstr "Naam van het land"
+
+#: includes/plugins/localisation/countries/list.php:24 includes/plugins/products/attributes/list.php:14 includes/plugins/products/categories/list.php:14 includes/plugins/products/products/list.php:53 includes/plugins/products/tags/list.php:14
+#: includes/plugins/products/values/list.php:14
+msgid "Langue"
+msgstr "taal"
+
+#: includes/plugins/localisation/countries/list.php:27
+msgid "Format de CP"
+msgstr "format CP"
+
+#: includes/plugins/localisation/currencies/data.php:74
+msgid "Modifier un Devise"
+msgstr "Bewerk een Munt"
+
+#: includes/plugins/localisation/currencies/data.php:74 includes/plugins/localisation/currencies/list.php:17
+msgid "Ajouter un Devise"
+msgstr "Voeg een munt"
+
+#: includes/plugins/localisation/currencies/data.php:88
+msgid "Seuls les lettres et le tiret sont autorisés"
+msgstr "Alleen letters en dash zijn toegestaan"
+
+#: includes/plugins/localisation/currencies/data.php:88
+msgid "Nom de la devise *"
+msgstr "Valuta naam *"
+
+#: includes/plugins/localisation/currencies/data.php:91
+msgid "Euro"
+msgstr "euro"
+
+#: includes/plugins/localisation/currencies/data.php:96
+msgid "Code ISO (ex. : USD pour dollar, EUR pour euro, etc.)."
+msgstr "ISO-code (bv. USD voor dollar EUR Euro, etc.)."
+
+#: includes/plugins/localisation/currencies/data.php:99
+msgid "ex. : USD pour dollar, EUR pour euro, etc."
+msgstr "ex. USD voor de dollar en de euro EUR, etc."
+
+#: includes/plugins/localisation/currencies/data.php:104
+msgid "Code ISO numérique (ex. : 840 pour dollar, 978 pour euro)."
+msgstr "Digital ISO-code (bv. 840 voor de dollar en de euro 978)."
+
+#: includes/plugins/localisation/currencies/data.php:104
+msgid "ISO code numérique"
+msgstr "ISO digitale code"
+
+#: includes/plugins/localisation/currencies/data.php:107
+msgid "ex. : 840 pour dollar, 978 pour euro"
+msgstr "ex. 840 voor de dollar en de euro 978"
+
+#: includes/plugins/localisation/currencies/data.php:112
+msgid "Apparaîtra sur le front-office (ex. : €, $)"
+msgstr "Verschijnen op de frontoffice (bijv. €, $)"
+
+#: includes/plugins/localisation/currencies/data.php:112 includes/plugins/localisation/currencies/list.php:12
+msgid "Symbole"
+msgstr "symbool"
+
+#: includes/plugins/localisation/currencies/data.php:115
+msgid "ex. : €, $"
+msgstr "ex. : €, $"
+
+#: includes/plugins/localisation/currencies/data.php:129 includes/plugins/localisation/taxes/data.php:103 includes/plugins/localisation/taxes_rules_group/data.php:174 includes/plugins/localisation/zones/data.php:94
+#: includes/plugins/products/categories/data.php:68 includes/plugins/shipping/shipping/data.php:348 includes/plugins/shipping/shipping/data.php:354 includes/plugins/shop/shop/list.php:17
+msgid "OUI"
+msgstr "JA"
+
+#: includes/plugins/localisation/currencies/data.php:129 includes/plugins/localisation/taxes/data.php:103 includes/plugins/localisation/taxes_rules_group/data.php:174 includes/plugins/localisation/zones/data.php:94
+#: includes/plugins/products/categories/data.php:68 includes/plugins/shipping/shipping/data.php:348 includes/plugins/shipping/shipping/data.php:354 includes/plugins/shop/shop/list.php:20
+msgid "NON"
+msgstr "NO"
+
+#: includes/plugins/localisation/currencies/list.php:9
+msgid "Nom de Devise"
+msgstr "munt Naam"
+
+#: includes/plugins/localisation/currencies/list.php:11
+msgid "N° de Code ISO"
+msgstr "Nee ISO-code"
+
+#: includes/plugins/localisation/currencies/list.php:13
+msgid "statut"
+msgstr "toestand"
+
+#: includes/plugins/localisation/taxes/data.php:72
+msgid "Modifier une Taxe"
+msgstr "Wijzigen van een belasting"
+
+#: includes/plugins/localisation/taxes/data.php:72
+msgid "Ajouter une Taxe"
+msgstr "Voeg Tax"
+
+#: includes/plugins/localisation/taxes/data.php:86 includes/plugins/localisation/taxes_rules_group/data.php:165
+msgid "Nom de la taxe à afficher dans le panier et sur la facture (ex. : &quot;TVA&quot;). - Caractères interdits &lt;&gt;;=#{}"
+msgstr "Naam van de belasting die moet worden weergegeven in de mand en op de factuur (bijvoorbeeld & quot;. Tax & quot;). - Tekens toegestaan ​​& lt; & gt ;; = # {}"
+
+#: includes/plugins/localisation/taxes/data.php:86 includes/plugins/localisation/taxes_rules_group/data.php:165 includes/plugins/localisation/zones/data.php:85 includes/plugins/products/categories/data.php:60
+#: includes/plugins/products/manufacturers/data.php:60 includes/plugins/users/users/data.php:378 includes/plugins/users/users/data.php:595
+msgid "Nom *"
+msgstr "naam *"
+
+#: includes/plugins/localisation/taxes/data.php:94
+msgid "Format : XX.XX ou XX.XXX (ex. : 19.60 ou 13.925) - Caractères interdits <>;=#{}"
+msgstr "Formaat: XX.XX of XX.XXX (bijv. 19,60 of 13,925) - Verboden tekens <>; = # {}"
+
+#: includes/plugins/localisation/taxes/data.php:94
+msgid "Taux *"
+msgstr "rate *"
+
+#: includes/plugins/localisation/taxes/list.php:5
+msgid "Liste des Taxes"
+msgstr "Lijst van Belastingen"
+
+#: includes/plugins/localisation/taxes/list.php:9
+msgid "Taxe Label"
+msgstr "tax Label"
+
+#: includes/plugins/localisation/taxes/list.php:10
+msgid "Valeur de taxe (%"
+msgstr "omzetbelasting (%"
+
+#: includes/plugins/localisation/taxes/list.php:14
+msgid "Ajouter une taxe"
+msgstr "vergoeding toe te voegen"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:131
+msgid "Modifier une règles de taxes"
+msgstr "Wijzigen van een fiscale regels"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:131
+msgid "Ajouter une règles de taxes"
+msgstr "Voeg fiscale regels"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:141 includes/plugins/products/products/data.php:432 includes/plugins/shipping/shipping/data.php:226 includes/plugins/users/users/data.php:322
+msgid "Une erreur est survenue !"
+msgstr "Er is een fout opgetreden!"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:150 includes/plugins/products/products/data.php:441 includes/plugins/shipping/shipping/data.php:235 includes/plugins/users/users/data.php:331
+msgid "Opération Effectué !"
+msgstr "Uitgemaakte zaak!"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:180
+msgid "NOUVELLE RÈGLE DE TAXE"
+msgstr "NIEUWE REGEL VAN BELASTING"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:187
+msgid "Toutes"
+msgstr "alle"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:200 includes/plugins/products/products/data.php:716 includes/plugins/shipping/shipping/data.php:372 includes/plugins/shipping/shipping/data.php:571
+msgid "Aucune taxe"
+msgstr "geen kosten"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:216
+msgid "RÈGLE DE TAXE"
+msgstr "REGEL VAN DE BELASTING"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:236
+msgid "Modifier cette règle"
+msgstr "Bewerk deze regel"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:237
+msgid "Supprimer cette règle"
+msgstr "Verwijder deze regel"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:270
+msgid "EDITION DE LA RÈGLE DE TAXE"
+msgstr "EDITIE VAN DE REGEL VAN BELASTING"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:272
+msgid "Vous êtes en mode de modification de règle de taxe."
+msgstr "U bent fiscale regel te veranderen mode."
+
+#: includes/plugins/localisation/taxes_rules_group/list.php:9
+msgid "Nom de groupe"
+msgstr "Naam van de groep"
+
+#: includes/plugins/localisation/taxes_rules_group/list.php:14
+msgid "Ajouter une règle de taxe"
+msgstr "Voeg een fiscale regel"
+
+#: includes/plugins/localisation/zones/data.php:71
+msgid "Modifier une Zone"
+msgstr "Bewerken Zone"
+
+#: includes/plugins/localisation/zones/data.php:71 includes/plugins/localisation/zones/list.php:14
+msgid "Ajouter une Zone"
+msgstr "Voeg Zone"
+
+#: includes/plugins/localisation/zones/data.php:85
+msgid "Nom de la zone (ex. : Afrique, Europe, Pays voisins)."
+msgstr "zonenaam (bijv. Afrika, Europa, de buurlanden)."
+
+#: includes/plugins/localisation/zones/list.php:9
+msgid "Nom de la zone"
+msgstr "zone Name"
+
+#: includes/plugins/login.php:66
+msgid "Okad"
+msgstr "Okad"
+
+#: includes/plugins/login.php:66
+msgid "SHOP"
+msgstr "SHOP"
+
+#: includes/plugins/login.php:70
+msgid "Se connecter"
+msgstr "log in"
+
+#: includes/plugins/login.php:72
+msgid "Mot de passe oublié"
+msgstr "wachtwoord vergeten"
+
+#: includes/plugins/modules/modules/modules-directory.php:103
+msgid "Installés et non installés"
+msgstr "Geïnstalleerd en verwijderd"
+
+#: includes/plugins/modules/modules/modules-directory.php:104
+msgid "Modules installés"
+msgstr "geïnstalleerde modules"
+
+#: includes/plugins/modules/modules/modules-directory.php:105
+msgid "Modules non installés"
+msgstr "niet geïnstalleerd modules"
+
+#: includes/plugins/modules/modules/modules-directory.php:110
+msgid "Activés &amp; désactivés"
+msgstr "Activiteiten & amp; invalide"
+
+#: includes/plugins/modules/modules/modules-directory.php:111
+msgid "Modules activés"
+msgstr "enabled modules"
+
+#: includes/plugins/modules/modules/modules-directory.php:112
+msgid "Modules désactivés"
+msgstr "gehandicapte modules"
+
+#: includes/plugins/modules/modules/modules-directory.php:117
+msgid "Tous les Auteurs"
+msgstr "alle auteurs"
+
+#: includes/plugins/modules/modules/modules-directory.php:129
+msgid "Rechercher..."
+msgstr "Zoeken ..."
+
+#: includes/plugins/modules/modules/modules-directory.php:145
+msgid "Tous les Modules"
+msgstr "alle Modules"
+
+#: includes/plugins/modules/modules/modules-directory.php:162
+msgid "actions groupées"
+msgstr "bulkacties"
+
+#: includes/plugins/modules/modules/modules-directory.php:164
+msgid "Installer la sélection"
+msgstr "Installeer selectie"
+
+#: includes/plugins/modules/modules/modules-directory.php:165
+msgid "Désinstaller la sélection"
+msgstr "Uninstall selectie"
+
+#: includes/plugins/modules/modules/modules-directory.php:167
+msgid "Activer la sélection"
+msgstr "Enable Selection"
+
+#: includes/plugins/modules/modules/modules-directory.php:168
+msgid "Disactiver la sélection"
+msgstr "Disactiver selectie"
+
+#: includes/plugins/modules/modules/modules-directory.php:170
+msgid "Supprimer la sélection"
+msgstr "Verwijder Geselecteerde"
+
+#: includes/plugins/modules/modules/modules-directory.php:210
+msgid "Configuration"
+msgstr "configuratie"
+
+#: includes/plugins/modules/modules/modules-directory.php:212 includes/plugins/modules/modules/modules-directory.php:224 includes/plugins/products/products/data.php:705
+msgid "Désactiver"
+msgstr "deactiveren"
+
+#: includes/plugins/modules/modules/modules-directory.php:218
+msgid "Installer"
+msgstr "installeren"
+
+#: includes/plugins/modules/modules/modules-directory.php:228
+msgid "Désinstaller"
+msgstr "uninstall"
+
+#: includes/plugins/modules/modules/modules-directory.php:232 includes/plugins/products/products/data.php:911 includes/plugins/products/products/data.php:1091 includes/plugins/products/products/data.php:1384
+msgid "Supprimer"
+msgstr "verwijderen"
+
+#: includes/plugins/modules/modules/modules-directory.php:242
+msgid "No Module found."
+msgstr "Geen module gevonden."
+
+#: includes/plugins/modules/modules/modules-directory.php:290
+msgid "Cette action supprime définitivement le module sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "Deze actie permanent verwijdert de module op uw server. Ben je echt zeker?"
+
+#: includes/plugins/modules/modules/modules-positions.php:28
+msgid "Positions des modules"
+msgstr "posities modules"
+
+#: includes/plugins/modules/modules/modules-positions.php:99
+msgid "Activer les positions des modules"
+msgstr "Activeer de posities van modules"
+
+#: includes/plugins/modules/modules/modules-positions.php:111 includes/plugins/products/products/data.php:425 includes/plugins/products/products/data.php:1113 includes/plugins/shipping/shipping/data.php:219
+#: includes/plugins/users/users/data.php:306 includes/plugins/users/users/data.php:314
+msgid "Terminer"
+msgstr "afwerking"
+
+#: includes/plugins/orders/invoices/data.php:74
+msgid "Edition de la Facture"
+msgstr "Bewerken van de factuur"
+
+#: includes/plugins/orders/invoices/data.php:76
+msgid "N°"
+msgstr "Nee."
+
+#: includes/plugins/orders/invoices/data.php:79 includes/plugins/orders/orders/data.php:83
+msgid "Términer"
+msgstr "afwerking"
+
+#: includes/plugins/orders/invoices/data.php:88 includes/plugins/orders/invoices/data.php:253 includes/plugins/orders/orders/data.php:92 includes/plugins/orders/orders/data.php:266 includes/plugins/users/users/data.php:777
+msgid "Client"
+msgstr "klant"
+
+#: includes/plugins/orders/invoices/data.php:90 includes/plugins/orders/orders/data.php:94
+msgid "Transporteur"
+msgstr "carrier"
+
+#: includes/plugins/orders/invoices/data.php:92
+msgid "Apérçu la Facture"
+msgstr "factuur Overzicht"
+
+#: includes/plugins/orders/invoices/data.php:116 includes/plugins/orders/invoices/data.php:160 includes/plugins/orders/orders/data.php:128 includes/plugins/orders/orders/data.php:173 includes/plugins/products/products/data.php:612
+#: includes/plugins/products/products/data.php:1171 includes/plugins/products/products/list.php:48
+msgid "Nom de produit"
+msgstr "productnaam"
+
+#: includes/plugins/orders/invoices/data.php:117 includes/plugins/orders/invoices/data.php:161 includes/plugins/orders/orders/data.php:129 includes/plugins/orders/orders/data.php:174 includes/plugins/products/products/data.php:510
+#: includes/plugins/products/products/data.php:916 includes/plugins/products/products/data.php:1061
+msgid "Référence"
+msgstr "verwijzing"
+
+#: includes/plugins/orders/invoices/data.php:118 includes/plugins/orders/invoices/data.php:162 includes/plugins/orders/orders/data.php:130 includes/plugins/orders/orders/data.php:175 includes/plugins/products/products/data.php:613
+msgid "Prix HT"
+msgstr "geprijsd"
+
+#: includes/plugins/orders/invoices/data.php:119 includes/plugins/orders/invoices/data.php:163 includes/plugins/orders/orders/data.php:131 includes/plugins/orders/orders/data.php:176 includes/plugins/products/products/data.php:1144
+#: includes/plugins/products/products/data.php:1169 includes/plugins/products/products/list.php:51
+msgid "Quantité"
+msgstr "kwantiteit"
+
+#: includes/plugins/orders/invoices/data.php:120 includes/plugins/orders/invoices/data.php:164 includes/plugins/orders/orders/data.php:132 includes/plugins/orders/orders/data.php:177
+msgid "Poids (Kg)"
+msgstr "Gewicht (Kg)"
+
+#: includes/plugins/orders/invoices/data.php:136 includes/plugins/orders/orders/data.php:149
+msgid "Sélectionnez une attribut"
+msgstr "Selecteer een kenmerk"
+
+#: includes/plugins/orders/invoices/data.php:145 includes/plugins/orders/invoices/data.php:319 includes/plugins/orders/orders/data.php:158 includes/plugins/orders/orders/data.php:332 includes/plugins/products/products/data.php:602
+#: includes/plugins/products/products/data.php:902 includes/plugins/users/groups/data.php:43
+msgid "Ajouter"
+msgstr "toevoegen"
+
+#: includes/plugins/orders/invoices/data.php:154
+msgid "Produits dans cette Facture"
+msgstr "Producten in dit wetsvoorstel"
+
+#: includes/plugins/orders/invoices/data.php:252 includes/plugins/orders/orders/data.php:265
+msgid "N° Client"
+msgstr "Klant No."
+
+#: includes/plugins/orders/invoices/data.php:254 includes/plugins/orders/orders/data.php:267
+msgid "Email"
+msgstr "e-mail"
+
+#: includes/plugins/orders/invoices/data.php:255 includes/plugins/orders/orders/data.php:268
+msgid "Téléphone domicile"
+msgstr "telefoon thuis"
+
+#: includes/plugins/orders/invoices/data.php:256 includes/plugins/orders/orders/data.php:269 includes/plugins/users/users/data.php:390
+msgid "Téléphone portable"
+msgstr "mobiele telefoon"
+
+#: includes/plugins/orders/invoices/data.php:257 includes/plugins/orders/invoices/list.php:30 includes/plugins/orders/orders/data.php:270 includes/plugins/orders/orders/list.php:31 includes/plugins/users/users/data.php:834
+#: includes/plugins/users/users/data.php:865
+msgid "Socièté"
+msgstr "Societe"
+
+#: includes/plugins/orders/invoices/data.php:285 includes/plugins/orders/invoices/data.php:336 includes/plugins/orders/orders/data.php:298 includes/plugins/orders/orders/data.php:349
+msgid "Date de transaction"
+msgstr "Datum meldingsplicht"
+
+#: includes/plugins/orders/invoices/data.php:286 includes/plugins/orders/orders/data.php:299
+msgid "Methode de paiment"
+msgstr "Wijze van betaling"
+
+#: includes/plugins/orders/invoices/data.php:287 includes/plugins/orders/invoices/data.php:338 includes/plugins/orders/orders/data.php:300 includes/plugins/orders/orders/data.php:351
+msgid "ID de transaction"
+msgstr "transactie-ID"
+
+#: includes/plugins/orders/invoices/data.php:288 includes/plugins/orders/invoices/data.php:339 includes/plugins/orders/orders/data.php:301 includes/plugins/orders/orders/data.php:352
+msgid "Montant payé"
+msgstr "betaalde bedrag"
+
+#: includes/plugins/orders/invoices/data.php:310
+msgid "ID de la transaction"
+msgstr "Transaction ID"
+
+#: includes/plugins/orders/invoices/data.php:328 includes/plugins/orders/orders/data.php:341
+msgid "Tranches payés"
+msgstr "plakjes betaald"
+
+#: includes/plugins/orders/invoices/data.php:337 includes/plugins/orders/orders/data.php:350
+msgid "Méthode de paiement"
+msgstr "Payment Method"
+
+#: includes/plugins/orders/invoices/data.php:369 includes/plugins/orders/invoices/list.php:29 includes/plugins/orders/orders/data.php:382 includes/plugins/orders/orders/list.php:30 includes/plugins/users/users/data.php:836
+#: includes/plugins/users/users/data.php:866
+msgid "Formule"
+msgstr "formule"
+
+#: includes/plugins/orders/invoices/data.php:375 includes/plugins/orders/orders/data.php:388
+msgid "Poids total hors emballage"
+msgstr "Totaal gewicht zonder verpakking"
+
+#: includes/plugins/orders/invoices/data.php:387 includes/plugins/orders/orders/data.php:400
+msgid "Nom de Transporteur"
+msgstr "Carrier Naam"
+
+#: includes/plugins/orders/invoices/data.php:399 includes/plugins/orders/orders/data.php:412
+msgid "Délai de livraison"
+msgstr "levering"
+
+#: includes/plugins/orders/invoices/data.php:402 includes/plugins/orders/invoices/data.php:423 includes/plugins/orders/orders/data.php:415 includes/plugins/orders/orders/data.php:436
+msgid "Entre"
+msgstr "tussen"
+
+#: includes/plugins/orders/invoices/data.php:408 includes/plugins/orders/invoices/data.php:429 includes/plugins/orders/orders/data.php:421 includes/plugins/orders/orders/data.php:442
+msgid "Et"
+msgstr "en"
+
+#: includes/plugins/orders/invoices/data.php:414 includes/plugins/orders/invoices/data.php:435 includes/plugins/orders/orders/data.php:427 includes/plugins/orders/orders/data.php:448
+msgid "Jours"
+msgstr "dagen"
+
+#: includes/plugins/orders/invoices/data.php:415 includes/plugins/orders/invoices/data.php:436 includes/plugins/orders/orders/data.php:428 includes/plugins/orders/orders/data.php:449
+msgid "Semaines"
+msgstr "weken"
+
+#: includes/plugins/orders/invoices/data.php:420 includes/plugins/orders/orders/data.php:433
+msgid "Délai de préparation"
+msgstr "Bereidingstijd"
+
+#: includes/plugins/orders/invoices/data.php:441 includes/plugins/orders/orders/data.php:454
+msgid "Poids total estimé emballage compris"
+msgstr "De totale geschatte gewicht inclusief verpakking"
+
+#: includes/plugins/orders/invoices/data.php:445 includes/plugins/orders/orders/data.php:458
+msgid "Kg"
+msgstr "kg"
+
+#: includes/plugins/orders/invoices/data.php:450 includes/plugins/orders/orders/data.php:463
+msgid "Nombre de colis estimé"
+msgstr "Geschat aantal percelen"
+
+#: includes/plugins/orders/invoices/data.php:456 includes/plugins/orders/orders/data.php:469 includes/plugins/shipping/shipping/data.php:324 includes/plugins/users/users/data.php:668
+msgid "Informations complémentaires"
+msgstr "Aanvullende informatie"
+
+#: includes/plugins/orders/invoices/data.php:493 includes/plugins/orders/orders/data.php:531
+msgid "Le produit a été enregistré avec succès"
+msgstr "Het product werd met succes geregistreerd"
+
+#: includes/plugins/orders/invoices/data.php:532 includes/plugins/orders/orders/data.php:570
+msgid "Le produit a été mise à jour."
+msgstr "Het product is bijgewerkt."
+
+#: includes/plugins/orders/invoices/data.php:559 includes/plugins/orders/orders/data.php:597
+msgid "Sélectionnez une attribut."
+msgstr "Selecteer een kenmerk."
+
+#: includes/plugins/orders/invoices/data.php:596 includes/plugins/orders/orders/data.php:634
+msgid "Cette action supprime définitivement le produit de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Deze actie verwijdert permanent het product van de basis gegeven. Ben je echt zeker?"
+
+#: includes/plugins/orders/invoices/data.php:608 includes/plugins/orders/orders/data.php:646
+msgid "Le produit a été supprimer avec success."
+msgstr "Het product is verwijderd succesvol."
+
+#: includes/plugins/orders/invoices/data.php:654 includes/plugins/orders/orders/data.php:692
+msgid "Le produit a été changé."
+msgstr "Het product werd veranderd."
+
+#: includes/plugins/orders/invoices/list.php:22
+msgid "Gestion des Factures"
+msgstr "facturen beheer"
+
+#: includes/plugins/orders/invoices/list.php:26 includes/plugins/orders/orders/list.php:27
+msgid "Nom du Client"
+msgstr "Naam klant"
+
+#: includes/plugins/orders/invoices/list.php:27 includes/plugins/orders/orders/list.php:28 includes/plugins/users/users/data.php:833 includes/plugins/users/users/data.php:864
+msgid "Réference"
+msgstr "verwijzing"
+
+#: includes/plugins/orders/invoices/list.php:28 includes/plugins/orders/orders/list.php:29
+msgid "Transport"
+msgstr "transport"
+
+#: includes/plugins/orders/invoices/list.php:34 includes/plugins/orders/orders/list.php:35
+msgid "Total économisé"
+msgstr "totaal bespaarde"
+
+#: includes/plugins/orders/orders/data.php:78
+msgid "Edition de la Commande"
+msgstr "Editie van de bestelling"
+
+#: includes/plugins/orders/orders/data.php:98
+msgid "Apérçu la facture"
+msgstr "Een voorbeeld van de factuur"
+
+#: includes/plugins/orders/orders/data.php:100
+msgid "Générer la facture"
+msgstr "Genereer factuur"
+
+#: includes/plugins/orders/orders/data.php:104
+msgid "Apérçu la Commande"
+msgstr "Voorbeschouwing Command"
+
+#: includes/plugins/orders/orders/data.php:167
+msgid "Produits de la Commande"
+msgstr "Bestellen producten"
+
+#: includes/plugins/orders/orders/data.php:502
+msgid "En cours de Génération de la Facture."
+msgstr "Tijdens Invoice Generation."
+
+#: includes/plugins/orders/orders/list.php:23
+msgid "Gestion des Commandes"
+msgstr "order management"
+
+#: includes/plugins/products/attributes/data.php:16
+msgid "Nom de l'attribut"
+msgstr "attribuutnaam"
+
+#: includes/plugins/products/attributes/data.php:22 includes/plugins/products/attributes/data.php:80
+msgid "Language"
+msgstr "Save"
+
+#: includes/plugins/products/attributes/data.php:28 includes/plugins/products/attributes/data.php:86 includes/plugins/products/tags/data.php:28 includes/plugins/products/tags/data.php:86
+msgid "Vérifier tous vos information et cliquer sur le bouton save."
+msgstr "Controleer al uw gegevens in en klik op de knop Opslaan."
+
+#: includes/plugins/products/attributes/data.php:30 includes/plugins/products/attributes/data.php:88
+msgid "Enregistrer l'attribute"
+msgstr "attribuut Save"
+
+#: includes/plugins/products/attributes/data.php:75
+msgid "Nom de l'attribute"
+msgstr "naam attribuut"
+
+#: includes/plugins/products/attributes/list.php:9
+msgid "Gestion des attributes"
+msgstr "beheer attributen"
+
+#: includes/plugins/products/attributes/list.php:19
+msgid "Ajouter une nouvelle attributes"
+msgstr "Voeg nieuwe attributen"
+
+#: includes/plugins/products/categories/data.php:48
+msgid "Catégorie"
+msgstr "categorie"
+
+#: includes/plugins/products/categories/data.php:50
+msgid "Liste des Catégories"
+msgstr "Lijst van categorieën"
+
+#: includes/plugins/products/categories/data.php:55
+msgid "Modifier la Catégorie"
+msgstr "Categorie wijzigen"
+
+#: includes/plugins/products/categories/data.php:55
+msgid "Nouvelle Catégorie"
+msgstr "nieuwe Categorie"
+
+#: includes/plugins/products/categories/data.php:66
+msgid "Affichée"
+msgstr "weergegeven"
+
+#: includes/plugins/products/categories/data.php:78
+msgid "Image de la catégorie"
+msgstr "Afbeelding voor categorie"
+
+#: includes/plugins/products/categories/data.php:93 includes/plugins/products/manufacturers/data.php:93 includes/plugins/products/products/data.php:796
+msgid "Balise titre"
+msgstr "title tag"
+
+#: includes/plugins/products/categories/data.php:99 includes/plugins/products/manufacturers/data.php:99 includes/plugins/products/products/data.php:802
+msgid "Meta description"
+msgstr "meta description"
+
+#: includes/plugins/products/categories/data.php:105 includes/plugins/products/manufacturers/data.php:105
+msgid "Meta mots-clés"
+msgstr "meta Keyword"
+
+#: includes/plugins/products/categories/data.php:111 includes/plugins/products/products/data.php:808
+msgid "URL simplifiée"
+msgstr "Friendly URL"
+
+#: includes/plugins/products/categories/list.php:9
+msgid "Gestion des categories"
+msgstr "beheer Categorieën"
+
+#: includes/plugins/products/categories/list.php:19
+msgid "Ajouter une categorie"
+msgstr "categorie toevoegen"
+
+#: includes/plugins/products/manufacturers/data.php:50
+msgid "Liste des Fabricants"
+msgstr "Lijst van Fabrikanten"
+
+#: includes/plugins/products/manufacturers/data.php:55
+msgid "Nouveau Fabricant"
+msgstr "nieuwe Fabrikant"
+
+#: includes/plugins/products/manufacturers/data.php:66 includes/plugins/products/products/data.php:559
+msgid "Résumé"
+msgstr "overzicht"
+
+#: includes/plugins/products/manufacturers/data.php:78 includes/plugins/shipping/shipping/data.php:310
+msgid "Logo"
+msgstr "logo"
+
+#: includes/plugins/products/manufacturers/data.php:113 includes/plugins/shipping/shipping/data.php:263
+msgid "désactivé"
+msgstr "invalide"
+
+#: includes/plugins/products/manufacturers/list.php:12
+msgid "Gestion des Fabricants"
+msgstr "fabrikanten beheer"
+
+#: includes/plugins/products/manufacturers/list.php:17
+msgid "Date de Création"
+msgstr "Creation Date"
+
+#: includes/plugins/products/manufacturers/list.php:18 includes/plugins/products/products/data.php:551
+msgid "Activé"
+msgstr "geactiveerd"
+
+#: includes/plugins/products/manufacturers/list.php:23
+msgid "Ajouter un fabricant"
+msgstr "Fabrikant toevoegen"
+
+#: includes/plugins/products/products/data.php:421
+msgid "Modifier les informations de Produit"
+msgstr "Change Productinformatie"
+
+#: includes/plugins/products/products/data.php:421 includes/plugins/products/products/list.php:58
+msgid "Ajouter un Produit"
+msgstr "Voeg een product"
+
+#: includes/plugins/products/products/data.php:456 includes/plugins/products/products/data.php:474
+msgid "Informations de Produit"
+msgstr "Productinformatie"
+
+#: includes/plugins/products/products/data.php:457 includes/plugins/products/products/data.php:587
+msgid "Produits associés"
+msgstr "aanverwante producten"
+
+#: includes/plugins/products/products/data.php:458
+msgid "Prix et Règle de taxe"
+msgstr "Price en Tax Rule"
+
+#: includes/plugins/products/products/data.php:459
+msgid "Référencement - SEO"
+msgstr "- SEO"
+
+#: includes/plugins/products/products/data.php:460
+msgid "Catégories et Associations"
+msgstr "Categorieën Verenigingen"
+
+#: includes/plugins/products/products/data.php:461
+msgid "Déclinaisons"
+msgstr "verbuigingen"
+
+#: includes/plugins/products/products/data.php:462
+msgid "Quantités"
+msgstr "hoeveelheden"
+
+#: includes/plugins/products/products/data.php:463 includes/plugins/products/products/data.php:1203
+msgid "Images"
+msgstr "beeldspraak"
+
+#: includes/plugins/products/products/data.php:465 includes/plugins/products/products/data.php:1337
+msgid "Documents joints"
+msgstr "bijgevoegde documenten"
+
+#: includes/plugins/products/products/data.php:479
+msgid "Vous ne pouvez pas avoir de déclinaisons avec un produit virtuel."
+msgstr "Je kunt niet varianten met een virtueel product hebben."
+
+#: includes/plugins/products/products/data.php:480
+msgid "Vous ne pouvez pas utiliser de déclinaisons dans un pack."
+msgstr "Je kunt geen gebruik maken van variaties in een verpakking."
+
+#: includes/plugins/products/products/data.php:482
+msgid "Type"
+msgstr "type"
+
+#: includes/plugins/products/products/data.php:487
+msgid "Produit standard"
+msgstr "standaardproduct"
+
+#: includes/plugins/products/products/data.php:492
+msgid "Pack de produits existants"
+msgstr "Pak van bestaande producten"
+
+#: includes/plugins/products/products/data.php:498
+msgid "Produit dématérialisé (services, réservations, produits téléchargeables, etc.)"
+msgstr "Product gedematerialiseerd (diensten, reserveringen, downloadbare producten, enz.)"
+
+#: includes/plugins/products/products/data.php:516 includes/plugins/products/products/data.php:922
+msgid "Code-barres EAN-13 ou JAN"
+msgstr "EAN-13 barcode of januari"
+
+#: includes/plugins/products/products/data.php:522 includes/plugins/products/products/data.php:928
+msgid "Code-barres UPC"
+msgstr "UPC barcode"
+
+#: includes/plugins/products/products/data.php:531
+msgid "Nouveau"
+msgstr "nieuw"
+
+#: includes/plugins/products/products/data.php:532
+msgid "Utilisé"
+msgstr "in gebruik"
+
+#: includes/plugins/products/products/data.php:533
+msgid "Reconditionné"
+msgstr "gerenoveerd"
+
+#: includes/plugins/products/products/data.php:538
+msgid "Date de création"
+msgstr "aanmaakdatum"
+
+#: includes/plugins/products/products/data.php:548
+msgid "Status"
+msgstr "toestand"
+
+#: includes/plugins/products/products/data.php:554
+msgid "Désactivé"
+msgstr "gedeactiveerd"
+
+#: includes/plugins/products/products/data.php:571
+msgid "Mots-clés (Tags)"
+msgstr "Trefwoorden (tags)"
+
+#: includes/plugins/products/products/data.php:574
+msgid "Chaque mot-clé doit être suivi d'une virgule. Les caractères suivants sont interdits : !<;>;?=+#\"°{}_$%."
+msgstr "Elk zoekwoord moet worden gevolgd door een komma. De volgende tekens zijn niet toegestaan: <> = + # \\ \"_ ° {} $%!?."
+
+#: includes/plugins/products/products/data.php:590
+msgid "Produit associé"
+msgstr "gerelateerd product"
+
+#: includes/plugins/products/products/data.php:611 includes/plugins/products/products/data.php:1006
+msgid "Image"
+msgstr "beeld"
+
+#: includes/plugins/products/products/data.php:614
+msgid "Action"
+msgstr "actie"
+
+#: includes/plugins/products/products/data.php:649 includes/plugins/products/products/data.php:1122 includes/plugins/products/products/data.php:1193 includes/plugins/products/products/data.php:1251 includes/plugins/products/products/data.php:1327
+#: includes/plugins/products/products/data.php:1403 includes/plugins/shipping/shipping/data.php:469 includes/plugins/shipping/shipping/data.php:555 includes/plugins/shipping/shipping/data.php:600 includes/plugins/shipping/shipping/data.php:612
+msgid "Il y a 1 avertissement."
+msgstr "Er is 1 waarschuwing."
+
+#: includes/plugins/products/products/data.php:650 includes/plugins/products/products/data.php:1328 includes/plugins/products/products/data.php:1404
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des caractéristiques."
+msgstr "Je moet dit product voor het toevoegen van features te registreren."
+
+#: includes/plugins/products/products/data.php:657
+msgid "Ajouter des Prix"
+msgstr "Prijs toevoegen"
+
+#: includes/plugins/products/products/data.php:661
+msgid "Prix d'achat (unitaire)"
+msgstr "aankoopprijs (per eenheid)"
+
+#: includes/plugins/products/products/data.php:664
+msgid "Dhs"
+msgstr "dhs"
+
+#: includes/plugins/products/products/data.php:666 includes/plugins/products/products/data.php:676 includes/plugins/products/products/data.php:686
+msgid "HT"
+msgstr "HT"
+
+#: includes/plugins/products/products/data.php:671
+msgid "Prix de vente (unitaire)"
+msgstr "Verkoopprijs (per eenheid)"
+
+#: includes/plugins/products/products/data.php:681
+msgid "Prix du lot"
+msgstr "lot prijs"
+
+#: includes/plugins/products/products/data.php:691
+msgid "Par"
+msgstr "door"
+
+#: includes/plugins/products/products/data.php:693
+msgid "(Pièces)"
+msgstr "(Parts)"
+
+#: includes/plugins/products/products/data.php:698
+msgid "Points de fidélité"
+msgstr "trouw"
+
+#: includes/plugins/products/products/data.php:713
+msgid "Règle de taxe"
+msgstr "regel belasting"
+
+#: includes/plugins/products/products/data.php:726
+msgid "Remise"
+msgstr "korting"
+
+#: includes/plugins/products/products/data.php:740
+msgid "Colisage"
+msgstr "verpakking"
+
+#: includes/plugins/products/products/data.php:749
+msgid "Poids"
+msgstr "gewicht"
+
+#: includes/plugins/products/products/data.php:753 includes/plugins/products/products/data.php:964
+msgid "KG"
+msgstr "KG"
+
+#: includes/plugins/products/products/data.php:758
+msgid "Hauteur"
+msgstr "hoogte"
+
+#: includes/plugins/products/products/data.php:762 includes/plugins/products/products/data.php:771
+msgid "CM"
+msgstr "CM"
+
+#: includes/plugins/products/products/data.php:767
+msgid "Largeur"
+msgstr "breedte"
+
+#: includes/plugins/products/products/data.php:776
+msgid "Profondeur"
+msgstr "diepte"
+
+#: includes/plugins/products/products/data.php:780
+msgid "m"
+msgstr "m"
+
+#: includes/plugins/products/products/data.php:793
+msgid "RÉFÉRENCEMENT - SEO"
+msgstr "Optimalisatie - SEO"
+
+#: includes/plugins/products/products/data.php:825
+msgid "Associations"
+msgstr "verenigingen"
+
+#: includes/plugins/products/products/data.php:829
+msgid "Catégories associées"
+msgstr "gerelateerde categorieën"
+
+#: includes/plugins/products/products/data.php:834
+msgid "Réduire tout"
+msgstr "alles samenvouwen"
+
+#: includes/plugins/products/products/data.php:835
+msgid "Ouvrire tout"
+msgstr "opent alle"
+
+#: includes/plugins/products/products/data.php:836
+msgid "Tout cocher"
+msgstr "alles selecteren"
+
+#: includes/plugins/products/products/data.php:837
+msgid "Tout décocher"
+msgstr "haal het vinkje weg"
+
+#: includes/plugins/products/products/data.php:850
+msgid "Catégorie par défaut"
+msgstr "default categorie"
+
+#: includes/plugins/products/products/data.php:871
+msgid "Ajouter ou modifier des déclinaisons de produit"
+msgstr "Toevoegen of wijzigen productvarianten"
+
+#: includes/plugins/products/products/data.php:878 includes/plugins/products/products/data.php:1049
+msgid "Sauvegarder la déclinaison"
+msgstr "Sla de declinatie"
+
+#: includes/plugins/products/products/data.php:879
+msgid "Déclinaisons de produit"
+msgstr "Productkenmerken"
+
+#: includes/plugins/products/products/data.php:886
+msgid "Attribut"
+msgstr "attribuut"
+
+#: includes/plugins/products/products/data.php:897
+msgid "Valeur"
+msgstr "waarde"
+
+#: includes/plugins/products/products/data.php:935
+msgid "Prix de vente HT"
+msgstr "Verkoopprijs zonder BTW"
+
+#: includes/plugins/products/products/data.php:941 includes/plugins/products/products/data.php:1059
+msgid "Impact sur le prix"
+msgstr "Impact op de prijs"
+
+#: includes/plugins/products/products/data.php:944 includes/plugins/products/products/data.php:958 includes/plugins/products/products/data.php:972
+msgid "Aucun"
+msgstr "geen"
+
+#: includes/plugins/products/products/data.php:945 includes/plugins/products/products/data.php:959 includes/plugins/products/products/data.php:973
+msgid "Augmentation"
+msgstr "toenemen"
+
+#: includes/plugins/products/products/data.php:946 includes/plugins/products/products/data.php:960 includes/plugins/products/products/data.php:974
+msgid "Diminution"
+msgstr "verminderen"
+
+#: includes/plugins/products/products/data.php:955 includes/plugins/products/products/data.php:1060
+msgid "Impact sur le poids"
+msgstr "Impact op gewicht"
+
+#: includes/plugins/products/products/data.php:969
+msgid "Impact sur le prix unitaire"
+msgstr "Impact op de prijs per eenheid"
+
+#: includes/plugins/products/products/data.php:983
+msgid "Quantité En Stock"
+msgstr "Hoeveelheid Op voorraad"
+
+#: includes/plugins/products/products/data.php:989 includes/plugins/products/products/data.php:1170
+msgid "Quantité minimale"
+msgstr "minimumhoeveelheid"
+
+#: includes/plugins/products/products/data.php:995
+msgid "Date de disponibilité"
+msgstr "Beschikbaarheid Date"
+
+#: includes/plugins/products/products/data.php:1033
+msgid "Par défaut"
+msgstr "bij verstek"
+
+#: includes/plugins/products/products/data.php:1038
+msgid "Faire de cette déclinaison celle par défaut pour ce produit."
+msgstr "Maak dit de standaard variant product."
+
+#: includes/plugins/products/products/data.php:1046
+msgid "Annuler la modification"
+msgstr "ongedaan verandering"
+
+#: includes/plugins/products/products/data.php:1048 includes/plugins/products/products/data.php:1115
+msgid "Nouvelle déclinaison"
+msgstr "nieuwe declinatie"
+
+#: includes/plugins/products/products/data.php:1058
+msgid "Paire attribut - valeur"
+msgstr "Pair attribuut - waarde"
+
+#: includes/plugins/products/products/data.php:1062
+msgid "EAN-13"
+msgstr "EAN-13"
+
+#: includes/plugins/products/products/data.php:1063
+msgid "UPC"
+msgstr "UPC"
+
+#: includes/plugins/products/products/data.php:1088
+msgid "Modifier"
+msgstr "verandering"
+
+#: includes/plugins/products/products/data.php:1099
+msgid "Aucun enregistrement trouvé"
+msgstr "Geen records gevonden"
+
+#: includes/plugins/products/products/data.php:1107
+msgid "La ligne en bleu est la déclinaison par défaut."
+msgstr "De blauwe lijn is de standaard combinatie."
+
+#: includes/plugins/products/products/data.php:1108
+msgid "Un produit qui possède des déclinaisons doit avoir une déclinaison par défaut."
+msgstr "Een product dat verbuigingen heeft moet een standaard combinatie te hebben."
+
+#: includes/plugins/products/products/data.php:1123
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des déclinaisons."
+msgstr "Je moet dit product voor het toevoegen van verbuigingen te registreren."
+
+#: includes/plugins/products/products/data.php:1131
+msgid "QUANTITÉS DISPONIBLES À LA VENTE"
+msgstr "BEDRAGEN BESCHIKBAAR VOOR VERKOOP"
+
+#: includes/plugins/products/products/data.php:1134
+msgid "Cette interface vous permet de gérer les quantités disponibles à la vente pour ce produit. Elle vous permet également de gérer les déclinaisons produit dans la boutique en cours."
+msgstr "Deze interface kunt u de voor verkoop beschikbaar voor dit product hoeveelheden te beheren. Ook kunt u de variaties die in de huidige winkel beheren."
+
+#: includes/plugins/products/products/data.php:1135
+msgid "Notez que si un produit du pack a plusieurs déclinaisons, c'est sa déclinaison par défaut qui sera utilisée pour les mouvements de stocks."
+msgstr "Merk op dat als een ingrediëntpak staan ​​meerdere varianten, is de standaard combinatie die wordt gebruikt voor inventarisbewegingen."
+
+#: includes/plugins/products/products/data.php:1194
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des quantités."
+msgstr "Je moet dit product voor het toevoegen van hoeveelheden te registreren."
+
+#: includes/plugins/products/products/data.php:1207
+msgid "Ajouter une nouvelle image à ce produit"
+msgstr "Voeg een nieuwe afbeelding van dit product"
+
+#: includes/plugins/products/products/data.php:1217
+msgid "Sélectionnez l'image en vedette."
+msgstr "Selecteer het beeld wordt gekenmerkt."
+
+#: includes/plugins/products/products/data.php:1252
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des images."
+msgstr "Je moet dit product voor het toevoegen van foto's te registreren."
+
+#: includes/plugins/products/products/data.php:1263
+msgid "Attribuer des caractéristiques à ce produit"
+msgstr "functies toewijzen aan dit product"
+
+#: includes/plugins/products/products/data.php:1267
+msgid "Vous pouvez préciser une valeur pour chaque caractéristique pertinente concernant ce produit ; les champs vides ne seront pas affichés."
+msgstr "U kunt een waarde voor elke relevante functie op het product te geven; lege velden wordt niet getoond."
+
+#: includes/plugins/products/products/data.php:1268
+msgid "Vous pouvez définir une valeur spécifique, ou choisir parmi les valeurs existantes prédéfinies que vous avez ajoutées précédemment."
+msgstr "U kunt een specifieke waarde in te stellen, of kiezen uit vooraf gedefinieerde bestaande waarden die u eerder hebt toegevoegd."
+
+#: includes/plugins/products/products/data.php:1279
+msgid "Caractéristique"
+msgstr "kenmerken"
+
+#: includes/plugins/products/products/data.php:1280
+msgid "Valeur prédéfinie"
+msgstr "voorinstelling"
+
+#: includes/plugins/products/products/data.php:1281 includes/plugins/users/users/data.php:585
+msgid "OU"
+msgstr "OR"
+
+#: includes/plugins/products/products/data.php:1281
+msgid "Valeur personnalisée"
+msgstr "aangepaste waarde"
+
+#: includes/plugins/products/products/data.php:1308
+msgid "N/D"
+msgstr "N / A"
+
+#: includes/plugins/products/products/data.php:1308
+msgid "Ajouter une valeur prédéfinie dans un premier temps"
+msgstr "Voeg een vooraf gedefinieerde waarde in eerste instantie"
+
+#: includes/plugins/products/products/data.php:1340
+msgid "Nom du fichier *"
+msgstr "bestandsnaam *"
+
+#: includes/plugins/products/products/data.php:1352
+msgid "Fichier"
+msgstr "file"
+
+#: includes/plugins/products/products/data.php:1355
+msgid "Mettre un fichier en ligne depuis votre poste de travail"
+msgstr "Het zetten van een online bestand vanaf uw werkstation"
+
+#: includes/plugins/products/products/data.php:1355
+msgid "max."
+msgstr "max."
+
+#: includes/plugins/products/products/data.php:1356
+msgid "Formats autorisés :"
+msgstr "geautoriseerde formaten:"
+
+#: includes/plugins/products/products/data.php:1361
+msgid "Envoyer"
+msgstr "sturen"
+
+#: includes/plugins/products/products/data.php:1366
+msgid "Liste des fichiers attachés"
+msgstr "Bijgevoegde lijst met bestanden"
+
+#: includes/plugins/products/products/data.php:1372
+msgid "Nom du fichier"
+msgstr "bestandsnaam"
+
+#: includes/plugins/products/products/data.php:1389
+msgid "Aucun attachment trouvé"
+msgstr "Geen bevestiging gevonden"
+
+#: includes/plugins/products/products/data.php:1507
+msgid "Cette action supprime définitivement l'image sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "Deze actie permanent verwijdert de afbeelding op uw server. Ben je echt zeker?"
+
+#: includes/plugins/products/products/data.php:1526
+msgid "Cette action supprime définitivement le fichier sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "Deze actie verwijdert permanent het bestand op de server. Ben je echt zeker?"
+
+#: includes/plugins/products/products/data.php:1620
+msgid "Cette action supprime définitivement la declinaison. Êtes-vous vraiment sûr ?"
+msgstr "Deze actie permanent verwijdert de declinatie. Ben je echt zeker?"
+
+#: includes/plugins/products/products/data.php:1643 includes/plugins/products/products/data.php:1651
+msgid "Cette action annuler la declinaison. Êtes-vous vraiment sûr ?"
+msgstr "Deze actie te annuleren declinatie. Ben je echt zeker?"
+
+#: includes/plugins/products/products/data.php:1782
+msgid "Vous ne pouvez ajouter qu'une déclinaison par type d'attribut."
+msgstr "U kunt een variatie toe te voegen per type attribuut."
+
+#: includes/plugins/products/products/list.php:44
+msgid "Gestion des Produits"
+msgstr "product management"
+
+#: includes/plugins/products/products/list.php:49
+msgid "Prix d\\'achat"
+msgstr "\\ Aankoopprijs"
+
+#: includes/plugins/products/products/list.php:50
+msgid "Prix de vente"
+msgstr "verkoopprijs"
+
+#: includes/plugins/products/tags/data.php:16 includes/plugins/products/tags/data.php:75
+msgid "Nom de Tag"
+msgstr "tag Naam"
+
+#: includes/plugins/products/tags/data.php:22 includes/plugins/products/tags/data.php:80
+msgid "language"
+msgstr "taal"
+
+#: includes/plugins/products/tags/data.php:30 includes/plugins/products/tags/data.php:88
+msgid "Enrigistrer la Tag"
+msgstr "Enrigistrer de Tag"
+
+#: includes/plugins/products/tags/list.php:9
+msgid "Gestion des tags"
+msgstr "Label beheer"
+
+#: includes/plugins/products/tags/list.php:19
+msgid "Ajouter une tags"
+msgstr "tags toevoegen"
+
+#: includes/plugins/products/values/data.php:34 includes/plugins/products/values/data.php:132
+msgid "La valeur a été mise à jour"
+msgstr "De waarde is bijgewerkt"
+
+#: includes/plugins/products/values/data.php:37
+msgid "La valeur a été ajouter avec success"
+msgstr "De waarde is toegevoegd met succes"
+
+#: includes/plugins/products/values/data.php:51 includes/plugins/products/values/data.php:159
+msgid "Ajouter une nouvelle valeur"
+msgstr "Voeg een nieuwe waarde"
+
+#: includes/plugins/products/values/data.php:54
+msgid "Enregistrer"
+msgstr "record"
+
+#: includes/plugins/products/values/data.php:67 includes/plugins/products/values/data.php:175
+msgid "VALEURS"
+msgstr "WAARDEN"
+
+#: includes/plugins/products/values/data.php:71 includes/plugins/products/values/data.php:179
+msgid "Groupe d'attributs *"
+msgstr "Toeschrijven groep *"
+
+#: includes/plugins/products/values/data.php:81 includes/plugins/products/values/data.php:192
+msgid "Valeur *"
+msgstr "value *"
+
+#: includes/plugins/products/values/data.php:87 includes/plugins/products/values/data.php:198
+msgid "URL"
+msgstr "URL"
+
+#: includes/plugins/products/values/list.php:9
+msgid "Gestion des Valeurs"
+msgstr "beheer Waarden"
+
+#: includes/plugins/products/values/list.php:19
+msgid "Ajouter une Valeur"
+msgstr "add Value"
+
+#: includes/plugins/shipping/shipping/data.php:158
+msgid "Le Transport a été mise à jour avec success."
+msgstr "Transport is bijgewerkt met succes."
+
+#: includes/plugins/shipping/shipping/data.php:215
+msgid "Modifier le Transporteur"
+msgstr "Bewerk de Carrier"
+
+#: includes/plugins/shipping/shipping/data.php:215
+msgid "Ajouter un Transporteur"
+msgstr "Carrier toevoegen"
+
+#: includes/plugins/shipping/shipping/data.php:247 includes/plugins/shipping/shipping/data.php:258
+msgid "Paramètres généraux"
+msgstr "algemene instellingen"
+
+#: includes/plugins/shipping/shipping/data.php:248 includes/plugins/shipping/shipping/data.php:341
+msgid "Destinations d'expédition et coûts"
+msgstr "Bestemming en verzendkosten"
+
+#: includes/plugins/shipping/shipping/data.php:249 includes/plugins/shipping/shipping/data.php:478
+msgid "Taille, poids et groupes associés"
+msgstr "Lengte, gewicht en bijbehorende groepen"
+
+#: includes/plugins/shipping/shipping/data.php:250
+msgid "Récapitulatif"
+msgstr "overzicht"
+
+#: includes/plugins/shipping/shipping/data.php:276
+msgid "Mode de livraison"
+msgstr "levering Mode"
+
+#: includes/plugins/shipping/shipping/data.php:279
+msgid "Economique (le moins cher)"
+msgstr "Economische (de goedkoopste)"
+
+#: includes/plugins/shipping/shipping/data.php:280
+msgid "Express (le plus rapide)"
+msgstr "Express (snelste)"
+
+#: includes/plugins/shipping/shipping/data.php:285
+msgid ""
+"Caractères autorisés : lettres, espaces et &quot;().-&quot;. Nom du transporteur tel qu'il apparaîtra durant la commande. Pour le retrait en boutique, mettez le chiffre 0 afin de remplacer le nom du transporteur par le nom de votre boutique."
+msgstr "Toegestane karakters: letters, spaties en & quot; () .- & quot;. Carrier naam zoals deze zal verschijnen in de volgorde. Voor het verwijderen winkel, zet 0 om de naam van de luchtvaartmaatschappij te vervangen door de naam van uw winkel."
+
+#: includes/plugins/shipping/shipping/data.php:285
+msgid "Nom du transporteur *"
+msgstr "Carrier Naam *"
+
+#: includes/plugins/shipping/shipping/data.php:292
+msgid "L'estimation du délai de livraison sera affichée durant la commande."
+msgstr "De geschatte levertijd zal tijdens de bestelling worden weergegeven."
+
+#: includes/plugins/shipping/shipping/data.php:292
+msgid "Délai de livraison *"
+msgstr "* Levering"
+
+#: includes/plugins/shipping/shipping/data.php:295
+msgid "min"
+msgstr "min"
+
+#: includes/plugins/shipping/shipping/data.php:298
+msgid "max"
+msgstr "max"
+
+#: includes/plugins/shipping/shipping/data.php:303
+msgid "Saisissez &quot;0&quot; pour le délai d'expédition le plus long, ou &quot;9&quot; pour le délai le plus court."
+msgstr "Enter & quot; 0 & quot; voor de langste levertijd of & quot; 9 & quot; voor de kortste tijd."
+
+#: includes/plugins/shipping/shipping/data.php:303
+msgid "Vitesse"
+msgstr "snelheid"
+
+#: includes/plugins/shipping/shipping/data.php:313
+msgid "Format JPG, GIF, PNG. Taille du fichier 8.00 Mo max. Taille actuelle"
+msgstr "JPG, GIF, PNG. Bestandsgrootte 8.00 MB max. huidige grootte"
+
+#: includes/plugins/shipping/shipping/data.php:313
+msgid "indéfini"
+msgstr "onbepaald"
+
+#: includes/plugins/shipping/shipping/data.php:317
+msgid "URL pour le suivi des colis : placez le caractère &quot;@&quot; là où la référence doit apparaître. Elle sera automatiquement remplacée par le numéro de suivi."
+msgstr "URL om pakketten te traceren: Plaats het teken & quot; @ & quot; waar de verwijzing moet verschijnen. Het zal automatisch worden vervangen met de tracking nummer."
+
+#: includes/plugins/shipping/shipping/data.php:317
+msgid "URL de suivi"
+msgstr "tracking-URL"
+
+#: includes/plugins/shipping/shipping/data.php:320
+msgid "Par exemple : \"http://example.com/track.php?num=@\" avec \"@\" à l'emplacement du numéro de suivi."
+msgstr "Bijvoorbeeld: \\ \"http: //example.com/track.php @ num = \" met \\ \"@ \" naar de locatie van het volgnummer."
+
+#: includes/plugins/shipping/shipping/data.php:346
+msgid "Ajouter les frais de manutention"
+msgstr "Voeg behandelende lasten"
+
+#: includes/plugins/shipping/shipping/data.php:358
+msgid "Facturation"
+msgstr "billing"
+
+#: includes/plugins/shipping/shipping/data.php:361
+msgid "En fonction du prix total."
+msgstr "Afhankelijk van de totale prijs."
+
+#: includes/plugins/shipping/shipping/data.php:364
+msgid "En fonction du poids total."
+msgstr "Betrokken op het totale gewicht."
+
+#: includes/plugins/shipping/shipping/data.php:383
+msgid ""
+"Le comportement hors tranches désigne le comportement à adopter lorsqu'aucune tranche ne correspond au panier du client (par exemple, lorsque le poids total des articles mis au panier est plus grand que le poids maximal défini dans les "
+"tranches de poids)."
+msgstr "Het gedrag off slices verwijst gedragen als er geen segment overeenkomt met de korf van de cliënt (bijvoorbeeld wanneer het totale gewicht van voorwerpen in de mand is groter dan de maximale hoeveelheid die in de gewichtsklassen)."
+
+#: includes/plugins/shipping/shipping/data.php:383
+msgid "Comportement hors tranches"
+msgstr "Gedrag off plakjes"
+
+#: includes/plugins/shipping/shipping/data.php:387
+msgid "Prendre la tranche la plus grande"
+msgstr "Neem de grootste slice"
+
+#: includes/plugins/shipping/shipping/data.php:388
+msgid "Désactiver le transporteur"
+msgstr "uitschakelen carrier"
+
+#: includes/plugins/shipping/shipping/data.php:398
+msgid "Plages"
+msgstr "stranden"
+
+#: includes/plugins/shipping/shipping/data.php:403 includes/plugins/shipping/shipping/data.php:413 includes/plugins/shipping/shipping/data.php:631
+msgid "Sera appliquée lorsque le poids est"
+msgstr "Zal worden toegepast wanneer het gewicht is"
+
+#: includes/plugins/shipping/shipping/data.php:407 includes/plugins/shipping/shipping/data.php:630
+msgid "kg"
+msgstr "kg"
+
+#: includes/plugins/shipping/shipping/data.php:423
+msgid "All"
+msgstr "alle"
+
+#: includes/plugins/shipping/shipping/data.php:457
+msgid "Ajouter une nouvelle tranche"
+msgstr "Voeg een nieuwe tranche"
+
+#: includes/plugins/shipping/shipping/data.php:470
+msgid "Vous devez enregistrer ce transport avant d'y ajouter des destinations d'expédition et coûts."
+msgstr "U moet dit transport voordat u de verzendkosten en bestemmingen te registreren."
+
+#: includes/plugins/shipping/shipping/data.php:483
+msgid "Largeur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "Maximale breedte beheerd door deze maatschappij. Join & quot; 0 & quot; of laat leeg om deze optie over te slaan. De waarde moet een geheel getal zijn."
+
+#: includes/plugins/shipping/shipping/data.php:483
+msgid "Largeur maximum du paquet (cm)"
+msgstr "Maximale breedte pakket (cm)"
+
+#: includes/plugins/shipping/shipping/data.php:491
+msgid "Hauteur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "Maximale hoogte beheerd door deze maatschappij. Join & quot; 0 & quot; of laat leeg om deze optie over te slaan. De waarde moet een geheel getal zijn."
+
+#: includes/plugins/shipping/shipping/data.php:491
+msgid "Hauteur maximum du paquet (cm)"
+msgstr "Maximale pak hoogte (cm)"
+
+#: includes/plugins/shipping/shipping/data.php:499
+msgid "Profondeur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "maximale diepte beheerd door deze maatschappij. Join & quot; 0 & quot; of laat leeg om deze optie over te slaan. De waarde moet een geheel getal zijn."
+
+#: includes/plugins/shipping/shipping/data.php:499
+msgid "Profondeur maximum du paquet (cm)"
+msgstr "Maximale diepte van de verpakking (cm)"
+
+#: includes/plugins/shipping/shipping/data.php:507
+msgid "Poids maximal géré par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option."
+msgstr "Maximaal gewicht ondersteund door deze maatschappij. Join & quot; 0 & quot; of laat leeg om deze optie over te slaan."
+
+#: includes/plugins/shipping/shipping/data.php:507
+msgid "Poids maximum du paquet (kg)"
+msgstr "maximale pakket gewicht (kg)"
+
+#: includes/plugins/shipping/shipping/data.php:514
+msgid "Cochez tous les groupes qui ont accès à ce transporteur."
+msgstr "Controleer alle groepen die toegang hebben tot die maatschappij te hebben."
+
+#: includes/plugins/shipping/shipping/data.php:514
+msgid "Accès des groupes"
+msgstr "toegang groepen"
+
+#: includes/plugins/shipping/shipping/data.php:526
+msgid "Nom du groupe"
+msgstr "groep Naam"
+
+#: includes/plugins/shipping/shipping/data.php:556
+msgid "Vous devez enregistrer ce transport avant d'y ajouter la taille, poids et groupes associés."
+msgstr "U moet dit transport voor het toevoegen van de grootte, het gewicht en de bijbehorende groepen te registreren."
+
+#: includes/plugins/shipping/shipping/data.php:564
+msgid "Informations de transporteur"
+msgstr "Carrier Informatie"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "Le transporteur est"
+msgstr "De drager is"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "Offert"
+msgstr "aangeboden"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "payant"
+msgstr "betalen"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "et le délai de livraison affiché est :"
+msgstr "en de levertijd wordt weergegeven:"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "jours."
+msgstr "dagen."
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "Le coût d'envoi est calculé"
+msgstr "De kosten van het verzenden berekend"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "en fonction du poids"
+msgstr "gebaseerd op het gewicht"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "en fonction du prix"
+msgstr "volgens prijs"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "et la règle de taxe"
+msgstr "en de fiscale regel"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "est appliquée"
+msgstr "wordt toegepast"
+
+#: includes/plugins/shipping/shipping/data.php:572
+msgid "Ce transporteur peut livrer des commandes de"
+msgstr "Deze drager kan leveren orders"
+
+#: includes/plugins/shipping/shipping/data.php:572
+msgid "Si la commande est hors de cette tranche, le comportement est défini comme : prendre la tranche la plus grande."
+msgstr "Als de bestelling is niet van deze serie, is het gedrag gedefinieerd als: neem de grootste slice."
+
+#: includes/plugins/shipping/shipping/data.php:573
+msgid "Ce transporteur sera proposé pour les zones :"
+msgstr "De vervoerder zal worden voorgesteld voor de gebieden:"
+
+#: includes/plugins/shipping/shipping/data.php:585
+msgid "Et il sera proposé pour les groupes de clients suivants :"
+msgstr "En zal voor de volgende klant groepen worden aangeboden:"
+
+#: includes/plugins/shipping/shipping/data.php:601
+msgid "Vous devez enregistrer ce transport avant de percevoir la Récapitulatif."
+msgstr "U moet dit transport vóór de ontvangst van de samenvatting te registreren."
+
+#: includes/plugins/shipping/shipping/data.php:613
+msgid "Vous devez enregistrer ce transport avant d'afficher les informations de transporteur."
+msgstr "U moet deze vervoerder voor het weergeven van informatie te registreren."
+
+#: includes/plugins/shipping/shipping/data.php:628
+msgid "Sera appliquée lorsque le prix est"
+msgstr "Zal worden toegepast wanneer de prijs is"
+
+#: includes/plugins/shipping/shipping/list.php:21
+msgid "Liste des Transports"
+msgstr "Lijst van transport"
+
+#: includes/plugins/shipping/shipping/list.php:25
+msgid "Nom de Transport"
+msgstr "Naam transport"
+
+#: includes/plugins/shipping/shipping/list.php:26
+msgid "Délai Min"
+msgstr "min tijd"
+
+#: includes/plugins/shipping/shipping/list.php:27
+msgid "Délai Max"
+msgstr "Max vertraging"
+
+#: includes/plugins/shipping/shipping/list.php:28
+msgid "Vitesse (km)"
+msgstr "Snelheid (km)"
+
+#: includes/plugins/shipping/shipping/list.php:29
+msgid "Largeur Max"
+msgstr "Max breedte"
+
+#: includes/plugins/shipping/shipping/list.php:30
+msgid "Hauteur Max"
+msgstr "Max hoogte"
+
+#: includes/plugins/shipping/shipping/list.php:31
+msgid "Profondeur Max"
+msgstr "Max diepte"
+
+#: includes/plugins/shipping/shipping/list.php:32
+msgid "Poids Max"
+msgstr "maximaal gewicht"
+
+#: includes/plugins/shipping/shipping/list.php:36
+msgid "Ajouter un Transport"
+msgstr "Transport toevoegen"
+
+#: includes/plugins/shop/shop/list.php:8
+msgid "Gestion de Boutique"
+msgstr "beheer Shop"
+
+#: includes/plugins/shop/shop/list.php:13
+msgid "Afficher \"Ajouter au Panier\""
+msgstr "Toon \\ \"In winkelwagen \""
+
+#: includes/plugins/users/groups/data.php:7
+msgid "AJOUTER UNE GROUPE UTILISATEUR"
+msgstr "ADD GEBRUIKERSGROEPEN"
+
+#: includes/plugins/users/groups/data.php:20
+msgid "Ajouter une Groupe"
+msgstr "Groep toevoegen"
+
+#: includes/plugins/users/groups/data.php:31 includes/plugins/users/groups/data.php:94
+msgid "Nom du groupe :"
+msgstr "groepsnaam:"
+
+#: includes/plugins/users/groups/data.php:71
+msgid "MODIFIER UNE GROUPE"
+msgstr "EDIT A GROUP"
+
+#: includes/plugins/users/groups/data.php:89
+msgid "Modifier le groupe"
+msgstr "Groep bewerken"
+
+#: includes/plugins/users/groups/data.php:104
+msgid "Sauvegarder"
+msgstr "besparen"
+
+#: includes/plugins/users/groups/list.php:6
+msgid "Gestion des groups"
+msgstr "beheergroepen"
+
+#: includes/plugins/users/groups/list.php:10
+msgid "Nom de Groupe"
+msgstr "groep Naam"
+
+#: includes/plugins/users/groups/list.php:15
+msgid "Ajouter une groupe"
+msgstr "Een groep toevoegen"
+
+#: includes/plugins/users/login/login.php:128
+msgid "OkadShop"
+msgstr "OkadShop"
+
+#: includes/plugins/users/login/login.php:128
+msgid "Connexion"
+msgstr "Log in"
+
+#: includes/plugins/users/login/login.php:139
+msgid "SE CONNECTER"
+msgstr "CONNECT"
+
+#: includes/plugins/users/login/login.php:141
+msgid "Retour au Site"
+msgstr "Terug naar de site"
+
+#: includes/plugins/users/users/data.php:218
+msgid "Félicitation votre compte a été bien crée. <br>Nous vous remercions de vous être inscrit(e) chez MarocArtiza.<br><br>"
+msgstr "Gefeliciteerd met uw account is goed aangemaakt. <br> Bedankt voor het registreren (e) in MarocArtiza. <br>"
+
+#: includes/plugins/users/users/data.php:223 includes/plugins/users/users/data.php:244
+msgid "Une email a été envoyé au Client."
+msgstr "Een e-mail is verzonden aan de klant."
+
+#: includes/plugins/users/users/data.php:302
+msgid "Modifier les informations Client"
+msgstr "Bewerken Customer Information"
+
+#: includes/plugins/users/users/data.php:310 includes/plugins/users/users/list.php:38
+msgid "Ajouter un Client"
+msgstr "Voeg een klant"
+
+#: includes/plugins/users/users/data.php:341
+msgid "Champs requis"
+msgstr "Verplichte velden"
+
+#: includes/plugins/users/users/data.php:342
+msgid "Les Champs suivants sont obligatoire :"
+msgstr "De volgende velden zijn verplicht:"
+
+#: includes/plugins/users/users/data.php:348
+msgid "Information client"
+msgstr "klantinformatie"
+
+#: includes/plugins/users/users/data.php:355
+msgid "N° client"
+msgstr "klant ID"
+
+#: includes/plugins/users/users/data.php:362
+msgid "Civilité"
+msgstr "beleefdheid"
+
+#: includes/plugins/users/users/data.php:372 includes/plugins/users/users/data.php:601
+msgid "Prénom *"
+msgstr "Voornaam *"
+
+#: includes/plugins/users/users/data.php:384
+msgid "Adresse E-mail *"
+msgstr "E-mailadres *"
+
+#: includes/plugins/users/users/data.php:396
+msgid "Mot de passe"
+msgstr "wachtwoord"
+
+#: includes/plugins/users/users/data.php:399
+msgid "5 caractères min (Remplir ce champs pour changer le mot de passe)."
+msgstr "5 karakters min (Vul dit veld om het wachtwoord te wijzigen)."
+
+#: includes/plugins/users/users/data.php:409
+msgid "Date d’inscription"
+msgstr "Geregistreerd"
+
+#: includes/plugins/users/users/data.php:429
+msgid "En attente"
+msgstr "in afwachting van"
+
+#: includes/plugins/users/users/data.php:430
+msgid "Suspendu"
+msgstr "hangend"
+
+#: includes/plugins/users/users/data.php:437
+msgid "Cette utilisateur est admin"
+msgstr "Deze gebruiker is admin"
+
+#: includes/plugins/users/users/data.php:444
+msgid "Envoyer un email"
+msgstr "Stuur een e-mail"
+
+#: includes/plugins/users/users/data.php:449
+msgid "Contenu de l'email"
+msgstr "E-mail inhoud"
+
+#: includes/plugins/users/users/data.php:451
+msgid "Félicitation votre compte a été bien crée. Nous vous remercions de vous être inscrit(e) chez MarocArtiza."
+msgstr "Gefeliciteerd met uw account is goed aangemaakt. Bedankt voor uw (e) in MarocArtiza."
+
+#: includes/plugins/users/users/data.php:457 includes/plugins/users/users/data.php:534 includes/plugins/users/users/data.php:678 includes/plugins/users/users/data.php:697 includes/plugins/users/users/data.php:717
+#: includes/plugins/users/users/data.php:812 includes/plugins/users/users/data.php:887
+msgid "Valider"
+msgstr "bevestigen"
+
+#: includes/plugins/users/users/data.php:463
+msgid "Informations de la société"
+msgstr "Bedrijfsinformatie"
+
+#: includes/plugins/users/users/data.php:469 includes/plugins/users/users/data.php:607
+msgid "Société *"
+msgstr "bedrijf *"
+
+#: includes/plugins/users/users/data.php:475
+msgid "Activité *"
+msgstr "* activiteit"
+
+#: includes/plugins/users/users/data.php:481
+msgid "N° d’entreprise *"
+msgstr "Bedrijf nummer *"
+
+#: includes/plugins/users/users/data.php:487
+msgid "Registre du commerce"
+msgstr "handelsregister"
+
+#: includes/plugins/users/users/data.php:496
+msgid "Si vous êtes en création d’entreprise"
+msgstr "Als u een bedrijf te starten"
+
+#: includes/plugins/users/users/data.php:497
+msgid "Indiquez « en cours » dans les champs société, activité etsiret"
+msgstr "Geef \"lopende\" in het veld bedrijf, etsiret activiteit"
+
+#: includes/plugins/users/users/data.php:500
+msgid "Site web"
+msgstr "website"
+
+#: includes/plugins/users/users/data.php:506
+msgid "Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)"
+msgstr "Voor landen buiten de EU, neem dan contact op met uw handelsregister (verplicht)"
+
+#: includes/plugins/users/users/data.php:509
+msgid "Date début d’activité"
+msgstr "Company opgericht"
+
+#: includes/plugins/users/users/data.php:515
+msgid "Détail du projet"
+msgstr "project details"
+
+#: includes/plugins/users/users/data.php:524
+msgid "Sélectionnez une Statut"
+msgstr "Selecteer Status"
+
+#: includes/plugins/users/users/data.php:565
+msgid "Les adresses de Client"
+msgstr "De Cliënt Address"
+
+#: includes/plugins/users/users/data.php:567
+msgid "Ajouter une nouvelle adresse"
+msgstr "Voeg een nieuw adres"
+
+#: includes/plugins/users/users/data.php:575
+msgid "Nom de l’adresse"
+msgstr "Naam van het adres"
+
+#: includes/plugins/users/users/data.php:578
+msgid "Sélectionnez une adresse"
+msgstr "Selecteer een adres"
+
+#: includes/plugins/users/users/data.php:585
+msgid "Sélectionnez une adresse dessus"
+msgstr "Selecteer een adres hierboven"
+
+#: includes/plugins/users/users/data.php:585
+msgid "remplir les champs suivant pour ajouter un nouvelle addresse"
+msgstr "het onderstaande velden in om een ​​nieuw adres toe te voegen"
+
+#: includes/plugins/users/users/data.php:589
+msgid "Nom de l'adresse *"
+msgstr "Naam Adres *"
+
+#: includes/plugins/users/users/data.php:613
+msgid "Adresse *"
+msgstr "* adres"
+
+#: includes/plugins/users/users/data.php:627
+msgid "Code postal *"
+msgstr "Postcode *"
+
+#: includes/plugins/users/users/data.php:633
+msgid "Ville *"
+msgstr "stad *"
+
+#: includes/plugins/users/users/data.php:639
+msgid "Pays *"
+msgstr "land *"
+
+#: includes/plugins/users/users/data.php:649
+msgid "Adresse IP"
+msgstr "IP-adres"
+
+#: includes/plugins/users/users/data.php:655
+msgid "Téléphone fixe"
+msgstr "telefoon"
+
+#: includes/plugins/users/users/data.php:658
+msgid "Téléphone fixe (pas obligatoire)"
+msgstr "Telefoon (niet verplicht)"
+
+#: includes/plugins/users/users/data.php:662
+msgid "Téléphone portable *"
+msgstr "Cell Phone *"
+
+#: includes/plugins/users/users/data.php:672
+msgid "Imprimer une étiquette"
+msgstr "Druk een label"
+
+#: includes/plugins/users/users/data.php:684
+msgid "Information complémentaires"
+msgstr "Aanvullende informatie"
+
+#: includes/plugins/users/users/data.php:703
+msgid "Commentaire (en interne uniquement)"
+msgstr "Reactie (alleen intern)"
+
+#: includes/plugins/users/users/data.php:708
+msgid "Cette note sera affichée pour tous les employés, mais pas au client."
+msgstr "Deze nota wordt getoond voor alle werknemers, maar niet aan de klant."
+
+#: includes/plugins/users/users/data.php:723
+msgid "Historique des messsages"
+msgstr "geschiedenis messsages"
+
+#: includes/plugins/users/users/data.php:731
+msgid "Envoyer un email au client"
+msgstr "Stuur een email naar de klant"
+
+#: includes/plugins/users/users/data.php:734
+msgid "Envoyez cette email"
+msgstr "Stuur deze e-mail"
+
+#: includes/plugins/users/users/data.php:740
+msgid "Historique des messages"
+msgstr "Message History"
+
+#: includes/plugins/users/users/data.php:777
+msgid "Admin"
+msgstr "admin"
+
+#: includes/plugins/users/users/data.php:798
+msgid "Aucune messages dans ce dossier !"
+msgstr "Geen berichten in deze map!"
+
+#: includes/plugins/users/users/data.php:804
+msgid "Supprimer ce Dossier"
+msgstr "Verwijder deze map"
+
+#: includes/plugins/users/users/data.php:818
+msgid "Historique devis / commande"
+msgstr "Historisch offerte / order"
+
+#: includes/plugins/users/users/data.php:826
+msgid "Historique devis"
+msgstr "historische koersen"
+
+#: includes/plugins/users/users/data.php:832 includes/plugins/users/users/data.php:863
+msgid "Nom de Devis"
+msgstr "Quote Naam"
+
+#: includes/plugins/users/users/data.php:835
+msgid "Valable jusqu’au"
+msgstr "beschikbaar tot"
+
+#: includes/plugins/users/users/data.php:857
+msgid "Historique Commandes"
+msgstr "Bestel Geschiedenis"
+
+#: includes/plugins/users/users/list.php:23
+msgid "Gestion des clients"
+msgstr "Customer management"
+
+#: includes/plugins/users/users/list.php:27
+msgid "Numéro"
+msgstr "nummer"
+
+#: includes/plugins/users/users/list.php:28
+msgid "Prénom"
+msgstr "voornaam"
+
+#: includes/plugins/users/users/list.php:30
+msgid "Société"
+msgstr "vennootschap"
+
+#: includes/plugins/users/users/list.php:31
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/plugins/users/users/list.php:33
+msgid "Téléphone"
+msgstr "telefoon"

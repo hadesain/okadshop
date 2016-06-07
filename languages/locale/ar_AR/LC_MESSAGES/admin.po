@@ -1,0 +1,2485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-30 12:05+0000\n"
+"PO-Revision-Date: 2016-06-01 11:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../admin\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: includes/plugins\n"
+"X-Poedit-SearchPath-1: includes/ajax\n"
+"X-Poedit-SearchPath-2: adminbar.php\n"
+"X-Poedit-SearchPath-3: adminmenu.php\n"
+"X-Poedit-SearchPath-4: footer.php\n"
+"X-Poedit-SearchPath-5: header.php\n"
+"X-Poedit-SearchPath-6: index.php\n"
+"X-Poedit-SearchPath-7: includes/classes/modules/init.php\n"
+"X-Poedit-SearchPath-8: includes/classes/tables/tables.class.php\n"
+
+#: adminbar.php:19
+msgid "OKADSHOP CMS"
+msgstr "OKADSHOP CMS"
+
+#: adminbar.php:55 includes/plugins/general/dashboard/list.php:155
+msgid "Bonjour"
+msgstr "صباح الخير"
+
+#: adminbar.php:58
+msgid "Mon Compte"
+msgstr "حسابي"
+
+#: adminbar.php:60
+msgid "Ma Boutique"
+msgstr "متجري"
+
+#: adminbar.php:61
+msgid "Voir le Profile"
+msgstr "مشاهدة الملف الشخصي"
+
+#: adminbar.php:62
+msgid "Déconnexion"
+msgstr "تسجيل الخروج"
+
+#: adminmenu.php:10
+msgid "En Ligne"
+msgstr "على الخط"
+
+#: includes/ajax/c/form.php:74
+msgid "La Catégorie a été bien mise à jour."
+msgstr "تم تحديث جيدا الطبقة."
+
+#: includes/ajax/c/form.php:83
+msgid "La Catégorie a été bien ajouter."
+msgstr "والطبقة إضافة جيدا."
+
+#: includes/ajax/invoices/form/carrier.php:47 includes/ajax/orders/form/carrier.php:47
+msgid "Le Transporteur a été mise à jour."
+msgstr "تم تحديث الناقل."
+
+#: includes/ajax/invoices/form/product.php:56 includes/ajax/orders/form/product.php:56
+msgid "Mettre à jour"
+msgstr "تحديث"
+
+#: includes/ajax/invoices/form/product.php:57 includes/ajax/orders/form/product.php:57
+msgid "Supprimer ce produit"
+msgstr "حذف هذه المادة"
+
+#: includes/ajax/invoices/refresh/total.php:47 includes/ajax/orders/refresh/total.php:47 includes/plugins/orders/invoices/data.php:191 includes/plugins/orders/orders/data.php:204
+msgid "Total produits HT"
+msgstr "مجموع المنتجات HT"
+
+#: includes/ajax/invoices/refresh/total.php:52 includes/ajax/orders/refresh/total.php:52 includes/plugins/orders/invoices/data.php:196 includes/plugins/orders/invoices/list.php:31
+#: includes/plugins/orders/orders/data.php:209 includes/plugins/orders/orders/list.php:32
+msgid "Remise globale"
+msgstr "خصم العام"
+
+#: includes/ajax/invoices/refresh/total.php:59 includes/ajax/orders/refresh/total.php:59 includes/plugins/orders/invoices/data.php:202 includes/plugins/orders/invoices/list.php:32
+#: includes/plugins/orders/orders/data.php:215 includes/plugins/orders/orders/list.php:33
+msgid "Bon de réduction"
+msgstr "وصل تخفيض"
+
+#: includes/ajax/invoices/refresh/total.php:66 includes/ajax/orders/refresh/total.php:66 includes/plugins/orders/invoices/data.php:208 includes/plugins/orders/invoices/list.php:33
+#: includes/plugins/orders/orders/data.php:221 includes/plugins/orders/orders/list.php:34
+msgid "Avoir"
+msgstr "يمتلك"
+
+#: includes/ajax/invoices/refresh/total.php:73 includes/ajax/orders/refresh/total.php:73 includes/plugins/cart/cart/list.php:19 includes/plugins/orders/invoices/data.php:214
+#: includes/plugins/orders/orders/data.php:227
+msgid "Code promo"
+msgstr "الرمز الترويجي"
+
+#: includes/ajax/invoices/refresh/total.php:79 includes/ajax/orders/refresh/total.php:79 includes/plugins/orders/invoices/data.php:219 includes/plugins/orders/invoices/data.php:393
+#: includes/plugins/orders/orders/data.php:232 includes/plugins/orders/orders/data.php:406
+msgid "Frais de transport"
+msgstr "تكاليف النقل"
+
+#: includes/ajax/invoices/refresh/total.php:83 includes/ajax/orders/refresh/total.php:83 includes/plugins/orders/invoices/data.php:223 includes/plugins/orders/orders/data.php:236
+msgid "TOTAL HT"
+msgstr "توتال HT"
+
+#: includes/ajax/invoices/refresh/total.php:87 includes/ajax/orders/refresh/total.php:87
+msgid "Acompte"
+msgstr "الدفعة الأولى"
+
+#: includes/ajax/invoices/refresh/total.php:91 includes/ajax/orders/refresh/total.php:91
+msgid "Solde"
+msgstr "توازن"
+
+#: includes/ajax/invoices/refresh/total.php:95 includes/ajax/orders/refresh/total.php:95 includes/plugins/orders/invoices/data.php:235 includes/plugins/orders/orders/data.php:248
+msgid "Poids total"
+msgstr "الوزن الإجمالي"
+
+#: includes/ajax/m/form.php:60
+msgid "Le Fabricant a été bien mise à jour."
+msgstr "الشركة المصنعة تم تحديث جيدا."
+
+#: includes/ajax/m/form.php:69
+msgid "Le Fabricant a été bien ajouter."
+msgstr "الشركة المصنعة تم إضافة جيدا."
+
+#: includes/ajax/modules/hook-disable.php:15 includes/ajax/modules/hook-enable.php:15 includes/ajax/modules/module_disable.php:20 includes/ajax/modules/module_enable.php:20
+#: includes/ajax/modules/module_install.php:132
+msgid "Opération Effectué"
+msgstr "عملية القيام به"
+
+#: includes/ajax/modules/hook-filter.php:40
+msgid "Aucun Hook Trouvé."
+msgstr "لا هوك العثور على."
+
+#: includes/ajax/products/delete-attachment.php:17
+msgid "Attachment was removed."
+msgstr "مرفق تم إزالتها."
+
+#: includes/ajax/products/delete-declinaison.php:14
+msgid "Opération Effectué."
+msgstr "محسوما."
+
+#: includes/ajax/products/delete-image.php:33
+msgid "Image was deleted."
+msgstr "صورة تم حذفه."
+
+#: includes/classes/modules/init.php:30
+msgid "Tableau de bord"
+msgstr "لوحة القيادة"
+
+#: includes/classes/modules/init.php:32
+msgid "Catalogue"
+msgstr "فهرس"
+
+#: includes/classes/modules/init.php:33
+msgid "Liste des Produits"
+msgstr "قائمة المنتجات"
+
+#: includes/classes/modules/init.php:34
+msgid "Catégories"
+msgstr "الفئات"
+
+#: includes/classes/modules/init.php:35 includes/plugins/products/manufacturers/data.php:48
+msgid "Fabricants"
+msgstr "المصنعين"
+
+#: includes/classes/modules/init.php:36
+msgid "Attributs et Valeurs"
+msgstr "الصفات والقيم"
+
+#: includes/classes/modules/init.php:37 includes/plugins/products/products/data.php:464
+msgid "Caractéristiques"
+msgstr "مواصفات"
+
+#: includes/classes/modules/init.php:38
+msgid "Mots clés (Tags)"
+msgstr "كلمات (الكلمات)"
+
+#: includes/classes/modules/init.php:40 includes/classes/modules/init.php:41 includes/plugins/general/dashboard/list.php:191 includes/plugins/general/dashboard/list.php:264
+#: includes/plugins/general/dashboard/list.php:272 includes/plugins/users/users/data.php:349
+msgid "Commandes"
+msgstr "الأوامر"
+
+#: includes/classes/modules/init.php:42 includes/plugins/general/dashboard/list.php:200 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:273
+msgid "Factures"
+msgstr "الفواتير"
+
+#: includes/classes/modules/init.php:44 includes/plugins/general/dashboard/list.php:173
+msgid "Clients"
+msgstr "الزبائن"
+
+#: includes/classes/modules/init.php:45
+msgid "Liste des Clients"
+msgstr "قائمة العملاء"
+
+#: includes/classes/modules/init.php:47
+msgid "Groups des Clients"
+msgstr "مجموعة الزوار"
+
+#: includes/classes/modules/init.php:49
+msgid "Promotions"
+msgstr "الترقيات"
+
+#: includes/classes/modules/init.php:50
+msgid "Règles panier"
+msgstr "عربة قواعد"
+
+#: includes/classes/modules/init.php:52
+msgid "Livraison"
+msgstr "تسليم"
+
+#: includes/classes/modules/init.php:53 includes/plugins/general/dashboard/list.php:209
+msgid "Transporteurs"
+msgstr "ناقلات"
+
+#: includes/classes/modules/init.php:54
+msgid "Ajouter un transport"
+msgstr "إضافة النقل"
+
+#: includes/classes/modules/init.php:56
+msgid "Localisation"
+msgstr "موقع"
+
+#: includes/classes/modules/init.php:57 includes/plugins/localisation/taxes_rules_group/data.php:184 includes/plugins/localisation/taxes_rules_group/data.php:222
+#: includes/plugins/orders/invoices/data.php:258 includes/plugins/orders/invoices/data.php:381 includes/plugins/orders/orders/data.php:271 includes/plugins/orders/orders/data.php:394
+#: includes/plugins/users/users/data.php:415 includes/plugins/users/users/list.php:32
+msgid "Pays"
+msgstr "بلد"
+
+#: includes/classes/modules/init.php:58 includes/plugins/localisation/currencies/data.php:83
+msgid "Devises"
+msgstr "العملات"
+
+#: includes/classes/modules/init.php:59 includes/plugins/localisation/zones/data.php:80
+msgid "Zones"
+msgstr "المناطق"
+
+#: includes/classes/modules/init.php:60 includes/plugins/localisation/taxes/data.php:81 includes/plugins/localisation/taxes_rules_group/data.php:197
+#: includes/plugins/localisation/taxes_rules_group/data.php:223 includes/plugins/shipping/shipping/data.php:369
+msgid "Taxes"
+msgstr "الضرائب"
+
+#: includes/classes/modules/init.php:61 includes/plugins/localisation/taxes_rules_group/data.php:160
+msgid "Règles de taxes"
+msgstr "الضرائب قواعد"
+
+#: includes/classes/modules/init.php:63
+msgid "Préférences"
+msgstr "التفضيلات"
+
+#: includes/classes/modules/init.php:64
+msgid "Produits Nouveaux"
+msgstr "منتجات جديدة"
+
+#: includes/classes/modules/init.php:66
+msgid "Modules et Services"
+msgstr "وحدات وخدمات"
+
+#: includes/classes/modules/init.php:67 includes/plugins/modules/modules/modules-directory.php:90
+msgid "Liste des Modules"
+msgstr "قائمة وحدات"
+
+#: includes/classes/modules/init.php:68
+msgid "Modules Positions"
+msgstr "وحدات المراكز"
+
+#: includes/classes/modules/init.php:70
+msgid "Pages"
+msgstr "الصفحات"
+
+#: includes/classes/modules/init.php:71
+msgid "Liste des Pages"
+msgstr "قائمة الصفحات"
+
+#: includes/classes/modules/init.php:72
+msgid "Catégories des Pages"
+msgstr "فئات الصفحات"
+
+#: includes/classes/modules/init.php:74
+msgid "Template"
+msgstr "قالب"
+
+#: includes/classes/tables/tables.class.php:313 includes/plugins/products/manufacturers/data.php:113 includes/plugins/shipping/shipping/data.php:263
+msgid "activé"
+msgstr "تنشيط"
+
+#: includes/classes/tables/tables.class.php:317
+msgid "desactivé"
+msgstr "deactived"
+
+#: includes/classes/tables/tables.class.php:341 includes/plugins/users/users/data.php:491
+msgid "Télécharger le fichier"
+msgstr "تحميل ملف"
+
+#: includes/classes/tables/tables.class.php:341
+msgid "Télécharger"
+msgstr "تحميل"
+
+#: includes/classes/tables/tables.class.php:344
+msgid "Fichier introuvable"
+msgstr "لم يتم العثور على الملف"
+
+#: includes/classes/tables/tables.class.php:349 includes/classes/tables/tables.class.php:353
+msgid "Deplacer en bas"
+msgstr "تحرك لأسفل"
+
+#: includes/classes/tables/tables.class.php:351 includes/classes/tables/tables.class.php:354
+msgid "Deplacer en haut"
+msgstr "نقل ما يصل"
+
+#: includes/classes/tables/tables.class.php:366
+msgid "Editer"
+msgstr "تحرير"
+
+#: includes/classes/tables/tables.class.php:366
+msgid "Edit"
+msgstr "تحرير"
+
+#: includes/classes/tables/tables.class.php:371
+msgid "View"
+msgstr "رأي"
+
+#: includes/classes/tables/tables.class.php:375
+msgid "Invoice"
+msgstr "فاتورة"
+
+#: includes/classes/tables/tables.class.php:379
+msgid "Download"
+msgstr "تحميل"
+
+#: includes/classes/tables/tables.class.php:383
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/plugins/cart/cart/data.php:153 includes/plugins/cart/cart/data.php:164 includes/plugins/cart/cart/data.php:207
+msgid "Informations"
+msgstr "معلومات"
+
+#: includes/plugins/cart/cart/data.php:154
+msgid "Conditions"
+msgstr "حيث"
+
+#: includes/plugins/cart/cart/data.php:155 includes/plugins/cart/cart/data.php:362 includes/plugins/localisation/taxes_rules_group/data.php:225 includes/plugins/orders/invoices/data.php:121
+#: includes/plugins/orders/invoices/data.php:165 includes/plugins/orders/invoices/data.php:289 includes/plugins/orders/orders/data.php:133 includes/plugins/orders/orders/data.php:178
+#: includes/plugins/orders/orders/data.php:302 includes/plugins/products/attributes/list.php:15 includes/plugins/products/categories/list.php:15 includes/plugins/products/manufacturers/list.php:19
+#: includes/plugins/products/products/data.php:1282 includes/plugins/products/products/data.php:1374 includes/plugins/products/tags/list.php:15 includes/plugins/products/values/list.php:15
+#: includes/plugins/users/groups/list.php:11
+msgid "Actions"
+msgstr "الأوراق المالية"
+
+#: includes/plugins/cart/cart/data.php:168 includes/plugins/products/attributes/list.php:13 includes/plugins/products/categories/list.php:13 includes/plugins/products/manufacturers/list.php:16
+#: includes/plugins/products/products/data.php:504 includes/plugins/products/products/data.php:1145 includes/plugins/products/tags/list.php:13 includes/plugins/products/values/list.php:13
+#: includes/plugins/users/users/list.php:29
+msgid "Nom"
+msgstr "اسم"
+
+#: includes/plugins/cart/cart/data.php:174 includes/plugins/localisation/taxes_rules_group/data.php:210 includes/plugins/localisation/taxes_rules_group/data.php:224
+#: includes/plugins/products/categories/data.php:72 includes/plugins/products/manufacturers/data.php:72 includes/plugins/products/products/data.php:565 includes/plugins/products/products/data.php:1346
+#: includes/plugins/products/products/data.php:1373
+msgid "Description"
+msgstr "وصف"
+
+#: includes/plugins/cart/cart/data.php:180
+msgid "Code"
+msgstr "قانون"
+
+#: includes/plugins/cart/cart/data.php:185
+msgid "Générer"
+msgstr "توليد"
+
+#: includes/plugins/cart/cart/data.php:191 includes/plugins/products/products/data.php:528
+msgid "État"
+msgstr "دولة"
+
+#: includes/plugins/cart/cart/data.php:199 includes/plugins/cart/cart/data.php:354 includes/plugins/cart/cart/data.php:452 includes/plugins/localisation/currencies/data.php:135
+#: includes/plugins/localisation/taxes/data.php:109 includes/plugins/localisation/taxes_rules_group/data.php:248 includes/plugins/localisation/zones/data.php:100
+#: includes/plugins/products/categories/data.php:119 includes/plugins/products/manufacturers/data.php:119 includes/plugins/products/products/data.php:579 includes/plugins/products/products/data.php:643
+#: includes/plugins/products/products/data.php:786 includes/plugins/products/products/data.php:818 includes/plugins/products/products/data.php:863 includes/plugins/products/products/data.php:1187
+#: includes/plugins/products/products/data.php:1245 includes/plugins/products/products/data.php:1321 includes/plugins/products/products/data.php:1397 includes/plugins/shipping/shipping/data.php:332
+#: includes/plugins/shipping/shipping/data.php:463 includes/plugins/shipping/shipping/data.php:549 includes/plugins/shipping/shipping/data.php:606 includes/plugins/users/users/data.php:456
+#: includes/plugins/users/users/data.php:533 includes/plugins/users/users/data.php:677 includes/plugins/users/users/data.php:696 includes/plugins/users/users/data.php:716
+#: includes/plugins/users/users/data.php:811 includes/plugins/users/users/data.php:886
+msgid "Annuler"
+msgstr "إلغاء"
+
+#: includes/plugins/cart/cart/data.php:200 includes/plugins/cart/cart/data.php:355 includes/plugins/cart/cart/data.php:453 includes/plugins/localisation/taxes_rules_group/data.php:135
+#: includes/plugins/localisation/taxes_rules_group/data.php:249 includes/plugins/products/categories/data.php:120 includes/plugins/products/manufacturers/data.php:120
+#: includes/plugins/products/products/data.php:426 includes/plugins/products/products/data.php:580 includes/plugins/products/products/data.php:644 includes/plugins/products/products/data.php:787
+#: includes/plugins/products/products/data.php:819 includes/plugins/products/products/data.php:864 includes/plugins/products/products/data.php:1116 includes/plugins/products/products/data.php:1188
+#: includes/plugins/products/products/data.php:1246 includes/plugins/products/products/data.php:1322 includes/plugins/products/products/data.php:1398 includes/plugins/shipping/shipping/data.php:220
+#: includes/plugins/shipping/shipping/data.php:333 includes/plugins/shipping/shipping/data.php:464 includes/plugins/shipping/shipping/data.php:550 includes/plugins/shipping/shipping/data.php:607
+#: includes/plugins/users/users/data.php:305 includes/plugins/users/users/data.php:313
+msgid "Sauvegarder et rester"
+msgstr "حفظ والبقاء"
+
+#: includes/plugins/cart/cart/data.php:210
+msgid "Limiter à un seul client"
+msgstr "حد لعميل واحد"
+
+#: includes/plugins/cart/cart/data.php:213
+msgid "Sélectionnez un Client"
+msgstr "اختيار العميل"
+
+#: includes/plugins/cart/cart/data.php:229
+msgid "Valide"
+msgstr "صالح"
+
+#: includes/plugins/cart/cart/data.php:232
+msgid "Du"
+msgstr "ل"
+
+#: includes/plugins/cart/cart/data.php:241
+msgid "Au"
+msgstr "ال"
+
+#: includes/plugins/cart/cart/data.php:248 includes/plugins/cart/cart/list.php:21
+msgid "Montant minimum"
+msgstr "الحد الأدنى"
+
+#: includes/plugins/cart/cart/data.php:253 includes/plugins/cart/cart/data.php:374 includes/plugins/products/products/data.php:950
+msgid "TTC"
+msgstr "TTC"
+
+#: includes/plugins/cart/cart/data.php:258
+msgid "Quantité totale disponible"
+msgstr "الكمية الإجمالية المتاحة"
+
+#: includes/plugins/cart/cart/data.php:264
+msgid "Quantité disponible pour chaque utilisateur"
+msgstr "الكمية المتاحة لكل مستخدم"
+
+#: includes/plugins/cart/cart/data.php:270
+msgid "Restrictions"
+msgstr "قيود"
+
+#: includes/plugins/cart/cart/data.php:273
+msgid "Sélection de transporteurs"
+msgstr "اختيار من حاملات"
+
+#: includes/plugins/cart/cart/data.php:299
+msgid "Sélection de groupes de clients"
+msgstr "اختيار مجموعات العملاء"
+
+#: includes/plugins/cart/cart/data.php:325
+msgid "Sélection de produit"
+msgstr "اختيار المنتج"
+
+#: includes/plugins/cart/cart/data.php:365 includes/plugins/shipping/shipping/data.php:352
+msgid "Frais de port offerts"
+msgstr "شحن مجاني"
+
+#: includes/plugins/cart/cart/data.php:371
+msgid "Appliquer une réduction"
+msgstr "تطبيق الخصم"
+
+#: includes/plugins/cart/cart/data.php:386
+msgid "Appliquer la réduction à"
+msgstr "تخفيض تطبيق في"
+
+#: includes/plugins/cart/cart/data.php:391
+msgid "La commande (hors frais de port)"
+msgstr "الترتيب (باستثناء البريد)"
+
+#: includes/plugins/cart/cart/data.php:397
+msgid "Un produit spécifique"
+msgstr "منتج معين"
+
+#: includes/plugins/cart/cart/data.php:409
+msgid "Le(s) produit(s) sélectionné(s)"
+msgstr "(S) المنتج (ق) (s) المحدد"
+
+#: includes/plugins/cart/cart/data.php:411
+msgid "Vous devez sélectionner au moins un produit"
+msgstr "يجب عليك اختيار منتج واحد على الأقل"
+
+#: includes/plugins/cart/cart/data.php:418 includes/plugins/cart/cart/data.php:439 includes/plugins/orders/invoices/data.php:128 includes/plugins/orders/orders/data.php:141
+#: includes/plugins/products/products/data.php:593
+msgid "Sélectionnez un produit"
+msgstr "حدد المنتج"
+
+#: includes/plugins/cart/cart/data.php:431
+msgid "Envoyer un cadeau"
+msgstr "إرسال هدية"
+
+#: includes/plugins/cart/cart/list.php:17 includes/plugins/localisation/countries/list.php:21 includes/plugins/localisation/currencies/list.php:8 includes/plugins/localisation/taxes/list.php:8
+#: includes/plugins/localisation/taxes_rules_group/list.php:8 includes/plugins/localisation/zones/list.php:8 includes/plugins/orders/invoices/data.php:335 includes/plugins/orders/invoices/list.php:25
+#: includes/plugins/orders/orders/data.php:348 includes/plugins/orders/orders/list.php:26 includes/plugins/products/attributes/list.php:12 includes/plugins/products/categories/list.php:12
+#: includes/plugins/products/manufacturers/list.php:15 includes/plugins/products/products/data.php:610 includes/plugins/products/products/list.php:47 includes/plugins/products/tags/list.php:12
+#: includes/plugins/products/values/list.php:12 includes/plugins/shipping/shipping/list.php:24 includes/plugins/users/groups/list.php:9 includes/plugins/users/users/data.php:831
+#: includes/plugins/users/users/data.php:862 includes/plugins/users/users/list.php:26
+msgid "ID"
+msgstr "الهوية"
+
+#: includes/plugins/cart/cart/list.php:18
+msgid "Nom de la Règle"
+msgstr "اسم القاعدة"
+
+#: includes/plugins/cart/cart/list.php:20
+msgid "Date d\\'expiration"
+msgstr "تاريخ نهاية الصلاحية"
+
+#: includes/plugins/cart/cart/list.php:22
+msgid "Quantité disponible"
+msgstr "الكمية المتاحة"
+
+#: includes/plugins/cart/cart/list.php:23
+msgid "Réduction"
+msgstr "تخفيض"
+
+#: includes/plugins/cart/cart/list.php:24 includes/plugins/localisation/countries/list.php:26 includes/plugins/localisation/taxes_rules_group/list.php:10 includes/plugins/localisation/zones/list.php:10
+#: includes/plugins/products/products/list.php:52 includes/plugins/shipping/shipping/data.php:261 includes/plugins/users/users/data.php:425 includes/plugins/users/users/data.php:521
+msgid "Statut"
+msgstr "وضع"
+
+#: includes/plugins/cart/cart/list.php:25 includes/plugins/localisation/countries/list.php:28 includes/plugins/localisation/currencies/list.php:14 includes/plugins/localisation/taxes/list.php:11
+#: includes/plugins/localisation/taxes_rules_group/list.php:11 includes/plugins/localisation/zones/list.php:11 includes/plugins/orders/invoices/list.php:35 includes/plugins/orders/orders/list.php:36
+#: includes/plugins/products/products/list.php:54 includes/plugins/shipping/shipping/list.php:33 includes/plugins/users/users/list.php:34
+msgid "Operations"
+msgstr "العمليات"
+
+#: includes/plugins/cart/cart/list.php:28
+msgid "Ajouter une Règle"
+msgstr "إضافة قاعدة"
+
+#: includes/plugins/general/dashboard/list.php:156
+msgid "Voici ce qui se passe avec votre magasin dès maintenant."
+msgstr "هنا هو ما يحدث مع متجرك الآن."
+
+#: includes/plugins/general/dashboard/list.php:164 includes/plugins/orders/invoices/data.php:87 includes/plugins/orders/orders/data.php:91
+msgid "Produits"
+msgstr "المنتجات"
+
+#: includes/plugins/general/dashboard/list.php:182 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:271
+msgid "Devis"
+msgstr "التسعير"
+
+#: includes/plugins/general/dashboard/list.php:227
+msgid "Devis, Commandes et Factures pour ce mois."
+msgstr "ونقلت والطلبات والفواتير لهذا الشهر."
+
+#: includes/plugins/general/dashboard/list.php:241
+msgid "Total de Devis, Commandes et Factures pour ce mois."
+msgstr "التقديرات الإجمالية، وأوامر والفواتير لهذا الشهر."
+
+#: includes/plugins/general/dashboard/list.php:271 includes/plugins/general/dashboard/list.php:272
+msgid "Au moins"
+msgstr "على الأقل"
+
+#: includes/plugins/general/dashboard/list.php:273
+msgid "Environ"
+msgstr "حول"
+
+#: includes/plugins/localisation/countries/data.php:80
+msgid "Modifier une Pays"
+msgstr "تغيير البلد"
+
+#: includes/plugins/localisation/countries/data.php:80 includes/plugins/localisation/countries/list.php:31
+msgid "Ajouter une Pays"
+msgstr "إضافة البلد"
+
+#: includes/plugins/localisation/countries/data.php:84 includes/plugins/localisation/countries/data.php:162 includes/plugins/localisation/currencies/data.php:78
+#: includes/plugins/localisation/currencies/data.php:136 includes/plugins/localisation/taxes/data.php:76 includes/plugins/localisation/taxes/data.php:110 includes/plugins/localisation/zones/data.php:75
+#: includes/plugins/localisation/zones/data.php:101 includes/plugins/orders/invoices/data.php:463 includes/plugins/orders/orders/data.php:476 includes/plugins/products/products/data.php:580
+#: includes/plugins/products/products/data.php:644 includes/plugins/products/products/data.php:787 includes/plugins/products/products/data.php:819 includes/plugins/products/products/data.php:864
+#: includes/plugins/products/products/data.php:1116 includes/plugins/products/products/data.php:1188 includes/plugins/products/products/data.php:1246 includes/plugins/products/products/data.php:1322
+#: includes/plugins/products/products/data.php:1398 includes/plugins/products/values/data.php:54 includes/plugins/products/values/data.php:162
+msgid "Mise à jour"
+msgstr "تحديث"
+
+#: includes/plugins/localisation/countries/data.php:84 includes/plugins/localisation/countries/data.php:162 includes/plugins/localisation/currencies/data.php:78
+#: includes/plugins/localisation/currencies/data.php:136 includes/plugins/localisation/taxes/data.php:76 includes/plugins/localisation/taxes/data.php:110 includes/plugins/localisation/zones/data.php:75
+#: includes/plugins/localisation/zones/data.php:101
+msgid "Enregister"
+msgstr "التسجيل"
+
+#: includes/plugins/localisation/countries/data.php:89
+msgid "countries"
+msgstr "الدول"
+
+#: includes/plugins/localisation/countries/data.php:94
+msgid "Nom du pays *"
+msgstr "اسم البلد *"
+
+#: includes/plugins/localisation/countries/data.php:102 includes/plugins/localisation/countries/list.php:25 includes/plugins/localisation/currencies/data.php:96
+#: includes/plugins/localisation/currencies/list.php:10
+msgid "Code ISO"
+msgstr "كود ISO"
+
+#: includes/plugins/localisation/countries/data.php:110
+msgid "Indicatif téléphonique"
+msgstr "كود الهاتف"
+
+#: includes/plugins/localisation/countries/data.php:117
+msgid "Devise par défaut"
+msgstr "العملة الافتراضية"
+
+#: includes/plugins/localisation/countries/data.php:120
+msgid "Devise du magasin par défaut"
+msgstr "العملة المخزن الافتراضي"
+
+#: includes/plugins/localisation/countries/data.php:131
+msgid "Zone géographique du pays."
+msgstr "المنطقة الجغرافية للبلد."
+
+#: includes/plugins/localisation/countries/data.php:131 includes/plugins/localisation/countries/list.php:23
+msgid "Zone"
+msgstr "منطقة"
+
+#: includes/plugins/localisation/countries/data.php:144
+msgid "Format du code postal"
+msgstr "شكل الرمز البريدي"
+
+#: includes/plugins/localisation/countries/data.php:147
+msgid ""
+"Indiquez le format du code postal : utilisez L pour une lettre, N pour un nombre, et C pour le code ISO 3166-1 alpha-2 du pays. Par exemple, NNNNN pour les États-Unis, la France, la Pologne et beaucoup "
+"d'autres ; LNNNNLLL pour l'Argentine, etc."
+msgstr "أدخل تنسيق الرمز البريدي: استخدام L إلى بريد إلكتروني إلى رقم N، و C للISO 3166-1 ألفا 2 متاحة للبلد. على سبيل المثال، NNNNN للولايات المتحدة وفرنسا وبولندا وغيرها الكثير. LNNNNLLL للأرجنتين، الخ"
+
+#: includes/plugins/localisation/countries/data.php:153 includes/plugins/localisation/currencies/data.php:127 includes/plugins/localisation/taxes/data.php:101
+#: includes/plugins/localisation/taxes_rules_group/data.php:172 includes/plugins/localisation/zones/data.php:92 includes/plugins/modules/modules/modules-directory.php:215
+#: includes/plugins/products/manufacturers/data.php:111 includes/plugins/products/products/data.php:704 includes/plugins/users/users/data.php:428
+msgid "Activer"
+msgstr "نشط"
+
+#: includes/plugins/localisation/countries/list.php:22
+msgid "Nom de Pays"
+msgstr "اسم البلد"
+
+#: includes/plugins/localisation/countries/list.php:24 includes/plugins/products/attributes/list.php:14 includes/plugins/products/categories/list.php:14 includes/plugins/products/products/list.php:53
+#: includes/plugins/products/tags/list.php:14 includes/plugins/products/values/list.php:14
+msgid "Langue"
+msgstr "لغة"
+
+#: includes/plugins/localisation/countries/list.php:27
+msgid "Format de CP"
+msgstr "CP شكل"
+
+#: includes/plugins/localisation/currencies/data.php:74
+msgid "Modifier un Devise"
+msgstr "تحرير العملات"
+
+#: includes/plugins/localisation/currencies/data.php:74 includes/plugins/localisation/currencies/list.php:17
+msgid "Ajouter un Devise"
+msgstr "إضافة العملة"
+
+#: includes/plugins/localisation/currencies/data.php:88
+msgid "Seuls les lettres et le tiret sont autorisés"
+msgstr "يسمح باستخدام الحروف واندفاعة"
+
+#: includes/plugins/localisation/currencies/data.php:88
+msgid "Nom de la devise *"
+msgstr "اسم العملة *"
+
+#: includes/plugins/localisation/currencies/data.php:91
+msgid "Euro"
+msgstr "اليورو"
+
+#: includes/plugins/localisation/currencies/data.php:96
+msgid "Code ISO (ex. : USD pour dollar, EUR pour euro, etc.)."
+msgstr "كود ISO (على سبيل المثال. USD على الدولار EUR اليورو، وما إلى ذلك)."
+
+#: includes/plugins/localisation/currencies/data.php:99
+msgid "ex. : USD pour dollar, EUR pour euro, etc."
+msgstr "السابق. USD عن الدولار إلى اليورو اليورو، الخ"
+
+#: includes/plugins/localisation/currencies/data.php:104
+msgid "Code ISO numérique (ex. : 840 pour dollar, 978 pour euro)."
+msgstr "كود رقمي ISO (على سبيل المثال. 840 على الدولار إلى اليورو 978)."
+
+#: includes/plugins/localisation/currencies/data.php:104
+msgid "ISO code numérique"
+msgstr "الرمز ISO"
+
+#: includes/plugins/localisation/currencies/data.php:107
+msgid "ex. : 840 pour dollar, 978 pour euro"
+msgstr "السابق. 840 على الدولار إلى اليورو 978"
+
+#: includes/plugins/localisation/currencies/data.php:112
+msgid "Apparaîtra sur le front-office (ex. : €, $)"
+msgstr "تظهر على المكتب الأمامي (على سبيل المثال. €، $)"
+
+#: includes/plugins/localisation/currencies/data.php:112 includes/plugins/localisation/currencies/list.php:12
+msgid "Symbole"
+msgstr "رمز"
+
+#: includes/plugins/localisation/currencies/data.php:115
+msgid "ex. : €, $"
+msgstr "السابق. : €، $"
+
+#: includes/plugins/localisation/currencies/data.php:129 includes/plugins/localisation/taxes/data.php:103 includes/plugins/localisation/taxes_rules_group/data.php:174
+#: includes/plugins/localisation/zones/data.php:94 includes/plugins/products/categories/data.php:68 includes/plugins/shipping/shipping/data.php:348 includes/plugins/shipping/shipping/data.php:354
+#: includes/plugins/shop/shop/list.php:17
+msgid "OUI"
+msgstr "نعم"
+
+#: includes/plugins/localisation/currencies/data.php:129 includes/plugins/localisation/taxes/data.php:103 includes/plugins/localisation/taxes_rules_group/data.php:174
+#: includes/plugins/localisation/zones/data.php:94 includes/plugins/products/categories/data.php:68 includes/plugins/shipping/shipping/data.php:348 includes/plugins/shipping/shipping/data.php:354
+#: includes/plugins/shop/shop/list.php:20
+msgid "NON"
+msgstr "NO"
+
+#: includes/plugins/localisation/currencies/list.php:9
+msgid "Nom de Devise"
+msgstr "اسم العملة"
+
+#: includes/plugins/localisation/currencies/list.php:11
+msgid "N° de Code ISO"
+msgstr "رقم كود ISO"
+
+#: includes/plugins/localisation/currencies/list.php:13
+msgid "statut"
+msgstr "وضع"
+
+#: includes/plugins/localisation/taxes/data.php:72
+msgid "Modifier une Taxe"
+msgstr "تعديل ضريبة"
+
+#: includes/plugins/localisation/taxes/data.php:72
+msgid "Ajouter une Taxe"
+msgstr "إضافة الضرائب"
+
+#: includes/plugins/localisation/taxes/data.php:86 includes/plugins/localisation/taxes_rules_group/data.php:165
+msgid "Nom de la taxe à afficher dans le panier et sur la facture (ex. : &quot;TVA&quot;). - Caractères interdits &lt;&gt;;=#{}"
+msgstr "اسم الضريبية للظهور في سلة وعلى الفاتورة (على سبيل المثال على & quot؛. & الضرائب مثل؛). - شخصيات سمحت العلامة & lt؛ & GT ؛؛ = # {}"
+
+#: includes/plugins/localisation/taxes/data.php:86 includes/plugins/localisation/taxes_rules_group/data.php:165 includes/plugins/localisation/zones/data.php:85
+#: includes/plugins/products/categories/data.php:60 includes/plugins/products/manufacturers/data.php:60 includes/plugins/users/users/data.php:378 includes/plugins/users/users/data.php:595
+msgid "Nom *"
+msgstr "اسم *"
+
+#: includes/plugins/localisation/taxes/data.php:94
+msgid "Format : XX.XX ou XX.XXX (ex. : 19.60 ou 13.925) - Caractères interdits <>;=#{}"
+msgstr "شكل: XX.XX أو XX.XXX (. على سبيل المثال 19.60 أو 13.925) - يحظر الأحرف <>؛ = # {}"
+
+#: includes/plugins/localisation/taxes/data.php:94
+msgid "Taux *"
+msgstr "معدل *"
+
+#: includes/plugins/localisation/taxes/list.php:5
+msgid "Liste des Taxes"
+msgstr "قائمة الضرائب"
+
+#: includes/plugins/localisation/taxes/list.php:9
+msgid "Taxe Label"
+msgstr "تسمية الضرائب"
+
+#: includes/plugins/localisation/taxes/list.php:10
+msgid "Valeur de taxe (%"
+msgstr "ضريبة القيمة (٪"
+
+#: includes/plugins/localisation/taxes/list.php:14
+msgid "Ajouter une taxe"
+msgstr "إضافة رسوم"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:131
+msgid "Modifier une règles de taxes"
+msgstr "تعديل القواعد الضريبية"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:131
+msgid "Ajouter une règles de taxes"
+msgstr "إضافة القواعد الضريبية"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:141 includes/plugins/products/products/data.php:432 includes/plugins/shipping/shipping/data.php:226 includes/plugins/users/users/data.php:322
+msgid "Une erreur est survenue !"
+msgstr "خطأ حدث!"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:150 includes/plugins/products/products/data.php:441 includes/plugins/shipping/shipping/data.php:235 includes/plugins/users/users/data.php:331
+msgid "Opération Effectué !"
+msgstr "فعلت صفقة!"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:180
+msgid "NOUVELLE RÈGLE DE TAXE"
+msgstr "قاعدة جديدة للضريبة"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:187
+msgid "Toutes"
+msgstr "جميع"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:200 includes/plugins/products/products/data.php:716 includes/plugins/shipping/shipping/data.php:372
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "Aucune taxe"
+msgstr "بدون رسوم"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:216
+msgid "RÈGLE DE TAXE"
+msgstr "سيادة الضريبة"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:236
+msgid "Modifier cette règle"
+msgstr "تعديل هذه القاعدة"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:237
+msgid "Supprimer cette règle"
+msgstr "حذف هذه القاعدة"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:270
+msgid "EDITION DE LA RÈGLE DE TAXE"
+msgstr "الطبعة سيادة الضريبة"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:272
+msgid "Vous êtes en mode de modification de règle de taxe."
+msgstr "كنت وضع ضريبة تغيير القاعدة."
+
+#: includes/plugins/localisation/taxes_rules_group/list.php:9
+msgid "Nom de groupe"
+msgstr "اسم المجموعة"
+
+#: includes/plugins/localisation/taxes_rules_group/list.php:14
+msgid "Ajouter une règle de taxe"
+msgstr "إضافة قاعدة الضرائب"
+
+#: includes/plugins/localisation/zones/data.php:71
+msgid "Modifier une Zone"
+msgstr "تحرير المنطقة"
+
+#: includes/plugins/localisation/zones/data.php:71 includes/plugins/localisation/zones/list.php:14
+msgid "Ajouter une Zone"
+msgstr "إضافة منطقة"
+
+#: includes/plugins/localisation/zones/data.php:85
+msgid "Nom de la zone (ex. : Afrique, Europe, Pays voisins)."
+msgstr "اسم المنطقة (على سبيل المثال. أفريقيا وأوروبا والدول المجاورة)."
+
+#: includes/plugins/localisation/zones/list.php:9
+msgid "Nom de la zone"
+msgstr "اسم المنطقة"
+
+#: includes/plugins/login.php:66
+msgid "Okad"
+msgstr "Okad"
+
+#: includes/plugins/login.php:66
+msgid "SHOP"
+msgstr "SHOP"
+
+#: includes/plugins/login.php:70
+msgid "Se connecter"
+msgstr "يتصل"
+
+#: includes/plugins/login.php:72
+msgid "Mot de passe oublié"
+msgstr "نسيت كلمة المرور"
+
+#: includes/plugins/modules/modules/modules-directory.php:103
+msgid "Installés et non installés"
+msgstr "تثبيت وإلغاء تثبيت"
+
+#: includes/plugins/modules/modules/modules-directory.php:104
+msgid "Modules installés"
+msgstr "تركيب وحدات"
+
+#: includes/plugins/modules/modules/modules-directory.php:105
+msgid "Modules non installés"
+msgstr "وحدات غير مثبت"
+
+#: includes/plugins/modules/modules/modules-directory.php:110
+msgid "Activés &amp; désactivés"
+msgstr "نشاطات و أمبير؛ معاق"
+
+#: includes/plugins/modules/modules/modules-directory.php:111
+msgid "Modules activés"
+msgstr "وحدات تمكين"
+
+#: includes/plugins/modules/modules/modules-directory.php:112
+msgid "Modules désactivés"
+msgstr "وحدات المعوقين"
+
+#: includes/plugins/modules/modules/modules-directory.php:117
+msgid "Tous les Auteurs"
+msgstr "جميع الكتاب"
+
+#: includes/plugins/modules/modules/modules-directory.php:129
+msgid "Rechercher..."
+msgstr "بحث ..."
+
+#: includes/plugins/modules/modules/modules-directory.php:145
+msgid "Tous les Modules"
+msgstr "جميع وحدات"
+
+#: includes/plugins/modules/modules/modules-directory.php:162
+msgid "actions groupées"
+msgstr "إجراءات جملة"
+
+#: includes/plugins/modules/modules/modules-directory.php:164
+msgid "Installer la sélection"
+msgstr "تثبيت اختيار"
+
+#: includes/plugins/modules/modules/modules-directory.php:165
+msgid "Désinstaller la sélection"
+msgstr "اختيار إلغاء التثبيت"
+
+#: includes/plugins/modules/modules/modules-directory.php:167
+msgid "Activer la sélection"
+msgstr "تمكين اختيار"
+
+#: includes/plugins/modules/modules/modules-directory.php:168
+msgid "Disactiver la sélection"
+msgstr "اختيار Disactiver"
+
+#: includes/plugins/modules/modules/modules-directory.php:170
+msgid "Supprimer la sélection"
+msgstr "إزالة مختارة"
+
+#: includes/plugins/modules/modules/modules-directory.php:210
+msgid "Configuration"
+msgstr "ترتيب"
+
+#: includes/plugins/modules/modules/modules-directory.php:212 includes/plugins/modules/modules/modules-directory.php:224 includes/plugins/products/products/data.php:705
+msgid "Désactiver"
+msgstr "عطل"
+
+#: includes/plugins/modules/modules/modules-directory.php:218
+msgid "Installer"
+msgstr "تثبيت"
+
+#: includes/plugins/modules/modules/modules-directory.php:228
+msgid "Désinstaller"
+msgstr "إلغاء"
+
+#: includes/plugins/modules/modules/modules-directory.php:232 includes/plugins/products/products/data.php:911 includes/plugins/products/products/data.php:1091
+#: includes/plugins/products/products/data.php:1384
+msgid "Supprimer"
+msgstr "نقل"
+
+#: includes/plugins/modules/modules/modules-directory.php:242
+msgid "No Module found."
+msgstr "لا وحدة وجدت."
+
+#: includes/plugins/modules/modules/modules-directory.php:290
+msgid "Cette action supprime définitivement le module sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "هذا الإجراء إلى إزالة بشكل دائم وحدة على الخادم الخاص بك. هل أنت متأكد حقا؟"
+
+#: includes/plugins/modules/modules/modules-positions.php:28
+msgid "Positions des modules"
+msgstr "وحدات مواقف"
+
+#: includes/plugins/modules/modules/modules-positions.php:99
+msgid "Activer les positions des modules"
+msgstr "تفعيل مواقع وحدات"
+
+#: includes/plugins/modules/modules/modules-positions.php:111 includes/plugins/products/products/data.php:425 includes/plugins/products/products/data.php:1113
+#: includes/plugins/shipping/shipping/data.php:219 includes/plugins/users/users/data.php:306 includes/plugins/users/users/data.php:314
+msgid "Terminer"
+msgstr "نهاية"
+
+#: includes/plugins/orders/invoices/data.php:74
+msgid "Edition de la Facture"
+msgstr "تحرير الفاتورة"
+
+#: includes/plugins/orders/invoices/data.php:76
+msgid "N°"
+msgstr "لا."
+
+#: includes/plugins/orders/invoices/data.php:79 includes/plugins/orders/orders/data.php:83
+msgid "Términer"
+msgstr "نهاية"
+
+#: includes/plugins/orders/invoices/data.php:88 includes/plugins/orders/invoices/data.php:253 includes/plugins/orders/orders/data.php:92 includes/plugins/orders/orders/data.php:266
+#: includes/plugins/users/users/data.php:777
+msgid "Client"
+msgstr "زبون"
+
+#: includes/plugins/orders/invoices/data.php:90 includes/plugins/orders/orders/data.php:94
+msgid "Transporteur"
+msgstr "الناقل"
+
+#: includes/plugins/orders/invoices/data.php:92
+msgid "Apérçu la Facture"
+msgstr "فاتورة نظرة عامة"
+
+#: includes/plugins/orders/invoices/data.php:116 includes/plugins/orders/invoices/data.php:160 includes/plugins/orders/orders/data.php:128 includes/plugins/orders/orders/data.php:173
+#: includes/plugins/products/products/data.php:612 includes/plugins/products/products/data.php:1171 includes/plugins/products/products/list.php:48
+msgid "Nom de produit"
+msgstr "اسم المنتج"
+
+#: includes/plugins/orders/invoices/data.php:117 includes/plugins/orders/invoices/data.php:161 includes/plugins/orders/orders/data.php:129 includes/plugins/orders/orders/data.php:174
+#: includes/plugins/products/products/data.php:510 includes/plugins/products/products/data.php:916 includes/plugins/products/products/data.php:1061
+msgid "Référence"
+msgstr "إشارة"
+
+#: includes/plugins/orders/invoices/data.php:118 includes/plugins/orders/invoices/data.php:162 includes/plugins/orders/orders/data.php:130 includes/plugins/orders/orders/data.php:175
+#: includes/plugins/products/products/data.php:613
+msgid "Prix HT"
+msgstr "مسعر"
+
+#: includes/plugins/orders/invoices/data.php:119 includes/plugins/orders/invoices/data.php:163 includes/plugins/orders/orders/data.php:131 includes/plugins/orders/orders/data.php:176
+#: includes/plugins/products/products/data.php:1144 includes/plugins/products/products/data.php:1169 includes/plugins/products/products/list.php:51
+msgid "Quantité"
+msgstr "كمية"
+
+#: includes/plugins/orders/invoices/data.php:120 includes/plugins/orders/invoices/data.php:164 includes/plugins/orders/orders/data.php:132 includes/plugins/orders/orders/data.php:177
+msgid "Poids (Kg)"
+msgstr "الوزن (كلغ)"
+
+#: includes/plugins/orders/invoices/data.php:136 includes/plugins/orders/orders/data.php:149
+msgid "Sélectionnez une attribut"
+msgstr "حدد سمة"
+
+#: includes/plugins/orders/invoices/data.php:145 includes/plugins/orders/invoices/data.php:319 includes/plugins/orders/orders/data.php:158 includes/plugins/orders/orders/data.php:332
+#: includes/plugins/products/products/data.php:602 includes/plugins/products/products/data.php:902 includes/plugins/users/groups/data.php:43
+msgid "Ajouter"
+msgstr "إضافة"
+
+#: includes/plugins/orders/invoices/data.php:154
+msgid "Produits dans cette Facture"
+msgstr "المنتجات في هذه بيل"
+
+#: includes/plugins/orders/invoices/data.php:252 includes/plugins/orders/orders/data.php:265
+msgid "N° Client"
+msgstr "رقم العميل"
+
+#: includes/plugins/orders/invoices/data.php:254 includes/plugins/orders/orders/data.php:267
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: includes/plugins/orders/invoices/data.php:255 includes/plugins/orders/orders/data.php:268
+msgid "Téléphone domicile"
+msgstr "هاتف المنزل"
+
+#: includes/plugins/orders/invoices/data.php:256 includes/plugins/orders/orders/data.php:269 includes/plugins/users/users/data.php:390
+msgid "Téléphone portable"
+msgstr "هاتف محمول"
+
+#: includes/plugins/orders/invoices/data.php:257 includes/plugins/orders/invoices/list.php:30 includes/plugins/orders/orders/data.php:270 includes/plugins/orders/orders/list.php:31
+#: includes/plugins/users/users/data.php:834 includes/plugins/users/users/data.php:865
+msgid "Socièté"
+msgstr "سوسيتيه"
+
+#: includes/plugins/orders/invoices/data.php:285 includes/plugins/orders/invoices/data.php:336 includes/plugins/orders/orders/data.php:298 includes/plugins/orders/orders/data.php:349
+msgid "Date de transaction"
+msgstr "تاريخ المعاملة"
+
+#: includes/plugins/orders/invoices/data.php:286 includes/plugins/orders/orders/data.php:299
+msgid "Methode de paiment"
+msgstr "طريقة الدفع"
+
+#: includes/plugins/orders/invoices/data.php:287 includes/plugins/orders/invoices/data.php:338 includes/plugins/orders/orders/data.php:300 includes/plugins/orders/orders/data.php:351
+msgid "ID de transaction"
+msgstr "رقم المعاملات"
+
+#: includes/plugins/orders/invoices/data.php:288 includes/plugins/orders/invoices/data.php:339 includes/plugins/orders/orders/data.php:301 includes/plugins/orders/orders/data.php:352
+msgid "Montant payé"
+msgstr "المبلغ المدفوع"
+
+#: includes/plugins/orders/invoices/data.php:310
+msgid "ID de la transaction"
+msgstr "رقم المعاملات"
+
+#: includes/plugins/orders/invoices/data.php:328 includes/plugins/orders/orders/data.php:341
+msgid "Tranches payés"
+msgstr "شرائح المدفوعة"
+
+#: includes/plugins/orders/invoices/data.php:337 includes/plugins/orders/orders/data.php:350
+msgid "Méthode de paiement"
+msgstr "طريقة الدفع"
+
+#: includes/plugins/orders/invoices/data.php:369 includes/plugins/orders/invoices/list.php:29 includes/plugins/orders/orders/data.php:382 includes/plugins/orders/orders/list.php:30
+#: includes/plugins/users/users/data.php:836 includes/plugins/users/users/data.php:866
+msgid "Formule"
+msgstr "صيغة"
+
+#: includes/plugins/orders/invoices/data.php:375 includes/plugins/orders/orders/data.php:388
+msgid "Poids total hors emballage"
+msgstr "الوزن الإجمالي بدون التعبئة والتغليف"
+
+#: includes/plugins/orders/invoices/data.php:387 includes/plugins/orders/orders/data.php:400
+msgid "Nom de Transporteur"
+msgstr "اسم الناقل"
+
+#: includes/plugins/orders/invoices/data.php:399 includes/plugins/orders/orders/data.php:412
+msgid "Délai de livraison"
+msgstr "أجل التسليم"
+
+#: includes/plugins/orders/invoices/data.php:402 includes/plugins/orders/invoices/data.php:423 includes/plugins/orders/orders/data.php:415 includes/plugins/orders/orders/data.php:436
+msgid "Entre"
+msgstr "بين"
+
+#: includes/plugins/orders/invoices/data.php:408 includes/plugins/orders/invoices/data.php:429 includes/plugins/orders/orders/data.php:421 includes/plugins/orders/orders/data.php:442
+msgid "Et"
+msgstr "و"
+
+#: includes/plugins/orders/invoices/data.php:414 includes/plugins/orders/invoices/data.php:435 includes/plugins/orders/orders/data.php:427 includes/plugins/orders/orders/data.php:448
+msgid "Jours"
+msgstr "أيام"
+
+#: includes/plugins/orders/invoices/data.php:415 includes/plugins/orders/invoices/data.php:436 includes/plugins/orders/orders/data.php:428 includes/plugins/orders/orders/data.php:449
+msgid "Semaines"
+msgstr "أسابيع"
+
+#: includes/plugins/orders/invoices/data.php:420 includes/plugins/orders/orders/data.php:433
+msgid "Délai de préparation"
+msgstr "مدة التحضير"
+
+#: includes/plugins/orders/invoices/data.php:441 includes/plugins/orders/orders/data.php:454
+msgid "Poids total estimé emballage compris"
+msgstr "الوزن الإجمالي المقدر بما في ذلك التعبئة والتغليف"
+
+#: includes/plugins/orders/invoices/data.php:445 includes/plugins/orders/orders/data.php:458
+msgid "Kg"
+msgstr "كغ"
+
+#: includes/plugins/orders/invoices/data.php:450 includes/plugins/orders/orders/data.php:463
+msgid "Nombre de colis estimé"
+msgstr "يقدر عدد الطرود"
+
+#: includes/plugins/orders/invoices/data.php:456 includes/plugins/orders/orders/data.php:469 includes/plugins/shipping/shipping/data.php:324 includes/plugins/users/users/data.php:668
+msgid "Informations complémentaires"
+msgstr "معلومات إضافية"
+
+#: includes/plugins/orders/invoices/data.php:493 includes/plugins/orders/orders/data.php:531
+msgid "Le produit a été enregistré avec succès"
+msgstr "تم تسجيل المنتج بنجاح"
+
+#: includes/plugins/orders/invoices/data.php:532 includes/plugins/orders/orders/data.php:570
+msgid "Le produit a été mise à jour."
+msgstr "تم تحديث المنتج."
+
+#: includes/plugins/orders/invoices/data.php:559 includes/plugins/orders/orders/data.php:597
+msgid "Sélectionnez une attribut."
+msgstr "حدد سمة."
+
+#: includes/plugins/orders/invoices/data.php:596 includes/plugins/orders/orders/data.php:634
+msgid "Cette action supprime définitivement le produit de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "هذا الإجراء إلى إزالة بشكل دائم المنتج من قاعدة معينة. هل أنت متأكد حقا؟"
+
+#: includes/plugins/orders/invoices/data.php:608 includes/plugins/orders/orders/data.php:646
+msgid "Le produit a été supprimer avec success."
+msgstr "تم حذف المنتج بنجاح."
+
+#: includes/plugins/orders/invoices/data.php:654 includes/plugins/orders/orders/data.php:692
+msgid "Le produit a été changé."
+msgstr "تم تغيير المنتج."
+
+#: includes/plugins/orders/invoices/list.php:22
+msgid "Gestion des Factures"
+msgstr "إدارة الفواتير"
+
+#: includes/plugins/orders/invoices/list.php:26 includes/plugins/orders/orders/list.php:27
+msgid "Nom du Client"
+msgstr "اسم الزبون"
+
+#: includes/plugins/orders/invoices/list.php:27 includes/plugins/orders/orders/list.php:28 includes/plugins/users/users/data.php:833 includes/plugins/users/users/data.php:864
+msgid "Réference"
+msgstr "إشارة"
+
+#: includes/plugins/orders/invoices/list.php:28 includes/plugins/orders/orders/list.php:29
+msgid "Transport"
+msgstr "نقل"
+
+#: includes/plugins/orders/invoices/list.php:34 includes/plugins/orders/orders/list.php:35
+msgid "Total économisé"
+msgstr "مجموعه المحفوظة"
+
+#: includes/plugins/orders/orders/data.php:78
+msgid "Edition de la Commande"
+msgstr "طبعة من أجل"
+
+#: includes/plugins/orders/orders/data.php:98
+msgid "Apérçu la facture"
+msgstr "معاينة الفاتورة"
+
+#: includes/plugins/orders/orders/data.php:100
+msgid "Générer la facture"
+msgstr "تولد الفواتير"
+
+#: includes/plugins/orders/orders/data.php:104
+msgid "Apérçu la Commande"
+msgstr "القيادة المعاينة"
+
+#: includes/plugins/orders/orders/data.php:167
+msgid "Produits de la Commande"
+msgstr "المنتجات ترتيب"
+
+#: includes/plugins/orders/orders/data.php:502
+msgid "En cours de Génération de la Facture."
+msgstr "خلال الجيل الفاتورة."
+
+#: includes/plugins/orders/orders/list.php:23
+msgid "Gestion des Commandes"
+msgstr "إدارة النظام"
+
+#: includes/plugins/products/attributes/data.php:16
+msgid "Nom de l'attribut"
+msgstr "اسم السمة"
+
+#: includes/plugins/products/attributes/data.php:22 includes/plugins/products/attributes/data.php:80
+msgid "Language"
+msgstr "حفظ"
+
+#: includes/plugins/products/attributes/data.php:28 includes/plugins/products/attributes/data.php:86 includes/plugins/products/tags/data.php:28 includes/plugins/products/tags/data.php:86
+msgid "Vérifier tous vos information et cliquer sur le bouton save."
+msgstr "تحقق من كل المعلومات الخاصة بك وانقر على زر حفظ."
+
+#: includes/plugins/products/attributes/data.php:30 includes/plugins/products/attributes/data.php:88
+msgid "Enregistrer l'attribute"
+msgstr "حفظ السمة"
+
+#: includes/plugins/products/attributes/data.php:75
+msgid "Nom de l'attribute"
+msgstr "سمة اسم"
+
+#: includes/plugins/products/attributes/list.php:9
+msgid "Gestion des attributes"
+msgstr "سمات الإدارة"
+
+#: includes/plugins/products/attributes/list.php:19
+msgid "Ajouter une nouvelle attributes"
+msgstr "إضافة سمات جديدة"
+
+#: includes/plugins/products/categories/data.php:48
+msgid "Catégorie"
+msgstr "فئة"
+
+#: includes/plugins/products/categories/data.php:50
+msgid "Liste des Catégories"
+msgstr "قائمة التصنيفات"
+
+#: includes/plugins/products/categories/data.php:55
+msgid "Modifier la Catégorie"
+msgstr "تغيير الفئة"
+
+#: includes/plugins/products/categories/data.php:55
+msgid "Nouvelle Catégorie"
+msgstr "جديد الفئة"
+
+#: includes/plugins/products/categories/data.php:66
+msgid "Affichée"
+msgstr "عرض"
+
+#: includes/plugins/products/categories/data.php:78
+msgid "Image de la catégorie"
+msgstr "الصورة لفئة"
+
+#: includes/plugins/products/categories/data.php:93 includes/plugins/products/manufacturers/data.php:93 includes/plugins/products/products/data.php:796
+msgid "Balise titre"
+msgstr "علامة العنوان"
+
+#: includes/plugins/products/categories/data.php:99 includes/plugins/products/manufacturers/data.php:99 includes/plugins/products/products/data.php:802
+msgid "Meta description"
+msgstr "وصف ميتا"
+
+#: includes/plugins/products/categories/data.php:105 includes/plugins/products/manufacturers/data.php:105
+msgid "Meta mots-clés"
+msgstr "ميتا كلمات"
+
+#: includes/plugins/products/categories/data.php:111 includes/plugins/products/products/data.php:808
+msgid "URL simplifiée"
+msgstr "URL ودية"
+
+#: includes/plugins/products/categories/list.php:9
+msgid "Gestion des categories"
+msgstr "إدارة الفئات"
+
+#: includes/plugins/products/categories/list.php:19
+msgid "Ajouter une categorie"
+msgstr "إضافة فئة"
+
+#: includes/plugins/products/manufacturers/data.php:50
+msgid "Liste des Fabricants"
+msgstr "قائمة مصنعين"
+
+#: includes/plugins/products/manufacturers/data.php:55
+msgid "Nouveau Fabricant"
+msgstr "الجديد الصانع"
+
+#: includes/plugins/products/manufacturers/data.php:66 includes/plugins/products/products/data.php:559
+msgid "Résumé"
+msgstr "ملخص"
+
+#: includes/plugins/products/manufacturers/data.php:78 includes/plugins/shipping/shipping/data.php:310
+msgid "Logo"
+msgstr "شعار"
+
+#: includes/plugins/products/manufacturers/data.php:113 includes/plugins/shipping/shipping/data.php:263
+msgid "désactivé"
+msgstr "معاق"
+
+#: includes/plugins/products/manufacturers/list.php:12
+msgid "Gestion des Fabricants"
+msgstr "إدارة مصنعين"
+
+#: includes/plugins/products/manufacturers/list.php:17
+msgid "Date de Création"
+msgstr "تاريخ الإنشاء"
+
+#: includes/plugins/products/manufacturers/list.php:18 includes/plugins/products/products/data.php:551
+msgid "Activé"
+msgstr "تنشيط"
+
+#: includes/plugins/products/manufacturers/list.php:23
+msgid "Ajouter un fabricant"
+msgstr "إضافة الصانع"
+
+#: includes/plugins/products/products/data.php:421
+msgid "Modifier les informations de Produit"
+msgstr "تغيير معلومات المنتج"
+
+#: includes/plugins/products/products/data.php:421 includes/plugins/products/products/list.php:58
+msgid "Ajouter un Produit"
+msgstr "إضافة المنتج"
+
+#: includes/plugins/products/products/data.php:456 includes/plugins/products/products/data.php:474
+msgid "Informations de Produit"
+msgstr "معلومات المنتج"
+
+#: includes/plugins/products/products/data.php:457 includes/plugins/products/products/data.php:587
+msgid "Produits associés"
+msgstr "المنتجات ذات الصلة"
+
+#: includes/plugins/products/products/data.php:458
+msgid "Prix et Règle de taxe"
+msgstr "سعر والقاعدة الضريبية"
+
+#: includes/plugins/products/products/data.php:459
+msgid "Référencement - SEO"
+msgstr "- كبار المسئولين الاقتصاديين"
+
+#: includes/plugins/products/products/data.php:460
+msgid "Catégories et Associations"
+msgstr "جمعيات الفئات"
+
+#: includes/plugins/products/products/data.php:461
+msgid "Déclinaisons"
+msgstr "الانحرافات"
+
+#: includes/plugins/products/products/data.php:462
+msgid "Quantités"
+msgstr "كميات"
+
+#: includes/plugins/products/products/data.php:463 includes/plugins/products/products/data.php:1203
+msgid "Images"
+msgstr "الصور"
+
+#: includes/plugins/products/products/data.php:465 includes/plugins/products/products/data.php:1337
+msgid "Documents joints"
+msgstr "المستندات المرفقة"
+
+#: includes/plugins/products/products/data.php:479
+msgid "Vous ne pouvez pas avoir de déclinaisons avec un produit virtuel."
+msgstr "لا يمكنك الحصول على الاختلافات مع المنتج الظاهري."
+
+#: includes/plugins/products/products/data.php:480
+msgid "Vous ne pouvez pas utiliser de déclinaisons dans un pack."
+msgstr "لا يمكنك استخدام الاختلافات في حزمة."
+
+#: includes/plugins/products/products/data.php:482
+msgid "Type"
+msgstr "نوع"
+
+#: includes/plugins/products/products/data.php:487
+msgid "Produit standard"
+msgstr "المنتج القياسية"
+
+#: includes/plugins/products/products/data.php:492
+msgid "Pack de produits existants"
+msgstr "حزمة من المنتجات الحالية"
+
+#: includes/plugins/products/products/data.php:498
+msgid "Produit dématérialisé (services, réservations, produits téléchargeables, etc.)"
+msgstr "المنتج غير المادية (خدمات والتحفظات والمنتجات القابلة للتحميل، الخ)"
+
+#: includes/plugins/products/products/data.php:516 includes/plugins/products/products/data.php:922
+msgid "Code-barres EAN-13 ou JAN"
+msgstr "EAN-13 الباركود أو يناير"
+
+#: includes/plugins/products/products/data.php:522 includes/plugins/products/products/data.php:928
+msgid "Code-barres UPC"
+msgstr "اتحاد الوطنيين الكونغوليين الباركود"
+
+#: includes/plugins/products/products/data.php:531
+msgid "Nouveau"
+msgstr "جديد"
+
+#: includes/plugins/products/products/data.php:532
+msgid "Utilisé"
+msgstr "في الاستخدام"
+
+#: includes/plugins/products/products/data.php:533
+msgid "Reconditionné"
+msgstr "تم تجديده"
+
+#: includes/plugins/products/products/data.php:538
+msgid "Date de création"
+msgstr "تاريخ الإنشاء"
+
+#: includes/plugins/products/products/data.php:548
+msgid "Status"
+msgstr "وضع"
+
+#: includes/plugins/products/products/data.php:554
+msgid "Désactivé"
+msgstr "إبطال مفعولها"
+
+#: includes/plugins/products/products/data.php:571
+msgid "Mots-clés (Tags)"
+msgstr "كلمات (الكلمات)"
+
+#: includes/plugins/products/products/data.php:574
+msgid "Chaque mot-clé doit être suivi d'une virgule. Les caractères suivants sont interdits : !<;>;?=+#\"°{}_$%."
+msgstr "يجب أن تتبع كل كلمة رئيسية بفاصلة. لا يسمح الأحرف التالية: <> = + # \\ \"° _ {} $٪!؟."
+
+#: includes/plugins/products/products/data.php:590
+msgid "Produit associé"
+msgstr "المنتجات ذات الصلة"
+
+#: includes/plugins/products/products/data.php:611 includes/plugins/products/products/data.php:1006
+msgid "Image"
+msgstr "صور"
+
+#: includes/plugins/products/products/data.php:614
+msgid "Action"
+msgstr "عمل"
+
+#: includes/plugins/products/products/data.php:649 includes/plugins/products/products/data.php:1122 includes/plugins/products/products/data.php:1193 includes/plugins/products/products/data.php:1251
+#: includes/plugins/products/products/data.php:1327 includes/plugins/products/products/data.php:1403 includes/plugins/shipping/shipping/data.php:469 includes/plugins/shipping/shipping/data.php:555
+#: includes/plugins/shipping/shipping/data.php:600 includes/plugins/shipping/shipping/data.php:612
+msgid "Il y a 1 avertissement."
+msgstr "هناك 1 تحذير."
+
+#: includes/plugins/products/products/data.php:650 includes/plugins/products/products/data.php:1328 includes/plugins/products/products/data.php:1404
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des caractéristiques."
+msgstr "يجب عليك تسجيل هذا المنتج قبل إضافة ميزات."
+
+#: includes/plugins/products/products/data.php:657
+msgid "Ajouter des Prix"
+msgstr "إضافة الأسعار"
+
+#: includes/plugins/products/products/data.php:661
+msgid "Prix d'achat (unitaire)"
+msgstr "سعر الشراء (لكل وحدة)"
+
+#: includes/plugins/products/products/data.php:664
+msgid "Dhs"
+msgstr "درهم"
+
+#: includes/plugins/products/products/data.php:666 includes/plugins/products/products/data.php:676 includes/plugins/products/products/data.php:686
+msgid "HT"
+msgstr "HT"
+
+#: includes/plugins/products/products/data.php:671
+msgid "Prix de vente (unitaire)"
+msgstr "سعر بيع (لكل وحدة)"
+
+#: includes/plugins/products/products/data.php:681
+msgid "Prix du lot"
+msgstr "سعر الكثير"
+
+#: includes/plugins/products/products/data.php:691
+msgid "Par"
+msgstr "بواسطة"
+
+#: includes/plugins/products/products/data.php:693
+msgid "(Pièces)"
+msgstr "(أجزاء)"
+
+#: includes/plugins/products/products/data.php:698
+msgid "Points de fidélité"
+msgstr "إخلاص"
+
+#: includes/plugins/products/products/data.php:713
+msgid "Règle de taxe"
+msgstr "الضرائب حكم"
+
+#: includes/plugins/products/products/data.php:726
+msgid "Remise"
+msgstr "خصم"
+
+#: includes/plugins/products/products/data.php:740
+msgid "Colisage"
+msgstr "حزم"
+
+#: includes/plugins/products/products/data.php:749
+msgid "Poids"
+msgstr "الوزن"
+
+#: includes/plugins/products/products/data.php:753 includes/plugins/products/products/data.php:964
+msgid "KG"
+msgstr "KG"
+
+#: includes/plugins/products/products/data.php:758
+msgid "Hauteur"
+msgstr "ارتفاع"
+
+#: includes/plugins/products/products/data.php:762 includes/plugins/products/products/data.php:771
+msgid "CM"
+msgstr "CM"
+
+#: includes/plugins/products/products/data.php:767
+msgid "Largeur"
+msgstr "عرض"
+
+#: includes/plugins/products/products/data.php:776
+msgid "Profondeur"
+msgstr "عمق"
+
+#: includes/plugins/products/products/data.php:780
+msgid "m"
+msgstr "م"
+
+#: includes/plugins/products/products/data.php:793
+msgid "RÉFÉRENCEMENT - SEO"
+msgstr "الأمثل - سيو"
+
+#: includes/plugins/products/products/data.php:825
+msgid "Associations"
+msgstr "جمعيات"
+
+#: includes/plugins/products/products/data.php:829
+msgid "Catégories associées"
+msgstr "الفئات ذات الصلة"
+
+#: includes/plugins/products/products/data.php:834
+msgid "Réduire tout"
+msgstr "طي الكل"
+
+#: includes/plugins/products/products/data.php:835
+msgid "Ouvrire tout"
+msgstr "يفتح جميع"
+
+#: includes/plugins/products/products/data.php:836
+msgid "Tout cocher"
+msgstr "تحديد كافة"
+
+#: includes/plugins/products/products/data.php:837
+msgid "Tout décocher"
+msgstr "ازل"
+
+#: includes/plugins/products/products/data.php:850
+msgid "Catégorie par défaut"
+msgstr "الفئة الافتراضية"
+
+#: includes/plugins/products/products/data.php:871
+msgid "Ajouter ou modifier des déclinaisons de produit"
+msgstr "إضافة أو تغيير الاختلافات المنتج"
+
+#: includes/plugins/products/products/data.php:878 includes/plugins/products/products/data.php:1049
+msgid "Sauvegarder la déclinaison"
+msgstr "حفظ الانحراف"
+
+#: includes/plugins/products/products/data.php:879
+msgid "Déclinaisons de produit"
+msgstr "سمات المنتج"
+
+#: includes/plugins/products/products/data.php:886
+msgid "Attribut"
+msgstr "السمة"
+
+#: includes/plugins/products/products/data.php:897
+msgid "Valeur"
+msgstr "قيمة"
+
+#: includes/plugins/products/products/data.php:935
+msgid "Prix de vente HT"
+msgstr "سعر البيع بدون ضريبة"
+
+#: includes/plugins/products/products/data.php:941 includes/plugins/products/products/data.php:1059
+msgid "Impact sur le prix"
+msgstr "تأثير على السعر"
+
+#: includes/plugins/products/products/data.php:944 includes/plugins/products/products/data.php:958 includes/plugins/products/products/data.php:972
+msgid "Aucun"
+msgstr "لا"
+
+#: includes/plugins/products/products/data.php:945 includes/plugins/products/products/data.php:959 includes/plugins/products/products/data.php:973
+msgid "Augmentation"
+msgstr "زيادة"
+
+#: includes/plugins/products/products/data.php:946 includes/plugins/products/products/data.php:960 includes/plugins/products/products/data.php:974
+msgid "Diminution"
+msgstr "نقصان"
+
+#: includes/plugins/products/products/data.php:955 includes/plugins/products/products/data.php:1060
+msgid "Impact sur le poids"
+msgstr "تأثير على الوزن"
+
+#: includes/plugins/products/products/data.php:969
+msgid "Impact sur le prix unitaire"
+msgstr "تأثير على سعر الوحدة"
+
+#: includes/plugins/products/products/data.php:983
+msgid "Quantité En Stock"
+msgstr "الكمية في المخزن"
+
+#: includes/plugins/products/products/data.php:989 includes/plugins/products/products/data.php:1170
+msgid "Quantité minimale"
+msgstr "كمية الحد الأدنى"
+
+#: includes/plugins/products/products/data.php:995
+msgid "Date de disponibilité"
+msgstr "تاريخ توفر"
+
+#: includes/plugins/products/products/data.php:1033
+msgid "Par défaut"
+msgstr "افتراضيا"
+
+#: includes/plugins/products/products/data.php:1038
+msgid "Faire de cette déclinaison celle par défaut pour ce produit."
+msgstr "جعل هذا المنتج الاختلاف الافتراضية."
+
+#: includes/plugins/products/products/data.php:1046
+msgid "Annuler la modification"
+msgstr "التراجع عن التغيير"
+
+#: includes/plugins/products/products/data.php:1048 includes/plugins/products/products/data.php:1115
+msgid "Nouvelle déclinaison"
+msgstr "إنخفاض جديد"
+
+#: includes/plugins/products/products/data.php:1058
+msgid "Paire attribut - valeur"
+msgstr "السمة زوج - قيمة"
+
+#: includes/plugins/products/products/data.php:1062
+msgid "EAN-13"
+msgstr "EAN-13"
+
+#: includes/plugins/products/products/data.php:1063
+msgid "UPC"
+msgstr "اتحاد الوطنيين الكونغوليين"
+
+#: includes/plugins/products/products/data.php:1088
+msgid "Modifier"
+msgstr "تغيير"
+
+#: includes/plugins/products/products/data.php:1099
+msgid "Aucun enregistrement trouvé"
+msgstr "لا توجد سجلات"
+
+#: includes/plugins/products/products/data.php:1107
+msgid "La ligne en bleu est la déclinaison par défaut."
+msgstr "الخط الأزرق هو مزيج الافتراضية."
+
+#: includes/plugins/products/products/data.php:1108
+msgid "Un produit qui possède des déclinaisons doit avoir une déclinaison par défaut."
+msgstr "يجب أن يكون المنتج الذي لديه الانحرافات مزيج الافتراضية."
+
+#: includes/plugins/products/products/data.php:1123
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des déclinaisons."
+msgstr "يجب عليك تسجيل هذا المنتج قبل أن يضيف الانحرافات."
+
+#: includes/plugins/products/products/data.php:1131
+msgid "QUANTITÉS DISPONIBLES À LA VENTE"
+msgstr "المتاح للبيع"
+
+#: includes/plugins/products/products/data.php:1134
+msgid "Cette interface vous permet de gérer les quantités disponibles à la vente pour ce produit. Elle vous permet également de gérer les déclinaisons produit dans la boutique en cours."
+msgstr "هذا واجهة تسمح لك لإدارة الكميات المتاحة للبيع لهذا المنتج. كما يسمح لك لإدارة الاختلافات تنتجه في المخزن الحالي."
+
+#: includes/plugins/products/products/data.php:1135
+msgid "Notez que si un produit du pack a plusieurs déclinaisons, c'est sa déclinaison par défaut qui sera utilisée pour les mouvements de stocks."
+msgstr "لاحظ أنه إذا حزمة المنتج لديها العديد من الاختلافات، هو مزيج الافتراضية التي سيتم استخدامها لحركات المخزون."
+
+#: includes/plugins/products/products/data.php:1194
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des quantités."
+msgstr "يجب عليك تسجيل هذا المنتج قبل إضافة الكميات."
+
+#: includes/plugins/products/products/data.php:1207
+msgid "Ajouter une nouvelle image à ce produit"
+msgstr "إضافة صورة جديدة لهذا المنتج"
+
+#: includes/plugins/products/products/data.php:1217
+msgid "Sélectionnez l'image en vedette."
+msgstr "حدد الصورة واردة."
+
+#: includes/plugins/products/products/data.php:1252
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des images."
+msgstr "يجب عليك تسجيل هذا المنتج قبل إضافة الصور."
+
+#: includes/plugins/products/products/data.php:1263
+msgid "Attribuer des caractéristiques à ce produit"
+msgstr "تعيين الميزات لهذا المنتج"
+
+#: includes/plugins/products/products/data.php:1267
+msgid "Vous pouvez préciser une valeur pour chaque caractéristique pertinente concernant ce produit ; les champs vides ne seront pas affichés."
+msgstr "يمكنك تحديد قيمة لكل ميزة ذات الصلة على المنتج. لن يتم عرض الحقول الفارغة."
+
+#: includes/plugins/products/products/data.php:1268
+msgid "Vous pouvez définir une valeur spécifique, ou choisir parmi les valeurs existantes prédéfinies que vous avez ajoutées précédemment."
+msgstr "يمكنك تعيين قيمة معينة، أو الاختيار من القيم المحددة مسبقا القائمة التي قمت بإضافتها سابقا."
+
+#: includes/plugins/products/products/data.php:1279
+msgid "Caractéristique"
+msgstr "ميزة"
+
+#: includes/plugins/products/products/data.php:1280
+msgid "Valeur prédéfinie"
+msgstr "القيمة مسبقا"
+
+#: includes/plugins/products/products/data.php:1281 includes/plugins/users/users/data.php:585
+msgid "OU"
+msgstr "أو"
+
+#: includes/plugins/products/products/data.php:1281
+msgid "Valeur personnalisée"
+msgstr "القيمة الجمركية"
+
+#: includes/plugins/products/products/data.php:1308
+msgid "N/D"
+msgstr "N / A"
+
+#: includes/plugins/products/products/data.php:1308
+msgid "Ajouter une valeur prédéfinie dans un premier temps"
+msgstr "إضافة قيمة محددة مسبقا في البداية"
+
+#: includes/plugins/products/products/data.php:1340
+msgid "Nom du fichier *"
+msgstr "اسم الملف *"
+
+#: includes/plugins/products/products/data.php:1352
+msgid "Fichier"
+msgstr "ملف"
+
+#: includes/plugins/products/products/data.php:1355
+msgid "Mettre un fichier en ligne depuis votre poste de travail"
+msgstr "وضع الملفات على الإنترنت من محطة العمل الخاصة بك"
+
+#: includes/plugins/products/products/data.php:1355
+msgid "max."
+msgstr "كحد أقصى."
+
+#: includes/plugins/products/products/data.php:1356
+msgid "Formats autorisés :"
+msgstr "صيغ المأذون:"
+
+#: includes/plugins/products/products/data.php:1361
+msgid "Envoyer"
+msgstr "إرسال"
+
+#: includes/plugins/products/products/data.php:1366
+msgid "Liste des fichiers attachés"
+msgstr "قائمة الملفات المرفقة"
+
+#: includes/plugins/products/products/data.php:1372
+msgid "Nom du fichier"
+msgstr "اسم الملف"
+
+#: includes/plugins/products/products/data.php:1389
+msgid "Aucun attachment trouvé"
+msgstr "لم يتم العثور على المرفقات"
+
+#: includes/plugins/products/products/data.php:1507
+msgid "Cette action supprime définitivement l'image sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "هذا الإجراء إلى إزالة بشكل دائم الصورة على الخادم الخاص بك. هل أنت متأكد حقا؟"
+
+#: includes/plugins/products/products/data.php:1526
+msgid "Cette action supprime définitivement le fichier sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "يحذف هذا الإجراء بشكل دائم الملف على الخادم الخاص بك. هل أنت متأكد حقا؟"
+
+#: includes/plugins/products/products/data.php:1620
+msgid "Cette action supprime définitivement la declinaison. Êtes-vous vraiment sûr ?"
+msgstr "هذا الإجراء إلى إزالة بشكل دائم الانحراف. هل أنت متأكد حقا؟"
+
+#: includes/plugins/products/products/data.php:1643 includes/plugins/products/products/data.php:1651
+msgid "Cette action annuler la declinaison. Êtes-vous vraiment sûr ?"
+msgstr "هذا الإجراء إلغاء الانحراف. هل أنت متأكد حقا؟"
+
+#: includes/plugins/products/products/data.php:1782
+msgid "Vous ne pouvez ajouter qu'une déclinaison par type d'attribut."
+msgstr "يمكنك إضافة الاختلاف حسب نوع السمة."
+
+#: includes/plugins/products/products/list.php:44
+msgid "Gestion des Produits"
+msgstr "إدارة المنتجات"
+
+#: includes/plugins/products/products/list.php:49
+msgid "Prix d\\'achat"
+msgstr "سعر الشراء"
+
+#: includes/plugins/products/products/list.php:50
+msgid "Prix de vente"
+msgstr "ثمن البيع"
+
+#: includes/plugins/products/tags/data.php:16 includes/plugins/products/tags/data.php:75
+msgid "Nom de Tag"
+msgstr "اسم العلامة"
+
+#: includes/plugins/products/tags/data.php:22 includes/plugins/products/tags/data.php:80
+msgid "language"
+msgstr "لغة"
+
+#: includes/plugins/products/tags/data.php:30 includes/plugins/products/tags/data.php:88
+msgid "Enrigistrer la Tag"
+msgstr "Enrigistrer علامة"
+
+#: includes/plugins/products/tags/list.php:9
+msgid "Gestion des tags"
+msgstr "إدارة الكلمات الدلالية"
+
+#: includes/plugins/products/tags/list.php:19
+msgid "Ajouter une tags"
+msgstr "إضافة علامات"
+
+#: includes/plugins/products/values/data.php:34 includes/plugins/products/values/data.php:132
+msgid "La valeur a été mise à jour"
+msgstr "تم تحديث قيمة"
+
+#: includes/plugins/products/values/data.php:37
+msgid "La valeur a été ajouter avec success"
+msgstr "تمت إضافة القيمة مع النجاح"
+
+#: includes/plugins/products/values/data.php:51 includes/plugins/products/values/data.php:159
+msgid "Ajouter une nouvelle valeur"
+msgstr "إضافة قيمة جديدة"
+
+#: includes/plugins/products/values/data.php:54
+msgid "Enregistrer"
+msgstr "سجل"
+
+#: includes/plugins/products/values/data.php:67 includes/plugins/products/values/data.php:175
+msgid "VALEURS"
+msgstr "القيم"
+
+#: includes/plugins/products/values/data.php:71 includes/plugins/products/values/data.php:179
+msgid "Groupe d'attributs *"
+msgstr "السمة مجموعة *"
+
+#: includes/plugins/products/values/data.php:81 includes/plugins/products/values/data.php:192
+msgid "Valeur *"
+msgstr "قيمة *"
+
+#: includes/plugins/products/values/data.php:87 includes/plugins/products/values/data.php:198
+msgid "URL"
+msgstr "URL"
+
+#: includes/plugins/products/values/list.php:9
+msgid "Gestion des Valeurs"
+msgstr "قيم الإدارة"
+
+#: includes/plugins/products/values/list.php:19
+msgid "Ajouter une Valeur"
+msgstr "إضافة قيمة"
+
+#: includes/plugins/shipping/shipping/data.php:158
+msgid "Le Transport a été mise à jour avec success."
+msgstr "تم تحديث النقل بالنجاح."
+
+#: includes/plugins/shipping/shipping/data.php:215
+msgid "Modifier le Transporteur"
+msgstr "تحرير الناقل"
+
+#: includes/plugins/shipping/shipping/data.php:215
+msgid "Ajouter un Transporteur"
+msgstr "إضافة الناقل"
+
+#: includes/plugins/shipping/shipping/data.php:247 includes/plugins/shipping/shipping/data.php:258
+msgid "Paramètres généraux"
+msgstr "الإعدادات العامة"
+
+#: includes/plugins/shipping/shipping/data.php:248 includes/plugins/shipping/shipping/data.php:341
+msgid "Destinations d'expédition et coûts"
+msgstr "جهة وتكاليف الشحن"
+
+#: includes/plugins/shipping/shipping/data.php:249 includes/plugins/shipping/shipping/data.php:478
+msgid "Taille, poids et groupes associés"
+msgstr "الطول والوزن والجماعات المرتبطة بها"
+
+#: includes/plugins/shipping/shipping/data.php:250
+msgid "Récapitulatif"
+msgstr "ملخص"
+
+#: includes/plugins/shipping/shipping/data.php:276
+msgid "Mode de livraison"
+msgstr "طريقة التسليم"
+
+#: includes/plugins/shipping/shipping/data.php:279
+msgid "Economique (le moins cher)"
+msgstr "الاقتصادية (أرخص)"
+
+#: includes/plugins/shipping/shipping/data.php:280
+msgid "Express (le plus rapide)"
+msgstr "تعبير (أسرع)"
+
+#: includes/plugins/shipping/shipping/data.php:285
+msgid ""
+"Caractères autorisés : lettres, espaces et &quot;().-&quot;. Nom du transporteur tel qu'il apparaîtra durant la commande. Pour le retrait en boutique, mettez le chiffre 0 afin de remplacer le nom du "
+"transporteur par le nom de votre boutique."
+msgstr "الأحرف المسموح بها: الحروف والمساحات وومثل؛ () .- ومثل؛ اسم الناقل لأنها سوف تظهر في الترتيب. لمتجر إزالة، وضعت 0 إلى استبدال اسم الناقل عن طريق اسم المحل الخاص بك."
+
+#: includes/plugins/shipping/shipping/data.php:285
+msgid "Nom du transporteur *"
+msgstr "اسم الناقل *"
+
+#: includes/plugins/shipping/shipping/data.php:292
+msgid "L'estimation du délai de livraison sera affichée durant la commande."
+msgstr "سيتم عرض وقت التسليم خلال النظام."
+
+#: includes/plugins/shipping/shipping/data.php:292
+msgid "Délai de livraison *"
+msgstr "أجل التسليم *"
+
+#: includes/plugins/shipping/shipping/data.php:295
+msgid "min"
+msgstr "دقيقة"
+
+#: includes/plugins/shipping/shipping/data.php:298
+msgid "max"
+msgstr "ماكس"
+
+#: includes/plugins/shipping/shipping/data.php:303
+msgid "Saisissez &quot;0&quot; pour le délai d'expédition le plus long, ou &quot;9&quot; pour le délai le plus court."
+msgstr "أدخل ومثل؛ 0 & مثل. لأطول وقت الشحن، أو ومثل (9)؛ ومثل. لأقصر وقت."
+
+#: includes/plugins/shipping/shipping/data.php:303
+msgid "Vitesse"
+msgstr "سرعة"
+
+#: includes/plugins/shipping/shipping/data.php:313
+msgid "Format JPG, GIF, PNG. Taille du fichier 8.00 Mo max. Taille actuelle"
+msgstr "JPG، GIF، PNG. حجم الملف 8.00 MB كحد أقصى. الحجم الحالي"
+
+#: includes/plugins/shipping/shipping/data.php:313
+msgid "indéfini"
+msgstr "غير محدد"
+
+#: includes/plugins/shipping/shipping/data.php:317
+msgid "URL pour le suivi des colis : placez le caractère &quot;@&quot; là où la référence doit apparaître. Elle sera automatiquement remplacée par le numéro de suivi."
+msgstr "URL لتتبع الطرود: ضع الطابع ومثل؛ @ & مثل. حيث يجب أن تظهر إشارة. وسيتم استبدال تلقائيا مع عدد تتبع."
+
+#: includes/plugins/shipping/shipping/data.php:317
+msgid "URL de suivi"
+msgstr "URL تتبع"
+
+#: includes/plugins/shipping/shipping/data.php:320
+msgid "Par exemple : \"http://example.com/track.php?num=@\" avec \"@\" à l'emplacement du numéro de suivi."
+msgstr "على سبيل المثال: \\ \"HTTP: //example.com/track.php @ الأسطوانات = \" مع \\ \"@ \" إلى الموقع عدد تتبع."
+
+#: includes/plugins/shipping/shipping/data.php:346
+msgid "Ajouter les frais de manutention"
+msgstr "إضافة رسوم المناولة"
+
+#: includes/plugins/shipping/shipping/data.php:358
+msgid "Facturation"
+msgstr "الفواتير"
+
+#: includes/plugins/shipping/shipping/data.php:361
+msgid "En fonction du prix total."
+msgstr "اعتمادا على السعر الإجمالي."
+
+#: includes/plugins/shipping/shipping/data.php:364
+msgid "En fonction du poids total."
+msgstr "وبناء على الوزن الكلي."
+
+#: includes/plugins/shipping/shipping/data.php:383
+msgid ""
+"Le comportement hors tranches désigne le comportement à adopter lorsqu'aucune tranche ne correspond au panier du client (par exemple, lorsque le poids total des articles mis au panier est plus grand "
+"que le poids maximal défini dans les tranches de poids)."
+msgstr "يشير السلوك من شرائح تتصرف عندما لا شريحة مباريات سلة من العملاء (على سبيل المثال، عندما يكون الوزن الإجمالي للعناصر في سلة أكبر من الحد الأقصى المحدد في فئات الوزن)."
+
+#: includes/plugins/shipping/shipping/data.php:383
+msgid "Comportement hors tranches"
+msgstr "السلوك من شرائح"
+
+#: includes/plugins/shipping/shipping/data.php:387
+msgid "Prendre la tranche la plus grande"
+msgstr "تأخذ أكبر شريحة"
+
+#: includes/plugins/shipping/shipping/data.php:388
+msgid "Désactiver le transporteur"
+msgstr "الناقل تعطيل"
+
+#: includes/plugins/shipping/shipping/data.php:398
+msgid "Plages"
+msgstr "الشواطئ"
+
+#: includes/plugins/shipping/shipping/data.php:403 includes/plugins/shipping/shipping/data.php:413 includes/plugins/shipping/shipping/data.php:631
+msgid "Sera appliquée lorsque le poids est"
+msgstr "سيتم تطبيقها عندما يكون الوزن هو"
+
+#: includes/plugins/shipping/shipping/data.php:407 includes/plugins/shipping/shipping/data.php:630
+msgid "kg"
+msgstr "كغ"
+
+#: includes/plugins/shipping/shipping/data.php:423
+msgid "All"
+msgstr "جميع"
+
+#: includes/plugins/shipping/shipping/data.php:457
+msgid "Ajouter une nouvelle tranche"
+msgstr "إضافة شريحة جديدة"
+
+#: includes/plugins/shipping/shipping/data.php:470
+msgid "Vous devez enregistrer ce transport avant d'y ajouter des destinations d'expédition et coûts."
+msgstr "يجب تسجيل هذا النقل قبل إضافة تكاليف الشحن والوجهات."
+
+#: includes/plugins/shipping/shipping/data.php:483
+msgid "Largeur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "أقصى عرض تدار من قبل هذا الناقل. تاريخ ومثل؛ 0 & مثل. أو اتركه فارغا لتخطي هذا الخيار. يجب أن تكون قيمة عدد صحيح."
+
+#: includes/plugins/shipping/shipping/data.php:483
+msgid "Largeur maximum du paquet (cm)"
+msgstr "عرض حزمة أقصى (سم)"
+
+#: includes/plugins/shipping/shipping/data.php:491
+msgid "Hauteur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "أقصى ارتفاع تدار من قبل هذا الناقل. تاريخ ومثل؛ 0 & مثل. أو اتركه فارغا لتخطي هذا الخيار. يجب أن تكون قيمة عدد صحيح."
+
+#: includes/plugins/shipping/shipping/data.php:491
+msgid "Hauteur maximum du paquet (cm)"
+msgstr "ارتفاع حزمة أقصى (سم)"
+
+#: includes/plugins/shipping/shipping/data.php:499
+msgid "Profondeur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "أقصى عمق تدار من قبل هذا الناقل. تاريخ ومثل؛ 0 & مثل. أو اتركه فارغا لتخطي هذا الخيار. يجب أن تكون قيمة عدد صحيح."
+
+#: includes/plugins/shipping/shipping/data.php:499
+msgid "Profondeur maximum du paquet (cm)"
+msgstr "أقصى عمق حزمة (سم)"
+
+#: includes/plugins/shipping/shipping/data.php:507
+msgid "Poids maximal géré par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option."
+msgstr "الوزن الأقصى التي يدعمها هذا الناقل. تاريخ ومثل؛ 0 & مثل. أو اتركه فارغا لتخطي هذا الخيار."
+
+#: includes/plugins/shipping/shipping/data.php:507
+msgid "Poids maximum du paquet (kg)"
+msgstr "أقصى وزن الحزمة (كلغ)"
+
+#: includes/plugins/shipping/shipping/data.php:514
+msgid "Cochez tous les groupes qui ont accès à ce transporteur."
+msgstr "تحقق من كل المجموعات التي لديها إمكانية الوصول إلى تلك الناقل."
+
+#: includes/plugins/shipping/shipping/data.php:514
+msgid "Accès des groupes"
+msgstr "مجموعة وصول"
+
+#: includes/plugins/shipping/shipping/data.php:526
+msgid "Nom du groupe"
+msgstr "اسم المجموعة"
+
+#: includes/plugins/shipping/shipping/data.php:556
+msgid "Vous devez enregistrer ce transport avant d'y ajouter la taille, poids et groupes associés."
+msgstr "يجب تسجيل هذا النقل قبل إضافة الحجم والوزن والجماعات المرتبطة بها."
+
+#: includes/plugins/shipping/shipping/data.php:564
+msgid "Informations de transporteur"
+msgstr "معلومات الناقل"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "Le transporteur est"
+msgstr "الناقل"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "Offert"
+msgstr "عرضت"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "payant"
+msgstr "دفع"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "et le délai de livraison affiché est :"
+msgstr "ويتم عرض التسليم في الوقت المحدد:"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "jours."
+msgstr "أيام."
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "Le coût d'envoi est calculé"
+msgstr "يتم احتساب تكلفة إرسال"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "en fonction du poids"
+msgstr "على أساس الوزن"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "en fonction du prix"
+msgstr "وفقا لسعر"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "et la règle de taxe"
+msgstr "وحكم الضرائب"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "est appliquée"
+msgstr "يتم تطبيق"
+
+#: includes/plugins/shipping/shipping/data.php:572
+msgid "Ce transporteur peut livrer des commandes de"
+msgstr "هذا الناقل يمكن أن يحقق أوامر"
+
+#: includes/plugins/shipping/shipping/data.php:572
+msgid "Si la commande est hors de cette tranche, le comportement est défini comme : prendre la tranche la plus grande."
+msgstr "إذا كان النظام هو من هذا النطاق، يتم تعريف السلوك على النحو التالي: تأخذ أكبر شريحة."
+
+#: includes/plugins/shipping/shipping/data.php:573
+msgid "Ce transporteur sera proposé pour les zones :"
+msgstr "سيتم اقتراح الناقل للمناطق:"
+
+#: includes/plugins/shipping/shipping/data.php:585
+msgid "Et il sera proposé pour les groupes de clients suivants :"
+msgstr "وسيتم عرض لمجموعات العميل التالية:"
+
+#: includes/plugins/shipping/shipping/data.php:601
+msgid "Vous devez enregistrer ce transport avant de percevoir la Récapitulatif."
+msgstr "يجب تسجيل هذا النقل قبل استلام ملخص."
+
+#: includes/plugins/shipping/shipping/data.php:613
+msgid "Vous devez enregistrer ce transport avant d'afficher les informations de transporteur."
+msgstr "يجب تسجيل هذا الناقل النقل قبل عرض المعلومات."
+
+#: includes/plugins/shipping/shipping/data.php:628
+msgid "Sera appliquée lorsque le prix est"
+msgstr "سيتم تطبيقها عند سعر"
+
+#: includes/plugins/shipping/shipping/list.php:21
+msgid "Liste des Transports"
+msgstr "قائمة النقل"
+
+#: includes/plugins/shipping/shipping/list.php:25
+msgid "Nom de Transport"
+msgstr "اسم النقل"
+
+#: includes/plugins/shipping/shipping/list.php:26
+msgid "Délai Min"
+msgstr "الوقت دقيقة"
+
+#: includes/plugins/shipping/shipping/list.php:27
+msgid "Délai Max"
+msgstr "ماكس تأخير"
+
+#: includes/plugins/shipping/shipping/list.php:28
+msgid "Vitesse (km)"
+msgstr "السرعة (كم)"
+
+#: includes/plugins/shipping/shipping/list.php:29
+msgid "Largeur Max"
+msgstr "عرض ماكس"
+
+#: includes/plugins/shipping/shipping/list.php:30
+msgid "Hauteur Max"
+msgstr "ارتفاع ماكس"
+
+#: includes/plugins/shipping/shipping/list.php:31
+msgid "Profondeur Max"
+msgstr "ماكس عمق"
+
+#: includes/plugins/shipping/shipping/list.php:32
+msgid "Poids Max"
+msgstr "أقصى وزن"
+
+#: includes/plugins/shipping/shipping/list.php:36
+msgid "Ajouter un Transport"
+msgstr "إضافة النقل"
+
+#: includes/plugins/shop/shop/list.php:8
+msgid "Gestion de Boutique"
+msgstr "متجر إدارة"
+
+#: includes/plugins/shop/shop/list.php:13
+msgid "Afficher \"Ajouter au Panier\""
+msgstr "عرض \\ \"إضافة إلى العربة \""
+
+#: includes/plugins/users/groups/data.php:7
+msgid "AJOUTER UNE GROUPE UTILISATEUR"
+msgstr "أضف بمجموعات المستخدمين"
+
+#: includes/plugins/users/groups/data.php:20
+msgid "Ajouter une Groupe"
+msgstr "إضافة مجموعة"
+
+#: includes/plugins/users/groups/data.php:31 includes/plugins/users/groups/data.php:94
+msgid "Nom du groupe :"
+msgstr "اسم المجموعة:"
+
+#: includes/plugins/users/groups/data.php:71
+msgid "MODIFIER UNE GROUPE"
+msgstr "تحرير مجموعة"
+
+#: includes/plugins/users/groups/data.php:89
+msgid "Modifier le groupe"
+msgstr "تحرير المجموعة"
+
+#: includes/plugins/users/groups/data.php:104
+msgid "Sauvegarder"
+msgstr "حفظ"
+
+#: includes/plugins/users/groups/list.php:6
+msgid "Gestion des groups"
+msgstr "مجموعة إدارة"
+
+#: includes/plugins/users/groups/list.php:10
+msgid "Nom de Groupe"
+msgstr "اسم المجموعة"
+
+#: includes/plugins/users/groups/list.php:15
+msgid "Ajouter une groupe"
+msgstr "إضافة مجموعة"
+
+#: includes/plugins/users/login/login.php:128
+msgid "OkadShop"
+msgstr "OkadShop"
+
+#: includes/plugins/users/login/login.php:128
+msgid "Connexion"
+msgstr "اتصال"
+
+#: includes/plugins/users/login/login.php:139
+msgid "SE CONNECTER"
+msgstr "يتصل"
+
+#: includes/plugins/users/login/login.php:141
+msgid "Retour au Site"
+msgstr "العودة الى الموقع"
+
+#: includes/plugins/users/users/data.php:218
+msgid "Félicitation votre compte a été bien crée. <br>Nous vous remercions de vous être inscrit(e) chez MarocArtiza.<br><br>"
+msgstr "مبروك إنشاء حسابك جيدا. <BR> شكرا لكم لتسجيل (ه) في MarocArtiza. <BR>"
+
+#: includes/plugins/users/users/data.php:223 includes/plugins/users/users/data.php:244
+msgid "Une email a été envoyé au Client."
+msgstr "تم إرسال بريد إلكتروني إلى العملاء."
+
+#: includes/plugins/users/users/data.php:302
+msgid "Modifier les informations Client"
+msgstr "معلومات تحرير العملاء"
+
+#: includes/plugins/users/users/data.php:310 includes/plugins/users/users/list.php:38
+msgid "Ajouter un Client"
+msgstr "إضافة العملاء"
+
+#: includes/plugins/users/users/data.php:341
+msgid "Champs requis"
+msgstr "الحقول المطلوبة"
+
+#: includes/plugins/users/users/data.php:342
+msgid "Les Champs suivants sont obligatoire :"
+msgstr "الحقول التالية إلزامية:"
+
+#: includes/plugins/users/users/data.php:348
+msgid "Information client"
+msgstr "معلومات العملاء"
+
+#: includes/plugins/users/users/data.php:355
+msgid "N° client"
+msgstr "هوية العميل"
+
+#: includes/plugins/users/users/data.php:362
+msgid "Civilité"
+msgstr "كياسة"
+
+#: includes/plugins/users/users/data.php:372 includes/plugins/users/users/data.php:601
+msgid "Prénom *"
+msgstr "الاسم الأول *"
+
+#: includes/plugins/users/users/data.php:384
+msgid "Adresse E-mail *"
+msgstr "البريد الإلكتروني *"
+
+#: includes/plugins/users/users/data.php:396
+msgid "Mot de passe"
+msgstr "كلمة السر"
+
+#: includes/plugins/users/users/data.php:399
+msgid "5 caractères min (Remplir ce champs pour changer le mot de passe)."
+msgstr "5 أحرف دقيقة (ملء هذا الحقل لتغيير كلمة المرور)."
+
+#: includes/plugins/users/users/data.php:409
+msgid "Date d’inscription"
+msgstr "تاريخ الإدراج"
+
+#: includes/plugins/users/users/data.php:429
+msgid "En attente"
+msgstr "في الانتظار"
+
+#: includes/plugins/users/users/data.php:430
+msgid "Suspendu"
+msgstr "معلق"
+
+#: includes/plugins/users/users/data.php:437
+msgid "Cette utilisateur est admin"
+msgstr "هذا المستخدم غير مشرف"
+
+#: includes/plugins/users/users/data.php:444
+msgid "Envoyer un email"
+msgstr "إرسال رسالة إلكترونية"
+
+#: includes/plugins/users/users/data.php:449
+msgid "Contenu de l'email"
+msgstr "محتوى البريد الإلكتروني"
+
+#: includes/plugins/users/users/data.php:451
+msgid "Félicitation votre compte a été bien crée. Nous vous remercions de vous être inscrit(e) chez MarocArtiza."
+msgstr "مبروك إنشاء حسابك جيدا. شكرا لكم لتوقيع (ه) في MarocArtiza."
+
+#: includes/plugins/users/users/data.php:457 includes/plugins/users/users/data.php:534 includes/plugins/users/users/data.php:678 includes/plugins/users/users/data.php:697
+#: includes/plugins/users/users/data.php:717 includes/plugins/users/users/data.php:812 includes/plugins/users/users/data.php:887
+msgid "Valider"
+msgstr "التحقق من صحة"
+
+#: includes/plugins/users/users/data.php:463
+msgid "Informations de la société"
+msgstr "معلومات عن الشركة"
+
+#: includes/plugins/users/users/data.php:469 includes/plugins/users/users/data.php:607
+msgid "Société *"
+msgstr "شركة *"
+
+#: includes/plugins/users/users/data.php:475
+msgid "Activité *"
+msgstr "* النشاط"
+
+#: includes/plugins/users/users/data.php:481
+msgid "N° d’entreprise *"
+msgstr "عدد الشركات *"
+
+#: includes/plugins/users/users/data.php:487
+msgid "Registre du commerce"
+msgstr "السجل التجاري"
+
+#: includes/plugins/users/users/data.php:496
+msgid "Si vous êtes en création d’entreprise"
+msgstr "إذا كنت بدء عمل تجاري"
+
+#: includes/plugins/users/users/data.php:497
+msgid "Indiquez « en cours » dans les champs société, activité etsiret"
+msgstr "تشير \"جارية\" في مجال الشركة، النشاط etsiret"
+
+#: includes/plugins/users/users/data.php:500
+msgid "Site web"
+msgstr "موقع إلكتروني"
+
+#: includes/plugins/users/users/data.php:506
+msgid "Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)"
+msgstr "وبالنسبة للبلدان خارج الاتحاد الأوروبي، يرجى الاتصال السجل التجاري الخاص بك (مطلوب)"
+
+#: includes/plugins/users/users/data.php:509
+msgid "Date début d’activité"
+msgstr "أنشئت الشركة"
+
+#: includes/plugins/users/users/data.php:515
+msgid "Détail du projet"
+msgstr "تفاصيل المشروع"
+
+#: includes/plugins/users/users/data.php:524
+msgid "Sélectionnez une Statut"
+msgstr "اختر الحالة"
+
+#: includes/plugins/users/users/data.php:565
+msgid "Les adresses de Client"
+msgstr "عنوان العميل"
+
+#: includes/plugins/users/users/data.php:567
+msgid "Ajouter une nouvelle adresse"
+msgstr "إضافة عنوان جديد"
+
+#: includes/plugins/users/users/data.php:575
+msgid "Nom de l’adresse"
+msgstr "اسم عنوان"
+
+#: includes/plugins/users/users/data.php:578
+msgid "Sélectionnez une adresse"
+msgstr "تحديد عنوان"
+
+#: includes/plugins/users/users/data.php:585
+msgid "Sélectionnez une adresse dessus"
+msgstr "تحديد العنوان أعلاه"
+
+#: includes/plugins/users/users/data.php:585
+msgid "remplir les champs suivant pour ajouter un nouvelle addresse"
+msgstr "أكمل الحقول أدناه لإضافة عنوان جديد"
+
+#: includes/plugins/users/users/data.php:589
+msgid "Nom de l'adresse *"
+msgstr "اسم العنوان *"
+
+#: includes/plugins/users/users/data.php:613
+msgid "Adresse *"
+msgstr "* عنوان"
+
+#: includes/plugins/users/users/data.php:627
+msgid "Code postal *"
+msgstr "الرقم البريدي *"
+
+#: includes/plugins/users/users/data.php:633
+msgid "Ville *"
+msgstr "المدينة *"
+
+#: includes/plugins/users/users/data.php:639
+msgid "Pays *"
+msgstr "الدولة *"
+
+#: includes/plugins/users/users/data.php:649
+msgid "Adresse IP"
+msgstr "عنوان IP"
+
+#: includes/plugins/users/users/data.php:655
+msgid "Téléphone fixe"
+msgstr "هاتف"
+
+#: includes/plugins/users/users/data.php:658
+msgid "Téléphone fixe (pas obligatoire)"
+msgstr "الهاتف (غير مطلوب)"
+
+#: includes/plugins/users/users/data.php:662
+msgid "Téléphone portable *"
+msgstr "هاتف محمول *"
+
+#: includes/plugins/users/users/data.php:672
+msgid "Imprimer une étiquette"
+msgstr "طباعة ملصق"
+
+#: includes/plugins/users/users/data.php:684
+msgid "Information complémentaires"
+msgstr "معلومات إضافية"
+
+#: includes/plugins/users/users/data.php:703
+msgid "Commentaire (en interne uniquement)"
+msgstr "تعليق (داخلي فقط)"
+
+#: includes/plugins/users/users/data.php:708
+msgid "Cette note sera affichée pour tous les employés, mais pas au client."
+msgstr "سيتم عرض هذه المذكرة لجميع العاملين، ولكن ليس للعميل."
+
+#: includes/plugins/users/users/data.php:723
+msgid "Historique des messsages"
+msgstr "الرسائل الموضوعة في التاريخ"
+
+#: includes/plugins/users/users/data.php:731
+msgid "Envoyer un email au client"
+msgstr "إرسال بريد إلكتروني إلى العملاء"
+
+#: includes/plugins/users/users/data.php:734
+msgid "Envoyez cette email"
+msgstr "إرسال هذا البريد الإلكتروني"
+
+#: includes/plugins/users/users/data.php:740
+msgid "Historique des messages"
+msgstr "التاريخ رسالة"
+
+#: includes/plugins/users/users/data.php:777
+msgid "Admin"
+msgstr "المشرف"
+
+#: includes/plugins/users/users/data.php:798
+msgid "Aucune messages dans ce dossier !"
+msgstr "أية رسائل في هذا المجلد!"
+
+#: includes/plugins/users/users/data.php:804
+msgid "Supprimer ce Dossier"
+msgstr "حذف هذا المجلد"
+
+#: includes/plugins/users/users/data.php:818
+msgid "Historique devis / commande"
+msgstr "اقتبس التاريخي / ترتيب"
+
+#: includes/plugins/users/users/data.php:826
+msgid "Historique devis"
+msgstr "نقلت التاريخية"
+
+#: includes/plugins/users/users/data.php:832 includes/plugins/users/users/data.php:863
+msgid "Nom de Devis"
+msgstr "اقتباس اسم"
+
+#: includes/plugins/users/users/data.php:835
+msgid "Valable jusqu’au"
+msgstr "صالح الى غاية"
+
+#: includes/plugins/users/users/data.php:857
+msgid "Historique Commandes"
+msgstr "ترتيب التاريخ"
+
+#: includes/plugins/users/users/list.php:23
+msgid "Gestion des clients"
+msgstr "إدارة خدمة العملاء"
+
+#: includes/plugins/users/users/list.php:27
+msgid "Numéro"
+msgstr "عدد"
+
+#: includes/plugins/users/users/list.php:28
+msgid "Prénom"
+msgstr "الأسم الأول"
+
+#: includes/plugins/users/users/list.php:30
+msgid "Société"
+msgstr "شركة"
+
+#: includes/plugins/users/users/list.php:31
+msgid "E-mail"
+msgstr "البريد الالكتروني"
+
+#: includes/plugins/users/users/list.php:33
+msgid "Téléphone"
+msgstr "هاتف"

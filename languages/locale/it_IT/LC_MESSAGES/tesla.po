@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-06 09:26+0000\n"
+"PO-Revision-Date: 2016-06-06 09:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../themes/tesla\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: css/fancybox/jquery.fancybox.pack.js:35
+msgid "width"
+msgstr "larghezza"
+
+#: footer.php:70
+msgid "Newsletter"
+msgstr "notiziario"
+
+#: footer.php:71
+msgid "Inscrivez-vous à notre newsletter pour recevoir des offres exclusives"
+msgstr "Iscriviti alla nostra newsletter per ricevere offerte esclusive"
+
+#: footer.php:75 modules/order/cart.php:114
+msgid "Votre adresse mail"
+msgstr "Il tuo indirizzo email"
+
+#: footer.php:77 modules/order/cart.php:116
+msgid "OK"
+msgstr "OK"
+
+#: footer.php:104 modules/account/history.php:87 modules/order/adresse.php:43 modules/order/capture.php:21 modules/order/cart.php:32 modules/order/cheque.php:27 modules/order/livraison.php:20 modules/order/livraison.php:23 modules/order/livraison.php:36 modules/order/order-confirmation.php:31 modules/order/paiement.php:31
+msgid "Livraison"
+msgstr "consegna"
+
+#: footer.php:105
+msgid "Où que vous soyez, nous pouvons vous livrer !"
+msgstr "Ovunque voi siate, siamo in grado di consegnare!"
+
+#: footer.php:106 footer.php:114 footer.php:122
+msgid "Cliquez ici pour en savoir plus"
+msgstr "Clicca qui per maggiori"
+
+#: footer.php:106 footer.php:114 footer.php:122 footer.php:130 modules/product/product.php:231
+msgid "En savoir plus"
+msgstr "{0}{1}per saperne di più{/1}{/0} {2}»{/2}"
+
+#: footer.php:112
+msgid "Paiement sécurisé "
+msgstr "pagamento sicuro "
+
+#: footer.php:113
+#, php-format
+msgid "Règlement 100% sécurisé !"
+msgstr ""
+
+#: footer.php:120
+msgid "Programme fidélité"
+msgstr "programma di fidelizzazione"
+
+#: footer.php:121
+msgid "Votre fidélité récompensée ! "
+msgstr "La tua fedeltà ricompensata! "
+
+#: footer.php:128
+msgid "Service client"
+msgstr "Servizio clienti"
+
+#: footer.php:129
+msgid "Notre service client est à votre disposition du Lundi au vendredi de 10h à 17h et le Samedi de 10 à 12h."
+msgstr "Il nostro servizio clienti è disponibile Lunedi a Venerdì dalle 10h alle 17h e Sabato dalle 10 alle 12h."
+
+#: footer.php:135
+msgid "Grossiste/ fournisseur en artisanat marocain."
+msgstr "Grossista / fornitore di artigianato marocchino."
+
+#: footer.php:144
+msgid "Tous droits réservés"
+msgstr "Tutti i diritti riservati"
+
+#: header.php:68 modules/account/account.php:5 modules/account/account.php:52 modules/account/addresses.php:16 modules/account/addresses.php:61 modules/account/adresse.php:30 modules/account/discount.php:6 modules/account/discount.php:43 modules/account/history.php:7 modules/account/history.php:123 modules/account/identity.php:15 modules/account/identity.php:153 modules/account/invoices.php:7 modules/account/invoices.php:125 modules/account/login.php:3
+#: modules/account/loyalty-program.php:7 modules/account/loyalty-program.php:48 modules/account/myalerts.php:3 modules/account/myalerts.php:13 modules/account/order-follow.php:3 modules/account/order-follow.php:13 modules/account/order-slip.php:3 modules/account/order-slip.php:13 modules/account/password.php:56 modules/account/quotation.php:6 modules/account/quotation.php:15 modules/account/referralprogram-program.php:3 modules/account/referralprogram-program.php:13
+#: modules/account/register.php:9 modules/cms/cms.php:10 modules/order/adresse.php:26 modules/order/capture.php:4 modules/order/cart.php:10 modules/order/cheque.php:10 modules/order/livraison.php:19 modules/order/order-confirmation.php:14 modules/order/order-confirmation.php:44 modules/order/order.php:3 modules/order/paiement.php:13 modules/pages/contact.php:76 modules/pages/sitemap.php:7 modules/pages/sitemap.php:50 modules/pages/sitemap.php:81 modules/product/category.php:49
+#: modules/product/product.php:30 modules/search/search.php:15 views/new-products.php:54 views/nos-fabricant.php:6 views/promos.php:58 views/viewed-products.php:57
+msgid "Accueil"
+msgstr "Benvenuto"
+
+#: header.php:69 header.php:199 modules/pages/contact.php:77 modules/pages/sitemap.php:88
+msgid "Contact"
+msgstr "Contatti"
+
+#: header.php:70 modules/pages/sitemap.php:8 modules/pages/sitemap.php:11
+msgid "Plan du site"
+msgstr "Mappa del sito"
+
+#: header.php:103 modules/account/account.php:48
+msgid "Déconnexion"
+msgstr "Esci"
+
+#: header.php:105
+msgid "Bienvenue"
+msgstr "Benvenuto!"
+
+#: header.php:106 modules/account/login.php:7 modules/account/login.php:77
+msgid "Identifiez-vous"
+msgstr "Entra"
+
+#: header.php:108 header.php:197 modules/account/account.php:6 modules/account/account.php:9 modules/account/addresses.php:17 modules/account/adresse.php:31 modules/account/discount.php:7 modules/account/history.php:8 modules/account/identity.php:16 modules/account/invoices.php:8 modules/account/loyalty-program.php:8 modules/account/myalerts.php:4 modules/account/order-follow.php:4 modules/account/order-slip.php:4 modules/account/quotation.php:7
+#: modules/account/referralprogram-program.php:4
+msgid "Mon compte"
+msgstr "Mio account"
+
+#: header.php:121 header.php:122
+msgid "Panier"
+msgstr "cestino [fig. non bisogna investire tutte le proprie risorse in un unico progetto, bisogna ripartire i rischi NdT[*]]."
+
+#: header.php:137
+msgid "Rechercher un produit..."
+msgstr "Trova un prodotto ..."
+
+#: header.php:190
+msgid "Nouveautés"
+msgstr "nuovo"
+
+#: header.php:191 modules/pages/sitemap.php:22 views/promos.php:59 views/promos.php:62
+msgid "Promotions"
+msgstr "PROMOZIONI"
+
+#: header.php:195 modules/pages/sitemap.php:87
+msgid "Créer un compte"
+msgstr "Crea un account"
+
+#: modules/account/account.php:12
+msgid "Bienvenue sur votre page d'accueil. Vous pouvez gérer vos informations personnelles, vos commandes ainsi que vos adresses."
+msgstr "Benvenuti nella vostra home page. È possibile gestire i tuoi dati personali, gli ordini e il vostro indirizzo."
+
+#: modules/account/account.php:15 modules/account/quotation.php:8
+msgid "Historique de votre devis"
+msgstr "La storia del tuo preventivo"
+
+#: modules/account/account.php:18
+msgid "Historique et détails de mes commandes"
+msgstr "Storia e dettagli dei miei ordini"
+
+#: modules/account/account.php:21
+msgid "Historique et détails de mes factures"
+msgstr "Storia e dettagli di mie fatture"
+
+#: modules/account/account.php:30 modules/account/addresses.php:18 modules/account/addresses.php:21
+msgid "Mes adresses"
+msgstr "i miei indirizzi"
+
+#: modules/account/account.php:33
+msgid "Mes informations personnelles"
+msgstr "I miei dati personali"
+
+#: modules/account/account.php:36
+msgid "Mes bons de réductions"
+msgstr "I miei buoni"
+
+#: modules/account/account.php:39 modules/account/loyalty-program.php:9 modules/account/loyalty-program.php:12 modules/account/referralprogram-program.php:5 modules/account/referralprogram-program.php:8
+msgid "Mes points de fidélité"
+msgstr "I miei punti fedeltà"
+
+#: modules/account/addresses.php:24
+msgid "Choisissez vos adresses de facturation et de livraison. Ces dernières seront présélectionnées lors de vos commandes. Vous pouvez également ajouter d'autres adresses, ce qui est particulièrement intéressant pour envoyer des cadeaux ou recevoir votre commande au bureau."
+msgstr "Scegli il tuo fatturazione e la consegna. Questi saranno pre-selezionati al momento dell'ordine. È inoltre possibile aggiungere altri indirizzi, che è di particolare interesse per inviare regali o ricevere il vostro ordine in ufficio."
+
+#: modules/account/addresses.php:25
+msgid "Vos adresses sont listées ci-dessous :"
+msgstr "I vostri indirizzi sono elencati di seguito:"
+
+#: modules/account/addresses.php:26
+msgid "Pensez à les tenir à jour si ces dernières venaient à changer."
+msgstr "Ricordarsi di tenerli aggiornati se dovessero cambiare."
+
+#: modules/account/addresses.php:42
+msgid "Mettre à jour"
+msgstr "aggiornare"
+
+#: modules/account/addresses.php:45 modules/order/adresse.php:100 modules/order/adresse.php:115
+msgid "Supprimer"
+msgstr "Rimuovere"
+
+#: modules/account/addresses.php:55
+msgid "Ajouter une adresse"
+msgstr "Aggiungere un indirizzo"
+
+#: modules/account/addresses.php:60 modules/account/adresse.php:197 modules/account/discount.php:42 modules/account/history.php:122 modules/account/identity.php:152 modules/account/invoices.php:124 modules/account/loyalty-program.php:47 modules/account/myalerts.php:12 modules/account/order-follow.php:12 modules/account/order-slip.php:12 modules/account/quotation.php:14 modules/account/referralprogram-program.php:12 modules/order/order-confirmation.php:43
+msgid "Retour à votre compte"
+msgstr "Torna al tuo account"
+
+#: modules/account/adresse.php:20 modules/account/adresse.php:21 modules/order/adresse.php:99 modules/order/adresse.php:114
+msgid "Modifier cette adresse"
+msgstr "Modificare questo indirizzo"
+
+#: modules/account/adresse.php:23
+msgid "Ajouter une nouvelle adresse"
+msgstr "Aggiungere un nuovo indirizzo"
+
+#: modules/account/adresse.php:24
+msgid "Pour ajouter une nouvelle adresse, merci de remplir ce formulaire."
+msgstr "Per aggiungere un nuovo indirizzo, grazie per riempire questo modulo."
+
+#: modules/account/adresse.php:48
+msgid "ereur d'ajout"
+msgstr "ereur Aggiunto"
+
+#: modules/account/adresse.php:50 modules/account/identity.php:30 modules/account/login.php:53
+msgid "Vérifier votre champ"
+msgstr "Controllare il campo"
+
+#: modules/account/adresse.php:69 modules/account/register.php:259
+msgid "Votre adresse"
+msgstr "il tuo indirizzo"
+
+#: modules/account/adresse.php:76 modules/account/identity.php:59 modules/account/register.php:81 modules/account/register.php:266 modules/pages/contact.php:116
+msgid "Prénom"
+msgstr "nome"
+
+#: modules/account/adresse.php:82 modules/account/identity.php:53 modules/account/register.php:87 modules/account/register.php:272 modules/pages/contact.php:124
+msgid "Nom"
+msgstr "coordinatore"
+
+#: modules/account/adresse.php:90 modules/account/register.php:180 modules/pages/contact.php:134
+msgid "Société"
+msgstr "società"
+
+#: modules/account/adresse.php:98 modules/account/register.php:280 modules/order/adresse.php:39 modules/order/capture.php:17 modules/order/cart.php:28 modules/order/cheque.php:23 modules/order/livraison.php:32 modules/order/order-confirmation.php:27 modules/order/paiement.php:27 modules/pages/contact.php:162
+msgid "Adresse"
+msgstr "URL"
+
+#: modules/account/adresse.php:107 modules/account/register.php:296 modules/pages/contact.php:176
+msgid "Code postal"
+msgstr "codice postale"
+
+#: modules/account/adresse.php:113 modules/account/register.php:302 modules/pages/contact.php:185
+msgid "Ville"
+msgstr "città"
+
+#: modules/account/adresse.php:121 modules/account/register.php:310 modules/pages/contact.php:195
+msgid "Pays"
+msgstr "paese"
+
+#: modules/account/adresse.php:145 modules/account/register.php:338
+msgid "Téléphone fixe"
+msgstr "telefono"
+
+#: modules/account/adresse.php:151 modules/account/register.php:344
+msgid "Téléphone portable"
+msgstr "cellulare"
+
+#: modules/account/adresse.php:159 modules/account/register.php:352
+msgid "Nom de l'adresse"
+msgstr "Nome di indirizzo"
+
+#: modules/account/adresse.php:167 modules/account/register.php:360
+msgid "Informations complémentaires"
+msgstr "Ulteriori informazioni"
+
+#: modules/account/adresse.php:183 modules/account/identity.php:146 modules/account/register.php:450
+msgid "Champs requis"
+msgstr "campi obbligatori"
+
+#: modules/account/adresse.php:196
+msgid "Annuler"
+msgstr "Cancella"
+
+#: modules/account/discount.php:8 modules/account/discount.php:11
+msgid "Vos bons de réductions"
+msgstr "Il coupon"
+
+#: modules/account/discount.php:16
+msgid "Code"
+msgstr "codice"
+
+#: modules/account/discount.php:17 modules/order/cart.php:49 modules/order/paiement.php:45
+msgid "Description"
+msgstr "DESCRIZIONE"
+
+#: modules/account/discount.php:18 modules/account/history.php:101 modules/order/cart.php:51 modules/order/paiement.php:47
+msgid "Qté"
+msgstr "Quantità"
+
+#: modules/account/discount.php:19
+msgid "Valeur"
+msgstr "valore"
+
+#: modules/account/discount.php:20
+msgid "Minimum"
+msgstr "minimo"
+
+#: modules/account/discount.php:21
+msgid "Expiration"
+msgstr "scadenza"
+
+#: modules/account/discount.php:39
+msgid "Taxes comprises"
+msgstr "tasse incluse"
+
+#: modules/account/history.php:9 modules/account/history.php:15
+msgid "Historique de vos commandes"
+msgstr "Storia ordine"
+
+#: modules/account/history.php:21 modules/account/invoices.php:26
+msgid "Commande"
+msgstr "ordine"
+
+#: modules/account/history.php:22 modules/account/history.php:62 modules/account/invoices.php:22 modules/account/loyalty-program.php:20
+msgid "Date"
+msgstr "DATA"
+
+#: modules/account/history.php:23 modules/account/history.php:103 modules/account/invoices.php:23 modules/order/cart.php:52 modules/order/paiement.php:48
+msgid "Prix total"
+msgstr "prezzo totale"
+
+#: modules/account/history.php:24 modules/account/invoices.php:24 modules/order/adresse.php:51 modules/order/capture.php:29 modules/order/cart.php:40 modules/order/cheque.php:31 modules/order/livraison.php:40 modules/order/paiement.php:35
+msgid "Paiement"
+msgstr "Acquisto"
+
+#: modules/account/history.php:25 modules/account/history.php:63 modules/account/invoices.php:25
+msgid "État"
+msgstr "stato"
+
+#: modules/account/history.php:26 modules/account/invoices.php:27
+msgid "Télécharger"
+msgstr "scaricare"
+
+#: modules/account/history.php:47
+msgid "Vous n'avez pas encore passé de commande."
+msgstr "Non hai ancora ordinato."
+
+#: modules/account/history.php:56
+msgid "Méthode de paiement :"
+msgstr "Metodo di pagamento:"
+
+#: modules/account/history.php:58
+msgid "Suivre votre commande pas à pas :"
+msgstr "Seguite il vostro controllo passo-passo:"
+
+#: modules/account/history.php:76
+msgid "Facturation"
+msgstr "fatturazione"
+
+#: modules/account/history.php:100 modules/order/cart.php:48 modules/order/paiement.php:44
+msgid "Produit"
+msgstr "prodotto"
+
+#: modules/account/history.php:102 modules/order/cart.php:50 modules/order/paiement.php:46
+msgid "Prix unitaire"
+msgstr "Prezzo unitario"
+
+#: modules/account/history.php:111 modules/order/cart.php:153 modules/order/paiement.php:110
+msgid "Total TTC :"
+msgstr "Totale generale:"
+
+#: modules/account/identity.php:17 modules/account/identity.php:20 modules/account/register.php:67
+msgid "Vos informations personnelles"
+msgstr "I tuoi dati personali"
+
+#: modules/account/identity.php:24
+msgid "Bien enregistrer"
+msgstr "Anche se il registro"
+
+#: modules/account/identity.php:28
+msgid "ereur d'enregistrement"
+msgstr "ereur registrazione"
+
+#: modules/account/identity.php:42
+msgid "N'hésitez pas à modifier vos informations personnelles si celles-ci ont changé."
+msgstr "Sentitevi liberi di modificare le informazioni personali se hanno cambiato."
+
+#: modules/account/identity.php:45 modules/account/register.php:71
+msgid "Civilité"
+msgstr "Stato civile"
+
+#: modules/account/identity.php:47 modules/account/register.php:73
+msgid "Mr"
+msgstr "Sig."
+
+#: modules/account/identity.php:49 modules/account/register.php:76
+msgid "Mme"
+msgstr "Mrs."
+
+#: modules/account/identity.php:65 modules/account/login.php:20 modules/account/login.php:62 modules/account/password.php:73 modules/account/password.php:97 modules/account/register.php:95 modules/pages/contact.php:154
+msgid "Adresse e-mail"
+msgstr "Indirizzo e-mail"
+
+#: modules/account/identity.php:71
+msgid "Mot de passe actuell"
+msgstr "password actuell"
+
+#: modules/account/identity.php:77
+msgid "Nouveau mot de passe"
+msgstr "nuova password"
+
+#: modules/account/identity.php:83
+msgid "Confirmation"
+msgstr "conferma"
+
+#: modules/account/identity.php:91
+msgid "Date de naissance"
+msgstr "Data di nascita"
+
+#: modules/account/identity.php:144
+msgid "Recevez les offres spéciales de nos partenaires"
+msgstr "Ricevere offerte speciali dai nostri partner"
+
+#: modules/account/identity.php:147
+msgid "Conformément aux dispositions de la loi du n°78-17 du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et d'opposition sur les données nominatives vous concernant."
+msgstr "Ai sensi della legge 78-17 del 6 gennaio 1978, avete un diritto di accesso, rettifica ed opposizione sui dati personali."
+
+#: modules/account/invoices.php:9
+msgid "Historique de vos factures."
+msgstr "La storia delle vostre fatture."
+
+#: modules/account/invoices.php:15
+msgid "Historique de vos factures"
+msgstr "La storia delle vostre fatture"
+
+#: modules/account/invoices.php:21
+msgid "Facture"
+msgstr "fattura"
+
+#: modules/account/invoices.php:49
+msgid "Vous n'avez pas de facture"
+msgstr "Non si dispone di fattura"
+
+#: modules/account/login.php:4 modules/account/register.php:10
+msgid "Identifiant"
+msgstr "accesso"
+
+#: modules/account/login.php:13 modules/account/login.php:24 modules/account/register.php:61 modules/pages/contact.php:107
+msgid "Créez votre compte"
+msgstr "Crea account"
+
+#: modules/account/login.php:18
+msgid "Saisissez votre adresse e-mail pour créer votre compte :"
+msgstr "Inserisci il tuo indirizzo e-mail per creare l'account:"
+
+#: modules/account/login.php:34
+msgid "Déjà enregistré"
+msgstr "già registrato"
+
+#: modules/account/login.php:66 modules/account/password.php:77 modules/account/register.php:99
+msgid "Mot de passe"
+msgstr "Password"
+
+#: modules/account/login.php:70 modules/account/password.php:57 modules/account/password.php:61
+msgid "Mot de passe oublié ?"
+msgstr "Hai dimenticato la password?"
+
+#: modules/account/login.php:72
+msgid "Attention : si vous venez de créer votre compte, un délai de 24 à 48 h ouvrées est nécessaire."
+msgstr "Attenzione: se hai creato il tuo conto entro 24 a 48 ore di lavoro è necessario."
+
+#: modules/account/loyalty-program.php:19 modules/order/adresse.php:47 modules/order/capture.php:5 modules/order/capture.php:8 modules/order/capture.php:25 modules/order/cart.php:36
+msgid "Devis"
+msgstr "Preventivo"
+
+#: modules/account/loyalty-program.php:21
+msgid "Points"
+msgstr "punti"
+
+#: modules/account/loyalty-program.php:36
+msgid "Total de points disponibles"
+msgstr "Totale punti disponibili"
+
+#: modules/account/loyalty-program.php:42 modules/account/referralprogram-program.php:9
+msgid "Aucun point de fidélité pour le moment."
+msgstr "sottolinea Nessun premio per ora."
+
+#: modules/account/myalerts.php:5 modules/account/myalerts.php:8
+msgid "Mes alertes"
+msgstr "Le mie notifiche"
+
+#: modules/account/myalerts.php:9
+msgid "Vous n'avez souscrit à aucune alerte."
+msgstr "Ti sei iscritto ad alcun avviso."
+
+#: modules/account/order-follow.php:5 modules/account/order-follow.php:8
+msgid "Retour produits"
+msgstr "prodotti indietro"
+
+#: modules/account/order-follow.php:9
+msgid "Vous n'avez aucun retour produits."
+msgstr "Non ci sono prodotti di ritorno."
+
+#: modules/account/order-slip.php:5 modules/account/order-slip.php:8
+msgid "Avoirs"
+msgstr "partecipazioni"
+
+#: modules/account/order-slip.php:9
+msgid "Vous n'avez reçu aucun avoir."
+msgstr "Non hai ricevuto alcun attività."
+
+#: modules/account/password.php:9
+msgid "Aucun utilisateur avec cette adresse existe."
+msgstr "Nessun utente con questo indirizzo esiste."
+
+#: modules/account/password.php:18
+msgid "Votre clé de récupération de mot de passe a été envoyé à votre adresse e-mail."
+msgstr "chiave di ripristino password è stata inviata al tuo indirizzo email."
+
+#: modules/account/password.php:42
+msgid "Votre mot de passe a été réinitialisé avec succès."
+msgstr "La tua password è stata reimpostata."
+
+#: modules/account/password.php:47
+msgid "Vos mots de passe ne correspondent pas."
+msgstr "Le password non corrispondono."
+
+#: modules/account/password.php:50
+msgid "Votre clé de réinitialisation de mot est invalide."
+msgstr "La chiave di reimpostazione della password non è valida."
+
+#: modules/account/password.php:81
+msgid "Confiré Mot de passe"
+msgstr "Confire password"
+
+#: modules/account/password.php:86 modules/account/password.php:101
+msgid "Valider"
+msgstr "convalidare"
+
+#: modules/account/password.php:95
+msgid "Veuillez renseigner votre adresse e-mail afin de recevoir votre nouveau mot de passe."
+msgstr "Inserisci il tuo indirizzo email per ricevere la nuova password."
+
+#: modules/account/password.php:109
+msgid "Retour à la page d'identification"
+msgstr "Torna alla pagina di login"
+
+#: modules/account/register.php:4
+msgid "E-mail déjà enregistré"
+msgstr "E-mail già registrato"
+
+#: modules/account/register.php:4
+msgid "connectez-vous"
+msgstr "ceppo"
+
+#: modules/account/register.php:21
+msgid ""
+"Nous sommes actuellement en congés, <br>\n"
+"\t\t\t\t\tnous procéderons à la validation de votre compte dès notre retour prévu le :"
+msgstr "Attualmente siamo in vacanza, Francia \\ n \\ t \\ t \\ t \\ t \\ tnous procedere con la convalida del tuo conto al nostro ritorno atteso:"
+
+#: modules/account/register.php:23
+msgid "Merci de votre compréhension"
+msgstr "Grazie per la vostra comprensione"
+
+#: modules/account/register.php:25
+msgid "Bonjour"
+msgstr "Ciao"
+
+#: modules/account/register.php:25
+msgid ""
+"nous vous remercions de vous être inscrit(e) chez OKADSHOP. <br><br>\n"
+"\t\t\t\t\tAprès vérification des données fournies, nous vous enverrons un e-mail de confirmation contenant vos identifiants et mot de passe. (sous 24h à 48h ouvrées)<br><br>\n"
+"\t\t\t\t\tVous pourrez alors vous connecter, découvrir nos tarifs réservés aux professionnels et effectuer votre première demande de devis en ligne.<br><br>\n"
+"\t\t\t\t\tDans l’attente, nous vous invitons à prendre connaissance des différentes rubriques d’informations :"
+msgstr ""
+"vi ringraziamo per la firma (e) in OKADSHOP. <br> \\ n \\ t \\ t \\ t \\ t \\ tAprès verifica dei dati forniti, vi invieremo una mail di conferma con il tuo username e la password. (Entro 24 ore a 48 ore di lavoro) <br> \\ n \\ t \\ t \\ t \\ t \\ tyou possono quindi collegare, scoprire le nostre tariffe speciali per il lavoro e rendere la vostra prima richiesta di preventivo on line. <br> < br> \\ n \\ t \\ t \\ t \\ t \\ t nel frattempo, vi invitiamo a leggere i diversi elementi di "
+"informazione:"
+
+#: modules/account/register.php:30
+msgid "Demander une devis"
+msgstr "Richiedi un preventivo"
+
+#: modules/account/register.php:31
+msgid "Transport et Taxes"
+msgstr "Trasporto e tasse"
+
+#: modules/account/register.php:32
+msgid "Paiement sécurisé"
+msgstr "pagamento sicuro"
+
+#: modules/account/register.php:33
+msgid "Programme de fidélité"
+msgstr "Programma fedeltà"
+
+#: modules/account/register.php:34
+msgid "Conditions d’utilisation"
+msgstr "Condizioni di utilizzo"
+
+#: modules/account/register.php:44
+msgid "Error d'inscription"
+msgstr "errore di registrazione"
+
+#: modules/account/register.php:101
+msgid "(5 caractères min.)"
+msgstr "(5 caratteri min.)"
+
+#: modules/account/register.php:160
+msgid "Votre société"
+msgstr "la vostra azienda"
+
+#: modules/account/register.php:167
+msgid "Statuts"
+msgstr "STATUTO *"
+
+#: modules/account/register.php:169
+msgid "Je suis un professionnel"
+msgstr "Sono un professionista"
+
+#: modules/account/register.php:171
+msgid "Je suis en création d’entreprise"
+msgstr "Sto iniziando un business"
+
+#: modules/account/register.php:188
+msgid "Activité"
+msgstr "attività"
+
+#: modules/account/register.php:196
+msgid "Site web"
+msgstr "Sito web"
+
+#: modules/account/register.php:204
+msgid "N° de siret / TVA"
+msgstr "No. Siret / IVA"
+
+#: modules/account/register.php:212
+msgid "Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)"
+msgstr "Per i paesi al di fuori dell'UE, si prega di contattare il proprio registro delle imprese (richiesto)"
+
+#: modules/account/register.php:213
+msgid "Registre du commerce"
+msgstr "Registro commerciale"
+
+#: modules/account/register.php:218
+msgid "Ces données seront vérifiées, veillez donc à nous communiquer un numéro d’entreprise correct (le votre et non celui d’un tiers) auquel cas votre demande ne pourra aboutir."
+msgstr "Tali dati saranno verificati, in modo da essere sicuri di darci un numero adeguato di business (il vostro e non quella di un terzo), nel qual caso l'applicazione non avrà successo."
+
+#: modules/account/register.php:224
+msgid "Si vous êtes en création d’entreprise"
+msgstr "Se si avvia un business"
+
+#: modules/account/register.php:225
+msgid "Indiquez « en cours » dans les champs société, activité et siret"
+msgstr "Indicare \"in corso\" nel campo aziendale, l'attività e Siret"
+
+#: modules/account/register.php:231
+msgid "Préciser la date de début de votre activité"
+msgstr "Specificare la data di inizio della vostra attività"
+
+#: modules/account/register.php:243
+msgid "Parlez nous de votre projet :"
+msgstr "Parlaci del tuo progetto:"
+
+#: modules/account/register.php:248
+msgid "Attention ! Votre demande d’ouverture de compte fera l’objet d’une étude. Dans le cas où votre demande serait acceptée, la création de votre entreprise devra nous être confirmée 15 jours avant la date prévue de votre début d’activité. Si tel n’était pas le cas, votre compte sera alors suspendu jusqu’à réception de votre confirmation."
+msgstr "Attenzione! L'applicazione apertura del conto sarà studiato. Se la domanda viene accettata, la creazione della vostra attività sarà confermata in 15 giorni prima dell'inizio programmato di attività. Se questo non fosse il caso, il tuo account verrà sospeso fino al ricevimento della conferma."
+
+#: modules/order/adresse.php:30 modules/pages/sitemap.php:34
+msgid "Adresses"
+msgstr "indirizzo"
+
+#: modules/order/adresse.php:35 modules/order/capture.php:13 modules/order/cart.php:20 modules/order/cheque.php:19 modules/order/livraison.php:28 modules/order/order-confirmation.php:23 modules/order/paiement.php:23
+msgid "Résumé"
+msgstr "Sommario"
+
+#: modules/order/adresse.php:57
+msgid "Choisissez une adresse de livraison :"
+msgstr "Scegli un indirizzo di spedizione:"
+
+#: modules/order/adresse.php:68
+msgid "Utiliser la même adresse pour la facturation"
+msgstr "Utilizzare lo stesso indirizzo per la fatturazione"
+
+#: modules/order/adresse.php:75 modules/order/adresse.php:124
+msgid "Ajoutez une nouvelle adresse"
+msgstr "Aggiungere un nuovo indirizzo"
+
+#: modules/order/adresse.php:78
+msgid "Choisissez une adresse de facturation  :"
+msgstr "Scegliere un indirizzo di fatturazione:"
+
+#: modules/order/adresse.php:90
+msgid "Votre adresse de livraison"
+msgstr "Il tuo indirizzo di consegna"
+
+#: modules/order/adresse.php:105
+msgid "Votre adresse de facturation"
+msgstr "Il tuo indirizzo di fatturazione"
+
+#: modules/order/adresse.php:147 modules/order/adresse.php:165 modules/order/cart.php:219 modules/order/livraison.php:101
+msgid "Suivant"
+msgstr "seguente"
+
+#: modules/order/adresse.php:148 modules/order/adresse.php:166 modules/order/cart.php:220
+msgid "Continuer mes achats"
+msgstr "continuare a"
+
+#: modules/order/adresse.php:148 modules/order/adresse.php:166 modules/order/livraison.php:102
+msgid "Précédent"
+msgstr "precedente"
+
+#: modules/order/adresse.php:157
+msgid "Validé la modification"
+msgstr "modifica convalidata"
+
+#: modules/order/cart.php:11
+msgid "Votre devis"
+msgstr "il tuo preventivo"
+
+#: modules/order/cart.php:14
+msgid "Récapitulatif des produits ajoutés au devis"
+msgstr "Sintesi dei prodotti aggiunti quotazioni"
+
+#: modules/order/cart.php:77 modules/order/paiement.php:73 modules/product/product.php:166
+msgid "Référence :"
+msgstr "di riferimento:"
+
+#: modules/order/cart.php:79 modules/product/category.php:172
+msgid "En stock"
+msgstr "in magazzino"
+
+#: modules/order/cart.php:81 modules/product/category.php:174
+msgid "Out of stock"
+msgstr "Esaurito"
+
+#: modules/order/cart.php:83
+msgid "Supprimer ce produit"
+msgstr "Elimina questo articolo"
+
+#: modules/order/cart.php:110
+msgid "Utiliser un code promotionnel :"
+msgstr "Usa il codice promozionale:"
+
+#: modules/order/cart.php:112
+msgid "Code promo:"
+msgstr "Le ultime notizie:"
+
+#: modules/order/cart.php:132 modules/order/paiement.php:94
+msgid "Total produits HT :"
+msgstr "Totale imposte sul reddito:"
+
+#: modules/order/cart.php:136 modules/order/paiement.php:98
+msgid "Total livraison TTC :"
+msgstr "consegna totale include:"
+
+#: modules/order/cart.php:140 modules/order/paiement.php:102
+msgid "Taux TVA :"
+msgstr "aliquota IVA:"
+
+#: modules/order/cart.php:144 modules/order/paiement.php:106
+msgid "Total TVA :"
+msgstr "Totale IVA:"
+
+#: modules/order/cart.php:218
+msgid "actualiser le panier"
+msgstr "aggiornare il carrello"
+
+#: modules/order/cart.php:218
+msgid "Actualiser le panier"
+msgstr "Aggiornamento carrello"
+
+#: modules/order/cheque.php:11 modules/order/cheque.php:34
+msgid "Paiement par chèque"
+msgstr "floccaggio"
+
+#: modules/order/cheque.php:14
+msgid "Récapitulatif de commande"
+msgstr "Riepilogo ordine"
+
+#: modules/order/cheque.php:41
+msgid "Vous avez choisi de régler par chèque."
+msgstr "Si è scelto di pagare con assegno."
+
+#: modules/order/cheque.php:42
+msgid "Voici un bref récapitulatif de votre commande :"
+msgstr "Ecco un breve riepilogo del tuo ordine:"
+
+#: modules/order/cheque.php:49
+msgid "Le montant total de votre commande s'élève à"
+msgstr "L'importo totale del vostro ordine vale la pena"
+
+#: modules/order/cheque.php:49
+msgid "TTC"
+msgstr "TTC"
+
+#: modules/order/cheque.php:50
+msgid "Nous acceptons plusieurs devises pour les chèques."
+msgstr "Si accettano più valute per i controlli."
+
+#: modules/order/cheque.php:53
+msgid "Merci de choisir parmi les suivantes :"
+msgstr "Grazie a scegliere tra le seguenti:"
+
+#: modules/order/cheque.php:55
+msgid "Euro"
+msgstr "euro"
+
+#: modules/order/cheque.php:56
+msgid "Dollar"
+msgstr "dollaro"
+
+#: modules/order/cheque.php:58
+msgid "L'ordre et l'adresse du chèque seront affichés sur la page suivante."
+msgstr "L'ordine e l'indirizzo del controllo saranno pubblicati nella pagina seguente."
+
+#: modules/order/cheque.php:60
+msgid "Merci de confirmer votre commande en cliquant sur"
+msgstr "Grazie conferma dell'ordine cliccando su"
+
+#: modules/order/cheque.php:60 modules/order/cheque.php:64
+msgid "Je confirme ma commande"
+msgstr "Confermo il mio ordine"
+
+#: modules/order/cheque.php:65
+msgid "Autres moyens de paiement"
+msgstr "altri pagamenti"
+
+#: modules/order/order-confirmation.php:15 modules/order/order-confirmation.php:18 modules/order/order.php:4
+msgid "Confirmation de commande"
+msgstr "Conferma d'ordine"
+
+#: modules/order/order-confirmation.php:35
+msgid "Envoi Devis"
+msgstr "l'invio preventivo"
+
+#: modules/order/order-confirmation.php:43
+msgid "Retour aux commandes"
+msgstr "Indietro nel controllo"
+
+#: modules/order/order-confirmation.php:44
+msgid "Retour à l'accueil"
+msgstr "Back to home"
+
+#: modules/order/order-confirmation.php:47
+msgid "Votre commande n'a pas enregistrée"
+msgstr "L'ordine non è registrato"
+
+#: modules/order/order.php:6 modules/order/paiement.php:18
+msgid "Choisissez votre méthode de paiement"
+msgstr "Scegli il metodo di pagamento"
+
+#: modules/order/paiement.php:14
+msgid "Votre méthode de paiement"
+msgstr "Il metodo di pagamento"
+
+#: modules/order/paiement.php:17
+msgid "Nous vous remercions pour votre commande."
+msgstr "Grazie per il vostro ordine."
+
+#: modules/pages/contact.php:7
+msgid "Captcha erroné."
+msgstr "Captcha sbagliato."
+
+#: modules/pages/contact.php:11
+msgid "Le nom est un champ obligatoir"
+msgstr "Il nome è un campo obligatoir"
+
+#: modules/pages/contact.php:14
+msgid "Le prenom est un champ obligatoir"
+msgstr "Il primo nome è un campo obligatoir"
+
+#: modules/pages/contact.php:17
+msgid "L'adresse e-mail est un champ obligatoir"
+msgstr "L'indirizzo e-mail è un campo obligatoir"
+
+#: modules/pages/contact.php:20
+msgid "Le Pays est un champ obligatoir"
+msgstr "Il paese è un campo obligatoir"
+
+#: modules/pages/contact.php:23
+msgid "La Téléphone  est un champ obligatoir"
+msgstr "Il telefono è un campo obligatoir"
+
+#: modules/pages/contact.php:80
+msgid "Service client - Contactez-nous"
+msgstr "Servizio Clienti - Contattaci"
+
+#: modules/pages/contact.php:83
+msgid "Nous vous remercions pour votre message. Une réponse vous sera apportée dans les plus brefs délais (max 48h)"
+msgstr "Grazie per il vostro messaggio. Una risposta sarà data nel più breve tempo possibile (max 48 ore)"
+
+#: modules/pages/contact.php:91
+msgid "Envoyez un message"
+msgstr "Invia un messaggio"
+
+#: modules/pages/contact.php:103
+msgid "Pour des questions à propos d'une commande ou des informations sur nos produits."
+msgstr "Per domande su un ordine o per informazioni sui nostri prodotti."
+
+#: modules/pages/contact.php:107
+msgid "Vous êtes un professionnel ou en création d’entreprise et vous souhaitez avoir accès à nos tarifs ?"
+msgstr "Sei un professionista o un business e si desidera accedere le nostre tariffe?"
+
+#: modules/pages/contact.php:108
+msgid "Vous possédez déjà un compte ?"
+msgstr "Hai già un account?"
+
+#: modules/pages/contact.php:108
+msgid "Connectez vous"
+msgstr "Log"
+
+#: modules/pages/contact.php:144
+msgid "N° de siret / TVA<"
+msgstr "No. Siret / IVA <"
+
+#: modules/pages/contact.php:222
+msgid "Téléphone"
+msgstr "telefono"
+
+#: modules/pages/contact.php:234
+msgid "Message"
+msgstr "1 messaggio"
+
+#: modules/pages/contact.php:238
+msgid "Fichier joint"
+msgstr "attaccamento"
+
+#: modules/pages/contact.php:249
+msgid "Captcha"
+msgstr "Captcha"
+
+#: modules/pages/contact.php:253
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: modules/pages/contact.php:262
+msgid "Envoyer"
+msgstr "inviare"
+
+#: modules/pages/sitemap.php:19
+msgid "Nos offres"
+msgstr "le nostre offerte"
+
+#: modules/pages/sitemap.php:21 views/new-products.php:55 views/new-products.php:58
+msgid "Nouveaux produits"
+msgstr "nuovi prodotti"
+
+#: modules/pages/sitemap.php:23
+msgid "nos fabricants"
+msgstr "i nostri produttori"
+
+#: modules/pages/sitemap.php:23
+msgid "Nos fabricants"
+msgstr "i nostri produttori"
+
+#: modules/pages/sitemap.php:24 views/viewed-products.php:58 views/viewed-products.php:61
+msgid "Produits déjà vus"
+msgstr "Prodotti già visti"
+
+#: modules/pages/sitemap.php:30 modules/pages/sitemap.php:32
+msgid "Votre compte"
+msgstr "ton compte"
+
+#: modules/pages/sitemap.php:33
+msgid "Informations personnelles"
+msgstr "informazioni personali"
+
+#: modules/pages/sitemap.php:35
+msgid "Bons de réduction"
+msgstr "sconto"
+
+#: modules/pages/sitemap.php:36
+msgid "Historique des commandes"
+msgstr "storico ordini"
+
+#: modules/pages/sitemap.php:37
+msgid "Vos devis"
+msgstr "le stime"
+
+#: modules/pages/sitemap.php:49
+msgid "Catégories"
+msgstr "Catégories"
+
+#: modules/pages/sitemap.php:80
+msgid "Pages"
+msgstr "pagine"
+
+#: modules/product/category.php:50
+msgid "Categories"
+msgstr "categorie"
+
+#: modules/product/category.php:60
+msgid "Aucun produit dans cette catégorie."
+msgstr "Non ci sono prodotti in questa categoria."
+
+#: modules/product/category.php:62 views/new-products.php:66 views/nos-fabricant.php:10 views/promos.php:69 views/viewed-products.php:68
+msgid "Il y a"
+msgstr "ci"
+
+#: modules/product/category.php:62
+msgid "produits"
+msgstr "prodotti"
+
+#: modules/product/category.php:115 views/new-products.php:78 views/promos.php:81 views/viewed-products.php:80
+msgid "Afficher :"
+msgstr "Mostra:"
+
+#: modules/product/category.php:124 views/new-products.php:87 views/promos.php:90 views/viewed-products.php:89
+msgid "Tri :"
+msgstr "Tri:"
+
+#: modules/product/category.php:127 views/new-products.php:90 views/promos.php:93 views/viewed-products.php:92
+msgid "Du – cher au + cher"
+msgstr "Du - dal meno caro"
+
+#: modules/product/category.php:128 views/new-products.php:91 views/promos.php:94 views/viewed-products.php:93
+msgid "Du + cher au – cher"
+msgstr "Più alto - costoso"
+
+#: modules/product/category.php:129 views/new-products.php:92 views/promos.php:95 views/viewed-products.php:94
+msgid "Nouveauté"
+msgstr "novità"
+
+#: modules/product/category.php:130 views/new-products.php:93 views/promos.php:96 views/viewed-products.php:95
+msgid "Popularité"
+msgstr "popolarità"
+
+#: modules/product/category.php:153 modules/product/category.php:190 modules/search/search.php:36 modules/search/search.php:71 views/new-products.php:116 views/new-products.php:151 views/promos.php:119 views/promos.php:154 views/viewed-products.php:118 views/viewed-products.php:153
+msgid "Voir ce produit"
+msgstr "Vedere questo prodotto"
+
+#: modules/product/category.php:183 modules/product/category.php:188
+msgid "Ajouter au panier"
+msgstr "Aggiungi al carrello"
+
+#: modules/product/product.php:31
+msgid "Products"
+msgstr "prodotti"
+
+#: modules/product/product.php:125
+msgid "Plus de détails..."
+msgstr "Maggiori dettagli ..."
+
+#: modules/product/product.php:190
+msgid ""
+"Ce produit n'existe pas dans cette déclinaison. <br> \n"
+"\t\t\t\t\t\tVous pouvez néanmoins en sélectionner une autre."
+msgstr "Questo prodotto non esiste in questa variante. <br> \\ n \\ t \\ t \\ t \\ t \\ t \\ tyou può ancora selezionare un altro."
+
+#: modules/product/product.php:195
+msgid "En achetant ce produit vous pouvez gagner jusqu'à "
+msgstr "Con l'acquisto di questo prodotto è possibile raccogliere fino "
+
+#: modules/product/product.php:195
+msgid "points de fidélité"
+msgstr "punti premio"
+
+#: modules/product/product.php:234
+msgid "Télécharger la fiche technique"
+msgstr "scarica la scheda tecnica"
+
+#: modules/product/product.php:267
+msgid "Accessoires"
+msgstr "accessori"
+
+#: modules/product/product.php:290
+msgid "Voir ce Produit"
+msgstr "Vedere questo prodotto"
+
+#: modules/product/product.php:304
+msgid "autres produits dans la même catégorie :"
+msgstr "altri prodotti della stessa categoria:"
+
+#: modules/search/search.php:16
+msgid "Recherche"
+msgstr "ricercato"
+
+#: modules/search/search.php:21
+msgid "résultats ont été trouvés."
+msgstr "risultati sono stati trovati."
+
+#: modules/search/search.php:69 views/new-products.php:149 views/promos.php:152 views/viewed-products.php:151
+msgid "Ajouter au devis"
+msgstr "Aggiungi al preventivo"
+
+#: modules/search/search.php:82
+msgid "Aucun résultat trouvé"
+msgstr "Nessun risultato trovato"
+
+#: views/new-products.php:64 views/viewed-products.php:66
+msgid "Aucun produit."
+msgstr "Non ci sono prodotti."
+
+#: views/new-products.php:66 views/promos.php:69 views/viewed-products.php:68
+msgid "produits."
+msgstr "prodotti."
+
+#: views/nos-fabricant.php:7 views/nos-fabricant.php:9
+msgid "Nos fabricant"
+msgstr "nostro produttore"
+
+#: views/nos-fabricant.php:10
+msgid "marques."
+msgstr "segni."

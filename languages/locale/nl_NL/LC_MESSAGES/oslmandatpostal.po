@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:49+0100\n"
+"PO-Revision-Date: 2016-05-30 13:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-mandatpostal\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mandatpostal.module.php:48 mandatpostal.module.php:49
+msgid "Payer par Mandat Postal International"
+msgstr "Betaal door International PostPostwissel"
+
+#: mandatpostal.module.php:56
+msgid "Payer par virement bancaire"
+msgstr "Betalen via overschrijving"
+
+#: mandatpostal.module.php:56
+msgid "Vous avez choisi de régler votre commande par Mandat Postal International."
+msgstr "Je hebt ervoor gekozen om te betalen via International PostPostwissel."
+
+#: mandatpostal.module.php:58
+msgid "Veuillez trouver ci-dessous les informations nécessaires pour établir le transfert :"
+msgstr "Hieronder vindt u het nodig is om de overdracht aantonen informatie:"
+
+#: mandatpostal.module.php:69
+msgid "Un email contenant ces informations vous a été envoyé."
+msgstr "Een e-mail met deze informatie naar u verzonden."
+
+#: mandatpostal.module.php:72
+msgid "Merci de nous communiquer votre confirmation pour le"
+msgstr "Dank u om ons uw bevestiging voor"
+
+#: mandatpostal.module.php:72
+msgid "au plus tard."
+msgstr "uiterlijk."
+
+#: mandatpostal.module.php:74
+msgid "Votre commande sera enregistrée dès réception de votre transfert."
+msgstr "Uw bestelling wordt geregistreerd na ontvangst van uw transfer."
+
+#: mandatpostal.module.php:75
+msgid ""
+"Dans l’attente, notre service client se tient à votre entière disposition pour toute question ou "
+"information complémentaire."
+msgstr "In de tussentijd, onze klantenservice staat tot uw beschikking voor vragen of meer informatie."
+
+#: mandatpostal.module.php:103
+msgid "Bien Enregistré"
+msgstr "Hoewel Geregistreerd"
+
+#: mandatpostal.module.php:112
+msgid "Mandat Postal"
+msgstr "Postwissel"
+
+#: mandatpostal.module.php:117
+msgid "Mandat Postal DETAILS"
+msgstr "Postal Money DETAILS"
+
+#: mandatpostal.module.php:122
+msgid "Propriétaire"
+msgstr "eigenaar"
+
+#: mandatpostal.module.php:126
+msgid "Détails"
+msgstr "gegevens"
+
+#: mandatpostal.module.php:131
+msgid "Enregistrer"
+msgstr "Bewaren"
