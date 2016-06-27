@@ -2,8 +2,8 @@ gapi.analytics.ready(function() {
 
   /********************** Constants ****************************/
   //var GID = {query: {ids:'ga:102405413'}};
-  var TABLE_ID = document.getElementById("table_id");//'ga:102405413';
-  var CLIENT_ID = document.getElementById("client_id");//'745407840055-vnuj5n6vr78bbsvd6qe0h2201q48m7a7.apps.googleusercontent.com';
+  var OS_TABLE_ID = $.trim( $("#table_id").val() );//document.getElementById("OS_TABLE_ID");'ga:102405413';
+  var OS_CLIENT_ID = $.trim( $("#client_id").val() );//document.getElementById("OS_CLIENT_ID");'745407840055-vnuj5n6vr78bbsvd6qe0h2201q48m7a7.apps.googleusercontent.com';
   /*************************************************************/
 
   /**
@@ -13,7 +13,7 @@ gapi.analytics.ready(function() {
    */
   gapi.analytics.auth.authorize({
     container: 'embed-api-auth',
-    clientid: CLIENT_ID,
+    clientid: OS_CLIENT_ID,
   });
 
 
@@ -22,30 +22,30 @@ gapi.analytics.ready(function() {
    * element with the id "active-users" and poll for changes every
    * five seconds.
    */
-  var activeUsers = new gapi.analytics.ext.ActiveUsers({
-    container: 'active-users',
-    pollingInterval: 5
-  });
+  // var activeUsers = new gapi.analytics.ext.ActiveUsers({
+  //   container: 'active-users',
+  //   pollingInterval: 5
+  // });
 
   /**
    * Add CSS animation to visually show the when users come and go.
    */
-  activeUsers.once('success', function() {
-    var element = this.container.firstChild;
-    var timeout;
+  // activeUsers.once('success', function() {
+  //   var element = this.container.firstChild;
+  //   var timeout;
 
-    this.on('change', function(data) {
-      var element = this.container.firstChild;
-      var animationClass = data.delta > 0 ? 'is-increasing' : 'is-decreasing';
-      element.className += (' ' + animationClass);
+  //   this.on('change', function(data) {
+  //     var element = this.container.firstChild;
+  //     var animationClass = data.delta > 0 ? 'is-increasing' : 'is-decreasing';
+  //     element.className += (' ' + animationClass);
 
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-        element.className =
-            element.className.replace(/ is-(increasing|decreasing)/g, '');
-      }, 3000);
-    });
-  });
+  //     clearTimeout(timeout);
+  //     timeout = setTimeout(function() {
+  //       element.className =
+  //           element.className.replace(/ is-(increasing|decreasing)/g, '');
+  //     }, 3000);
+  //   });
+  // });
 
 
 
@@ -92,11 +92,11 @@ gapi.analytics.ready(function() {
    * element with the id "sessions-range-selector", set its date range
    * and then render it to the page.
    */
-  var dateRangeSelector1 = new gapi.analytics.ext.DateRangeSelector({
-    container: 'sessions-range-selector'
-  })
-  .set(dateRange1)
-  .execute();
+  // var dateRangeSelector1 = new gapi.analytics.ext.DateRangeSelector({
+  //   container: 'sessions-range-selector'
+  // })
+  // .set(dateRange1)
+  // .execute();
 
 
   /**
@@ -139,13 +139,13 @@ gapi.analytics.ready(function() {
   //activeUsers.set({query: {'view': {'id': '102405413'} }}).execute();
 
   //session rang
-  //dataChart1.set({query: {ids: TABLE_ID}}).execute();
+  //dataChart1.set({query: {ids: OS_TABLE_ID}}).execute();
 
   // Render all the of charts for this view.
-  renderWeekOverWeekChart(TABLE_ID);
-  renderYearOverYearChart(TABLE_ID);
-  renderTopBrowsersChart(TABLE_ID);
-  renderTopCountriesChart(TABLE_ID);
+  renderWeekOverWeekChart(OS_TABLE_ID);
+  renderYearOverYearChart(OS_TABLE_ID);
+  renderTopBrowsersChart(OS_TABLE_ID);
+  renderTopCountriesChart(OS_TABLE_ID);
 
 
 
@@ -154,13 +154,13 @@ gapi.analytics.ready(function() {
    * the first datepicker. The handler will update the first dataChart
    * instance as well as change the dashboard subtitle to reflect the range.
    */
-  dateRangeSelector1.on('change', function(data) {
-    dataChart1.set({query: data}).execute();
+  // dateRangeSelector1.on('change', function(data) {
+  //   dataChart1.set({query: data}).execute();
 
-    // Update the "from" dates text.
-    var datefield = document.getElementById('date-rang');
-    datefield.innerHTML = data['start-date'] + '&mdash;' + data['end-date'];
-  });
+  //   // Update the "from" dates text.
+  //   var datefield = document.getElementById('date-rang');
+  //   datefield.innerHTML = data['start-date'] + '&mdash;' + data['end-date'];
+  // });
 
 
 
@@ -171,7 +171,7 @@ gapi.analytics.ready(function() {
    */
   var siteTraffic = new gapi.analytics.googleCharts.DataChart({
     query: {
-      'ids': TABLE_ID, // <-- Replace with the ids value for your view.
+      'ids': OS_TABLE_ID, // <-- Replace with the ids value for your view.
       'start-date': '30daysAgo',
       'end-date': 'yesterday',
       'metrics': 'ga:sessions,ga:users',
@@ -195,7 +195,7 @@ gapi.analytics.ready(function() {
    */
   var pageViews = new gapi.analytics.googleCharts.DataChart({
     query: {
-      'ids': TABLE_ID, // <-- Replace with the ids value for your view.
+      'ids': OS_TABLE_ID, // <-- Replace with the ids value for your view.
       'start-date': '30daysAgo',
       'end-date': 'yesterday',
       'metrics': 'ga:pageviews',

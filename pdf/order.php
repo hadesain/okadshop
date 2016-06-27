@@ -236,7 +236,7 @@ include '../config/bootstrap.php';
 			}
 
 			$html .= '<p>Pour accepter, modifier, refuser cette commande ou pour nous contacter, rendez vous sur votre espace professionnel : ';
-			$html .= '<a href="http://www.maroc-artiza.com/account/history">www.maroc-artiza.com/account/history</a><br>';
+			$html .= '<a href="'.$website_url.'account/history">'.$website_url.'account/history</a><br>';
 			$html .= 'Notre service client se tient à votre entière disposition pour toute demande ou information complémentaire.</p>';
 		
 		$html .= '</div>';
@@ -259,7 +259,7 @@ include '../config/bootstrap.php';
 	$footer .= '</td>';
 	$footer .= '<td style="padding-left:20px;">';
 	$footer .= $setting[0]['footer'];
-	//$footer .= '<b><center>Cet document est crée par <a target="_blank" href="#" style="color:#44271A;">MarocArtiza</a></center></b>';
+	//$footer .= '<b><center>Cet document est crée par <a target="_blank" href="#" style="color:#44271A;">OkadShop</a></center></b>';
 	$footer .= '</td>';
 	$footer .= '</tr>';
 	$footer .= '</table>';

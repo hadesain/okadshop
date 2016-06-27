@@ -29,6 +29,8 @@ function pv_getViewedProduct($LIMIT = null){
 	$viewed_product_ids = implode(',',pv_getViewdProductSESSION());
 	if (!empty($viewed_product_ids)) {
 	 	$res = pv_getProductByids($viewed_product_ids,$LIMIT);
+	 	$product = new product();
+    	$res = $product->oslang_migrate_product($res,true);
 		$res = fixProduct($res);
 		return $res;
 	}

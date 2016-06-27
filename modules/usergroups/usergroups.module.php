@@ -43,4 +43,4 @@ function usergroups_display(){
 			</div>';
 	echo $output;
 }
-add_hook('sec_register_form','usergroups_display', 'user groups display');
+add_hook('sec_register_form', 'superslider', 'usergroups_display', 'user groups display');

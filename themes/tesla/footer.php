@@ -16,7 +16,7 @@
 
           </div>
         </div><!--/ .col-md-2 --> 
-        <span class="devider hidden-xs hidden-sm"></span>
+        <!--span class="devider hidden-xs hidden-sm"></span-->
          <?php execute_section_hooks('sec_footerblocks'); ?>
         <!-- <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
           <ul class="informations">
@@ -58,8 +58,8 @@
         <span class="devider hidden-xs hidden-sm"></span>-->
 
         <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 cm-center padding0">
-          <?php if (isConnected()): ?>
-            <div class="newsletter">
+          
+            <!-- <div class="newsletter">
               <p>
                 <span class="title"><?=l("Newsletter", "tesla");?></span> 
                 <span class="message"><?=l("Inscrivez-vous à notre newsletter pour recevoir des offres exclusives", "tesla");?></span>
@@ -72,8 +72,8 @@
                   </span>
                 </div>
               </form>
-            </div>
-          <?php endif ?>
+            </div> -->
+          <!-- <?php if (isConnected()): ?><?php endif ?> -->
           <div class="clear" style="clear:both"></div>
           <!-- <p class="title">Suivez-nous</p>
           <div class="social">
@@ -95,38 +95,38 @@
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/51-Livraison"><?=l("Livraison", "tesla");?></a></p>
+            <p class="title"><!-- <a href="<?= WebSite; ?>cms/1-Livraison"></a> --><?=l("Livraison", "tesla");?></p>
             <p class="content"><?=l("Où que vous soyez, nous pouvons vous livrer !", "tesla");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/51-Transport" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p>
+            <!-- <p class="link"><a href="<?= WebSite; ?>cms/1-Transport" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p> -->
           </div>
         </div><!--/ .col-md-3 -->
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/55-Paiement"><?=l("Paiement sécurisé ", "tesla");?></a></p>
+            <p class="title"><!-- <a href="<?= WebSite; ?>cms/5-Paiement"></a> --><?=l("Paiement sécurisé ", "tesla");?></p>
             <p class="content"><?=l("Règlement 100% sécurisé !", "tesla");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/55-Paiement" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p>
+           <!--  <p class="link"><a href="<?= WebSite; ?>cms/5-Paiement" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p> -->
           </div>
         </div><!--/ .col-md-3 -->
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/57-fidélité"><?=l("Programme fidélité", "tesla");?></a></p>
+            <p class="title"><!-- <a href="<?= WebSite; ?>cms/57-fidélité"></a> --><?=l("Programme fidélité", "tesla");?></p>
             <p class="content"><?=l("Votre fidélité récompensée ! ", "tesla");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/57-fidélité" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p>
+            <!-- <p class="link"><a href="<?= WebSite; ?>cms/57-fidélité" title="<?=l("Cliquez ici pour en savoir plus", "tesla");?>"><?=l("En savoir plus", "tesla");?></a></p> -->
           </div>
         </div><!--/ .col-md-3 -->
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"  style="padding: 0 5px;">
           <div class="box text-center">
-            <p class="title"><a href="<?= WebSite; ?>cms/58-client"><?=l("Service client", "tesla");?></a></p>
+            <p class="title"><!-- <a href="<?= WebSite; ?>cms/58-client"></a> --><?=l("Service client", "tesla");?></p>
             <p class="content"><?=l("Notre service client est à votre disposition du Lundi au vendredi de 10h à 17h et le Samedi de 10 à 12h.", "tesla");?></p>
-            <p class="link"><a href="<?= WebSite; ?>cms/58-client" title="Cliquez ici pour en savoir plus"><?=l("En savoir plus", "tesla");?></a></p>
+           <!--  <p class="link"><a href="<?= WebSite; ?>cms/58-client" title="Cliquez ici pour en savoir plus"><?=l("En savoir plus", "tesla");?></a></p> -->
           </div>
         </div><!--/ .col-md-3 -->
 
         <p class="description text-center">
-          <span><?=l("Grossiste/ fournisseur", "tesla");?></span>
+          <!-- <span><?=l("Grossiste/ fournisseur", "tesla");?></span> -->
         </p>
         <p class="text-center"><img src="<?= themeDir; ?>images/logo_payment.png" alt="payment"></p>
 
@@ -145,12 +145,17 @@
   <div style="display:none">
     <div id="home_popup_block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
   </div> -->
-  
+  <?php 
+    if (!isset($_SESSION['home_popup'])) {
+      $_SESSION['home_popup'] = 'true';
+      echo "<script>$('#home_popup_block').modal('show');</script>";
+    }
+  ?>
   <?php if (!isset($_SESSION['home_popup'])): ?>
   <?php $home_popup_block_content = select_mete_value('os_quick_sales'); ?>
       <div class="modal fade" tabindex="-1" role="dialog" id="home_popup_block">
         <div class="modal-dialog">
-          <div class="modal-content">
+          <div class="modal-content text-center">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
              <h4 class="modal-title">Promotion</h4>
@@ -199,29 +204,31 @@
   </script>
   <?php
 
-
+ //echo $_SERVER['REQUEST_URI'];
   if (isset($_POST['lang_list'])) {
-  $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-  $lang = explode('_', $_SESSION['code_lang']);
-  $lang = $lang[0];
-  $module = $_GET['Module'];
-  if (empty($module)) {
-    if (isset($_GET['lang'])){
-      $actual_link = str_replace($_GET['lang'], $lang, $actual_link);
-    }
-    else
-      $actual_link .= $lang.'/';
-  }else{
-  if (isset($_GET['lang'])) {
-     $actual_link = str_replace('/'.$_GET['lang'].'/', '/'.$lang.'/', $actual_link);
-  }else{
-    $pos = strpos($actual_link, $module);
-    $actual_link = substr_replace($actual_link, $lang.'/', $pos, 0);
-  }
 
+    $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+    $lang = explode('_', $_SESSION['code_lang']);
+    $lang = $lang[0];
+    $module = $_GET['Module'];
+    if (empty($module)) {
+      if (isset($_GET['lang'])){
+        $actual_link = str_replace('/'.$_GET['lang'].'/', '/'.$lang.'/', $actual_link);
+      }
+      else
+        $actual_link .= $lang.'/';
+    }else{
+    if (isset($_GET['lang'])) {
+       $actual_link = str_replace('/'.$_GET['lang'].'/', '/'.$lang.'/', $actual_link);
+    }else{
+      $pos = strpos($actual_link, $module);
+      $actual_link = substr_replace($actual_link,'/'. $lang.'/', $pos, 0);
+    }
+
+    }
+    //echo  $actual_link;
+   echo '<script> window.location.replace("'.$actual_link.'"); </script>';
   }
-  echo '<script> window.location.replace("'.$actual_link.'"); </script>';
-}
 
 //addLangToUrl();
    ?>
@@ -243,12 +250,7 @@
     </script>
   <?php endif ?>
   
-  <?php 
-  if (!isset($_SESSION['home_popup'])) {
-    $_SESSION['home_popup'] = 'true';
-   echo "<script>$('#home_popup_block').modal('show');</script>";
-  }
- ?>
+  
 
  <!-- ClickDesk Live Chat Service for websites -->
 <!-- <script type='text/javascript'>

@@ -39,7 +39,7 @@ $from = intval($_POST['from']);
 if( $email == "" ) return;
 
 global $common;
-$user = new user();
+$user = new OS_User();
 $cm = $common->select('contact_messages', array('firstname', 'lastname', 'email', 'city', 'mobile', 'id_country'), "WHERE `email`='". $email ."' ORDER BY id DESC LIMIT 1");
 if( !$cm ) return;
 

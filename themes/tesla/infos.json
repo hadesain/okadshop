@@ -18,7 +18,9 @@
 		"15":"sec_footer_company",
 		"16":"sec_footerblocks",
 		"17":"sec_payment_top_list",
-		"18":"sec_capture"
+		"18":"sec_capture",
+		"19":"sec_home_center_buttom"
+
 
 	}],
 	"name": "tesla",

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-05-27 15:52+0100\n"
-"PO-Revision-Date: 2016-05-30 10:08+0000\n"
+"POT-Creation-Date: 2016-06-07 11:32+0000\n"
+"PO-Revision-Date: 2016-06-07 11:32+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -20,18 +20,14 @@ msgstr ""
 msgid "NOTRE SÉLECTION"
 msgstr ""
 
-#: productsphares.module.php:42
-msgid "Voir ce produit"
+#: productsphares.module.php:43
+msgid "Ajouter au panier"
 msgstr ""
 
-#: productsphares.module.php:47
-msgid "Ajouter au devis"
-msgstr ""
-
-#: productsphares.module.php:60
+#: productsphares.module.php:61
 msgid "En stock"
 msgstr ""
 
-#: productsphares.module.php:63
+#: productsphares.module.php:64
 msgid "Comparer"
 msgstr ""

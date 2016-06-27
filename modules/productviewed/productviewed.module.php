@@ -15,6 +15,9 @@ $hooks->register_module('productviewed', $data);
 
 function productviewed_display(){
 	$viewed_product = pv_getViewedProduct(4);
+	if (!$viewed_product || empty($viewed_product)) {
+		return;
+	}
 	$output = "";
 	$output .= '<div class="panel">
 				  <div class="panel-heading">
@@ -37,7 +40,7 @@ function productviewed_display(){
 				          </div>
 				          <div class="media-body">
 				            <h5 class="media-heading"><a href="'.WebSite.'product/'.$value['id'].'">'.substr(strip_tags($value['name']),0,15).'...</a></h5>
-				            <p>'.substr(strip_tags($value['short_description']), 0,20).'...</p>
+				            <p>'.substr(htmlspecialchars_decode(strip_tags($value['short_description'])), 0,20).'...</p>
 				            <p><a href="'.WebSite.'category/'.$value['id_category_default'].'" >'.l("afficher tous les produits",'productviewed').'</a></p>
 				            <p></p>
 				          </div>
@@ -49,7 +52,7 @@ function productviewed_display(){
 			</div>";		  
 	echo $output;
 }
-add_hook('sec_sidebar','productviewed_display');
+add_hook('sec_sidebar', 'productviewed', 'productviewed_display', 'Display viewed products');
 
 function productviewed_productdisplay(){
 	$pid = pv_getCorrectId($_GET['ID']);
@@ -57,4 +60,4 @@ function productviewed_productdisplay(){
 		pv_setViewdProduct(pv_getCorrectId($_GET['ID']));
 	}
 }
-add_hook('sec_top_product','productviewed_productdisplay');
+add_hook('sec_top_product', 'productviewed', 'productviewed_productdisplay', 'Display last viewed products');

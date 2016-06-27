@@ -59,4 +59,4 @@ function accountpanel_display(){
 	}
 	echo $output;
 }
-add_hook('sec_sidebar','accountpanel_display', 'display account panel');
+add_hook('sec_sidebar', 'accountpanel', 'accountpanel_display', 'display account panel');

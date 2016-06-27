@@ -16,3 +16,4 @@ RewriteRule ^(en|de|fr|ar|es|it|nl|pl|pt)/([^/\.]+)/([^/\.]+)/([^/\.]+)?$ index.
 RewriteRule ^([^/\.]+)?$ index.php?Module=$1 [L]
 RewriteRule ^([^/\.]+)/([^/\.]+)?$ index.php?Module=$1&ID=$2 [L]
 RewriteRule ^([^/\.]+)/([^/\.]+)/([^/\.]+)?$ index.php?Module=$1&ID=$2&ID2=$3 [L]
+

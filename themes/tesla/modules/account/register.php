@@ -12,30 +12,11 @@
 	<?php 
 		if (isset($resultregister) && !empty($resultregister)) {
 			if (isset($resultregister['login']) && $resultregister['login'] >0) {
+
 				//goHome();
 				?>
 				<div class="alert alert-success" role="alert">
-					<?php $ifCongé = select_mete_value("shop_is_vacance", "tesla");?>
-					<p>
-					<?php if ($ifCongé && $ifCongé == 1): ?>
-					<?= l("Nous sommes actuellement en congés, <br>
-					nous procéderons à la validation de votre compte dès notre retour prévu le :", "tesla");?> <?= select_mete_value("shop_is_vacance_return_date", "tesla");?><br>
-					<?= l("Merci de votre compréhension", "tesla");?> <br>	
-					<?php else: ?>
-					<?= l("Bonjour", "tesla");?> « <?= htmlentities($_POST['lastname']); ?> »,  <?= l("nous vous remercions de vous être inscrit(e) chez OKADSHOP. <br><br>
-					Après vérification des données fournies, nous vous enverrons un e-mail de confirmation contenant vos identifiants et mot de passe. (sous 24h à 48h ouvrées)<br><br>
-					Vous pourrez alors vous connecter, découvrir nos tarifs réservés aux professionnels et effectuer votre première demande de devis en ligne.<br><br>
-					Dans l’attente, nous vous invitons à prendre connaissance des différentes rubriques d’informations :", "tesla");?><br><br>
-					<ul class="list-inline">
-						<li><a href="<?=WebSite ?>cms/56-devis"><?= l("Demander une devis", "tesla");?></a></li>
-						<li><a href="<?=WebSite ?>cms/51-Transport"><?= l("Transport et Taxes", "tesla");?></a></li>
-						<li><a href="<?=WebSite ?>cms/55-Paiement"><?= l("Paiement sécurisé", "tesla");?></a></li>
-						<li><a href="<?=WebSite ?>cms/57-Programme"><?= l("Programme de fidélité", "tesla");?></a></li>
-						<li><a href="<?=WebSite ?>cms/53-Conditions"><?= l("Conditions d’utilisation", "tesla");?></a></li>
-					</ul>
-				 	<?php endif ?>
-				 	</p>
-				  <?php unset($_POST); ?>
+					
 				</div>
 				<?php
 			}else {
@@ -152,8 +133,8 @@
 				  </div>
 				</div>
 			</div><!-- ./user-info -->
-			
-			<div class="user-societe"><!-- user-societe -->
+			<!-- user-societe -->
+		<!-- <div class="user-societe">
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 				  	<h3 class="panel-title">
@@ -249,7 +230,7 @@
 			  		</div>
 			   	</div>
 			  </div>
-			</div>
+			</div> -->
 
 
 			<div class="user-adress"><!-- user-adress -->
@@ -460,7 +441,7 @@
 	</div>
 
 	<?php endif ?>
-	<?php if (isset($_POST['statuts']) && !empty($_POST['statuts'])): ?>
+<!-- 	<?php if (isset($_POST['statuts']) && !empty($_POST['statuts'])): ?>
 		<script type="text/javascript">
 			var id_statuts = "<?= $_POST['statuts'] ?>";
 				$(document).ready(function () {
@@ -479,4 +460,4 @@
 				});
 
 		</script>
-	<?php endif ?>
+	<?php endif ?> -->

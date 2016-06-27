@@ -125,7 +125,7 @@
 	</p>
 	<form method="POST" action="">
     <p class="cart_navigation">
-      <input type="submit" name="confim_bankwire" value="<?= l("confirmé la commande", "artiza");?>" class="exclusive  pull-right">
+      <input type="submit" name="confim_bankwire" value="<?= l("confirmé la commande", "bankwire");?>" class="exclusive  pull-right">
       <a href="<?=WebSite; ?>" class="button_large"><?= l("Retour au site", "bankwire");?>.</a>
     </p>
   </form>

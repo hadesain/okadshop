@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-05-27 15:07+0100\n"
-"PO-Revision-Date: 2016-05-30 10:07+0000\n"
+"POT-Creation-Date: 2016-06-07 11:25+0000\n"
+"PO-Revision-Date: 2016-06-07 11:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -15,120 +15,119 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: l\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: .\n"
 
-#: bankwire.module.php:42
+#: bankwire.module.php:35
 msgid "Payer par virement bancaire"
 msgstr ""
 
-#: bankwire.module.php:43
+#: bankwire.module.php:36
 msgid "Payer par Virement Bancaire"
 msgstr ""
 
-#: bankwire.module.php:55
-msgid "Vous avez choisi de régler votre commande par virement bancaire."
+#: bankwire.module.php:49
+msgid "bankwire setting"
 msgstr ""
 
-#: bankwire.module.php:57
-msgid "Veuillez trouver ci-dessous nos coordonnées bancaires :"
-msgstr ""
-
-#: bankwire.module.php:59
-msgid "Banque :"
-msgstr ""
-
-#: bankwire.module.php:75
-msgid "Code banque"
-msgstr ""
-
-#: bankwire.module.php:76
-msgid "Code ville"
-msgstr ""
-
-#: bankwire.module.php:77
-msgid "Numéro de compte"
-msgstr ""
-
-#: bankwire.module.php:78
-msgid "Clé RIB"
-msgstr ""
-
-#: bankwire.module.php:79
-msgid "Devise"
-msgstr ""
-
-#: bankwire.module.php:93
-msgid "Numéro de devis :"
-msgstr ""
-
-#: bankwire.module.php:93
-msgid ""
-" à indiquer dans le sujet de votre virement\n"
-"\t\t\t\t\t\t\t\t\t\t\t\t<br><b>Montant du virement  :"
-msgstr ""
-
-#: bankwire.module.php:97
-msgid "Frais bancaires (émission et réception):"
-msgstr ""
-
-#: bankwire.module.php:97
-msgid "A la charge du donneur d’ordre "
-msgstr ""
-
-#: bankwire.module.php:98
-msgid "Un email contenant ces informations vous a été envoyé. "
-msgstr ""
-
-#: bankwire.module.php:106
-msgid ""
-"Important ! Les virements internationaux n’étant crédités que sous 5 à 10 "
-"jours, nous vous invitonsà nous communiquer l’ordre de transfert (swift) "
-"validé par votre banque afin de pouvoir anticiper l’enregistrement de votre "
-"commande."
-msgstr ""
-
-#: bankwire.module.php:107
-msgid "Merci de nous communiquer votre confirmation pour le"
-msgstr ""
-
-#: bankwire.module.php:107
-msgid "au plus tard."
-msgstr ""
-
-#: bankwire.module.php:109
-msgid "Votre commande sera enregistrée dès réception de votre confirmation."
-msgstr ""
-
-#: bankwire.module.php:110
-msgid ""
-"Dans l’attente, notre service client se tient à votre entière disposition "
-"pour toute question ou information complémentaire."
-msgstr ""
-
-#: bankwire.module.php:162
+#: bankwire.module.php:58
 msgid "Bien Enregistré"
 msgstr ""
 
-#: bankwire.module.php:174
+#: bankwire.module.php:70 pages/bankwire_confirm.php:113
 msgid "Virement Bancaire"
 msgstr ""
 
-#: bankwire.module.php:174
+#: bankwire.module.php:70
 msgid "Configuration"
 msgstr ""
 
-#: bankwire.module.php:179
+#: bankwire.module.php:75
 msgid "Contact detail"
 msgstr ""
 
-#: bankwire.module.php:183
+#: bankwire.module.php:79
 msgid "Propriétaire du compte"
 msgstr ""
 
-#: bankwire.module.php:187
+#: bankwire.module.php:83
 msgid "details"
 msgstr ""
 
-#: bankwire.module.php:193
+#: bankwire.module.php:89
 msgid "Adresse de la banque"
+msgstr ""
+
+#: pages/bankwire_confirm.php:88
+msgid "Accueil"
+msgstr ""
+
+#: pages/bankwire_confirm.php:89
+msgid "Payment methode"
+msgstr ""
+
+#: pages/bankwire_confirm.php:90
+msgid "Payment par Virement Bancaire"
+msgstr ""
+
+#: pages/bankwire_confirm.php:97
+msgid "Résumé"
+msgstr ""
+
+#: pages/bankwire_confirm.php:101
+msgid "Adresse"
+msgstr ""
+
+#: pages/bankwire_confirm.php:105
+msgid "Livraison"
+msgstr ""
+
+#: pages/bankwire_confirm.php:109
+msgid "Paiement"
+msgstr ""
+
+#: pages/bankwire_confirm.php:113
+msgid "Order Confirmation"
+msgstr ""
+
+#: pages/bankwire_confirm.php:115
+msgid "S'il vous plaît envoyez-nous un virement bancaire avec"
+msgstr ""
+
+#: pages/bankwire_confirm.php:116
+msgid "Montant"
+msgstr ""
+
+#: pages/bankwire_confirm.php:117
+msgid "Nom du titulaire de compte"
+msgstr ""
+
+#: pages/bankwire_confirm.php:118
+msgid "Inclure ces détails"
+msgstr ""
+
+#: pages/bankwire_confirm.php:119
+msgid "Nom de banque"
+msgstr ""
+
+#: pages/bankwire_confirm.php:120
+msgid ""
+"Ne pas oublier d'insérer votre référence de l'ordre  dans le sujet de votre "
+"virement bancaire."
+msgstr ""
+
+#: pages/bankwire_confirm.php:121
+msgid "Votre commande sera envoyée dès que nous recevons le paiement."
+msgstr ""
+
+#: pages/bankwire_confirm.php:122
+msgid ""
+"Si vous avez des questions, des commentaires ou des préoccupations, s'il "
+"vous plaît contacter notre équipe d'assistance à la clientèle d'experts."
+msgstr ""
+
+#: pages/bankwire_confirm.php:128
+msgid "confirmé la commande"
+msgstr ""
+
+#: pages/bankwire_confirm.php:129
+msgid "Retour au site"
 msgstr ""

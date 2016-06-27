@@ -110,29 +110,20 @@
 				<!-- /clearfix -->
 			</div>
 			<div class="col-sm-12 col-md-7">
+				<?php if ($have_long_description): ?>
 				<div class="short_description_block">
-					<!-- <p class="online_only"> Exclusivité web</p> -->
 					<div id="short_description_content">
 						<?php
-						 //htmlspecialchars_decode($productdetail['short_description']);
 						if (isset($productdetail['short_description']) && rtrim(strip_tags($productdetail['short_description'])) != ""){
 						 	echo htmlspecialchars_decode($productdetail['short_description']);
 						}
-						 ?>
+						?>
 					</div>
 					<p class="buttons_bottom_block">
-						<?php if ($have_long_description): ?>
 						<a class="lnk plus-detail" href="#"><?=l("Plus de détails...", "tesla");?></a>
-						<?php endif ?>
 					</p>
-					<div class="short_description_pack">
-							<!-- <h3>Contenu du pack</h3> 
-					<div class="pack_content"> 1 x <a href="#">Coffret cadeau prestige chocolats assortis</a></div>
-						<div class="pack_content"> 1 x <a href="#">Coffret cadeau prestige chocolats assortis</a></div>
-						<div class="pack_content"> 1 x <a href="#">Coffret cadeau prestige chocolats assortis</a></div>
-						<div class="pack_content"> 1 x <a href="#">Coffret cadeau prestige chocolats assortis</a></div> -->
-					</div>
 				</div>
+				<?php endif ?>
 				<div class="product_attributes">
 					<input type="hidden" name="cu" value="" class="cu">
 					<div class="row">
@@ -158,25 +149,43 @@
 							<?php if (displayPrice()): ?>
 							<div class="content_prices">
 								<div class="product-price">
-									<p><span id="product_sell_price" p="<?=$productdetail['sell_price']; ?>"><?= number_format($productdetail['sell_price'], 2, '.', ''); ?></span> €</p>
+									<p>
+										<?php if ($productdetail['sell_price']>0): ?>
+											<span id="product_sell_price" p="<?=$productdetail['sell_price']; ?>">
+											<?= number_format($productdetail['sell_price'], 2, '.', ''); ?></span> <?= CURRENCY; ?>
+										<?php else: ?>
+											<?=l("gratuit", "tesla");?>
+										<?php endif ?>
+									</p>
 								</div>
 								<div class="clearfix"></div>
 								<!-- <p class="pack_price"><span>174,60 €</span> hors pack</p> -->
 								<?php if (!empty($productdetail['reference'])): ?>
 									<p id="product_reference"> <label><?= l("Référence :", "tesla");?> </label> <span class="editable"><?= $productdetail['reference'] ?></span></p>
 								<?php endif ?>
-								<!-- <p id="availability_statut"> <span id="availability_label">Disponibilité :</span> 
-									<?php /*if ($productdetail['qty']>0): ?>
+								 <p id="availability_statut"> <span id="availability_label">Disponibilité :</span> 
+									<?php if ($productdetail['qty']>0): ?>
 										<span class="available" id="availability_value"><i class="fa fa-check"></i> En stock</span>
+										<p id="pQuantityAvailable"> 
+											<span id="quantityAvailable"><?= $productdetail['qty']; ?></span> 
+											<span id="quantityAvailableTxt" style="display:none">pièce disponible</span> 
+											<span id="quantityAvailableTxtMultiple">pièces disponibles</span>
+										</p>
 									<?php else: ?>
 										<span class="available" id="availability_value">Out of stock</span>
-									<?php endif */?>
-								</p> -->
-								<!-- <p id="pQuantityAvailable"> <span id="quantityAvailable"><?= $productdetail['qty']; ?></span> <span id="quantityAvailableTxt" style="display:none">pièce disponible</span> <span id="quantityAvailableTxtMultiple">pièces disponibles</span></p> -->
+									<?php endif ?>
+								</p> <!---->
+
+								<!--  -->
 								<div>
-									<p><b>Poids:</b> <?= $productdetail['weight']; ?></p>
+									
+									
+									<?php if ($productdetail['weight'] >0): ?>
+										<p><b>Poids:</b> <?= $productdetail['weight']; ?></p>
+									<?php endif ?>
+
 									<?php if ($productdetail['wholesale_price'] >0): ?>
-										<p><b>Prix du lot (HT):</b> <?= $productdetail['wholesale_price']; ?> &euro;</p>
+										<p><b>Prix du lot (HT):</b> <?= $productdetail['wholesale_price']; ?> <?= CURRENCY; ?></p>
 									<?php endif ?>
 									
 								</div>
@@ -192,10 +201,13 @@
 					</div>
 				</div>
 				
-					 <p class="align_justify" id="loyalty"><?=l("En achetant ce produit vous pouvez gagner jusqu'à ", "tesla");?> <b><span id="loyalty_points"><?= $productdetail['loyalty_points']; ?></span> <?=l("points de fidélité", "tesla");?></b>.</p>
+					 
 				
-			<!-- 	<?php if (isset($productdetail['loyalty_points']) && $productdetail['loyalty_points'] != 0): ?>
-				<?php endif ?> -->
+				<?php if (isset($productdetail['loyalty_points']) && $productdetail['loyalty_points'] != 0): ?>
+					<p class="align_justify" id="loyalty"><?=l("En achetant ce produit vous pouvez gagner jusqu'à ", "tesla");?> <b><span id="loyalty_points"><?= $productdetail['loyalty_points']; ?></span> <?=l("points de fidélité", "tesla");?></b>.</p>
+				<?php endif ?>
+
+				<?php if (displayAddToCart($productdetail['qty'])): ?>
 					<div class="add_to_cart_block">
 					  <p class="buttons_bottom_block" id="add_to_cart"> 
 					   	<input type="submit" name="Submit" value="Ajouter au panier" class="exclusive ajax_add_to_cart_product_button" l="<?=$productdetail['id']; ?>" t="<?=$productdetail['name']; ?>"></p>
@@ -204,7 +216,7 @@
 					  </p>
 					   <div class="clearfix"></div>
 					</div>
-					
+				<?php endif ?>
 				<!-- <?php if ($cart['selling_rule'] == 'cart'): ?>
 					
 				<?php elseif ($cart['selling_rule'] == 'quotation'): ?>
@@ -219,7 +231,13 @@
 	</div>
 	<div class="clearfix"></div>
 	<?php $product_attachments = getAttachments($productdetail['id']); 
-	
+    $id_lang = $hooks->select('langs',array('id'),' WHERE code = "'.$_SESSION['code_lang'].'"');
+    if (isset($id_lang[0]['id'])) 
+    	$id_lang = $id_lang[0]['id'];
+    else
+    	$id_lang = 1;
+
+    $feature_product = feature_product($productdetail['id'],$id_lang);
 	?>
 
 	<div class="row" style="padding-top: 20px;">
@@ -231,10 +249,15 @@
 			    <li role="presentation" class="active"><a href="#idTab1" aria-controls="idTab1" role="tab" data-toggle="tab"><?=l("En savoir plus", "tesla");?></a></li>
 			    <?php endif ?>
 			    <?php if ($product_attachments && !empty($product_attachments)): ?>
-			    <li role="presentation"><a href="#idTab2" <?php if(!$have_long_description) echo 'class="active"';?> aria-controls="idTab2" role="tab" data-toggle="tab"><?=l("Télécharger la fiche technique", "tesla");?></a></li>
+			    <li role="presentation" <?php if(!$have_long_description) echo 'class="active"';?>><a href="#idTab2"  aria-controls="idTab2" role="tab" data-toggle="tab"><?=l("Télécharger la fiche technique", "tesla");?></a></li>
 			    <?php endif ?>
 <!-- 			    <li role="presentation"><a href="#idTab3" aria-controls="idTab3" role="tab" data-toggle="tab">Personnalisation</a></li> -->
-			  </ul>
+			 		<?php if ($feature_product && !empty($feature_product)): ?>
+					 	<li role="feature" <?php if(!$have_long_description && (!$product_attachments || empty($product_attachments) )) echo 'class="active"';?>><a href="#idTab3" aria-controls="idTab3" role="tab" data-toggle="tab" >CARACTÉRISTIQUES</a></li>
+					  </ul>
+					<?php endif ?>
+
+
 
 			  <!-- Tab panes -->
 			  <div class="tab-content rte">
@@ -253,6 +276,17 @@
 			    	</ul>
 			    </div>
 
+			    
+
+			    <div role="tabpanel" class="tab-pane active" id="idTab3">
+						<?php if ($feature_product && !empty($feature_product)): ?>
+							<ul class="bullet" id="idTab2">
+							<?php foreach ($feature_product as $key => $value): ?>
+								<li><b><?= $value['name']; ?> :</b> <?= $value['value']; ?></li>
+							<?php endforeach ?>
+							</ul>
+						<?php endif ?>
+					</div>
 
 			  </div>
 

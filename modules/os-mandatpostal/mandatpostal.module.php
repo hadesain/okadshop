@@ -22,6 +22,7 @@ function os_mandatpostal_install(){
 	$DB->query($query);
 }
 function mandatpostal_paymentdisplay(){
+	return;
 	$quotation_edit = _GET('quotation_edit'); 
 	if (!$quotation_edit) {
 		return;
@@ -89,7 +90,7 @@ function mandatpostal_paymentdisplay(){
 	<script type="text/javascript" src="<?= WebSite ?>modules/os-mandatpostal/assets/js/script.js"></script>
 	<?php
 }
-add_hook('sec_payment_list','mandatpostal_paymentdisplay');
+add_hook('sec_payment_list', 'os-mandatpostal', 'mandatpostal_paymentdisplay', 'Mandat postal payment display');
 
 
 

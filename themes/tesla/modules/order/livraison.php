@@ -12,6 +12,7 @@
       "id_country" => $_SESSION['id_country']
     );
     $CarrierList = getCarrierByOption($options); 
+   // var_dump($CarrierList);
     //var_dump($CarrierList[0][''])
   ?>
   <!-- Main content start here -->
@@ -43,14 +44,16 @@
 
 <?php execute_section_hooks('sec_carrierfront'); ?>
   <form method="POST" action="<?= WebSite ?>cart/paiement">
-   <div class="order_carrier_content">
+   
+   <?php if (is_array($CarrierList) && !empty($CarrierList)): ?>
+    <div class="order_carrier_content">
     <h3 class="carrier_title"><?= l("Choisissez votre mode de livraison", "tesla");?></h3>
      <div id="HOOK_BEFORECARRIER">
       <!-- <p id="dateofdelivery">Date approximative de livraison avec ce transporteur est entre le <span id="minimal"><b>Jeudi 10 Mars 2016</b></span> et <span id="maximal"><b>Vendredi 11 Mars 2016</b></span> <sup>*</sup></p> 
       <p style="font-size:10px;margin:0padding:0;"><sup>*</sup> avec un moyen de paiement direct (ex.: carte bancaire)</p>-->
     </div> 
-
-    <table class="std" id="carrierTable">
+    
+      <table class="std" id="carrierTable">
       <thead>
         <tr>
           <th class="carrier_action first_item"></th>
@@ -76,6 +79,24 @@
       <?php endforeach ?>
       </tbody>
     </table>
+
+     </div>
+
+      <p class="cart_navigation">
+        <input type="submit" name="Submitaddress" value="<?= l("Suivant", "tesla");?>" class="exclusive  pull-right">
+        <a class="button_large" href="<?= WebSite;?>cart/adresse/" title="<?= l("Précédent", "tesla");?>">« <?= l("Précédent", "tesla");?></a>
+      </p>
+
+    <?php else: ?>
+      <div class="alert alert-warning" role="alert"><?= l("Pas de Transporteur Disponible", "tesla");?></div>
+      <p class="cart_navigation">
+        <a class="button_large" href="<?= WebSite;?>cart/adresse/" title="<?= l("Précédent", "tesla");?>">« <?= l("Précédent", "tesla");?></a>
+      </p>
+     <?php endif; ?>   
+
+</form>
+
+
     <!-- <td class="carrier_price"><span class="price">8,37 €</span> TTC</td> -->
 <!--     <h3 class="recyclable_title">Emballage recyclé</h3>
     <div class="box">
@@ -95,13 +116,7 @@
     </p> -->
 
 
-  </div>
-
-  <p class="cart_navigation">
-    <input type="submit" name="Submitaddress" value="<?= l("Suivant", "tesla");?>" class="exclusive  pull-right">
-    <a class="button_large" href="<?= WebSite;?>cart/adresse/" title="<?= l("Précédent", "tesla");?>">« <?= l("Précédent", "tesla");?></a>
-  </p>
-</form>
+ 
 
 	<!--<p class="cart_navigation">
 	  <a class="exclusive standard-checkout pull-right" href="<?= WebSite;?>cart/paiement" title="Suivant">Suivant »</a> 

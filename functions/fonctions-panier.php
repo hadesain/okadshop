@@ -184,4 +184,36 @@ function confirmOrder($payment_methode,$status,$adress_fact,$adress_liv){
  else 
    return false;
 }
+
+function updatecart($idProduit,$qte,$id_dec=null){
+    $isNewDec = false;
+
+   if (creationPanier())
+   {
+      $positionProduit = array_search($idProduit,  $_SESSION['panier']['idProduit']);
+      /*if ($positionProduit !== false && $id_dec != null) {
+          $positionDec = array_search($id_dec,  $_SESSION['panier']['id_dec']);
+          if ($positionDec !== false) {
+            $positionProduit = $positionDec;
+          }else{
+            $isNewDec = true;
+          }
+      }*/
+
+      if ($positionProduit !== false)
+      {
+
+         if (is_numeric($qte)){
+            $_SESSION['panier']['qteProduit'][$positionProduit] = $qte;
+         }
+         if ($_SESSION['panier']['qteProduit'][$positionProduit] <= 0) {
+           supprimerArticle($idProduit);
+         }
+      }
+    return true;
+   }
+   else
+      return false;
+}
+
 ?>

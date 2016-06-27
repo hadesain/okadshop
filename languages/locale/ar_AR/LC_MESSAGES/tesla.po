@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-06-06 09:26+0000\n"
-"PO-Revision-Date: 2016-06-06 09:31+0000\n"
+"POT-Creation-Date: 2016-06-07 11:09+0000\n"
+"PO-Revision-Date: 2016-06-07 11:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -20,120 +20,120 @@ msgstr ""
 msgid "width"
 msgstr "عرض"
 
-#: footer.php:70
+#: footer.php:64
 msgid "Newsletter"
 msgstr "النشرة الإخبارية"
 
-#: footer.php:71
+#: footer.php:65
 msgid "Inscrivez-vous à notre newsletter pour recevoir des offres exclusives"
 msgstr "الاشتراك في النشرة الإخبارية لتلقي العروض الحصرية"
 
-#: footer.php:75 modules/order/cart.php:114
+#: footer.php:69 modules/order/cart.php:149
 msgid "Votre adresse mail"
 msgstr "البريد الإلكتروني الخاص بك"
 
-#: footer.php:77 modules/order/cart.php:116
+#: footer.php:71 modules/order/cart.php:151
 msgid "OK"
 msgstr "حسنا"
 
-#: footer.php:104 modules/account/history.php:87 modules/order/adresse.php:43 modules/order/capture.php:21 modules/order/cart.php:32 modules/order/cheque.php:27 modules/order/livraison.php:20 modules/order/livraison.php:23 modules/order/livraison.php:36 modules/order/order-confirmation.php:31 modules/order/paiement.php:31
+#: footer.php:98 modules/account/history.php:87 modules/order/adresse.php:43 modules/order/capture.php:21 modules/order/cart.php:32 modules/order/livraison.php:20 modules/order/livraison.php:23 modules/order/livraison.php:36 modules/order/order-confirmation.php:31 modules/order/paiement.php:31
 msgid "Livraison"
 msgstr "تسليم"
 
-#: footer.php:105
+#: footer.php:99
 msgid "Où que vous soyez, nous pouvons vous livrer !"
 msgstr "أينما كنت، يمكن أن نقدمها!"
 
-#: footer.php:106 footer.php:114 footer.php:122
+#: footer.php:100 footer.php:108 footer.php:116
 msgid "Cliquez ici pour en savoir plus"
 msgstr "اضغط هنا للمزيد"
 
-#: footer.php:106 footer.php:114 footer.php:122 footer.php:130 modules/product/product.php:231
+#: footer.php:100 footer.php:108 footer.php:116 footer.php:124 modules/product/product.php:231
 msgid "En savoir plus"
 msgstr "تعلم أكثر"
 
-#: footer.php:112
+#: footer.php:106
 msgid "Paiement sécurisé "
 msgstr "دفع امن "
 
-#: footer.php:113
+#: footer.php:107
 #, php-format
 msgid "Règlement 100% sécurisé !"
 msgstr ""
 
-#: footer.php:120
+#: footer.php:114
 msgid "Programme fidélité"
 msgstr "برنامج الولاء"
 
-#: footer.php:121
+#: footer.php:115
 msgid "Votre fidélité récompensée ! "
 msgstr "ولائك مكافأة! "
 
-#: footer.php:128
+#: footer.php:122
 msgid "Service client"
 msgstr "خدمة الزبائن"
 
-#: footer.php:129
+#: footer.php:123
 msgid "Notre service client est à votre disposition du Lundi au vendredi de 10h à 17h et le Samedi de 10 à 12h."
 msgstr "هي خدمة العملاء المتاحة من الاثنين إلى الجمعة من 10H إلى 17H والسبت من 10 إلى 12H."
 
-#: footer.php:135
-msgid "Grossiste/ fournisseur en artisanat marocain."
-msgstr "تاجر الجملة / المورد الحرفية المغربية."
+#: footer.php:129
+msgid "Grossiste/ fournisseur"
+msgstr "تاجر الجملة / المورد"
 
-#: footer.php:144
+#: footer.php:138
 msgid "Tous droits réservés"
 msgstr "جميع الحقوق محفوظة"
 
-#: header.php:68 modules/account/account.php:5 modules/account/account.php:52 modules/account/addresses.php:16 modules/account/addresses.php:61 modules/account/adresse.php:30 modules/account/discount.php:6 modules/account/discount.php:43 modules/account/history.php:7 modules/account/history.php:123 modules/account/identity.php:15 modules/account/identity.php:153 modules/account/invoices.php:7 modules/account/invoices.php:125
+#: header.php:87 modules/account/account.php:5 modules/account/account.php:52 modules/account/addresses.php:16 modules/account/addresses.php:61 modules/account/adresse.php:30 modules/account/discount.php:6 modules/account/discount.php:43 modules/account/history.php:7 modules/account/history.php:123 modules/account/identity.php:15 modules/account/identity.php:153 modules/account/invoices.php:7 modules/account/invoices.php:125
 #: modules/account/login.php:3 modules/account/loyalty-program.php:7 modules/account/loyalty-program.php:48 modules/account/myalerts.php:3 modules/account/myalerts.php:13 modules/account/order-follow.php:3 modules/account/order-follow.php:13 modules/account/order-slip.php:3 modules/account/order-slip.php:13 modules/account/password.php:56 modules/account/quotation.php:6 modules/account/quotation.php:15 modules/account/referralprogram-program.php:3
-#: modules/account/referralprogram-program.php:13 modules/account/register.php:9 modules/cms/cms.php:10 modules/order/adresse.php:26 modules/order/capture.php:4 modules/order/cart.php:10 modules/order/cheque.php:10 modules/order/livraison.php:19 modules/order/order-confirmation.php:14 modules/order/order-confirmation.php:44 modules/order/order.php:3 modules/order/paiement.php:13 modules/pages/contact.php:76 modules/pages/sitemap.php:7
-#: modules/pages/sitemap.php:50 modules/pages/sitemap.php:81 modules/product/category.php:49 modules/product/product.php:30 modules/search/search.php:15 views/new-products.php:54 views/nos-fabricant.php:6 views/promos.php:58 views/viewed-products.php:57
+#: modules/account/referralprogram-program.php:13 modules/account/register.php:9 modules/cms/cms.php:10 modules/order/adresse.php:26 modules/order/capture.php:4 modules/order/cart.php:10 modules/order/livraison.php:19 modules/order/order-confirmation.php:14 modules/order/order-confirmation.php:44 modules/order/order.php:3 modules/order/paiement.php:13 modules/pages/contact.php:76 modules/pages/sitemap.php:7 modules/pages/sitemap.php:50
+#: modules/pages/sitemap.php:81 modules/product/category.php:49 modules/product/product.php:30 modules/search/search.php:15 views/new-products.php:54 views/nos-fabricant.php:6 views/promos.php:58 views/viewed-products.php:57
 msgid "Accueil"
 msgstr "الرئيسية"
 
-#: header.php:69 header.php:199 modules/pages/contact.php:77 modules/pages/sitemap.php:88
+#: header.php:88 header.php:218 modules/pages/contact.php:77 modules/pages/sitemap.php:88
 msgid "Contact"
 msgstr "اتصال"
 
-#: header.php:70 modules/pages/sitemap.php:8 modules/pages/sitemap.php:11
+#: header.php:89 modules/pages/sitemap.php:8 modules/pages/sitemap.php:11
 msgid "Plan du site"
 msgstr "خريطة الموقع"
 
-#: header.php:103 modules/account/account.php:48
+#: header.php:122 modules/account/account.php:48
 msgid "Déconnexion"
 msgstr "تسجيل الخروج"
 
-#: header.php:105
+#: header.php:124
 msgid "Bienvenue"
 msgstr "مرحبا"
 
-#: header.php:106 modules/account/login.php:7 modules/account/login.php:77
+#: header.php:125 modules/account/login.php:7 modules/account/login.php:77
 msgid "Identifiez-vous"
 msgstr "تسجيل الدخول"
 
-#: header.php:108 header.php:197 modules/account/account.php:6 modules/account/account.php:9 modules/account/addresses.php:17 modules/account/adresse.php:31 modules/account/discount.php:7 modules/account/history.php:8 modules/account/identity.php:16 modules/account/invoices.php:8 modules/account/loyalty-program.php:8 modules/account/myalerts.php:4 modules/account/order-follow.php:4 modules/account/order-slip.php:4 modules/account/quotation.php:7
+#: header.php:127 header.php:216 modules/account/account.php:6 modules/account/account.php:9 modules/account/addresses.php:17 modules/account/adresse.php:31 modules/account/discount.php:7 modules/account/history.php:8 modules/account/identity.php:16 modules/account/invoices.php:8 modules/account/loyalty-program.php:8 modules/account/myalerts.php:4 modules/account/order-follow.php:4 modules/account/order-slip.php:4 modules/account/quotation.php:7
 #: modules/account/referralprogram-program.php:4
 msgid "Mon compte"
 msgstr "حسابي"
 
-#: header.php:121 header.php:122
+#: header.php:140 header.php:141
 msgid "Panier"
 msgstr "سلة المشتريات"
 
-#: header.php:137
+#: header.php:156
 msgid "Rechercher un produit..."
 msgstr "العثور على منتج ..."
 
-#: header.php:190
+#: header.php:209
 msgid "Nouveautés"
 msgstr "منتجات جدبدة"
 
-#: header.php:191 modules/pages/sitemap.php:22 views/promos.php:59 views/promos.php:62
+#: header.php:210 modules/pages/sitemap.php:22 views/promos.php:59 views/promos.php:62
 msgid "Promotions"
 msgstr "الترقيات"
 
-#: header.php:195 modules/pages/sitemap.php:87
+#: header.php:214 modules/pages/sitemap.php:87
 msgid "Créer un compte"
 msgstr "إفتح حساب"
 
@@ -234,7 +234,7 @@ msgstr "الإسم"
 msgid "Société"
 msgstr "شركة"
 
-#: modules/account/adresse.php:98 modules/account/register.php:280 modules/order/adresse.php:39 modules/order/capture.php:17 modules/order/cart.php:28 modules/order/cheque.php:23 modules/order/livraison.php:32 modules/order/order-confirmation.php:27 modules/order/paiement.php:27 modules/pages/contact.php:162
+#: modules/account/adresse.php:98 modules/account/register.php:280 modules/order/adresse.php:39 modules/order/capture.php:17 modules/order/cart.php:28 modules/order/livraison.php:32 modules/order/order-confirmation.php:27 modules/order/paiement.php:27 modules/pages/contact.php:162
 msgid "Adresse"
 msgstr "عنوان"
 
@@ -248,7 +248,7 @@ msgstr "مدينة"
 
 #: modules/account/adresse.php:121 modules/account/register.php:310 modules/pages/contact.php:195
 msgid "Pays"
-msgstr "البلد:"
+msgstr "البلد!ش"
 
 #: modules/account/adresse.php:145 modules/account/register.php:338
 msgid "Téléphone fixe"
@@ -322,7 +322,7 @@ msgstr "تاري"
 msgid "Prix total"
 msgstr "الثمن الجملي"
 
-#: modules/account/history.php:24 modules/account/invoices.php:24 modules/order/adresse.php:51 modules/order/capture.php:29 modules/order/cart.php:40 modules/order/cheque.php:31 modules/order/livraison.php:40 modules/order/paiement.php:35
+#: modules/account/history.php:24 modules/account/invoices.php:24 modules/order/adresse.php:51 modules/order/capture.php:29 modules/order/cart.php:40 modules/order/livraison.php:40 modules/order/paiement.php:35
 msgid "Paiement"
 msgstr "دفع"
 
@@ -358,7 +358,7 @@ msgstr "نتاج"
 msgid "Prix unitaire"
 msgstr "سعر الوحدة"
 
-#: modules/account/history.php:111 modules/order/cart.php:153 modules/order/paiement.php:110
+#: modules/account/history.php:111 modules/order/cart.php:134 modules/order/paiement.php:110
 msgid "Total TTC :"
 msgstr "المجموع الكلي:"
 
@@ -662,7 +662,7 @@ msgstr "تحذير ! سوف تدرس تطبيق فتح الحساب الخاص �
 msgid "Adresses"
 msgstr "عنوان"
 
-#: modules/order/adresse.php:35 modules/order/capture.php:13 modules/order/cart.php:20 modules/order/cheque.php:19 modules/order/livraison.php:28 modules/order/order-confirmation.php:23 modules/order/paiement.php:23
+#: modules/order/adresse.php:35 modules/order/capture.php:13 modules/order/cart.php:20 modules/order/livraison.php:28 modules/order/order-confirmation.php:23 modules/order/paiement.php:23
 msgid "Résumé"
 msgstr "ملخص"
 
@@ -690,11 +690,11 @@ msgstr "عنوانك التسليم"
 msgid "Votre adresse de facturation"
 msgstr "عنوان الفوترة"
 
-#: modules/order/adresse.php:147 modules/order/adresse.php:165 modules/order/cart.php:219 modules/order/livraison.php:101
+#: modules/order/adresse.php:147 modules/order/adresse.php:165 modules/order/cart.php:220 modules/order/livraison.php:101
 msgid "Suivant"
 msgstr "التالي"
 
-#: modules/order/adresse.php:148 modules/order/adresse.php:166 modules/order/cart.php:220
+#: modules/order/adresse.php:148 modules/order/adresse.php:166 modules/order/cart.php:221
 msgid "Continuer mes achats"
 msgstr "مواصلة التسوق"
 
@@ -730,93 +730,49 @@ msgstr "من المخزون"
 msgid "Supprimer ce produit"
 msgstr "حذف هذه المادة"
 
-#: modules/order/cart.php:110
-msgid "Utiliser un code promotionnel :"
-msgstr "استخدام الرمز الترويجي:"
-
-#: modules/order/cart.php:112
-msgid "Code promo:"
-msgstr "الرمز الترويجي:"
-
-#: modules/order/cart.php:132 modules/order/paiement.php:94
+#: modules/order/cart.php:113 modules/order/paiement.php:94
 msgid "Total produits HT :"
 msgstr "مجموع ضريبة الدخل:"
 
-#: modules/order/cart.php:136 modules/order/paiement.php:98
+#: modules/order/cart.php:117 modules/order/paiement.php:98
 msgid "Total livraison TTC :"
 msgstr "مجموع إنجاز ما يلي:"
 
-#: modules/order/cart.php:140 modules/order/paiement.php:102
+#: modules/order/cart.php:121 modules/order/paiement.php:102
 msgid "Taux TVA :"
 msgstr "معدل ضريبة القيمة المضافة:"
 
-#: modules/order/cart.php:144 modules/order/paiement.php:106
+#: modules/order/cart.php:125 modules/order/paiement.php:106
 msgid "Total TVA :"
 msgstr "مجموع الضريبة على القيمة المضافة:"
 
-#: modules/order/cart.php:218
+#: modules/order/cart.php:145
+msgid "Utiliser un code promotionnel :"
+msgstr "استخدام الرمز الترويجي:"
+
+#: modules/order/cart.php:147
+msgid "Code promo:"
+msgstr "الرمز الترويجي:"
+
+#: modules/order/cart.php:219
 msgid "actualiser le panier"
 msgstr "تحديث العربة"
 
-#: modules/order/cart.php:218
+#: modules/order/cart.php:219
 msgid "Actualiser le panier"
 msgstr "عربة تحديث"
 
-#: modules/order/cheque.php:11 modules/order/cheque.php:34
-msgid "Paiement par chèque"
-msgstr "يتدفقون"
+#: modules/order/livraison.php:47
+msgid "Choisissez votre mode de livraison"
+msgstr "اختيار طريقة التسليم"
 
-#: modules/order/cheque.php:14
-msgid "Récapitulatif de commande"
-msgstr "ملخص الطلب"
+#: modules/order/livraison.php:58
+msgid "Transporteur"
+msgstr "الناقل"
 
-#: modules/order/cheque.php:41
-msgid "Vous avez choisi de régler par chèque."
-msgstr "لقد اخترت الدفع عن طريق الاختيار."
-
-#: modules/order/cheque.php:42
-msgid "Voici un bref récapitulatif de votre commande :"
-msgstr "وفيما يلي ملخص مختصر لطلبك:"
-
-#: modules/order/cheque.php:49
-msgid "Le montant total de votre commande s'élève à"
-msgstr "المبلغ الإجمالي للطلبك يستحق"
-
-#: modules/order/cheque.php:49
-msgid "TTC"
-msgstr "€ 12،833.53 مع ضريبة القيمة المضافة"
-
-#: modules/order/cheque.php:50
-msgid "Nous acceptons plusieurs devises pour les chèques."
-msgstr "نحن نقبل بعملات متعددة لاجراء فحوص."
-
-#: modules/order/cheque.php:53
-msgid "Merci de choisir parmi les suivantes :"
-msgstr "شكرا للاختيار من بينها ما يلي:"
-
-#: modules/order/cheque.php:55
-msgid "Euro"
-msgstr "اليورو"
-
-#: modules/order/cheque.php:56
-msgid "Dollar"
-msgstr "دولار"
-
-#: modules/order/cheque.php:58
-msgid "L'ordre et l'adresse du chèque seront affichés sur la page suivante."
-msgstr "وسوف يتم نشر النظام وعنوان الاختيار على الصفحة التالية."
-
-#: modules/order/cheque.php:60
-msgid "Merci de confirmer votre commande en cliquant sur"
-msgstr "شكرا لك تأكيد النظام الخاص بك عن طريق النقر على"
-
-#: modules/order/cheque.php:60 modules/order/cheque.php:64
-msgid "Je confirme ma commande"
-msgstr "أؤكد طلبي"
-
-#: modules/order/cheque.php:65
-msgid "Autres moyens de paiement"
-msgstr "غيرها من المدفوعات"
+#: modules/order/livraison.php:59
+msgid "Information"
+msgstr "معلومات"
 
 #: modules/order/order-confirmation.php:15 modules/order/order-confirmation.php:18 modules/order/order.php:4
 msgid "Confirmation de commande"
