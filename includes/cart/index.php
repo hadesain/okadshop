@@ -33,7 +33,7 @@ $erreur = false;
 $action = (isset($_POST['action'])? $_POST['action']:  (isset($_GET['action'])? $_GET['action']:null )) ;
 if($action !== null)
 {
-   if(!in_array($action,array('ajout', 'suppression', 'refresh','getCart','refrechCartQtys')))
+   if(!in_array($action,array('ajout', 'suppression', 'refresh','getCart','refrechCartQtys','updateQteProduct')))
    $erreur=true;
 
    //récuperation des variables en POST ou GET
@@ -42,7 +42,9 @@ if($action !== null)
    $q = (isset($_POST['q'])? $_POST['q']:  (isset($_GET['q'])? $_GET['q']:null )) ;
    $t = (isset($_POST['t'])? $_POST['t']:  (isset($_GET['t'])? $_GET['t']:null )) ;
    $Qtys = (isset($_POST['Qtys'])? $_POST['Qtys']:  (isset($_GET['Qtys'])? $_GET['Qtys']:null )) ;
-
+   $idproduct = (isset($_POST['idproduct'])? $_POST['idproduct']:  (isset($_GET['idproduct'])? $_GET['idproduct']:null )) ;
+   $qty = (isset($_POST['qty'])? $_POST['qty']:  (isset($_GET['qty'])? $_GET['qty']:null )) ;
+   $dec = (isset($_POST['dec'])? $_POST['dec']:  (isset($_GET['dec'])? $_GET['dec']:null )) ;
    //Suppression des espaces verticaux
    $l = preg_replace('#\v#', '',$l);
    //On verifie que $p soit un float
@@ -88,6 +90,14 @@ if (!$erreur){
             modifierQTeArticle($key,$value);
          }
          break;
+      case 'updateQteProduct':
+           if (isset($_SESSION['user']) && $idproduct != null && $qty != null) {
+              $res = updatecart($idproduct,$qty,$dec);
+              if ($res) {
+                 echo 1;
+              } else echo 0;
+            } else echo 0;
+          break; 
       default:
          break;
    }

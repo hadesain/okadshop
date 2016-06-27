@@ -14,9 +14,8 @@ $floatdir = "right";
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<?= get_meta_data('description'); ?>" />
   <meta name="keywords" content="<?= get_meta_data('keywords'); ?>" />
-  <link rel="icon" type="image/png" href="<?= $themeDir; ?>images/favicon.png" />
-  <?php $meta_title = get_meta_data('title'); ?>
-  <title><?= (!empty($meta_title)) ? $meta_title :$hooks->select_mete_value("website_title"); ?></title>
+  <link rel="icon" type="image/png" href="<?= $themeDir; ?>images/favicon.png" /> 
+  <title><?= get_meta_data('title'); ?></title>
   <!-- CSS -->
   <link href="<?=$themeDir;?>css/bootstrap.min.css" rel="stylesheet">
   
@@ -40,34 +39,30 @@ $floatdir = "right";
     <!-- Load Bootstrap RTL theme from RawGit -->
     <link rel="stylesheet" href="<?=$themeDir;?>css/arabic-style.css">
   <?php endif ?>
-  
+   <link rel="stylesheet" href="<?=$themeDir;?>css/tesla.css">
   <script type="text/javascript">
     //Global JavaScript variable
     WebSite = '<?= WebSite; ?>';
+    CURRENCY  = '<?= CURRENCY; ?>';
   </script>
   <script src="<?= $themeDir;?>js/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.0-rc.1/jquery-ui.min.js" integrity="sha256-mFypf4R+nyQVTrc8dBd0DKddGB5AedThU73sLmLWdc0=" crossorigin="anonymous"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-75525205-1', 'auto');
-    ga('send', 'pageview');
-  </script>
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <script>
-    (function(w,d,s,g,js,fs){
-      g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
-      js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
-      js.src='https://apis.google.com/js/platform.js';
-      fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
-    }(window,document,'script'));
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62016326-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
+
   <?=os_head();?>
 </head>
 <body class="wrapper">
@@ -85,25 +80,28 @@ $floatdir = "right";
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="float:left;">
           <ul class="links">
             <li><a href="<?= WebSite;?>" title="<?=l("Accueil", "tesla");?>" class="selected"><?=l("Accueil", "tesla");?></span></a></li><!-- <i class="fa fa-home"></i><span>  -->
-            <li><a href="<?= WebSite;?>cms/contact" title="<?=l("Contact", "tesla");?>"><span> <?=l("Contact", "tesla");?></span></a></li><!-- <i class="fa fa-envelope"></i> -->
-            <li><a href="<?= WebSite;?>cms/sitemap" title="<?=l("Plan du site", "tesla");?>"><span> <?=l("Plan du site", "tesla");?></span></a></li><!-- <i class="fa fa-sitemap"></i> -->
+            <li><a href="<?= WebSite;?>contact" title="<?=l("Contact", "tesla");?>"><span> <?=l("Contact", "tesla");?></span></a></li><!-- <i class="fa fa-envelope"></i> -->
+            <li><a href="<?= WebSite;?>sitemap" title="<?=l("Plan du site", "tesla");?>"><span> <?=l("Plan du site", "tesla");?></span></a></li><!-- <i class="fa fa-sitemap"></i> -->
           </ul>
+
+          <?php 
+            $langs = $hooks->select('langs',array('*'),'WHERE active=1');
+            $currencies = $hooks->select('currencies',array('*'),'WHERE active=1');
+          ?>
 
           <div class="selectbox">
             <form action="" id="setCurrency" method="post">
               <select id="currency">
-                <option value="1">&euro;</option>
-                <option value="2" class="selected">$</option>
+                <?php if ($currencies): ?>
+                  <?php foreach ($currencies as $key => $cur): ?>
+                    <option value="<?=$cur['id'] ?>"><?=$cur['sign'] ?></option>
+                  <?php endforeach ?>
+                <?php endif ?>
               </select>
             </form>
           </div>
           <!--/ .selectbox  -->
-          <?php 
-            /*if (isset($_POST['lang_list'])) {
-              $_SESSION['code_lang'] = $_POST['lang_list'];
-            }*/
-            $langs = $hooks->select('langs',array('*'),'WHERE active=1');
-          ?>
+          
           <div class="selectbox">
             <form action="" id="lang_list_form" method="post">
               <select id="lang_list" name="lang_list">
@@ -128,24 +126,24 @@ $floatdir = "right";
           </ul><!--/ .links  -->
         </div><!--/ .col-sm-6  -->
       </div><!--/ .row -->
-
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <a href="<?= WebSite;?>" id="logo" title="">
-            <img class="logo" src="<?= $themeDir;?>images/logo.jpg" alt="">
+            <img class="logo" src="<?= $themeDir;?>images/logo.png" alt="">
           </a>
         </div><!--/ .col-sm-6  -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div id="shopping_cart">
               <a href="<?= WebSite;?>cart" title="<?=l("Panier", "tesla");?>">
                 <span class="cart_title"><?=l("Panier", "tesla");?></span> 
-                <span class="product_total_montant product_total" style="font-size: 16px;color: #a6754b;">
+                <span class="product_total_montant product_total" style="font-size: 16px; ">
                 <?php 
-                  if (function_exists('DevisMontantGlobal') && displayPrice()) {
-                     echo DevisMontantGlobal(). ' '.CURRENCY;
+                  if (function_exists('MontantGlobal')) {
+                     echo MontantGlobal();
                   }
                 ?> 
                 </span>
+                <span class="CURRENCY" style="font-size: 16px; "><?=CURRENCY; ?></span>
                 </span>
               </a>
             </div>
@@ -176,7 +174,7 @@ $floatdir = "right";
                 <a class="navbar-brand navbar-brand-home-menu" href="<?= WebSite;?>" class="active"><i class="fa fa-home"></i></a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
-                <?php $homeCategory = getcategoryByParent(2); ?>
+                <?php $homeCategory = getcategoryByParent(1); ?>
                 <ul class="nav navbar-nav">
                   <?php 
                   if ($homeCategory){
@@ -206,8 +204,8 @@ $floatdir = "right";
                   } 
                   ?>
                  
-                  <li class=""><a href="<?= WebSite; ?>views/new-products"><?=l("Nouveautés", "tesla");?></a></li>
-                  <li><a href="<?= WebSite; ?>views/promos"><?=l("Promotions", "tesla");?></a></li>
+                 <!--  <li class=""><a href="<?= WebSite; ?>views/new-products"><?=l("Nouveautés", "tesla");?></a></li>
+                  <li><a href="<?= WebSite; ?>views/promos"><?=l("Promotions", "tesla");?></a></li> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-<?=$floatdir;?>">
                   <?php if (!$cUser): ?>
@@ -215,7 +213,7 @@ $floatdir = "right";
                   <?php else: ?>
                     <li><a href="<?= WebSite; ?>account"><?=l("Mon compte", "tesla");?></a></li>
                   <?php endif ?>
-                  <li><a href="<?= WebSite; ?>cms/contact"><?=l("Contact", "tesla");?></a></li>
+                  <li><a href="<?= WebSite; ?>contact"><?=l("Contact", "tesla");?></a></li>
                 </ul>
               </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->

@@ -2662,7 +2662,7 @@ msgstr ""
 #: includes/plugins/users/users/data.php:218
 msgid ""
 "Félicitation votre compte a été bien crée. <br>Nous vous remercions de vous "
-"être inscrit(e) chez MarocArtiza.<br><br>"
+"être inscrit(e) chez OkadShop.<br><br>"
 msgstr ""
 
 #: includes/plugins/users/users/data.php:223
@@ -2743,7 +2743,7 @@ msgstr ""
 #: includes/plugins/users/users/data.php:451
 msgid ""
 "Félicitation votre compte a été bien crée. Nous vous remercions de vous être "
-"inscrit(e) chez MarocArtiza."
+"inscrit(e) chez OkadShop."
 msgstr ""
 
 #: includes/plugins/users/users/data.php:457

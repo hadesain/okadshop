@@ -93,4 +93,4 @@ function os_display_waiting_msgs(){
         </li>';
   print $html;
 }
-add_hook('sec_admin_bar','os_display_waiting_msgs', 'Display waiting messages in admin Bar.');
+add_hook('sec_admin_bar', 'os-contact', 'os_display_waiting_msgs', 'Display waiting messages in admin Bar.');

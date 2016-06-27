@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-06-06 09:26+0000\n"
-"PO-Revision-Date: 2016-06-06 09:26+0000\n"
+"POT-Creation-Date: 2016-06-07 11:09+0000\n"
+"PO-Revision-Date: 2016-06-07 11:09+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -20,79 +20,79 @@ msgstr ""
 msgid "width"
 msgstr ""
 
-#: footer.php:70
+#: footer.php:64
 msgid "Newsletter"
 msgstr ""
 
-#: footer.php:71
+#: footer.php:65
 msgid "Inscrivez-vous à notre newsletter pour recevoir des offres exclusives"
 msgstr ""
 
-#: footer.php:75 modules/order/cart.php:114
+#: footer.php:69 modules/order/cart.php:149
 msgid "Votre adresse mail"
 msgstr ""
 
-#: footer.php:77 modules/order/cart.php:116
+#: footer.php:71 modules/order/cart.php:151
 msgid "OK"
 msgstr ""
 
-#: footer.php:104 modules/account/history.php:87 modules/order/adresse.php:43
+#: footer.php:98 modules/account/history.php:87 modules/order/adresse.php:43
 #: modules/order/capture.php:21 modules/order/cart.php:32
-#: modules/order/cheque.php:27 modules/order/livraison.php:20
-#: modules/order/livraison.php:23 modules/order/livraison.php:36
-#: modules/order/order-confirmation.php:31 modules/order/paiement.php:31
+#: modules/order/livraison.php:20 modules/order/livraison.php:23
+#: modules/order/livraison.php:36 modules/order/order-confirmation.php:31
+#: modules/order/paiement.php:31
 msgid "Livraison"
 msgstr ""
 
-#: footer.php:105
+#: footer.php:99
 msgid "Où que vous soyez, nous pouvons vous livrer !"
 msgstr ""
 
-#: footer.php:106 footer.php:114 footer.php:122
+#: footer.php:100 footer.php:108 footer.php:116
 msgid "Cliquez ici pour en savoir plus"
 msgstr ""
 
-#: footer.php:106 footer.php:114 footer.php:122 footer.php:130
+#: footer.php:100 footer.php:108 footer.php:116 footer.php:124
 #: modules/product/product.php:231
 msgid "En savoir plus"
 msgstr ""
 
-#: footer.php:112
+#: footer.php:106
 msgid "Paiement sécurisé "
 msgstr ""
 
-#: footer.php:113
+#: footer.php:107
 #, php-format
 msgid "Règlement 100% sécurisé !"
 msgstr ""
 
-#: footer.php:120
+#: footer.php:114
 msgid "Programme fidélité"
 msgstr ""
 
-#: footer.php:121
+#: footer.php:115
 msgid "Votre fidélité récompensée ! "
 msgstr ""
 
-#: footer.php:128
+#: footer.php:122
 msgid "Service client"
 msgstr ""
 
-#: footer.php:129
+#: footer.php:123
 msgid ""
 "Notre service client est à votre disposition du Lundi au vendredi de 10h à "
 "17h et le Samedi de 10 à 12h."
 msgstr ""
 
-#: footer.php:135
-msgid "Grossiste/ fournisseur en artisanat marocain."
+#: footer.php:129
+msgid "Grossiste/ fournisseur"
 msgstr ""
 
-#: footer.php:144
+#: footer.php:138
 msgid "Tous droits réservés"
 msgstr ""
 
-#: header.php:68 modules/account/account.php:5 modules/account/account.php:52
+#: header.php:87 modules/account/account.php:5 modules/account/account.php:52
 #: modules/account/addresses.php:16 modules/account/addresses.php:61
 #: modules/account/adresse.php:30 modules/account/discount.php:6
 #: modules/account/discount.php:43 modules/account/history.php:7
@@ -109,8 +109,8 @@ msgstr ""
 #: modules/account/referralprogram-program.php:13
 #: modules/account/register.php:9 modules/cms/cms.php:10
 #: modules/order/adresse.php:26 modules/order/capture.php:4
-#: modules/order/cart.php:10 modules/order/cheque.php:10
-#: modules/order/livraison.php:19 modules/order/order-confirmation.php:14
+#: modules/order/cart.php:10 modules/order/livraison.php:19
+#: modules/order/order-confirmation.php:14
 #: modules/order/order-confirmation.php:44 modules/order/order.php:3
 #: modules/order/paiement.php:13 modules/pages/contact.php:76
 #: modules/pages/sitemap.php:7 modules/pages/sitemap.php:50
@@ -121,28 +121,28 @@ msgstr ""
 msgid "Accueil"
 msgstr ""
 
-#: header.php:69 header.php:199 modules/pages/contact.php:77
+#: header.php:88 header.php:218 modules/pages/contact.php:77
 #: modules/pages/sitemap.php:88
 msgid "Contact"
 msgstr ""
 
-#: header.php:70 modules/pages/sitemap.php:8 modules/pages/sitemap.php:11
+#: header.php:89 modules/pages/sitemap.php:8 modules/pages/sitemap.php:11
 msgid "Plan du site"
 msgstr ""
 
-#: header.php:103 modules/account/account.php:48
+#: header.php:122 modules/account/account.php:48
 msgid "Déconnexion"
 msgstr ""
 
-#: header.php:105
+#: header.php:124
 msgid "Bienvenue"
 msgstr ""
 
-#: header.php:106 modules/account/login.php:7 modules/account/login.php:77
+#: header.php:125 modules/account/login.php:7 modules/account/login.php:77
 msgid "Identifiez-vous"
 msgstr ""
 
-#: header.php:108 header.php:197 modules/account/account.php:6
+#: header.php:127 header.php:216 modules/account/account.php:6
 #: modules/account/account.php:9 modules/account/addresses.php:17
 #: modules/account/adresse.php:31 modules/account/discount.php:7
 #: modules/account/history.php:8 modules/account/identity.php:16
@@ -153,24 +153,24 @@ msgstr ""
 msgid "Mon compte"
 msgstr ""
 
-#: header.php:121 header.php:122
+#: header.php:140 header.php:141
 msgid "Panier"
 msgstr ""
 
-#: header.php:137
+#: header.php:156
 msgid "Rechercher un produit..."
 msgstr ""
 
-#: header.php:190
+#: header.php:209
 msgid "Nouveautés"
 msgstr ""
 
-#: header.php:191 modules/pages/sitemap.php:22 views/promos.php:59
+#: header.php:210 modules/pages/sitemap.php:22 views/promos.php:59
 #: views/promos.php:62
 msgid "Promotions"
 msgstr ""
 
-#: header.php:195 modules/pages/sitemap.php:87
+#: header.php:214 modules/pages/sitemap.php:87
 msgid "Créer un compte"
 msgstr ""
 
@@ -297,9 +297,9 @@ msgstr ""
 
 #: modules/account/adresse.php:98 modules/account/register.php:280
 #: modules/order/adresse.php:39 modules/order/capture.php:17
-#: modules/order/cart.php:28 modules/order/cheque.php:23
-#: modules/order/livraison.php:32 modules/order/order-confirmation.php:27
-#: modules/order/paiement.php:27 modules/pages/contact.php:162
+#: modules/order/cart.php:28 modules/order/livraison.php:32
+#: modules/order/order-confirmation.php:27 modules/order/paiement.php:27
+#: modules/pages/contact.php:162
 msgid "Adresse"
 msgstr ""
 
@@ -398,8 +398,8 @@ msgstr ""
 
 #: modules/account/history.php:24 modules/account/invoices.php:24
 #: modules/order/adresse.php:51 modules/order/capture.php:29
-#: modules/order/cart.php:40 modules/order/cheque.php:31
-#: modules/order/livraison.php:40 modules/order/paiement.php:35
+#: modules/order/cart.php:40 modules/order/livraison.php:40
+#: modules/order/paiement.php:35
 msgid "Paiement"
 msgstr ""
 
@@ -438,7 +438,7 @@ msgstr ""
 msgid "Prix unitaire"
 msgstr ""
 
-#: modules/account/history.php:111 modules/order/cart.php:153
+#: modules/account/history.php:111 modules/order/cart.php:134
 #: modules/order/paiement.php:110
 msgid "Total TTC :"
 msgstr ""
@@ -779,9 +779,8 @@ msgid "Adresses"
 msgstr ""
 
 #: modules/order/adresse.php:35 modules/order/capture.php:13
-#: modules/order/cart.php:20 modules/order/cheque.php:19
-#: modules/order/livraison.php:28 modules/order/order-confirmation.php:23
-#: modules/order/paiement.php:23
+#: modules/order/cart.php:20 modules/order/livraison.php:28
+#: modules/order/order-confirmation.php:23 modules/order/paiement.php:23
 msgid "Résumé"
 msgstr ""
 
@@ -810,12 +809,12 @@ msgid "Votre adresse de facturation"
 msgstr ""
 
 #: modules/order/adresse.php:147 modules/order/adresse.php:165
-#: modules/order/cart.php:219 modules/order/livraison.php:101
+#: modules/order/cart.php:220 modules/order/livraison.php:101
 msgid "Suivant"
 msgstr ""
 
 #: modules/order/adresse.php:148 modules/order/adresse.php:166
-#: modules/order/cart.php:220
+#: modules/order/cart.php:221
 msgid "Continuer mes achats"
 msgstr ""
 
@@ -853,92 +852,48 @@ msgstr ""
 msgid "Supprimer ce produit"
 msgstr ""
 
-#: modules/order/cart.php:110
-msgid "Utiliser un code promotionnel :"
-msgstr ""
-
-#: modules/order/cart.php:112
-msgid "Code promo:"
-msgstr ""
-
-#: modules/order/cart.php:132 modules/order/paiement.php:94
+#: modules/order/cart.php:113 modules/order/paiement.php:94
 msgid "Total produits HT :"
 msgstr ""
 
-#: modules/order/cart.php:136 modules/order/paiement.php:98
+#: modules/order/cart.php:117 modules/order/paiement.php:98
 msgid "Total livraison TTC :"
 msgstr ""
 
-#: modules/order/cart.php:140 modules/order/paiement.php:102
+#: modules/order/cart.php:121 modules/order/paiement.php:102
 msgid "Taux TVA :"
 msgstr ""
 
-#: modules/order/cart.php:144 modules/order/paiement.php:106
+#: modules/order/cart.php:125 modules/order/paiement.php:106
 msgid "Total TVA :"
 msgstr ""
 
-#: modules/order/cart.php:218
+#: modules/order/cart.php:145
+msgid "Utiliser un code promotionnel :"
+msgstr ""
+
+#: modules/order/cart.php:147
+msgid "Code promo:"
+msgstr ""
+
+#: modules/order/cart.php:219
 msgid "actualiser le panier"
 msgstr ""
 
-#: modules/order/cart.php:218
+#: modules/order/cart.php:219
 msgid "Actualiser le panier"
 msgstr ""
 
-#: modules/order/cheque.php:11 modules/order/cheque.php:34
-msgid "Paiement par chèque"
+#: modules/order/livraison.php:47
+msgid "Choisissez votre mode de livraison"
 msgstr ""
 
-#: modules/order/cheque.php:14
-msgid "Récapitulatif de commande"
+#: modules/order/livraison.php:58
+msgid "Transporteur"
 msgstr ""
 
-#: modules/order/cheque.php:41
-msgid "Vous avez choisi de régler par chèque."
-msgstr ""
-
-#: modules/order/cheque.php:42
-msgid "Voici un bref récapitulatif de votre commande :"
-msgstr ""
-
-#: modules/order/cheque.php:49
-msgid "Le montant total de votre commande s'élève à"
-msgstr ""
-
-#: modules/order/cheque.php:49
-msgid "TTC"
-msgstr ""
-
-#: modules/order/cheque.php:50
-msgid "Nous acceptons plusieurs devises pour les chèques."
-msgstr ""
-
-#: modules/order/cheque.php:53
-msgid "Merci de choisir parmi les suivantes :"
-msgstr ""
-
-#: modules/order/cheque.php:55
-msgid "Euro"
-msgstr ""
-
-#: modules/order/cheque.php:56
-msgid "Dollar"
-msgstr ""
-
-#: modules/order/cheque.php:58
-msgid "L'ordre et l'adresse du chèque seront affichés sur la page suivante."
-msgstr ""
-
-#: modules/order/cheque.php:60
-msgid "Merci de confirmer votre commande en cliquant sur"
-msgstr ""
-
-#: modules/order/cheque.php:60 modules/order/cheque.php:64
-msgid "Je confirme ma commande"
-msgstr ""
-
-#: modules/order/cheque.php:65
-msgid "Autres moyens de paiement"
+#: modules/order/livraison.php:59
+msgid "Information"
 msgstr ""
 
 #: modules/order/order-confirmation.php:15

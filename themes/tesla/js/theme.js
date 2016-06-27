@@ -70,6 +70,13 @@
 		});
 
 
+		$('select#contact_objet').change(function(){
+			var description = $(this).find(":selected").attr('data-description');
+			$('.contact_objet_label').html('<i class="fa fa-comment-o" aria-hidden="true"></i>  '+description);
+		});
+
+
+
 	});
 	$(window).load(function(){
       $('.flexslider').flexslider({

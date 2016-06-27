@@ -69,26 +69,36 @@ if( isset($_GET['slug']) && $_GET['slug'] == 'os-analytics' ){
 function os_analytics_install(){
   //save_mete_value
   global $common;
+  $common->save_mete_value('analytics_table_id', '');
   $common->save_mete_value('analytics_client_id', '');
 }
 
 
 //register scripts
-global $common;
-$common->os_inject_scripts( WebSite."modules/os-analytics/js/chart.min.js", 1);
-$common->os_inject_scripts( WebSite."modules/os-analytics/js/moment.min.js", 2);
-$common->os_inject_scripts( WebSite."modules/os-analytics/js/view-selector2.js", 3);
-$common->os_inject_scripts( WebSite."modules/os-analytics/js/date-range-selector.js", 4);
-$common->os_inject_scripts( WebSite."modules/os-analytics/js/active-users.js", 5);
-$common->os_inject_scripts( WebSite."modules/os-analytics/js/os-analytics.js", 6);
-
-
+if( defined('_OS_ADMIN_') && count($_GET) === 0 
+  || isset($_GET['page']) && $_GET['page'] === "analytics"
+  ){
+  global $common;
+  $common->os_inject_scripts( WebSite."modules/os-analytics/js/chart.min.js", 1);
+  $common->os_inject_scripts( WebSite."modules/os-analytics/js/moment.min.js", 2);
+  $common->os_inject_scripts( WebSite."modules/os-analytics/js/view-selector2.js", 3);
+  //$common->os_inject_scripts( WebSite."modules/os-analytics/js/date-range-selector.js", 4);
+  $common->os_inject_scripts( WebSite."modules/os-analytics/js/active-users.js", 5);
+  $common->os_inject_scripts( WebSite."modules/os-analytics/js/os-analytics.js", 6);
+  //set client and table id
+  $table_id = $common->select_mete_value('analytics_table_id');
+  $client_id = $common->select_mete_value('analytics_client_id');
+  //append to body
+  $doc = new DOMDocument();
+  $doc->loadHTML('<html><body><input type="hidden" value="'.$table_id .'" id="table_id"><input type="hidden" value="'.$client_id.'" id="client_id"></body></html>');
+  echo $doc->saveHTML();
+}
 
 //ga_this_last_week
 function ga_this_last_week(){
-  $html = '<div class="col-md-6 omega">
+  $html = '<div class="col-md-6">
     <div class="panel panel-default">
-      <div class="panel-heading">This Week vs Last Week - By sessions.</div>
+      <div class="panel-heading">'. l("Cette semaine vs la semaine dernière - Par sessions.", "analytics") .'</div>
       <div class="panel-body">
         <div id="week-chart"></div>
         <div id="week-legendr"></div>
@@ -97,13 +107,13 @@ function ga_this_last_week(){
   </div>';
   return $html;
 }
-add_hook('sec_dashboard','ga_this_last_week', 'This Week vs Last Week - By sessions.');
+add_hook('sec_dashboard', 'os-analytics', 'ga_this_last_week', l("Cette semaine vs la semaine dernière - Par sessions.", "analytics") );
 
 //ga_this_last_year
 function ga_this_last_year(){
-  $html = '<div class="col-md-6 omega">
+  $html = '<div class="col-md-6">
     <div class="panel panel-default">
-      <div class="panel-heading">This Year vs Last Year - By users.</div>
+      <div class="panel-heading">'. l("Cette année vs année dernière - par les utilisateurs.", "analytics") .'</div>
       <div class="panel-body">
         <div id="year-chart"></div>
         <div id="year-legend"></div>
@@ -112,13 +122,13 @@ function ga_this_last_year(){
   </div>';
   return $html;
 }
-add_hook('sec_dashboard','ga_this_last_year', 'This Year vs Last Year - By users.');
+add_hook('sec_dashboard', 'os-analytics', 'ga_this_last_year', l("Cette année vs année dernière - par les utilisateurs.", "analytics"));
 
 //ga_top_browser
 function ga_top_browser(){
-  $html = '<div class="col-md-6 omega">
+  $html = '<div class="col-md-6">
     <div class="panel panel-default">
-      <div class="panel-heading">Top Browsers - By pageview.</div>
+      <div class="panel-heading">'. l("Top Navigateurs - Par page vue.", "analytics") .'</div>
       <div class="panel-body">
         <div id="navigators-chart"></div>
         <div id="navigators-legend"></div>
@@ -127,13 +137,13 @@ function ga_top_browser(){
   </div>';
   return $html;
 }
-add_hook('sec_dashboard','ga_top_browser', 'Top Browsers - By pageview.');
+add_hook('sec_dashboard', 'os-analytics', 'ga_top_browser', l("Top Navigateurs - Par page vue.", "analytics"));
 
 //ga_top_countries
 function ga_top_countries(){
-  $html = '<div class="col-md-6 omega">
+  $html = '<div class="col-md-6">
     <div class="panel panel-default">
-      <div class="panel-heading">Top Countries by Sessions - Last 30 days.</div>
+      <div class="panel-heading">'. l("Principaux pays par Sessions - 30 derniers jours.", "analytics") .'</div>
       <div class="panel-body">
         <div id="countries-chart"></div>
         <div id="countries-legend"></div>
@@ -142,13 +152,13 @@ function ga_top_countries(){
   </div>';
   return $html;
 }
-add_hook('sec_dashboard','ga_top_countries', 'Top Countries by Sessions - Last 30 days.');
+add_hook('sec_dashboard', 'os-analytics', 'ga_top_countries', l("Principaux pays par Sessions - 30 derniers jours.", "analytics"));
 
 //ga_site_traffic
 function ga_site_traffic(){
-  $html = '<div class="col-md-6 omega">
+  $html = '<div class="col-md-6">
     <div class="panel panel-default">
-      <div class="panel-heading">Site Traffic - Sessions vs. Users - last 30 days.</div>
+      <div class="panel-heading">'. l("Le trafic du site - Sessions vs Utilisateurs - 30 derniers jours.", "analytics") .'</div>
       <div class="panel-body">
         <div id="siteTraffic"></div>
       </div>
@@ -156,53 +166,18 @@ function ga_site_traffic(){
   </div>';
   return $html;
 }
-add_hook('sec_dashboard','ga_site_traffic', 'Site Traffic - Sessions vs. Users - last 30 days.');
+add_hook('sec_dashboard', 'os-analytics', 'ga_site_traffic', l("Le trafic du site - Sessions vs Utilisateurs - 30 derniers jours.", "analytics"));
 
 //ga_most_popular
 function ga_most_popular(){
-  $html = '<div class="col-md-6 omega">
+  $html = '<div class="col-md-6">
     <div class="panel panel-default">
-      <div class="panel-heading">Most Popular Pageviews - last 30 days.</div>
+      <div class="panel-heading">'. l("La plupart des Vues Popular page - 30 derniers jours.", "analytics") .'</div>
       <div class="panel-body">
-        <div id="siteTraffic"></div>
+        <div id="pageViews"></div>
       </div>
     </div>
   </div>';
   return $html;
 }
-add_hook('sec_dashboard','ga_most_popular', 'Most Popular Pageviews - last 30 days');
-
-// <h3 id="view-name"></h3>
-
-
-// <div id="embed-api-auth"></div>
-// <div id="view-selector"></div>
-// <div id="active-users"></div>
-
-  // <!-- This Week vs Last Week - By sessions -->
-  // <div id="week-chart"></div>
-  // <div id="week-legendr"></div>
-
-  // <!-- This Year vs Last Year - By users -->
-  // <div id="year-chart"></div>
-  // <div id="year-legend"></div>
-
-  // <!-- Top Browsers - By pageview -->
-  // <div id="navigators-chart"></div>
-  // <div id="navigators-legend"></div>
-
-  // <!-- Top Countries by Sessions - Last 30 days -->
-  // <div id="countries-chart"></div>
-  // <div id="countries-legend"></div>
-
-// <!-- Toutes les données du site Web -->
-// <div class="Titles-sub">Comparing sessions from <b id="date-rang"></b></div>
-// <div id="sessions-chart"></div>
-// <div id="sessions-range-selector"></div>
-
-  // <hr>
-  // <!-- Site Traffic - Sessions vs. Users - last 30 days -->
-  // <div id="siteTraffic"></div>
-
-  // <!-- Most Popular Demos/Tools - Pageviews - last 30 days -->
-  // <div id="pageViews"></div>
+add_hook('sec_dashboard', 'os-analytics', 'ga_most_popular', l("La plupart des Vues Popular page - 30 derniers jours.", "analytics"));

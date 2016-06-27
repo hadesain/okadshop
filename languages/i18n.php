@@ -48,10 +48,27 @@ if (!isset($_POST['lang_list']) && ( (isset($_GET['lang']) && !isset($_SESSION['
 //echo $_SESSION['code_lang'];
 //some vars
 $os_encoding = 'UTF-8';
-$os_lang = (isset($_SESSION['code_lang'])) ? $_SESSION['code_lang'] : "fr_FR";
+//get language from cookie in backoffice
+if( defined('_OS_ADMIN_') )
+{
+  $os_lang = (isset($_COOKIE['default_lang'])) ? $_COOKIE['default_lang'] : "fr_FR";
+}else{
+  global $common;
+  $def_lang = $common->select('langs',array('code'),' WHERE default_lang = 1');
+  if (isset($def_lang[0])) {
+    $def_lang = $def_lang[0]['code'];
+  }else{
+    $def_lang =  "fr_FR";
+  }
+
+  if (!isset($_SESSION['code_lang'])) {
+    $_SESSION['code_lang'] = $def_lang;
+  }
+  $os_lang = (isset($_SESSION['code_lang'])) ? $_SESSION['code_lang'] : $def_lang;
+  $direction = (isset($_SESSION['code_lang']) && $_SESSION['code_lang'] == "ar_AR") ? 'rtl' : "ltr";
+  $lang_sign = isset($_SESSION['code_lang']) ? explode('_', $_SESSION['code_lang'])[0] : 'fr';
+}
 putenv("LANGUAGE=$os_lang");
-$direction = (isset($_SESSION['code_lang']) && $_SESSION['code_lang'] == "ar_AR") ? 'rtl' : "ltr";
-$lang_sign = isset($_SESSION['code_lang']) ? explode('_', $_SESSION['code_lang'])[0] : 'fr';
 $os_direction = "ltr";
 
 // gettext setup

@@ -323,8 +323,8 @@
 }
 
 .payment_module {
-  border: 1px solid #ebded2 !important;
-  border-bottom-color: #dbc3af !important;
+  border: 1px solid #ebded2  ;
+  border-bottom-color: #dbc3af  ;
   border-radius: 2px !important;
   background: #f9f9f9;
   font-size: 14px;

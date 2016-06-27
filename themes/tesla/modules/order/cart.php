@@ -53,7 +53,11 @@
         </tr>
       </thead>
       <tbody>
-
+      <?php  
+         $total_ht = 0;
+         $tva = 0;
+         $discount = 0;
+      ?>
       	<?php for ($i=0; $i < $nbProduct; $i++): ?>
       	<?php 
       		$product = getProductByid($CART['idProduit'][$i]);
@@ -61,6 +65,17 @@
       			continue;
       		}
       		$img = getThumbnail($product['id'],'80x80');
+          $price_ht = floatval($CART['qteProduit'][$i]*$CART['prixProduit'][$i]);
+          $total_ht   .= $price_ht;
+          if (is_numeric($product['rate'])) {
+            $tva .= ($product['rate'] * $price_ht / 100);
+          }
+          
+          if ($product['discount_type'] == "0") {
+            $discount .= ($product['discount'] * $price_ht / 100);
+          }else if ($product['discount_type'] == "1") {
+            $discount .= ($product['discount']);
+          }
       	?>
 
         <tr class="" id="product_<?= $product['id'];?>"><!-- first_item odd -->
@@ -71,7 +86,7 @@
           </td>
           <td class="cart_description">
             <p class="product_name">
-              <a href="#" title=""><?= $product['name']; ?></a>
+              <a href="<?= WebSite.'product/'.$product['id'].'-'.$product['permalink']; ?>" title=""><?= $product['name']; ?></a>
             </p>
             <?= substr(strip_tags($product['short_description']), 0,100) ; ?>...
             <p class="bold"><?= l("Référence :", "tesla");?> <?= $product['reference']; ?></p>
@@ -82,18 +97,26 @@
 			<?php endif ?>
             <p class="delete"><a class="quantity_delete ajax_delete_product_cart" href="#" id="" rel="nofollow" title="" l="<?= $product['id']; ?>"><?= l("Supprimer ce produit", "tesla");?></a></p>
           </td>
-          <td class="cart_unit"><span class="price" id=""><?= $product['sell_price']; ?> €</span></td>
+          <td class="cart_unit"><span class="price" id=""><?= $product['sell_price']; ?> <?= CURRENCY; ?></span></td>
+         
           <td class="cart_quantity">
             <div class="cart_quantity_button" id="cart_quantity_button">
-              <a class="cart_quantity_up" href="javascript:;"  id="" rel="nofollow" title="">
-                <i class="fa fa-plus-square"></i>
-              </a> 
+              <a class="cart_quantity_up" href="javascript:;"  id="" rel="nofollow" title=""><i class="fa fa-plus-square"></i> </a> 
               <a class="cart_quantity_down" href="javascript:;" id="" rel="nofollow" title=""><i class="fa fa-minus-square"></i></a>
             </div>
             <input name="" type="hidden" value="1"> 
             <input autocomplete="off" class="cart_quantity_input" name="quantity" size="2" type="text" value="<?= $CART['qteProduit'][$i]; ?>" l="<?= $CART['idProduit'][$i]?>">
           </td>
-          <td class="cart_total"><span class="price" id="total_product_price"><?= $CART['qteProduit'][$i]*$CART['prixProduit'][$i]; ?> €</span></td>
+          <!-- <td class="col-md-2">
+            <div class="input-group" pid="<?= $product['id']; ?>" dec="">
+              <input type="number" min="1" step="1"  value="<?= $CART['qteProduit'][$i]; ?>" class="form-control" value="" style="padding: 16px 0;font-size: 15px;">
+              <span class="input-group-btn">
+               <a class="btn btn-default refresh_qty_product" type="button"><i class="fa fa-refresh"></i></a>
+              </span>
+            </div>
+          </td> -->
+
+          <td class="cart_total"><span class="price" id="total_product_price"><?= $CART['qteProduit'][$i]*$CART['prixProduit'][$i]; ?>  <?= CURRENCY; ?></span></td>
         </tr>
         <?php endfor ?>
       </tbody>
@@ -104,27 +127,42 @@
     <div class="row">
       
       <?php 
-      	$totalht = MontantGlobal();
+      	//$totalht = MontantGlobal();
+        $total_ht =  $total_ht - $discount;
+        $total_ttc =  $total_ht + $tva;
       ?>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         <table class="table table-bordered borer0" id="summary_total">
           <tbody>
             <tr class="cart_total_price">
-              <td><?= l("Total produits HT :", "tesla");?></td>
-              <td class="price" id="total_product"><?= $totalht; ?> €</td>
+              <td><?= l("Total HT :", "tesla");?></td>
+              <td class="price" id="total_product"><?= $total_ht; ?> <?= CURRENCY; ?></td>
             </tr>
-            <tr class="cart_total_delivery">
+            <!-- <tr class="cart_total_delivery">
               <td><?= l("Total livraison TTC :", "tesla");?></td>
               <td class="price" id="total_shipping">--</td>
-            </tr>
-            <tr class="">
-              <td><?= l("Taux TVA :", "tesla");?></td>
-              <td class="price" id="">--</td>
-            </tr>
-            <tr class="cart_total_price">
+            </tr> -->
+
+             <?php if ($discount>0): ?>
+              <tr class="cart_total_price">
+                <td><?= l("Total Remise :", "tesla");?></td>
+                <td class="price" id=""><?= $discount; ?> <?= CURRENCY; ?></td>
+              </tr>
+            <?php endif ?>
+            
+            <?php if ($tva>0): ?>
+              <tr class="cart_total_price">
+                <td><?= l("Total TVA :", "tesla");?></td>
+                <td class="price" id=""><?= $tva; ?> <?= CURRENCY; ?></td>
+              </tr>
+            <?php endif ?>
+            
+            
+
+           <!--  <tr class="cart_total_price">
               <td><?= l("Total TVA :", "tesla");?></td>
               <td class="price" id="total_price_without_tax">--</td>
-            </tr>
+            </tr> -->
             
 <!--             <tr class="cart_total_tax">
               <td>Total taxes :</td>
@@ -132,7 +170,7 @@
             </tr> -->
             <tr class="cart_total_price">
               <td class="total_price" id="total_price_label"><?= l("Total TTC :", "tesla");?></td>
-              <td class="total_price price" id="total_price_amount"><?= $totalht; ?> €</td>
+              <td class="total_price price" id="total_price_amount"><?= $total_ttc; ?> <?= CURRENCY; ?></td>
             </tr>
           </tbody>
         </table>
@@ -216,7 +254,7 @@
     </form> -->
 
     <p class="cart_navigation">
-      <a class="exclusive" href="javascript:;" title="<?= l("actualiser le panier", "tesla");?>" id="cart_panel_refresh"><?= l("Actualiser le panier", "tesla");?></a> 
+      <!-- <a class="exclusive" href="javascript:;" title="<?= l("actualiser le panier", "tesla");?>" id="cart_panel_refresh"><?= l("Actualiser le panier", "tesla");?></a>  -->
       <a class="exclusive standard-checkout pull-right" href="<?= WebSite;?>cart/adresse/" title="Suivant"><?= l("Suivant", "tesla");?> »</a> 
       <a class="button_large" href="<?= WebSite;?>" title="<?= l("Continuer mes achats", "tesla");?>">« <?= l("Continuer mes achats", "tesla");?></a>
     </p>

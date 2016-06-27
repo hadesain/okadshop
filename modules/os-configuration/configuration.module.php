@@ -36,9 +36,10 @@ function page_configuration_settings(){
 	$output = "";
 	$msg = "";
 	global $hooks;
-	
-	$logo_src = WebSite."themes/".themeFolder."/images/logo.jpg";
+	$logo_src = WebSite."themes/".themeFolder."/images/logo.png";
 	$favicon = WebSite."themes/".themeFolder."/images/favicon.png";
+
+
 
 	if ($_POST['validate_setting']) {
 
@@ -48,7 +49,7 @@ function page_configuration_settings(){
 			$ext = pathinfo($filename, PATHINFO_EXTENSION);
 			if(in_array($ext,$allowed) ) {
 				$uploaddir = "../themes/".themeFolder."/images/";
-				$uploadfile = $uploaddir . "logo.jpg";
+				$uploadfile = $uploaddir . "logo.png";
 				if (move_uploaded_file($_FILES['logo']['tmp_name'], $uploadfile)) {
 					$msg =  '<div class="alert alert-info" role="alert">'.l('Bien Enregistré','configuration').'</div>';
 				}
@@ -104,6 +105,8 @@ function page_configuration_settings(){
 					    <h3 class="panel-title"></h3>
 					  </div>
 					  <div class="panel-body">'.$msg .'
+
+					  <div class="alert alert-success">Rafraicher la page après le changement de logo</div>
 					  	
 					  	<div class="form-group">
 							<label for="owner">'.l('Logo de site','configuration').'</label>

@@ -71,6 +71,24 @@ function page_oslang_product_translate(){
 					<textarea class="form-control summernote" name="long_description"></textarea>
 				</div>
 			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" for="meta_title"><?= l('meta title','oslang'); ?></label>  
+				<div class="col-md-4">
+					<input id="meta_title" name="meta_title" type="text" class="form-control" value="">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" for="meta_description"><?= l('meta description','oslang'); ?></label>
+				<div class="col-md-8">      
+					<textarea class="form-control " name="meta_description"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label" for="meta_keywords"><?= l('meta keywords','oslang'); ?></label>
+				<div class="col-md-8">      
+					<textarea class="form-control " name="meta_keywords"></textarea>
+				</div>
+			</div>
 		</div>
 		<div class="panel-footer">
 			<a href="#" class="btn btn-default"><?= l('Annuler','oslang'); ?></a>
@@ -103,19 +121,25 @@ function page_oslang_product_translate(){
 			$('input[name="name"]').val('');
 			$('textarea[name="short_description"]').code('');
 			$('textarea[name="long_description"]').code('');
+			$('textarea[name="meta_title"]').code('');
+			$('textarea[name="meta_description"]').code('');
+			$('textarea[name="meta_keywords"]').code('');
 			submit_ajax_form("oslang_product_form", function(data) {
 				if( data["result"] ){
-					console.log();
+					console.log(data["result"]);
 					$('input[name="name"]').val(data['result']['name']);
 					$('textarea[name="short_description"]').code(data['result']['short_description']);
 					$('textarea[name="long_description"]').code(data['result']['long_description']);
+					$('input[name="meta_title"]').val(data['result']['meta_title']);
+					$('textarea[name="meta_description"]').text(data['result']['meta_description']);
+					$('textarea[name="meta_keywords"]').text(data['result']['meta_keywords']);
 				}
 	    });
 			return false;
 		});
 
 		//
-	/*	$("#search").keyup(function(){
+		/*$("#search").keyup(function(){
 			$('#action').val('search');
 			submit_ajax_form("oslang_product_form", function(data) {
 				if( data["result"] ){

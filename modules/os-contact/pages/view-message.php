@@ -391,16 +391,16 @@ $(document).ready(function(){
 		if (choice == false) return;
 		var id_dir = $(this).data('dir');
 		$.ajax({
-      type: "POST",
-      data: {id_dir:id_dir},
-      url: '../modules/os-contact/ajax/delete-dir.php',
-      success: function(data){
-				//message de notif
-				$.bootstrapGrowl("<?=l('Le dossier a été supprimer.', 'contact');?>" , {type: 'info',align: 'right'});
-				window.location.href="?module=modules&slug=os-contact&page=view-message&from=<?=$from;?>&id_dir=1";
-				location.reload();
-      }
-    });
+	      type: "POST",
+	      data: {id_dir:id_dir},
+	      url: '../modules/os-contact/ajax/delete-dir.php',
+	      success: function(data){
+					//message de notif
+					$.bootstrapGrowl("<?=l('Le dossier a été supprimer.', 'contact');?>" , {type: 'info',align: 'right'});
+					window.location.href="?module=modules&slug=os-contact&page=view-message&from=<?=$from;?>&id_dir=1";
+					location.reload();
+	      }
+	    });
 	});
 
 

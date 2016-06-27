@@ -10,6 +10,8 @@ function nv_getnewProduct($day,$LIMIT = null){
     }
     $res = $DB->query($sql);
     $res = $res->fetchAll(PDO::FETCH_ASSOC);
+    $product = new product();
+    $res = $product->oslang_migrate_product($res,true);
     return $res;
   } catch (Exception $e) {
     return false;

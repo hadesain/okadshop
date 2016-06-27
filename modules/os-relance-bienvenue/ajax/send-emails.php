@@ -51,15 +51,15 @@ if( isset($cron) && $cron['active'] == "1"){
 		if($rows = $DB->query($query)){
 		  $customers = $rows->fetchAll(PDO::FETCH_ASSOC);
 		  if( !empty($customers) ){
-		  	$headers  = "From: Maroc Artisana < no-reply@maroc-artiza.com>\r\n";
+		  	$headers  = "From: OkadShop < no-reply@okadshop.com>\r\n";
 				$headers .= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-				$Sender 	= "no-reply@maroc-artiza.com";
+				$Sender 	= "no-reply@okadshop.com";
 				foreach ($customers as $key => $customer) {
 		  		$Receiver = $customer['email'];
-			    $Subject 	= "Maroc Artisana - Bienvenue";
+			    $Subject 	= "OkadShop - Bienvenue";
 			    $Content  = 'Bonjour '. $customer['gender'] .' '. $customer['last_name'] .',<br><br>';
-			    $Content .= 'Merci d\'avoir inscrit sur la boutique Maroc Artisanat en ligne.<br>';
+			    $Content .= 'Merci d\'avoir inscrit sur la boutique OkadShopt en ligne.<br>';
 			    $Content .= 'Consulter nos promotions sur cette page : /views/promos.<br><br>';//'.5.'
 		    	$Content .= 'Cordialement.';
 					mail($Receiver,$Subject,$Content,$headers);

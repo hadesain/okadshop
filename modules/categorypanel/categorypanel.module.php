@@ -16,19 +16,24 @@ $hooks->register_module('categorypanel', $data);
 
 function categorypanel_display(){
 	global $hooks;
-	$homeCat = getcategoryByName('Accueil');
+/*	$homeCat = getcategoryByName('Accueil');
+	var_dump($homeCat);*/
 	$output = "";
+	$list = getPanelCatList(1,true,true);
+	if (!$list || empty($list)) {
+		return;
+	}
 	$output .= "<style type='text/css'>#panel-category>li{font-weight: 700;}</style>";
 	$output .='<!-- Catégories panel -->
 				<div class="panel">
 				  <div class="panel-heading">
 				    <h3 class="panel-title">'.l("Catégories",'categorypanel').'</h3>
 				  </div>
-				  <div class="panel-body" style="padding: 5px;">
-				    <ul id="panel-category">'.getPanelCatList($homeCat['id'],true,true).'</ul>
+				  <div class="panel-body" style="">
+				    <ul id="panel-category">'.$list.'</ul>
 				  </div>
-				</div>';
+				</div>';/*padding: 5px;*/
 	echo $output;
 }
-add_hook('sec_sidebar','categorypanel_display', 'Display category panel');
+add_hook('sec_sidebar', 'categorypanel', 'categorypanel_display', 'Display category panel');
 

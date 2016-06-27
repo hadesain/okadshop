@@ -171,4 +171,4 @@ function page_slidersettings() {
 
 	echo $output;
 }
-add_hook('sec_home_center','superslider_displayFront', 'super slider display Front');
+add_hook('sec_home_center', 'superslider', 'superslider_displayFront', 'super slider display Front');

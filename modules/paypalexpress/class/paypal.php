@@ -48,8 +48,8 @@ class PayPal {
 	private $API_PASSWORD = "";
 	private $API_SIGNATURE = "";
 
-	const PP_RETURN = WebSite."modules/paypalexpress/paypal.php";
-	const PP_CANCEL =  WebSite."modules/paypalexpress/paypal.php";
+	const PP_RETURN = "modules/paypalexpress/paypal.php";
+	const PP_CANCEL =  "modules/paypalexpress/paypal.php";
 
 
 	private $endpoint;
@@ -114,11 +114,12 @@ class PayPal {
 	 * @return array error info
 	 */
 	public function doExpressCheckout($amount, $desc, $invoice='', $currency='USD'){
+
 		$data = array(
 		'PAYMENTACTION' =>'Sale',
 		'AMT' =>$amount,
-		'RETURNURL' => self::PP_RETURN,
-		'CANCELURL'  => self::PP_CANCEL,
+		'RETURNURL' => WebSite.self::PP_RETURN,
+		'CANCELURL'  => WebSite.self::PP_CANCEL,
 		'DESC'=>$desc,
 		'NOSHIPPING'=>"1",
 		'ALLOWNOTE'=>"1",
