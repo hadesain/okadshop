@@ -1,0 +1,80 @@
+/* ===============================
+ * My Account 
+ * ==============================*/
+.my-account {
+  border: 1px solid #ebded2;
+  border-bottom-color: #dbc3af;
+  border-radius: 2px;
+  background: #f9f9f9;
+  padding: 15px;
+}
+
+.my-account li {
+  border: 1px solid #ebded2;
+  border-bottom-color: #dbc3af;
+  border-radius: 2px;
+  background: #fcfcfc;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 10px 15px;
+}
+
+.my-account li:before {
+  content: "\f0da";
+  font-family: 'FontAwesome';
+  font-weight: 300;
+  font-size: 12px;
+  float: left;
+  margin: 0 5px 0 -8px;
+}
+
+.my-account .logout,.my-account .logout a {
+  color: #a6754b;
+}
+
+.my-account li.logout:before,p.logout:before {
+  content: "\f011";
+  font-family: 'FontAwesome';
+  font-weight: 300;
+  font-size: 18px;
+  float: left;
+  margin: -1px 5px 0 -8px;
+}
+
+.footer_links {
+  clear: both;
+  margin: 20px 0;
+}
+
+.footer_links li {
+  font-weight: 700;
+  padding: 2px 0 !important;
+}
+
+.footer_links li:before {
+  content: "\f0da";
+  font-family: 'FontAwesome';
+  font-weight: 300;
+  float: left;
+  margin: 0 2px 0 -2px;
+}
+
+/* Adresses */
+.address .address_update {
+  margin-top: 10px;
+}
+
+.address .address_update:before,.address .address_delete:before {
+  content: "\f0da";
+  font-family: 'FontAwesome';
+  font-weight: 300;
+  float: left;
+  margin: -1px 2px 0 -2px;
+}
+
+.address .address_title {
+  color: #a6754b;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 5px 10px 10px;
+}

@@ -1,0 +1,22 @@
+/* Custom CSS for TESLA*/
+#summary th,table th,#order_step .step_current .number, #order_step .step_current_end .number, #order_step .step_done .number{
+	background: #8A8A8B;
+    color: #fff;
+    border-color: #ADADAE;
+	text-shadow: none;
+}
+#footer .links ul li a:hover,a:focus, a:hover, a:active,#productscategory .productscategory_price,.product-list.list .lnk_view,.product-list.list .lnk_view:hover, .product_list.list .lnk_view:focus, .product_list.list .lnk_view:active,#cart_block dl .price,.payment_module,table,.addresses,.address,.cart_navigation, .address_add, form.std .submit,#order_step .step_line,#order_step .step_current, #order_step .step_current_end,.CURRENCY,.product_total,.products_block .price,.my-account .logout, .my-account .logout a,#footer #services .title,.address .address_title,.breadcrumb>.active,table .price, table .price-shipping, table .price-discount, table .delivery_option_price, table td.carrier_price,#order_step li,#order_step a,h1, h2, h3, h4, h5, h6{
+	color: #8A8A8B;
+	border-color: #ADADAE;
+	text-shadow: none;
+}
+#order_step .number{
+	background: #ADADAE;
+    color: #fff;
+    border-color: #ADADAE;
+    text-shadow: none;
+}
+.product-list.list .box1,table#compare_shipping_form th, table td,.order_carrier_content,.my-account,.my-account li{
+	border-color: #ADADAE;
+	text-shadow: none;
+}

@@ -1,0 +1,63 @@
+/* 
+ * START RESPONSIVE DESIGN
+ * ===============================================
+ * Write all code Above this
+ * @media queries
+ * ===============================================
+ */
+/* For phones */
+@media (max-width: 767px) {
+	#footer{
+		text-align: center;
+	}
+	#footer #services .box, 
+	#footer .cards img, 
+	#footer .description{
+    width: 90%;
+	}
+	.cm-center{
+		float: none;
+  	margin: 0px auto;
+	}
+	
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width:991px) {
+	#footer{
+		text-align: center;
+	}
+	#footer #services .box,  
+	#footer .description{
+    width: 90%;
+	}
+	.company_infos, .informations, .products, .about{
+		margin-bottom: 20px;
+	}
+	.cm-center{
+		float: none;
+  	margin: 0px auto;
+	}
+}
+
+/* For desktops */
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 1140px;
+  }
+}
+/* flex slider */
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 10px;
+  }
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 10px;
+  }
+}
