@@ -1,0 +1,2482 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-30 12:05+0000\n"
+"PO-Revision-Date: 2016-05-30 12:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../admin\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: includes/plugins\n"
+"X-Poedit-SearchPath-1: includes/ajax\n"
+"X-Poedit-SearchPath-2: adminbar.php\n"
+"X-Poedit-SearchPath-3: adminmenu.php\n"
+"X-Poedit-SearchPath-4: footer.php\n"
+"X-Poedit-SearchPath-5: header.php\n"
+"X-Poedit-SearchPath-6: index.php\n"
+"X-Poedit-SearchPath-7: includes/classes/modules/init.php\n"
+"X-Poedit-SearchPath-8: includes/classes/tables/tables.class.php\n"
+
+#: adminbar.php:19
+msgid "OKADSHOP CMS"
+msgstr "OKADSHOP CMS"
+
+#: adminbar.php:55 includes/plugins/general/dashboard/list.php:155
+msgid "Bonjour"
+msgstr "Halo"
+
+#: adminbar.php:58
+msgid "Mon Compte"
+msgstr "moje konto"
+
+#: adminbar.php:60
+msgid "Ma Boutique"
+msgstr "Mój sklep"
+
+#: adminbar.php:61
+msgid "Voir le Profile"
+msgstr "Zobacz profil"
+
+#: adminbar.php:62
+msgid "Déconnexion"
+msgstr "Wyloguj się"
+
+#: adminmenu.php:10
+msgid "En Ligne"
+msgstr "online"
+
+#: includes/ajax/c/form.php:74
+msgid "La Catégorie a été bien mise à jour."
+msgstr "Klasa była dobrze aktualizowana."
+
+#: includes/ajax/c/form.php:83
+msgid "La Catégorie a été bien ajouter."
+msgstr "Klasa była dobrze dodać."
+
+#: includes/ajax/invoices/form/carrier.php:47 includes/ajax/orders/form/carrier.php:47
+msgid "Le Transporteur a été mise à jour."
+msgstr "Przewoźnik został zaktualizowany."
+
+#: includes/ajax/invoices/form/product.php:56 includes/ajax/orders/form/product.php:56
+msgid "Mettre à jour"
+msgstr "aktualizacja"
+
+#: includes/ajax/invoices/form/product.php:57 includes/ajax/orders/form/product.php:57
+msgid "Supprimer ce produit"
+msgstr "Usuń ten artykuł"
+
+#: includes/ajax/invoices/refresh/total.php:47 includes/ajax/orders/refresh/total.php:47 includes/plugins/orders/invoices/data.php:191 includes/plugins/orders/orders/data.php:204
+msgid "Total produits HT"
+msgstr "Wszystkich produktów HT"
+
+#: includes/ajax/invoices/refresh/total.php:52 includes/ajax/orders/refresh/total.php:52 includes/plugins/orders/invoices/data.php:196 includes/plugins/orders/invoices/list.php:31
+#: includes/plugins/orders/orders/data.php:209 includes/plugins/orders/orders/list.php:32
+msgid "Remise globale"
+msgstr "rabat ogółem"
+
+#: includes/ajax/invoices/refresh/total.php:59 includes/ajax/orders/refresh/total.php:59 includes/plugins/orders/invoices/data.php:202 includes/plugins/orders/invoices/list.php:32
+#: includes/plugins/orders/orders/data.php:215 includes/plugins/orders/orders/list.php:33
+msgid "Bon de réduction"
+msgstr "talon"
+
+#: includes/ajax/invoices/refresh/total.php:66 includes/ajax/orders/refresh/total.php:66 includes/plugins/orders/invoices/data.php:208 includes/plugins/orders/invoices/list.php:33
+#: includes/plugins/orders/orders/data.php:221 includes/plugins/orders/orders/list.php:34
+msgid "Avoir"
+msgstr "mieć"
+
+#: includes/ajax/invoices/refresh/total.php:73 includes/ajax/orders/refresh/total.php:73 includes/plugins/cart/cart/list.php:19 includes/plugins/orders/invoices/data.php:214
+#: includes/plugins/orders/orders/data.php:227
+msgid "Code promo"
+msgstr "kupon"
+
+#: includes/ajax/invoices/refresh/total.php:79 includes/ajax/orders/refresh/total.php:79 includes/plugins/orders/invoices/data.php:219 includes/plugins/orders/invoices/data.php:393
+#: includes/plugins/orders/orders/data.php:232 includes/plugins/orders/orders/data.php:406
+msgid "Frais de transport"
+msgstr "koszty transportu"
+
+#: includes/ajax/invoices/refresh/total.php:83 includes/ajax/orders/refresh/total.php:83 includes/plugins/orders/invoices/data.php:223 includes/plugins/orders/orders/data.php:236
+msgid "TOTAL HT"
+msgstr "RAZEM HT"
+
+#: includes/ajax/invoices/refresh/total.php:87 includes/ajax/orders/refresh/total.php:87
+msgid "Acompte"
+msgstr "zaliczka"
+
+#: includes/ajax/invoices/refresh/total.php:91 includes/ajax/orders/refresh/total.php:91
+msgid "Solde"
+msgstr "równowaga"
+
+#: includes/ajax/invoices/refresh/total.php:95 includes/ajax/orders/refresh/total.php:95 includes/plugins/orders/invoices/data.php:235 includes/plugins/orders/orders/data.php:248
+msgid "Poids total"
+msgstr "całkowita waga"
+
+#: includes/ajax/m/form.php:60
+msgid "Le Fabricant a été bien mise à jour."
+msgstr "Producent został również zaktualizowany."
+
+#: includes/ajax/m/form.php:69
+msgid "Le Fabricant a été bien ajouter."
+msgstr "Producent był dobrze dodać."
+
+#: includes/ajax/modules/hook-disable.php:15 includes/ajax/modules/hook-enable.php:15 includes/ajax/modules/module_disable.php:20 includes/ajax/modules/module_enable.php:20
+#: includes/ajax/modules/module_install.php:132
+msgid "Opération Effectué"
+msgstr "Sporządzono operacji"
+
+#: includes/ajax/modules/hook-filter.php:40
+msgid "Aucun Hook Trouvé."
+msgstr "No Hook Found."
+
+#: includes/ajax/products/delete-attachment.php:17
+msgid "Attachment was removed."
+msgstr "Załącznik został usunięty."
+
+#: includes/ajax/products/delete-declinaison.php:14
+msgid "Opération Effectué."
+msgstr "Sporządzono sprawa."
+
+#: includes/ajax/products/delete-image.php:33
+msgid "Image was deleted."
+msgstr "Obraz został usunięty."
+
+#: includes/classes/modules/init.php:30
+msgid "Tableau de bord"
+msgstr "tablica rozdzielcza"
+
+#: includes/classes/modules/init.php:32
+msgid "Catalogue"
+msgstr "katalog"
+
+#: includes/classes/modules/init.php:33
+msgid "Liste des Produits"
+msgstr "Lista Produktów"
+
+#: includes/classes/modules/init.php:34
+msgid "Catégories"
+msgstr "Kategorie"
+
+#: includes/classes/modules/init.php:35 includes/plugins/products/manufacturers/data.php:48
+msgid "Fabricants"
+msgstr "producenci"
+
+#: includes/classes/modules/init.php:36
+msgid "Attributs et Valeurs"
+msgstr "Atrybuty i wartości"
+
+#: includes/classes/modules/init.php:37 includes/plugins/products/products/data.php:464
+msgid "Caractéristiques"
+msgstr "specyfikacje"
+
+#: includes/classes/modules/init.php:38
+msgid "Mots clés (Tags)"
+msgstr "Słowa kluczowe (tagi)"
+
+#: includes/classes/modules/init.php:40 includes/classes/modules/init.php:41 includes/plugins/general/dashboard/list.php:191 includes/plugins/general/dashboard/list.php:264
+#: includes/plugins/general/dashboard/list.php:272 includes/plugins/users/users/data.php:349
+msgid "Commandes"
+msgstr "polecenia"
+
+#: includes/classes/modules/init.php:42 includes/plugins/general/dashboard/list.php:200 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:273
+msgid "Factures"
+msgstr "faktury"
+
+#: includes/classes/modules/init.php:44 includes/plugins/general/dashboard/list.php:173
+msgid "Clients"
+msgstr "klientela"
+
+#: includes/classes/modules/init.php:45
+msgid "Liste des Clients"
+msgstr "Lista Klientów"
+
+#: includes/classes/modules/init.php:47
+msgid "Groups des Clients"
+msgstr "Grupy gości"
+
+#: includes/classes/modules/init.php:49
+msgid "Promotions"
+msgstr "promocje"
+
+#: includes/classes/modules/init.php:50
+msgid "Règles panier"
+msgstr "zasady koszyk"
+
+#: includes/classes/modules/init.php:52
+msgid "Livraison"
+msgstr "dostawa"
+
+#: includes/classes/modules/init.php:53 includes/plugins/general/dashboard/list.php:209
+msgid "Transporteurs"
+msgstr "przewoźnicy"
+
+#: includes/classes/modules/init.php:54
+msgid "Ajouter un transport"
+msgstr "Dodaj transportu"
+
+#: includes/classes/modules/init.php:56
+msgid "Localisation"
+msgstr "lokalizacja"
+
+#: includes/classes/modules/init.php:57 includes/plugins/localisation/taxes_rules_group/data.php:184 includes/plugins/localisation/taxes_rules_group/data.php:222 includes/plugins/orders/invoices/data.php:258
+#: includes/plugins/orders/invoices/data.php:381 includes/plugins/orders/orders/data.php:271 includes/plugins/orders/orders/data.php:394 includes/plugins/users/users/data.php:415
+#: includes/plugins/users/users/list.php:32
+msgid "Pays"
+msgstr "kraj"
+
+#: includes/classes/modules/init.php:58 includes/plugins/localisation/currencies/data.php:83
+msgid "Devises"
+msgstr "Waluty"
+
+#: includes/classes/modules/init.php:59 includes/plugins/localisation/zones/data.php:80
+msgid "Zones"
+msgstr "obszary"
+
+#: includes/classes/modules/init.php:60 includes/plugins/localisation/taxes/data.php:81 includes/plugins/localisation/taxes_rules_group/data.php:197 includes/plugins/localisation/taxes_rules_group/data.php:223
+#: includes/plugins/shipping/shipping/data.php:369
+msgid "Taxes"
+msgstr "podatki"
+
+#: includes/classes/modules/init.php:61 includes/plugins/localisation/taxes_rules_group/data.php:160
+msgid "Règles de taxes"
+msgstr "Zasady podatki"
+
+#: includes/classes/modules/init.php:63
+msgid "Préférences"
+msgstr "preferencje"
+
+#: includes/classes/modules/init.php:64
+msgid "Produits Nouveaux"
+msgstr "Nowe produkty"
+
+#: includes/classes/modules/init.php:66
+msgid "Modules et Services"
+msgstr "Moduły i usługi"
+
+#: includes/classes/modules/init.php:67 includes/plugins/modules/modules/modules-directory.php:90
+msgid "Liste des Modules"
+msgstr "Lista modułów"
+
+#: includes/classes/modules/init.php:68
+msgid "Modules Positions"
+msgstr "Pozycje modułów"
+
+#: includes/classes/modules/init.php:70
+msgid "Pages"
+msgstr "strony"
+
+#: includes/classes/modules/init.php:71
+msgid "Liste des Pages"
+msgstr "Lista stron"
+
+#: includes/classes/modules/init.php:72
+msgid "Catégories des Pages"
+msgstr "Kategorie stron"
+
+#: includes/classes/modules/init.php:74
+msgid "Template"
+msgstr "szablon"
+
+#: includes/classes/tables/tables.class.php:313 includes/plugins/products/manufacturers/data.php:113 includes/plugins/shipping/shipping/data.php:263
+msgid "activé"
+msgstr "aktywowany"
+
+#: includes/classes/tables/tables.class.php:317
+msgid "desactivé"
+msgstr "zdeaktywowanej"
+
+#: includes/classes/tables/tables.class.php:341 includes/plugins/users/users/data.php:491
+msgid "Télécharger le fichier"
+msgstr "Pobierz plik"
+
+#: includes/classes/tables/tables.class.php:341
+msgid "Télécharger"
+msgstr "pobieranie"
+
+#: includes/classes/tables/tables.class.php:344
+msgid "Fichier introuvable"
+msgstr "Nie znaleziono pliku"
+
+#: includes/classes/tables/tables.class.php:349 includes/classes/tables/tables.class.php:353
+msgid "Deplacer en bas"
+msgstr "opuszczać"
+
+#: includes/classes/tables/tables.class.php:351 includes/classes/tables/tables.class.php:354
+msgid "Deplacer en haut"
+msgstr "Przesuń w górę"
+
+#: includes/classes/tables/tables.class.php:366
+msgid "Editer"
+msgstr "Edycja"
+
+#: includes/classes/tables/tables.class.php:366
+msgid "Edit"
+msgstr "Edycja"
+
+#: includes/classes/tables/tables.class.php:371
+msgid "View"
+msgstr "widok"
+
+#: includes/classes/tables/tables.class.php:375
+msgid "Invoice"
+msgstr "faktura"
+
+#: includes/classes/tables/tables.class.php:379
+msgid "Download"
+msgstr "Pobierz"
+
+#: includes/classes/tables/tables.class.php:383
+msgid "Delete"
+msgstr "usunąć"
+
+#: includes/plugins/cart/cart/data.php:153 includes/plugins/cart/cart/data.php:164 includes/plugins/cart/cart/data.php:207
+msgid "Informations"
+msgstr "informacja"
+
+#: includes/plugins/cart/cart/data.php:154
+msgid "Conditions"
+msgstr "Warunki"
+
+#: includes/plugins/cart/cart/data.php:155 includes/plugins/cart/cart/data.php:362 includes/plugins/localisation/taxes_rules_group/data.php:225 includes/plugins/orders/invoices/data.php:121
+#: includes/plugins/orders/invoices/data.php:165 includes/plugins/orders/invoices/data.php:289 includes/plugins/orders/orders/data.php:133 includes/plugins/orders/orders/data.php:178
+#: includes/plugins/orders/orders/data.php:302 includes/plugins/products/attributes/list.php:15 includes/plugins/products/categories/list.php:15 includes/plugins/products/manufacturers/list.php:19
+#: includes/plugins/products/products/data.php:1282 includes/plugins/products/products/data.php:1374 includes/plugins/products/tags/list.php:15 includes/plugins/products/values/list.php:15
+#: includes/plugins/users/groups/list.php:11
+msgid "Actions"
+msgstr "Zdjęcie"
+
+#: includes/plugins/cart/cart/data.php:168 includes/plugins/products/attributes/list.php:13 includes/plugins/products/categories/list.php:13 includes/plugins/products/manufacturers/list.php:16
+#: includes/plugins/products/products/data.php:504 includes/plugins/products/products/data.php:1145 includes/plugins/products/tags/list.php:13 includes/plugins/products/values/list.php:13
+#: includes/plugins/users/users/list.php:29
+msgid "Nom"
+msgstr "nazwa"
+
+#: includes/plugins/cart/cart/data.php:174 includes/plugins/localisation/taxes_rules_group/data.php:210 includes/plugins/localisation/taxes_rules_group/data.php:224
+#: includes/plugins/products/categories/data.php:72 includes/plugins/products/manufacturers/data.php:72 includes/plugins/products/products/data.php:565 includes/plugins/products/products/data.php:1346
+#: includes/plugins/products/products/data.php:1373
+msgid "Description"
+msgstr "opis"
+
+#: includes/plugins/cart/cart/data.php:180
+msgid "Code"
+msgstr "kod"
+
+#: includes/plugins/cart/cart/data.php:185
+msgid "Générer"
+msgstr "generowania"
+
+#: includes/plugins/cart/cart/data.php:191 includes/plugins/products/products/data.php:528
+msgid "État"
+msgstr "stan"
+
+#: includes/plugins/cart/cart/data.php:199 includes/plugins/cart/cart/data.php:354 includes/plugins/cart/cart/data.php:452 includes/plugins/localisation/currencies/data.php:135
+#: includes/plugins/localisation/taxes/data.php:109 includes/plugins/localisation/taxes_rules_group/data.php:248 includes/plugins/localisation/zones/data.php:100 includes/plugins/products/categories/data.php:119
+#: includes/plugins/products/manufacturers/data.php:119 includes/plugins/products/products/data.php:579 includes/plugins/products/products/data.php:643 includes/plugins/products/products/data.php:786
+#: includes/plugins/products/products/data.php:818 includes/plugins/products/products/data.php:863 includes/plugins/products/products/data.php:1187 includes/plugins/products/products/data.php:1245
+#: includes/plugins/products/products/data.php:1321 includes/plugins/products/products/data.php:1397 includes/plugins/shipping/shipping/data.php:332 includes/plugins/shipping/shipping/data.php:463
+#: includes/plugins/shipping/shipping/data.php:549 includes/plugins/shipping/shipping/data.php:606 includes/plugins/users/users/data.php:456 includes/plugins/users/users/data.php:533
+#: includes/plugins/users/users/data.php:677 includes/plugins/users/users/data.php:696 includes/plugins/users/users/data.php:716 includes/plugins/users/users/data.php:811 includes/plugins/users/users/data.php:886
+msgid "Annuler"
+msgstr "anulować"
+
+#: includes/plugins/cart/cart/data.php:200 includes/plugins/cart/cart/data.php:355 includes/plugins/cart/cart/data.php:453 includes/plugins/localisation/taxes_rules_group/data.php:135
+#: includes/plugins/localisation/taxes_rules_group/data.php:249 includes/plugins/products/categories/data.php:120 includes/plugins/products/manufacturers/data.php:120
+#: includes/plugins/products/products/data.php:426 includes/plugins/products/products/data.php:580 includes/plugins/products/products/data.php:644 includes/plugins/products/products/data.php:787
+#: includes/plugins/products/products/data.php:819 includes/plugins/products/products/data.php:864 includes/plugins/products/products/data.php:1116 includes/plugins/products/products/data.php:1188
+#: includes/plugins/products/products/data.php:1246 includes/plugins/products/products/data.php:1322 includes/plugins/products/products/data.php:1398 includes/plugins/shipping/shipping/data.php:220
+#: includes/plugins/shipping/shipping/data.php:333 includes/plugins/shipping/shipping/data.php:464 includes/plugins/shipping/shipping/data.php:550 includes/plugins/shipping/shipping/data.php:607
+#: includes/plugins/users/users/data.php:305 includes/plugins/users/users/data.php:313
+msgid "Sauvegarder et rester"
+msgstr "Zapisz i pobyt"
+
+#: includes/plugins/cart/cart/data.php:210
+msgid "Limiter à un seul client"
+msgstr "Ograniczenie do jednego klienta"
+
+#: includes/plugins/cart/cart/data.php:213
+msgid "Sélectionnez un Client"
+msgstr "Wybierz klienta"
+
+#: includes/plugins/cart/cart/data.php:229
+msgid "Valide"
+msgstr "ważny"
+
+#: includes/plugins/cart/cart/data.php:232
+msgid "Du"
+msgstr "z"
+
+#: includes/plugins/cart/cart/data.php:241
+msgid "Au"
+msgstr "Au"
+
+#: includes/plugins/cart/cart/data.php:248 includes/plugins/cart/cart/list.php:21
+msgid "Montant minimum"
+msgstr "minimalny"
+
+#: includes/plugins/cart/cart/data.php:253 includes/plugins/cart/cart/data.php:374 includes/plugins/products/products/data.php:950
+msgid "TTC"
+msgstr "TTC"
+
+#: includes/plugins/cart/cart/data.php:258
+msgid "Quantité totale disponible"
+msgstr "Całkowita ilość dostępna"
+
+#: includes/plugins/cart/cart/data.php:264
+msgid "Quantité disponible pour chaque utilisateur"
+msgstr "Ilość dostępna dla każdego użytkownika"
+
+#: includes/plugins/cart/cart/data.php:270
+msgid "Restrictions"
+msgstr "ograniczenia"
+
+#: includes/plugins/cart/cart/data.php:273
+msgid "Sélection de transporteurs"
+msgstr "Wybór nośników"
+
+#: includes/plugins/cart/cart/data.php:299
+msgid "Sélection de groupes de clients"
+msgstr "Wybór grup klientów"
+
+#: includes/plugins/cart/cart/data.php:325
+msgid "Sélection de produit"
+msgstr "wybór produktu"
+
+#: includes/plugins/cart/cart/data.php:365 includes/plugins/shipping/shipping/data.php:352
+msgid "Frais de port offerts"
+msgstr "Darmowa wysyłka"
+
+#: includes/plugins/cart/cart/data.php:371
+msgid "Appliquer une réduction"
+msgstr "Zastosuj zniżkę"
+
+#: includes/plugins/cart/cart/data.php:386
+msgid "Appliquer la réduction à"
+msgstr "Rabaty Zastosuj"
+
+#: includes/plugins/cart/cart/data.php:391
+msgid "La commande (hors frais de port)"
+msgstr "Kolejność (z wyłączeniem opłaty pocztowe)"
+
+#: includes/plugins/cart/cart/data.php:397
+msgid "Un produit spécifique"
+msgstr "Specyficznym produktem"
+
+#: includes/plugins/cart/cart/data.php:409
+msgid "Le(s) produit(s) sélectionné(s)"
+msgstr "(S) produktu (ów) wybrany (e)"
+
+#: includes/plugins/cart/cart/data.php:411
+msgid "Vous devez sélectionner au moins un produit"
+msgstr "Musisz wybrać co najmniej jeden produkt"
+
+#: includes/plugins/cart/cart/data.php:418 includes/plugins/cart/cart/data.php:439 includes/plugins/orders/invoices/data.php:128 includes/plugins/orders/orders/data.php:141
+#: includes/plugins/products/products/data.php:593
+msgid "Sélectionnez un produit"
+msgstr "Wybierz produkt"
+
+#: includes/plugins/cart/cart/data.php:431
+msgid "Envoyer un cadeau"
+msgstr "Wyślij prezent"
+
+#: includes/plugins/cart/cart/list.php:17 includes/plugins/localisation/countries/list.php:21 includes/plugins/localisation/currencies/list.php:8 includes/plugins/localisation/taxes/list.php:8
+#: includes/plugins/localisation/taxes_rules_group/list.php:8 includes/plugins/localisation/zones/list.php:8 includes/plugins/orders/invoices/data.php:335 includes/plugins/orders/invoices/list.php:25
+#: includes/plugins/orders/orders/data.php:348 includes/plugins/orders/orders/list.php:26 includes/plugins/products/attributes/list.php:12 includes/plugins/products/categories/list.php:12
+#: includes/plugins/products/manufacturers/list.php:15 includes/plugins/products/products/data.php:610 includes/plugins/products/products/list.php:47 includes/plugins/products/tags/list.php:12
+#: includes/plugins/products/values/list.php:12 includes/plugins/shipping/shipping/list.php:24 includes/plugins/users/groups/list.php:9 includes/plugins/users/users/data.php:831
+#: includes/plugins/users/users/data.php:862 includes/plugins/users/users/list.php:26
+msgid "ID"
+msgstr "ID"
+
+#: includes/plugins/cart/cart/list.php:18
+msgid "Nom de la Règle"
+msgstr "Nazwa reguły"
+
+#: includes/plugins/cart/cart/list.php:20
+msgid "Date d\\'expiration"
+msgstr "\\ Data wygaśnięcia"
+
+#: includes/plugins/cart/cart/list.php:22
+msgid "Quantité disponible"
+msgstr "Ilość dostępna"
+
+#: includes/plugins/cart/cart/list.php:23
+msgid "Réduction"
+msgstr "redukcja"
+
+#: includes/plugins/cart/cart/list.php:24 includes/plugins/localisation/countries/list.php:26 includes/plugins/localisation/taxes_rules_group/list.php:10 includes/plugins/localisation/zones/list.php:10
+#: includes/plugins/products/products/list.php:52 includes/plugins/shipping/shipping/data.php:261 includes/plugins/users/users/data.php:425 includes/plugins/users/users/data.php:521
+msgid "Statut"
+msgstr "status"
+
+#: includes/plugins/cart/cart/list.php:25 includes/plugins/localisation/countries/list.php:28 includes/plugins/localisation/currencies/list.php:14 includes/plugins/localisation/taxes/list.php:11
+#: includes/plugins/localisation/taxes_rules_group/list.php:11 includes/plugins/localisation/zones/list.php:11 includes/plugins/orders/invoices/list.php:35 includes/plugins/orders/orders/list.php:36
+#: includes/plugins/products/products/list.php:54 includes/plugins/shipping/shipping/list.php:33 includes/plugins/users/users/list.php:34
+msgid "Operations"
+msgstr "operacje"
+
+#: includes/plugins/cart/cart/list.php:28
+msgid "Ajouter une Règle"
+msgstr "Dodaj regułę"
+
+#: includes/plugins/general/dashboard/list.php:156
+msgid "Voici ce qui se passe avec votre magasin dès maintenant."
+msgstr "Oto, co się dzieje z magazynu teraz."
+
+#: includes/plugins/general/dashboard/list.php:164 includes/plugins/orders/invoices/data.php:87 includes/plugins/orders/orders/data.php:91
+msgid "Produits"
+msgstr "produkty"
+
+#: includes/plugins/general/dashboard/list.php:182 includes/plugins/general/dashboard/list.php:264 includes/plugins/general/dashboard/list.php:271
+msgid "Devis"
+msgstr "cytat"
+
+#: includes/plugins/general/dashboard/list.php:227
+msgid "Devis, Commandes et Factures pour ce mois."
+msgstr "Cytaty, Zamówienia i faktury na ten miesiąc."
+
+#: includes/plugins/general/dashboard/list.php:241
+msgid "Total de Devis, Commandes et Factures pour ce mois."
+msgstr "Wszystkich szacunków, zamówienia i faktury na ten miesiąc."
+
+#: includes/plugins/general/dashboard/list.php:271 includes/plugins/general/dashboard/list.php:272
+msgid "Au moins"
+msgstr "przynajmniej"
+
+#: includes/plugins/general/dashboard/list.php:273
+msgid "Environ"
+msgstr "o"
+
+#: includes/plugins/localisation/countries/data.php:80
+msgid "Modifier une Pays"
+msgstr "Zmień kraj"
+
+#: includes/plugins/localisation/countries/data.php:80 includes/plugins/localisation/countries/list.php:31
+msgid "Ajouter une Pays"
+msgstr "dodać kraj"
+
+#: includes/plugins/localisation/countries/data.php:84 includes/plugins/localisation/countries/data.php:162 includes/plugins/localisation/currencies/data.php:78
+#: includes/plugins/localisation/currencies/data.php:136 includes/plugins/localisation/taxes/data.php:76 includes/plugins/localisation/taxes/data.php:110 includes/plugins/localisation/zones/data.php:75
+#: includes/plugins/localisation/zones/data.php:101 includes/plugins/orders/invoices/data.php:463 includes/plugins/orders/orders/data.php:476 includes/plugins/products/products/data.php:580
+#: includes/plugins/products/products/data.php:644 includes/plugins/products/products/data.php:787 includes/plugins/products/products/data.php:819 includes/plugins/products/products/data.php:864
+#: includes/plugins/products/products/data.php:1116 includes/plugins/products/products/data.php:1188 includes/plugins/products/products/data.php:1246 includes/plugins/products/products/data.php:1322
+#: includes/plugins/products/products/data.php:1398 includes/plugins/products/values/data.php:54 includes/plugins/products/values/data.php:162
+msgid "Mise à jour"
+msgstr "aktualizacja"
+
+#: includes/plugins/localisation/countries/data.php:84 includes/plugins/localisation/countries/data.php:162 includes/plugins/localisation/currencies/data.php:78
+#: includes/plugins/localisation/currencies/data.php:136 includes/plugins/localisation/taxes/data.php:76 includes/plugins/localisation/taxes/data.php:110 includes/plugins/localisation/zones/data.php:75
+#: includes/plugins/localisation/zones/data.php:101
+msgid "Enregister"
+msgstr "Rejestracja"
+
+#: includes/plugins/localisation/countries/data.php:89
+msgid "countries"
+msgstr "kraje"
+
+#: includes/plugins/localisation/countries/data.php:94
+msgid "Nom du pays *"
+msgstr "Nazwa kraju *"
+
+#: includes/plugins/localisation/countries/data.php:102 includes/plugins/localisation/countries/list.php:25 includes/plugins/localisation/currencies/data.php:96
+#: includes/plugins/localisation/currencies/list.php:10
+msgid "Code ISO"
+msgstr "Kod ISO"
+
+#: includes/plugins/localisation/countries/data.php:110
+msgid "Indicatif téléphonique"
+msgstr "Numer kierunkowy"
+
+#: includes/plugins/localisation/countries/data.php:117
+msgid "Devise par défaut"
+msgstr "Podstawową walutą"
+
+#: includes/plugins/localisation/countries/data.php:120
+msgid "Devise du magasin par défaut"
+msgstr "Domyślna waluta sklepu"
+
+#: includes/plugins/localisation/countries/data.php:131
+msgid "Zone géographique du pays."
+msgstr "Obszar geograficzny kraju."
+
+#: includes/plugins/localisation/countries/data.php:131 includes/plugins/localisation/countries/list.php:23
+msgid "Zone"
+msgstr "strefa"
+
+#: includes/plugins/localisation/countries/data.php:144
+msgid "Format du code postal"
+msgstr "Kod pocztowy Format"
+
+#: includes/plugins/localisation/countries/data.php:147
+msgid ""
+"Indiquez le format du code postal : utilisez L pour une lettre, N pour un nombre, et C pour le code ISO 3166-1 alpha-2 du pays. Par exemple, NNNNN pour les États-Unis, la France, la Pologne et beaucoup "
+"d'autres ; LNNNNLLL pour l'Argentine, etc."
+msgstr "Wprowadź format Kod pocztowy: Użyj L do listu do liczby N i C do ISO 3166-1 alfa-2 Kod kraju. Na przykład, NNNNN dla Stanów Zjednoczonych, Francji, Polski i wielu innych; LNNNNLLL dla Argentyny, etc."
+
+#: includes/plugins/localisation/countries/data.php:153 includes/plugins/localisation/currencies/data.php:127 includes/plugins/localisation/taxes/data.php:101
+#: includes/plugins/localisation/taxes_rules_group/data.php:172 includes/plugins/localisation/zones/data.php:92 includes/plugins/modules/modules/modules-directory.php:215
+#: includes/plugins/products/manufacturers/data.php:111 includes/plugins/products/products/data.php:704 includes/plugins/users/users/data.php:428
+msgid "Activer"
+msgstr "aktywować"
+
+#: includes/plugins/localisation/countries/list.php:22
+msgid "Nom de Pays"
+msgstr "Kraj Nazwa"
+
+#: includes/plugins/localisation/countries/list.php:24 includes/plugins/products/attributes/list.php:14 includes/plugins/products/categories/list.php:14 includes/plugins/products/products/list.php:53
+#: includes/plugins/products/tags/list.php:14 includes/plugins/products/values/list.php:14
+msgid "Langue"
+msgstr "język"
+
+#: includes/plugins/localisation/countries/list.php:27
+msgid "Format de CP"
+msgstr "Format CP"
+
+#: includes/plugins/localisation/currencies/data.php:74
+msgid "Modifier un Devise"
+msgstr "Edycja walucie"
+
+#: includes/plugins/localisation/currencies/data.php:74 includes/plugins/localisation/currencies/list.php:17
+msgid "Ajouter un Devise"
+msgstr "Dodaj walutę"
+
+#: includes/plugins/localisation/currencies/data.php:88
+msgid "Seuls les lettres et le tiret sont autorisés"
+msgstr "Tylko litery i kreska są akceptowane"
+
+#: includes/plugins/localisation/currencies/data.php:88
+msgid "Nom de la devise *"
+msgstr "Nazwa waluty *"
+
+#: includes/plugins/localisation/currencies/data.php:91
+msgid "Euro"
+msgstr "euro"
+
+#: includes/plugins/localisation/currencies/data.php:96
+msgid "Code ISO (ex. : USD pour dollar, EUR pour euro, etc.)."
+msgstr "kod ISO (np. USD za dolara EUR Euro, etc.)."
+
+#: includes/plugins/localisation/currencies/data.php:99
+msgid "ex. : USD pour dollar, EUR pour euro, etc."
+msgstr "ex. USD za dolara do euro EUR, itp"
+
+#: includes/plugins/localisation/currencies/data.php:104
+msgid "Code ISO numérique (ex. : 840 pour dollar, 978 pour euro)."
+msgstr "cyfrowy kod ISO (np. 840 euro do dolara do 978)."
+
+#: includes/plugins/localisation/currencies/data.php:104
+msgid "ISO code numérique"
+msgstr "ISO kod cyfrowy"
+
+#: includes/plugins/localisation/currencies/data.php:107
+msgid "ex. : 840 pour dollar, 978 pour euro"
+msgstr "ex. 840 za dolara do euro 978"
+
+#: includes/plugins/localisation/currencies/data.php:112
+msgid "Apparaîtra sur le front-office (ex. : €, $)"
+msgstr "Pojawiają się na front office (np. €, $)"
+
+#: includes/plugins/localisation/currencies/data.php:112 includes/plugins/localisation/currencies/list.php:12
+msgid "Symbole"
+msgstr "symbol"
+
+#: includes/plugins/localisation/currencies/data.php:115
+msgid "ex. : €, $"
+msgstr "ex. : €, $"
+
+#: includes/plugins/localisation/currencies/data.php:129 includes/plugins/localisation/taxes/data.php:103 includes/plugins/localisation/taxes_rules_group/data.php:174
+#: includes/plugins/localisation/zones/data.php:94 includes/plugins/products/categories/data.php:68 includes/plugins/shipping/shipping/data.php:348 includes/plugins/shipping/shipping/data.php:354
+#: includes/plugins/shop/shop/list.php:17
+msgid "OUI"
+msgstr "TAK"
+
+#: includes/plugins/localisation/currencies/data.php:129 includes/plugins/localisation/taxes/data.php:103 includes/plugins/localisation/taxes_rules_group/data.php:174
+#: includes/plugins/localisation/zones/data.php:94 includes/plugins/products/categories/data.php:68 includes/plugins/shipping/shipping/data.php:348 includes/plugins/shipping/shipping/data.php:354
+#: includes/plugins/shop/shop/list.php:20
+msgid "NON"
+msgstr "NIE"
+
+#: includes/plugins/localisation/currencies/list.php:9
+msgid "Nom de Devise"
+msgstr "Nazwa waluty"
+
+#: includes/plugins/localisation/currencies/list.php:11
+msgid "N° de Code ISO"
+msgstr "Nie Kod ISO"
+
+#: includes/plugins/localisation/currencies/list.php:13
+msgid "statut"
+msgstr "status"
+
+#: includes/plugins/localisation/taxes/data.php:72
+msgid "Modifier une Taxe"
+msgstr "Modyfikacja podatku"
+
+#: includes/plugins/localisation/taxes/data.php:72
+msgid "Ajouter une Taxe"
+msgstr "Dodaj podatku"
+
+#: includes/plugins/localisation/taxes/data.php:86 includes/plugins/localisation/taxes_rules_group/data.php:165
+msgid "Nom de la taxe à afficher dans le panier et sur la facture (ex. : &quot;TVA&quot;). - Caractères interdits &lt;&gt;;=#{}"
+msgstr "Nazwa podatku mają być wyświetlane w koszu i na fakturze (np & quot; & quot. Podatek;). - Postacie wolno & lt; & gt ;; = # {}"
+
+#: includes/plugins/localisation/taxes/data.php:86 includes/plugins/localisation/taxes_rules_group/data.php:165 includes/plugins/localisation/zones/data.php:85 includes/plugins/products/categories/data.php:60
+#: includes/plugins/products/manufacturers/data.php:60 includes/plugins/users/users/data.php:378 includes/plugins/users/users/data.php:595
+msgid "Nom *"
+msgstr "imię *"
+
+#: includes/plugins/localisation/taxes/data.php:94
+msgid "Format : XX.XX ou XX.XXX (ex. : 19.60 ou 13.925) - Caractères interdits <>;=#{}"
+msgstr "Format: XX.XX lub XX.XXX (Np. 19,60 lub 13,925) - Zakaz znaków <>; = # {}"
+
+#: includes/plugins/localisation/taxes/data.php:94
+msgid "Taux *"
+msgstr "stopa *"
+
+#: includes/plugins/localisation/taxes/list.php:5
+msgid "Liste des Taxes"
+msgstr "Lista Podatki"
+
+#: includes/plugins/localisation/taxes/list.php:9
+msgid "Taxe Label"
+msgstr "Etykieta podatku"
+
+#: includes/plugins/localisation/taxes/list.php:10
+msgid "Valeur de taxe (%"
+msgstr "Wartość podatkowa (%"
+
+#: includes/plugins/localisation/taxes/list.php:14
+msgid "Ajouter une taxe"
+msgstr "Dodaj opłatę"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:131
+msgid "Modifier une règles de taxes"
+msgstr "Modyfikacji przepisów podatkowych"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:131
+msgid "Ajouter une règles de taxes"
+msgstr "Dodaj przepisów podatkowych"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:141 includes/plugins/products/products/data.php:432 includes/plugins/shipping/shipping/data.php:226 includes/plugins/users/users/data.php:322
+msgid "Une erreur est survenue !"
+msgstr "Wystąpił błąd!"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:150 includes/plugins/products/products/data.php:441 includes/plugins/shipping/shipping/data.php:235 includes/plugins/users/users/data.php:331
+msgid "Opération Effectué !"
+msgstr "Sporządzono sprawa!"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:180
+msgid "NOUVELLE RÈGLE DE TAXE"
+msgstr "Nowa reguła PODATKU"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:187
+msgid "Toutes"
+msgstr "wszystko"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:200 includes/plugins/products/products/data.php:716 includes/plugins/shipping/shipping/data.php:372 includes/plugins/shipping/shipping/data.php:571
+msgid "Aucune taxe"
+msgstr "bez opłat"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:216
+msgid "RÈGLE DE TAXE"
+msgstr "ZASADA PODATKU"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:236
+msgid "Modifier cette règle"
+msgstr "Edytuj regułę"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:237
+msgid "Supprimer cette règle"
+msgstr "Usuń tę regułę"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:270
+msgid "EDITION DE LA RÈGLE DE TAXE"
+msgstr "EDITION Reguły podatku"
+
+#: includes/plugins/localisation/taxes_rules_group/data.php:272
+msgid "Vous êtes en mode de modification de règle de taxe."
+msgstr "Jesteś Tryb zmiana reguł podatkowych."
+
+#: includes/plugins/localisation/taxes_rules_group/list.php:9
+msgid "Nom de groupe"
+msgstr "Nazwa grupy"
+
+#: includes/plugins/localisation/taxes_rules_group/list.php:14
+msgid "Ajouter une règle de taxe"
+msgstr "Dodaj regułę opodatkowania"
+
+#: includes/plugins/localisation/zones/data.php:71
+msgid "Modifier une Zone"
+msgstr "Edycja strefy"
+
+#: includes/plugins/localisation/zones/data.php:71 includes/plugins/localisation/zones/list.php:14
+msgid "Ajouter une Zone"
+msgstr "Dodaj strefę"
+
+#: includes/plugins/localisation/zones/data.php:85
+msgid "Nom de la zone (ex. : Afrique, Europe, Pays voisins)."
+msgstr "Nazwa strefy (np. Afryka, Europa, kraje sąsiadujące)."
+
+#: includes/plugins/localisation/zones/list.php:9
+msgid "Nom de la zone"
+msgstr "Nazwa strefy"
+
+#: includes/plugins/login.php:66
+msgid "Okad"
+msgstr "Okad"
+
+#: includes/plugins/login.php:66
+msgid "SHOP"
+msgstr "SHOP"
+
+#: includes/plugins/login.php:70
+msgid "Se connecter"
+msgstr "zaloguj się"
+
+#: includes/plugins/login.php:72
+msgid "Mot de passe oublié"
+msgstr "Zapomniałem hasła"
+
+#: includes/plugins/modules/modules/modules-directory.php:103
+msgid "Installés et non installés"
+msgstr "Zainstalowane i odinstalowane"
+
+#: includes/plugins/modules/modules/modules-directory.php:104
+msgid "Modules installés"
+msgstr "zainstalowane moduły"
+
+#: includes/plugins/modules/modules/modules-directory.php:105
+msgid "Modules non installés"
+msgstr "Nie zainstalowane moduły"
+
+#: includes/plugins/modules/modules/modules-directory.php:110
+msgid "Activés &amp; désactivés"
+msgstr "Działalność & amp; niepełnosprawny"
+
+#: includes/plugins/modules/modules/modules-directory.php:111
+msgid "Modules activés"
+msgstr "moduły obsługujące"
+
+#: includes/plugins/modules/modules/modules-directory.php:112
+msgid "Modules désactivés"
+msgstr "moduły niepełnosprawnych"
+
+#: includes/plugins/modules/modules/modules-directory.php:117
+msgid "Tous les Auteurs"
+msgstr "wszyscy autorzy"
+
+#: includes/plugins/modules/modules/modules-directory.php:129
+msgid "Rechercher..."
+msgstr "Wyszukiwanie ..."
+
+#: includes/plugins/modules/modules/modules-directory.php:145
+msgid "Tous les Modules"
+msgstr "Wszystkie moduły"
+
+#: includes/plugins/modules/modules/modules-directory.php:162
+msgid "actions groupées"
+msgstr "działania masowe"
+
+#: includes/plugins/modules/modules/modules-directory.php:164
+msgid "Installer la sélection"
+msgstr "Instalowanie wybór"
+
+#: includes/plugins/modules/modules/modules-directory.php:165
+msgid "Désinstaller la sélection"
+msgstr "Odinstaluj wybór"
+
+#: includes/plugins/modules/modules/modules-directory.php:167
+msgid "Activer la sélection"
+msgstr "Włącz zaznaczenie"
+
+#: includes/plugins/modules/modules/modules-directory.php:168
+msgid "Disactiver la sélection"
+msgstr "wybór Disactiver"
+
+#: includes/plugins/modules/modules/modules-directory.php:170
+msgid "Supprimer la sélection"
+msgstr "Usuń zaznaczone"
+
+#: includes/plugins/modules/modules/modules-directory.php:210
+msgid "Configuration"
+msgstr "konfiguracja"
+
+#: includes/plugins/modules/modules/modules-directory.php:212 includes/plugins/modules/modules/modules-directory.php:224 includes/plugins/products/products/data.php:705
+msgid "Désactiver"
+msgstr "dezaktywować"
+
+#: includes/plugins/modules/modules/modules-directory.php:218
+msgid "Installer"
+msgstr "zainstalować"
+
+#: includes/plugins/modules/modules/modules-directory.php:228
+msgid "Désinstaller"
+msgstr "odinstaluj"
+
+#: includes/plugins/modules/modules/modules-directory.php:232 includes/plugins/products/products/data.php:911 includes/plugins/products/products/data.php:1091 includes/plugins/products/products/data.php:1384
+msgid "Supprimer"
+msgstr "usunąć"
+
+#: includes/plugins/modules/modules/modules-directory.php:242
+msgid "No Module found."
+msgstr "Nie znaleziono modułu."
+
+#: includes/plugins/modules/modules/modules-directory.php:290
+msgid "Cette action supprime définitivement le module sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "Ta akcja powoduje trwałe usunięcie modułu na serwerze. Czy jesteś pewien?"
+
+#: includes/plugins/modules/modules/modules-positions.php:28
+msgid "Positions des modules"
+msgstr "Pozycje modułów"
+
+#: includes/plugins/modules/modules/modules-positions.php:99
+msgid "Activer les positions des modules"
+msgstr "Aktywuj pozycje modułów"
+
+#: includes/plugins/modules/modules/modules-positions.php:111 includes/plugins/products/products/data.php:425 includes/plugins/products/products/data.php:1113 includes/plugins/shipping/shipping/data.php:219
+#: includes/plugins/users/users/data.php:306 includes/plugins/users/users/data.php:314
+msgid "Terminer"
+msgstr "wykończenie"
+
+#: includes/plugins/orders/invoices/data.php:74
+msgid "Edition de la Facture"
+msgstr "Edycja faktury"
+
+#: includes/plugins/orders/invoices/data.php:76
+msgid "N°"
+msgstr "Nie."
+
+#: includes/plugins/orders/invoices/data.php:79 includes/plugins/orders/orders/data.php:83
+msgid "Términer"
+msgstr "wykończenie"
+
+#: includes/plugins/orders/invoices/data.php:88 includes/plugins/orders/invoices/data.php:253 includes/plugins/orders/orders/data.php:92 includes/plugins/orders/orders/data.php:266
+#: includes/plugins/users/users/data.php:777
+msgid "Client"
+msgstr "klient"
+
+#: includes/plugins/orders/invoices/data.php:90 includes/plugins/orders/orders/data.php:94
+msgid "Transporteur"
+msgstr "przewoźnik"
+
+#: includes/plugins/orders/invoices/data.php:92
+msgid "Apérçu la Facture"
+msgstr "faktura Przegląd"
+
+#: includes/plugins/orders/invoices/data.php:116 includes/plugins/orders/invoices/data.php:160 includes/plugins/orders/orders/data.php:128 includes/plugins/orders/orders/data.php:173
+#: includes/plugins/products/products/data.php:612 includes/plugins/products/products/data.php:1171 includes/plugins/products/products/list.php:48
+msgid "Nom de produit"
+msgstr "Nazwa produktu"
+
+#: includes/plugins/orders/invoices/data.php:117 includes/plugins/orders/invoices/data.php:161 includes/plugins/orders/orders/data.php:129 includes/plugins/orders/orders/data.php:174
+#: includes/plugins/products/products/data.php:510 includes/plugins/products/products/data.php:916 includes/plugins/products/products/data.php:1061
+msgid "Référence"
+msgstr "referencje"
+
+#: includes/plugins/orders/invoices/data.php:118 includes/plugins/orders/invoices/data.php:162 includes/plugins/orders/orders/data.php:130 includes/plugins/orders/orders/data.php:175
+#: includes/plugins/products/products/data.php:613
+msgid "Prix HT"
+msgstr "drogie"
+
+#: includes/plugins/orders/invoices/data.php:119 includes/plugins/orders/invoices/data.php:163 includes/plugins/orders/orders/data.php:131 includes/plugins/orders/orders/data.php:176
+#: includes/plugins/products/products/data.php:1144 includes/plugins/products/products/data.php:1169 includes/plugins/products/products/list.php:51
+msgid "Quantité"
+msgstr "ilość"
+
+#: includes/plugins/orders/invoices/data.php:120 includes/plugins/orders/invoices/data.php:164 includes/plugins/orders/orders/data.php:132 includes/plugins/orders/orders/data.php:177
+msgid "Poids (Kg)"
+msgstr "Masa (kg)"
+
+#: includes/plugins/orders/invoices/data.php:136 includes/plugins/orders/orders/data.php:149
+msgid "Sélectionnez une attribut"
+msgstr "Wybierz atrybut"
+
+#: includes/plugins/orders/invoices/data.php:145 includes/plugins/orders/invoices/data.php:319 includes/plugins/orders/orders/data.php:158 includes/plugins/orders/orders/data.php:332
+#: includes/plugins/products/products/data.php:602 includes/plugins/products/products/data.php:902 includes/plugins/users/groups/data.php:43
+msgid "Ajouter"
+msgstr "dodać"
+
+#: includes/plugins/orders/invoices/data.php:154
+msgid "Produits dans cette Facture"
+msgstr "Produkty z tej ustawy"
+
+#: includes/plugins/orders/invoices/data.php:252 includes/plugins/orders/orders/data.php:265
+msgid "N° Client"
+msgstr "nr klienta"
+
+#: includes/plugins/orders/invoices/data.php:254 includes/plugins/orders/orders/data.php:267
+msgid "Email"
+msgstr "e-mail"
+
+#: includes/plugins/orders/invoices/data.php:255 includes/plugins/orders/orders/data.php:268
+msgid "Téléphone domicile"
+msgstr "telefon domowy"
+
+#: includes/plugins/orders/invoices/data.php:256 includes/plugins/orders/orders/data.php:269 includes/plugins/users/users/data.php:390
+msgid "Téléphone portable"
+msgstr "telefon komórkowy"
+
+#: includes/plugins/orders/invoices/data.php:257 includes/plugins/orders/invoices/list.php:30 includes/plugins/orders/orders/data.php:270 includes/plugins/orders/orders/list.php:31
+#: includes/plugins/users/users/data.php:834 includes/plugins/users/users/data.php:865
+msgid "Socièté"
+msgstr "SOCIETE"
+
+#: includes/plugins/orders/invoices/data.php:285 includes/plugins/orders/invoices/data.php:336 includes/plugins/orders/orders/data.php:298 includes/plugins/orders/orders/data.php:349
+msgid "Date de transaction"
+msgstr "Data transakcji"
+
+#: includes/plugins/orders/invoices/data.php:286 includes/plugins/orders/orders/data.php:299
+msgid "Methode de paiment"
+msgstr "Sposób płatności"
+
+#: includes/plugins/orders/invoices/data.php:287 includes/plugins/orders/invoices/data.php:338 includes/plugins/orders/orders/data.php:300 includes/plugins/orders/orders/data.php:351
+msgid "ID de transaction"
+msgstr "Identyfikator transakcji"
+
+#: includes/plugins/orders/invoices/data.php:288 includes/plugins/orders/invoices/data.php:339 includes/plugins/orders/orders/data.php:301 includes/plugins/orders/orders/data.php:352
+msgid "Montant payé"
+msgstr "kwota wypłacona"
+
+#: includes/plugins/orders/invoices/data.php:310
+msgid "ID de la transaction"
+msgstr "Identyfikator transakcji"
+
+#: includes/plugins/orders/invoices/data.php:328 includes/plugins/orders/orders/data.php:341
+msgid "Tranches payés"
+msgstr "plastry zapłacił"
+
+#: includes/plugins/orders/invoices/data.php:337 includes/plugins/orders/orders/data.php:350
+msgid "Méthode de paiement"
+msgstr "Metoda płatności"
+
+#: includes/plugins/orders/invoices/data.php:369 includes/plugins/orders/invoices/list.php:29 includes/plugins/orders/orders/data.php:382 includes/plugins/orders/orders/list.php:30
+#: includes/plugins/users/users/data.php:836 includes/plugins/users/users/data.php:866
+msgid "Formule"
+msgstr "formuła"
+
+#: includes/plugins/orders/invoices/data.php:375 includes/plugins/orders/orders/data.php:388
+msgid "Poids total hors emballage"
+msgstr "Łączna waga bez opakowania"
+
+#: includes/plugins/orders/invoices/data.php:387 includes/plugins/orders/orders/data.php:400
+msgid "Nom de Transporteur"
+msgstr "przewoźnik Nazwa"
+
+#: includes/plugins/orders/invoices/data.php:399 includes/plugins/orders/orders/data.php:412
+msgid "Délai de livraison"
+msgstr "dostawa"
+
+#: includes/plugins/orders/invoices/data.php:402 includes/plugins/orders/invoices/data.php:423 includes/plugins/orders/orders/data.php:415 includes/plugins/orders/orders/data.php:436
+msgid "Entre"
+msgstr "między"
+
+#: includes/plugins/orders/invoices/data.php:408 includes/plugins/orders/invoices/data.php:429 includes/plugins/orders/orders/data.php:421 includes/plugins/orders/orders/data.php:442
+msgid "Et"
+msgstr "i"
+
+#: includes/plugins/orders/invoices/data.php:414 includes/plugins/orders/invoices/data.php:435 includes/plugins/orders/orders/data.php:427 includes/plugins/orders/orders/data.php:448
+msgid "Jours"
+msgstr "dni"
+
+#: includes/plugins/orders/invoices/data.php:415 includes/plugins/orders/invoices/data.php:436 includes/plugins/orders/orders/data.php:428 includes/plugins/orders/orders/data.php:449
+msgid "Semaines"
+msgstr "tydzień"
+
+#: includes/plugins/orders/invoices/data.php:420 includes/plugins/orders/orders/data.php:433
+msgid "Délai de préparation"
+msgstr "czas przygotowania"
+
+#: includes/plugins/orders/invoices/data.php:441 includes/plugins/orders/orders/data.php:454
+msgid "Poids total estimé emballage compris"
+msgstr "Łączna szacunkowa waga wraz z opakowaniem"
+
+#: includes/plugins/orders/invoices/data.php:445 includes/plugins/orders/orders/data.php:458
+msgid "Kg"
+msgstr "kg"
+
+#: includes/plugins/orders/invoices/data.php:450 includes/plugins/orders/orders/data.php:463
+msgid "Nombre de colis estimé"
+msgstr "Szacowana liczba paczek"
+
+#: includes/plugins/orders/invoices/data.php:456 includes/plugins/orders/orders/data.php:469 includes/plugins/shipping/shipping/data.php:324 includes/plugins/users/users/data.php:668
+msgid "Informations complémentaires"
+msgstr "Dodatkowe informacje"
+
+#: includes/plugins/orders/invoices/data.php:493 includes/plugins/orders/orders/data.php:531
+msgid "Le produit a été enregistré avec succès"
+msgstr "Produkt pomyślnej rejestracji"
+
+#: includes/plugins/orders/invoices/data.php:532 includes/plugins/orders/orders/data.php:570
+msgid "Le produit a été mise à jour."
+msgstr "Produkt został zaktualizowany."
+
+#: includes/plugins/orders/invoices/data.php:559 includes/plugins/orders/orders/data.php:597
+msgid "Sélectionnez une attribut."
+msgstr "Wybierz atrybut."
+
+#: includes/plugins/orders/invoices/data.php:596 includes/plugins/orders/orders/data.php:634
+msgid "Cette action supprime définitivement le produit de la base de donné. Êtes-vous vraiment sûr ?"
+msgstr "Ta akcja powoduje trwałe usunięcie produktu z danej bazy. Czy jesteś pewien?"
+
+#: includes/plugins/orders/invoices/data.php:608 includes/plugins/orders/orders/data.php:646
+msgid "Le produit a été supprimer avec success."
+msgstr "Produkt został usunięty z sukcesem."
+
+#: includes/plugins/orders/invoices/data.php:654 includes/plugins/orders/orders/data.php:692
+msgid "Le produit a été changé."
+msgstr "Produkt został zmieniony."
+
+#: includes/plugins/orders/invoices/list.php:22
+msgid "Gestion des Factures"
+msgstr "zarządzanie faktur"
+
+#: includes/plugins/orders/invoices/list.php:26 includes/plugins/orders/orders/list.php:27
+msgid "Nom du Client"
+msgstr "Nazwa klienta"
+
+#: includes/plugins/orders/invoices/list.php:27 includes/plugins/orders/orders/list.php:28 includes/plugins/users/users/data.php:833 includes/plugins/users/users/data.php:864
+msgid "Réference"
+msgstr "referencje"
+
+#: includes/plugins/orders/invoices/list.php:28 includes/plugins/orders/orders/list.php:29
+msgid "Transport"
+msgstr "transport"
+
+#: includes/plugins/orders/invoices/list.php:34 includes/plugins/orders/orders/list.php:35
+msgid "Total économisé"
+msgstr "łączna zapisana"
+
+#: includes/plugins/orders/orders/data.php:78
+msgid "Edition de la Commande"
+msgstr "Wydanie nakazu"
+
+#: includes/plugins/orders/orders/data.php:98
+msgid "Apérçu la facture"
+msgstr "Podgląd faktury"
+
+#: includes/plugins/orders/orders/data.php:100
+msgid "Générer la facture"
+msgstr "Generowanie faktury"
+
+#: includes/plugins/orders/orders/data.php:104
+msgid "Apérçu la Commande"
+msgstr "Podgląd poleceń"
+
+#: includes/plugins/orders/orders/data.php:167
+msgid "Produits de la Commande"
+msgstr "Zamawianie produktów"
+
+#: includes/plugins/orders/orders/data.php:502
+msgid "En cours de Génération de la Facture."
+msgstr "Podczas faktury Generation."
+
+#: includes/plugins/orders/orders/list.php:23
+msgid "Gestion des Commandes"
+msgstr "Zarządzanie zamówieniami"
+
+#: includes/plugins/products/attributes/data.php:16
+msgid "Nom de l'attribut"
+msgstr "nazwa atrybutu"
+
+#: includes/plugins/products/attributes/data.php:22 includes/plugins/products/attributes/data.php:80
+msgid "Language"
+msgstr "Zapisz"
+
+#: includes/plugins/products/attributes/data.php:28 includes/plugins/products/attributes/data.php:86 includes/plugins/products/tags/data.php:28 includes/plugins/products/tags/data.php:86
+msgid "Vérifier tous vos information et cliquer sur le bouton save."
+msgstr "Sprawdź wszystkie swoje dane i kliknij przycisk Zapisz."
+
+#: includes/plugins/products/attributes/data.php:30 includes/plugins/products/attributes/data.php:88
+msgid "Enregistrer l'attribute"
+msgstr "Zapisz atrybutu"
+
+#: includes/plugins/products/attributes/data.php:75
+msgid "Nom de l'attribute"
+msgstr "Nazwa atrybutu"
+
+#: includes/plugins/products/attributes/list.php:9
+msgid "Gestion des attributes"
+msgstr "atrybuty zarządzania"
+
+#: includes/plugins/products/attributes/list.php:19
+msgid "Ajouter une nouvelle attributes"
+msgstr "Dodaj nowe atrybuty"
+
+#: includes/plugins/products/categories/data.php:48
+msgid "Catégorie"
+msgstr "kategoria"
+
+#: includes/plugins/products/categories/data.php:50
+msgid "Liste des Catégories"
+msgstr "Lista kategorii"
+
+#: includes/plugins/products/categories/data.php:55
+msgid "Modifier la Catégorie"
+msgstr "zmiana kategorii"
+
+#: includes/plugins/products/categories/data.php:55
+msgid "Nouvelle Catégorie"
+msgstr "nowa kategoria"
+
+#: includes/plugins/products/categories/data.php:66
+msgid "Affichée"
+msgstr "wyświetlane"
+
+#: includes/plugins/products/categories/data.php:78
+msgid "Image de la catégorie"
+msgstr "Obrazek dla kategorii"
+
+#: includes/plugins/products/categories/data.php:93 includes/plugins/products/manufacturers/data.php:93 includes/plugins/products/products/data.php:796
+msgid "Balise titre"
+msgstr "tytuł tag"
+
+#: includes/plugins/products/categories/data.php:99 includes/plugins/products/manufacturers/data.php:99 includes/plugins/products/products/data.php:802
+msgid "Meta description"
+msgstr "meta opis"
+
+#: includes/plugins/products/categories/data.php:105 includes/plugins/products/manufacturers/data.php:105
+msgid "Meta mots-clés"
+msgstr "meta Keyword"
+
+#: includes/plugins/products/categories/data.php:111 includes/plugins/products/products/data.php:808
+msgid "URL simplifiée"
+msgstr "Przyjazny URL"
+
+#: includes/plugins/products/categories/list.php:9
+msgid "Gestion des categories"
+msgstr "Zarządzanie Kategorie"
+
+#: includes/plugins/products/categories/list.php:19
+msgid "Ajouter une categorie"
+msgstr "Dodaj kategorię"
+
+#: includes/plugins/products/manufacturers/data.php:50
+msgid "Liste des Fabricants"
+msgstr "Lista producentów"
+
+#: includes/plugins/products/manufacturers/data.php:55
+msgid "Nouveau Fabricant"
+msgstr "nowy producent"
+
+#: includes/plugins/products/manufacturers/data.php:66 includes/plugins/products/products/data.php:559
+msgid "Résumé"
+msgstr "streszczenie"
+
+#: includes/plugins/products/manufacturers/data.php:78 includes/plugins/shipping/shipping/data.php:310
+msgid "Logo"
+msgstr "logo"
+
+#: includes/plugins/products/manufacturers/data.php:113 includes/plugins/shipping/shipping/data.php:263
+msgid "désactivé"
+msgstr "niepełnosprawny"
+
+#: includes/plugins/products/manufacturers/list.php:12
+msgid "Gestion des Fabricants"
+msgstr "zarządzanie producenci"
+
+#: includes/plugins/products/manufacturers/list.php:17
+msgid "Date de Création"
+msgstr "Data utworzenia"
+
+#: includes/plugins/products/manufacturers/list.php:18 includes/plugins/products/products/data.php:551
+msgid "Activé"
+msgstr "aktywowany"
+
+#: includes/plugins/products/manufacturers/list.php:23
+msgid "Ajouter un fabricant"
+msgstr "Dodaj Producent"
+
+#: includes/plugins/products/products/data.php:421
+msgid "Modifier les informations de Produit"
+msgstr "Zmiana informacji o produkcie"
+
+#: includes/plugins/products/products/data.php:421 includes/plugins/products/products/list.php:58
+msgid "Ajouter un Produit"
+msgstr "Dodaj produkt"
+
+#: includes/plugins/products/products/data.php:456 includes/plugins/products/products/data.php:474
+msgid "Informations de Produit"
+msgstr "Informacje o produkcie"
+
+#: includes/plugins/products/products/data.php:457 includes/plugins/products/products/data.php:587
+msgid "Produits associés"
+msgstr "produkty powiązane"
+
+#: includes/plugins/products/products/data.php:458
+msgid "Prix et Règle de taxe"
+msgstr "Cena i uregulowania podatkowego"
+
+#: includes/plugins/products/products/data.php:459
+msgid "Référencement - SEO"
+msgstr "- SEO"
+
+#: includes/plugins/products/products/data.php:460
+msgid "Catégories et Associations"
+msgstr "Kategorie stowarzyszenia"
+
+#: includes/plugins/products/products/data.php:461
+msgid "Déclinaisons"
+msgstr "deklinacji"
+
+#: includes/plugins/products/products/data.php:462
+msgid "Quantités"
+msgstr "ilości"
+
+#: includes/plugins/products/products/data.php:463 includes/plugins/products/products/data.php:1203
+msgid "Images"
+msgstr "obrazowość"
+
+#: includes/plugins/products/products/data.php:465 includes/plugins/products/products/data.php:1337
+msgid "Documents joints"
+msgstr "załączone dokumenty"
+
+#: includes/plugins/products/products/data.php:479
+msgid "Vous ne pouvez pas avoir de déclinaisons avec un produit virtuel."
+msgstr "Nie można mieć wariacje z produktem wirtualnym."
+
+#: includes/plugins/products/products/data.php:480
+msgid "Vous ne pouvez pas utiliser de déclinaisons dans un pack."
+msgstr "Nie można używać odmian w opakowaniu."
+
+#: includes/plugins/products/products/data.php:482
+msgid "Type"
+msgstr "typ"
+
+#: includes/plugins/products/products/data.php:487
+msgid "Produit standard"
+msgstr "standardowy produkt"
+
+#: includes/plugins/products/products/data.php:492
+msgid "Pack de produits existants"
+msgstr "Paczka istniejącymi produktami"
+
+#: includes/plugins/products/products/data.php:498
+msgid "Produit dématérialisé (services, réservations, produits téléchargeables, etc.)"
+msgstr "Zdematerializowane produktu (usługi, rezerwacje, produkty do pobrania, etc.)"
+
+#: includes/plugins/products/products/data.php:516 includes/plugins/products/products/data.php:922
+msgid "Code-barres EAN-13 ou JAN"
+msgstr "Kodów kreskowych EAN-13 lub styczniu"
+
+#: includes/plugins/products/products/data.php:522 includes/plugins/products/products/data.php:928
+msgid "Code-barres UPC"
+msgstr "UPC kodów kreskowych"
+
+#: includes/plugins/products/products/data.php:531
+msgid "Nouveau"
+msgstr "nowy"
+
+#: includes/plugins/products/products/data.php:532
+msgid "Utilisé"
+msgstr "w użyciu"
+
+#: includes/plugins/products/products/data.php:533
+msgid "Reconditionné"
+msgstr "odnowiony"
+
+#: includes/plugins/products/products/data.php:538
+msgid "Date de création"
+msgstr "data utworzenia"
+
+#: includes/plugins/products/products/data.php:548
+msgid "Status"
+msgstr "status"
+
+#: includes/plugins/products/products/data.php:554
+msgid "Désactivé"
+msgstr "wyłączona"
+
+#: includes/plugins/products/products/data.php:571
+msgid "Mots-clés (Tags)"
+msgstr "Słowa kluczowe (tagi)"
+
+#: includes/plugins/products/products/data.php:574
+msgid "Chaque mot-clé doit être suivi d'une virgule. Les caractères suivants sont interdits : !<;>;?=+#\"°{}_$%."
+msgstr "Każde słowo kluczowe muszą być przestrzegane przez przecinkami. Następujące znaki są niedozwolone: ​​<> = + # \\ \"° _ {} $%!?."
+
+#: includes/plugins/products/products/data.php:590
+msgid "Produit associé"
+msgstr "powiązany produkt"
+
+#: includes/plugins/products/products/data.php:611 includes/plugins/products/products/data.php:1006
+msgid "Image"
+msgstr "obraz"
+
+#: includes/plugins/products/products/data.php:614
+msgid "Action"
+msgstr "akcja"
+
+#: includes/plugins/products/products/data.php:649 includes/plugins/products/products/data.php:1122 includes/plugins/products/products/data.php:1193 includes/plugins/products/products/data.php:1251
+#: includes/plugins/products/products/data.php:1327 includes/plugins/products/products/data.php:1403 includes/plugins/shipping/shipping/data.php:469 includes/plugins/shipping/shipping/data.php:555
+#: includes/plugins/shipping/shipping/data.php:600 includes/plugins/shipping/shipping/data.php:612
+msgid "Il y a 1 avertissement."
+msgstr "Jest jedno ostrzeżenie."
+
+#: includes/plugins/products/products/data.php:650 includes/plugins/products/products/data.php:1328 includes/plugins/products/products/data.php:1404
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des caractéristiques."
+msgstr "Musisz zarejestrować ten produkt przed dodaniem możliwości."
+
+#: includes/plugins/products/products/data.php:657
+msgid "Ajouter des Prix"
+msgstr "Dodaj Cena"
+
+#: includes/plugins/products/products/data.php:661
+msgid "Prix d'achat (unitaire)"
+msgstr "Cena nabycia (za jednostkę)"
+
+#: includes/plugins/products/products/data.php:664
+msgid "Dhs"
+msgstr "DHS"
+
+#: includes/plugins/products/products/data.php:666 includes/plugins/products/products/data.php:676 includes/plugins/products/products/data.php:686
+msgid "HT"
+msgstr "HT"
+
+#: includes/plugins/products/products/data.php:671
+msgid "Prix de vente (unitaire)"
+msgstr "Cena sprzedaży (za jednostkę)"
+
+#: includes/plugins/products/products/data.php:681
+msgid "Prix du lot"
+msgstr "cena Lot"
+
+#: includes/plugins/products/products/data.php:691
+msgid "Par"
+msgstr "przez"
+
+#: includes/plugins/products/products/data.php:693
+msgid "(Pièces)"
+msgstr "(części)"
+
+#: includes/plugins/products/products/data.php:698
+msgid "Points de fidélité"
+msgstr "wierność"
+
+#: includes/plugins/products/products/data.php:713
+msgid "Règle de taxe"
+msgstr "Podatek reguła"
+
+#: includes/plugins/products/products/data.php:726
+msgid "Remise"
+msgstr "zniżka"
+
+#: includes/plugins/products/products/data.php:740
+msgid "Colisage"
+msgstr "uszczelka"
+
+#: includes/plugins/products/products/data.php:749
+msgid "Poids"
+msgstr "waga"
+
+#: includes/plugins/products/products/data.php:753 includes/plugins/products/products/data.php:964
+msgid "KG"
+msgstr "KG"
+
+#: includes/plugins/products/products/data.php:758
+msgid "Hauteur"
+msgstr "wysokość"
+
+#: includes/plugins/products/products/data.php:762 includes/plugins/products/products/data.php:771
+msgid "CM"
+msgstr "CM"
+
+#: includes/plugins/products/products/data.php:767
+msgid "Largeur"
+msgstr "szerokość"
+
+#: includes/plugins/products/products/data.php:776
+msgid "Profondeur"
+msgstr "głębokość"
+
+#: includes/plugins/products/products/data.php:780
+msgid "m"
+msgstr "m"
+
+#: includes/plugins/products/products/data.php:793
+msgid "RÉFÉRENCEMENT - SEO"
+msgstr "Optimization - SEO"
+
+#: includes/plugins/products/products/data.php:825
+msgid "Associations"
+msgstr "stowarzyszenia"
+
+#: includes/plugins/products/products/data.php:829
+msgid "Catégories associées"
+msgstr "Powiązane kategorie"
+
+#: includes/plugins/products/products/data.php:834
+msgid "Réduire tout"
+msgstr "Zwiń wszystko"
+
+#: includes/plugins/products/products/data.php:835
+msgid "Ouvrire tout"
+msgstr "otwiera wszystkie"
+
+#: includes/plugins/products/products/data.php:836
+msgid "Tout cocher"
+msgstr "zaznacz wszystko"
+
+#: includes/plugins/products/products/data.php:837
+msgid "Tout décocher"
+msgstr "odznacz"
+
+#: includes/plugins/products/products/data.php:850
+msgid "Catégorie par défaut"
+msgstr "domyślna kategoria"
+
+#: includes/plugins/products/products/data.php:871
+msgid "Ajouter ou modifier des déclinaisons de produit"
+msgstr "Dodaj lub zmień Odmiany produktu"
+
+#: includes/plugins/products/products/data.php:878 includes/plugins/products/products/data.php:1049
+msgid "Sauvegarder la déclinaison"
+msgstr "Zapisz deklinacji"
+
+#: includes/plugins/products/products/data.php:879
+msgid "Déclinaisons de produit"
+msgstr "Atrybuty produktu"
+
+#: includes/plugins/products/products/data.php:886
+msgid "Attribut"
+msgstr "atrybut"
+
+#: includes/plugins/products/products/data.php:897
+msgid "Valeur"
+msgstr "wartość"
+
+#: includes/plugins/products/products/data.php:935
+msgid "Prix de vente HT"
+msgstr "Cena sprzedaży netto"
+
+#: includes/plugins/products/products/data.php:941 includes/plugins/products/products/data.php:1059
+msgid "Impact sur le prix"
+msgstr "Wpływ na cenę"
+
+#: includes/plugins/products/products/data.php:944 includes/plugins/products/products/data.php:958 includes/plugins/products/products/data.php:972
+msgid "Aucun"
+msgstr "nie"
+
+#: includes/plugins/products/products/data.php:945 includes/plugins/products/products/data.php:959 includes/plugins/products/products/data.php:973
+msgid "Augmentation"
+msgstr "zwiększenie"
+
+#: includes/plugins/products/products/data.php:946 includes/plugins/products/products/data.php:960 includes/plugins/products/products/data.php:974
+msgid "Diminution"
+msgstr "maleć"
+
+#: includes/plugins/products/products/data.php:955 includes/plugins/products/products/data.php:1060
+msgid "Impact sur le poids"
+msgstr "Wpływ na masę"
+
+#: includes/plugins/products/products/data.php:969
+msgid "Impact sur le prix unitaire"
+msgstr "Wpływ na cenę jednostkową"
+
+#: includes/plugins/products/products/data.php:983
+msgid "Quantité En Stock"
+msgstr "Ilość w magazynie"
+
+#: includes/plugins/products/products/data.php:989 includes/plugins/products/products/data.php:1170
+msgid "Quantité minimale"
+msgstr "minimalna ilość"
+
+#: includes/plugins/products/products/data.php:995
+msgid "Date de disponibilité"
+msgstr "Dostępność Data"
+
+#: includes/plugins/products/products/data.php:1033
+msgid "Par défaut"
+msgstr "domyślnie"
+
+#: includes/plugins/products/products/data.php:1038
+msgid "Faire de cette déclinaison celle par défaut pour ce produit."
+msgstr "Dodać do tego produktu domyślne zmienności."
+
+#: includes/plugins/products/products/data.php:1046
+msgid "Annuler la modification"
+msgstr "Cofanie zmian"
+
+#: includes/plugins/products/products/data.php:1048 includes/plugins/products/products/data.php:1115
+msgid "Nouvelle déclinaison"
+msgstr "nowy deklinacji"
+
+#: includes/plugins/products/products/data.php:1058
+msgid "Paire attribut - valeur"
+msgstr "Para atrybut - wartość"
+
+#: includes/plugins/products/products/data.php:1062
+msgid "EAN-13"
+msgstr "EAN-13"
+
+#: includes/plugins/products/products/data.php:1063
+msgid "UPC"
+msgstr "UPC"
+
+#: includes/plugins/products/products/data.php:1088
+msgid "Modifier"
+msgstr "zmiana"
+
+#: includes/plugins/products/products/data.php:1099
+msgid "Aucun enregistrement trouvé"
+msgstr "Brak aktualności"
+
+#: includes/plugins/products/products/data.php:1107
+msgid "La ligne en bleu est la déclinaison par défaut."
+msgstr "Niebieska linia to połączenie domyślnym."
+
+#: includes/plugins/products/products/data.php:1108
+msgid "Un produit qui possède des déclinaisons doit avoir une déclinaison par défaut."
+msgstr "Produkt, który ma deklinacje musi mieć połączenie domyślne."
+
+#: includes/plugins/products/products/data.php:1123
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des déclinaisons."
+msgstr "Musisz zarejestrować ten produkt przed dodaniem deklinacje."
+
+#: includes/plugins/products/products/data.php:1131
+msgid "QUANTITÉS DISPONIBLES À LA VENTE"
+msgstr "Kwoty dostępne na SPRZEDAŻ"
+
+#: includes/plugins/products/products/data.php:1134
+msgid "Cette interface vous permet de gérer les quantités disponibles à la vente pour ce produit. Elle vous permet également de gérer les déclinaisons produit dans la boutique en cours."
+msgstr "Interfejs ten pozwala na zarządzanie ilości dostępne do sprzedaży dla tego produktu. To także pozwala na zarządzanie odmian produkowanych w obecnym sklepie."
+
+#: includes/plugins/products/products/data.php:1135
+msgid "Notez que si un produit du pack a plusieurs déclinaisons, c'est sa déclinaison par défaut qui sera utilisée pour les mouvements de stocks."
+msgstr "Zauważ, że jeśli opakowanie produktu ma kilka odmian, jest jego domyślne połączenie, które będą wykorzystywane do ruchów magazynowych."
+
+#: includes/plugins/products/products/data.php:1194
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des quantités."
+msgstr "Musisz zarejestrować ten produkt przed dodaniem ilości."
+
+#: includes/plugins/products/products/data.php:1207
+msgid "Ajouter une nouvelle image à ce produit"
+msgstr "Dodaj nowy obraz dla tego produktu"
+
+#: includes/plugins/products/products/data.php:1217
+msgid "Sélectionnez l'image en vedette."
+msgstr "Wybierz obraz wyróżniona."
+
+#: includes/plugins/products/products/data.php:1252
+msgid "Vous devez enregistrer ce produit avant d'y ajouter des images."
+msgstr "Musisz zarejestrować ten produkt przed dodaniem obrazów."
+
+#: includes/plugins/products/products/data.php:1263
+msgid "Attribuer des caractéristiques à ce produit"
+msgstr "Przypisanie funkcji do tego produktu"
+
+#: includes/plugins/products/products/data.php:1267
+msgid "Vous pouvez préciser une valeur pour chaque caractéristique pertinente concernant ce produit ; les champs vides ne seront pas affichés."
+msgstr "Można określić wartość dla każdej właściwej funkcji na produkcie; nie będą wyświetlane puste pola."
+
+#: includes/plugins/products/products/data.php:1268
+msgid "Vous pouvez définir une valeur spécifique, ou choisir parmi les valeurs existantes prédéfinies que vous avez ajoutées précédemment."
+msgstr "Można ustawić określoną wartość lub wybrać jeden z predefiniowanych istniejących wartości, które zostały dodane wcześniej."
+
+#: includes/plugins/products/products/data.php:1279
+msgid "Caractéristique"
+msgstr "cecha"
+
+#: includes/plugins/products/products/data.php:1280
+msgid "Valeur prédéfinie"
+msgstr "wartość zadana"
+
+#: includes/plugins/products/products/data.php:1281 includes/plugins/users/users/data.php:585
+msgid "OU"
+msgstr "LUB"
+
+#: includes/plugins/products/products/data.php:1281
+msgid "Valeur personnalisée"
+msgstr "wartość niestandardowego"
+
+#: includes/plugins/products/products/data.php:1308
+msgid "N/D"
+msgstr "N / A"
+
+#: includes/plugins/products/products/data.php:1308
+msgid "Ajouter une valeur prédéfinie dans un premier temps"
+msgstr "Dodaj predefiniowaną wartość początkowo"
+
+#: includes/plugins/products/products/data.php:1340
+msgid "Nom du fichier *"
+msgstr "Nazwa pliku *"
+
+#: includes/plugins/products/products/data.php:1352
+msgid "Fichier"
+msgstr "plik"
+
+#: includes/plugins/products/products/data.php:1355
+msgid "Mettre un fichier en ligne depuis votre poste de travail"
+msgstr "Umieszczenie pliku internetowego ze stacji roboczej"
+
+#: includes/plugins/products/products/data.php:1355
+msgid "max."
+msgstr "max."
+
+#: includes/plugins/products/products/data.php:1356
+msgid "Formats autorisés :"
+msgstr "autoryzowane formaty:"
+
+#: includes/plugins/products/products/data.php:1361
+msgid "Envoyer"
+msgstr "wysłać"
+
+#: includes/plugins/products/products/data.php:1366
+msgid "Liste des fichiers attachés"
+msgstr "W załączeniu lista plików"
+
+#: includes/plugins/products/products/data.php:1372
+msgid "Nom du fichier"
+msgstr "Nazwa pliku"
+
+#: includes/plugins/products/products/data.php:1389
+msgid "Aucun attachment trouvé"
+msgstr "Nie znaleziono attachment"
+
+#: includes/plugins/products/products/data.php:1507
+msgid "Cette action supprime définitivement l'image sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "Akcja ta trwale usuwa obraz na serwerze. Czy jesteś pewien?"
+
+#: includes/plugins/products/products/data.php:1526
+msgid "Cette action supprime définitivement le fichier sur votre serveur. Êtes-vous vraiment sûr ?"
+msgstr "Ta akcja powoduje trwałe usunięcie pliku na serwerze. Czy jesteś pewien?"
+
+#: includes/plugins/products/products/data.php:1620
+msgid "Cette action supprime définitivement la declinaison. Êtes-vous vraiment sûr ?"
+msgstr "Ta akcja powoduje trwałe usunięcie deklinacji. Czy jesteś pewien?"
+
+#: includes/plugins/products/products/data.php:1643 includes/plugins/products/products/data.php:1651
+msgid "Cette action annuler la declinaison. Êtes-vous vraiment sûr ?"
+msgstr "Ta operacja anulowania deklinacji. Czy jesteś pewien?"
+
+#: includes/plugins/products/products/data.php:1782
+msgid "Vous ne pouvez ajouter qu'une déclinaison par type d'attribut."
+msgstr "Możesz dodać odmianę według rodzaju atrybutu."
+
+#: includes/plugins/products/products/list.php:44
+msgid "Gestion des Produits"
+msgstr "Product Management"
+
+#: includes/plugins/products/products/list.php:49
+msgid "Prix d\\'achat"
+msgstr "\\ Cena zakupu"
+
+#: includes/plugins/products/products/list.php:50
+msgid "Prix de vente"
+msgstr "cena sprzedaży"
+
+#: includes/plugins/products/tags/data.php:16 includes/plugins/products/tags/data.php:75
+msgid "Nom de Tag"
+msgstr "Nazwa znacznika"
+
+#: includes/plugins/products/tags/data.php:22 includes/plugins/products/tags/data.php:80
+msgid "language"
+msgstr "język"
+
+#: includes/plugins/products/tags/data.php:30 includes/plugins/products/tags/data.php:88
+msgid "Enrigistrer la Tag"
+msgstr "Enrigistrer Tag"
+
+#: includes/plugins/products/tags/list.php:9
+msgid "Gestion des tags"
+msgstr "tag Management"
+
+#: includes/plugins/products/tags/list.php:19
+msgid "Ajouter une tags"
+msgstr "Dodaj tagi"
+
+#: includes/plugins/products/values/data.php:34 includes/plugins/products/values/data.php:132
+msgid "La valeur a été mise à jour"
+msgstr "Wartość została zaktualizowana"
+
+#: includes/plugins/products/values/data.php:37
+msgid "La valeur a été ajouter avec success"
+msgstr "Wartość dodana została z sukcesem"
+
+#: includes/plugins/products/values/data.php:51 includes/plugins/products/values/data.php:159
+msgid "Ajouter une nouvelle valeur"
+msgstr "Dodaj nową wartość"
+
+#: includes/plugins/products/values/data.php:54
+msgid "Enregistrer"
+msgstr "rekord"
+
+#: includes/plugins/products/values/data.php:67 includes/plugins/products/values/data.php:175
+msgid "VALEURS"
+msgstr "WARTOŚCI"
+
+#: includes/plugins/products/values/data.php:71 includes/plugins/products/values/data.php:179
+msgid "Groupe d'attributs *"
+msgstr "grupę Atrybut *"
+
+#: includes/plugins/products/values/data.php:81 includes/plugins/products/values/data.php:192
+msgid "Valeur *"
+msgstr "wartość *"
+
+#: includes/plugins/products/values/data.php:87 includes/plugins/products/values/data.php:198
+msgid "URL"
+msgstr "URL"
+
+#: includes/plugins/products/values/list.php:9
+msgid "Gestion des Valeurs"
+msgstr "wartości zarządzania"
+
+#: includes/plugins/products/values/list.php:19
+msgid "Ajouter une Valeur"
+msgstr "Dodaj wartość"
+
+#: includes/plugins/shipping/shipping/data.php:158
+msgid "Le Transport a été mise à jour avec success."
+msgstr "Transport został zaktualizowany z sukcesem."
+
+#: includes/plugins/shipping/shipping/data.php:215
+msgid "Modifier le Transporteur"
+msgstr "Edycja Przewoźnika"
+
+#: includes/plugins/shipping/shipping/data.php:215
+msgid "Ajouter un Transporteur"
+msgstr "Dodaj Carrier"
+
+#: includes/plugins/shipping/shipping/data.php:247 includes/plugins/shipping/shipping/data.php:258
+msgid "Paramètres généraux"
+msgstr "ustawienia ogólne"
+
+#: includes/plugins/shipping/shipping/data.php:248 includes/plugins/shipping/shipping/data.php:341
+msgid "Destinations d'expédition et coûts"
+msgstr "Cel podróży i koszty wysyłki"
+
+#: includes/plugins/shipping/shipping/data.php:249 includes/plugins/shipping/shipping/data.php:478
+msgid "Taille, poids et groupes associés"
+msgstr "Wzrost, waga i powiązane z nią grupy"
+
+#: includes/plugins/shipping/shipping/data.php:250
+msgid "Récapitulatif"
+msgstr "streszczenie"
+
+#: includes/plugins/shipping/shipping/data.php:276
+msgid "Mode de livraison"
+msgstr "Tryb dostawy"
+
+#: includes/plugins/shipping/shipping/data.php:279
+msgid "Economique (le moins cher)"
+msgstr "Ekonomiczna (najtańszy)"
+
+#: includes/plugins/shipping/shipping/data.php:280
+msgid "Express (le plus rapide)"
+msgstr "Express (najszybciej)"
+
+#: includes/plugins/shipping/shipping/data.php:285
+msgid ""
+"Caractères autorisés : lettres, espaces et &quot;().-&quot;. Nom du transporteur tel qu'il apparaîtra durant la commande. Pour le retrait en boutique, mettez le chiffre 0 afin de remplacer le nom du "
+"transporteur par le nom de votre boutique."
+msgstr "Dozwolone znaki: litery, spacje i & quot; () .- & quot;. Nazwa przewoźnik, który będzie widoczny w zamówieniu. Do sklepu usuwania, umieścić 0 zastąpić nazwę przewoźnika o nazwie sklepu."
+
+#: includes/plugins/shipping/shipping/data.php:285
+msgid "Nom du transporteur *"
+msgstr "Przewoźnik Nazwa *"
+
+#: includes/plugins/shipping/shipping/data.php:292
+msgid "L'estimation du délai de livraison sera affichée durant la commande."
+msgstr "Szacowany czas dostawy zostanie wyświetlony podczas zamówienia."
+
+#: includes/plugins/shipping/shipping/data.php:292
+msgid "Délai de livraison *"
+msgstr "* Dostawa"
+
+#: includes/plugins/shipping/shipping/data.php:295
+msgid "min"
+msgstr "min"
+
+#: includes/plugins/shipping/shipping/data.php:298
+msgid "max"
+msgstr "max"
+
+#: includes/plugins/shipping/shipping/data.php:303
+msgid "Saisissez &quot;0&quot; pour le délai d'expédition le plus long, ou &quot;9&quot; pour le délai le plus court."
+msgstr "Podaj & quot; 0 & quot; przez najdłuższy czas wysyłki lub & quot; 9 & quot; w jak najkrótszym czasie."
+
+#: includes/plugins/shipping/shipping/data.php:303
+msgid "Vitesse"
+msgstr "prędkość"
+
+#: includes/plugins/shipping/shipping/data.php:313
+msgid "Format JPG, GIF, PNG. Taille du fichier 8.00 Mo max. Taille actuelle"
+msgstr "JPG, GIF, PNG. Rozmiar pliku 8,00 MB max. obecna wielkość"
+
+#: includes/plugins/shipping/shipping/data.php:313
+msgid "indéfini"
+msgstr "niezdefiniowane"
+
+#: includes/plugins/shipping/shipping/data.php:317
+msgid "URL pour le suivi des colis : placez le caractère &quot;@&quot; là où la référence doit apparaître. Elle sera automatiquement remplacée par le numéro de suivi."
+msgstr "URL do śledzenia pakietów: Umieść znak & quot; @ & quot; gdzie powinien pojawić się odniesienie. To automatycznie będzie zastąpiony numerem śledzenia."
+
+#: includes/plugins/shipping/shipping/data.php:317
+msgid "URL de suivi"
+msgstr "śledzenia URL"
+
+#: includes/plugins/shipping/shipping/data.php:320
+msgid "Par exemple : \"http://example.com/track.php?num=@\" avec \"@\" à l'emplacement du numéro de suivi."
+msgstr "Na przykład: \\ \"http: //example.com/track.php @ num = \" z \\ \"@ \" do lokalizacji numeru śledzenia."
+
+#: includes/plugins/shipping/shipping/data.php:346
+msgid "Ajouter les frais de manutention"
+msgstr "Dodaj opłaty manipulacyjnej"
+
+#: includes/plugins/shipping/shipping/data.php:358
+msgid "Facturation"
+msgstr "rozliczeniowy"
+
+#: includes/plugins/shipping/shipping/data.php:361
+msgid "En fonction du prix total."
+msgstr "W zależności od całkowitej cenie."
+
+#: includes/plugins/shipping/shipping/data.php:364
+msgid "En fonction du poids total."
+msgstr "W stosunku do całkowitej wagi."
+
+#: includes/plugins/shipping/shipping/data.php:383
+msgid ""
+"Le comportement hors tranches désigne le comportement à adopter lorsqu'aucune tranche ne correspond au panier du client (par exemple, lorsque le poids total des articles mis au panier est plus grand que le "
+"poids maximal défini dans les tranches de poids)."
+msgstr "Zachowanie się plastry odnosi się zachować, gdy nie kawałek odpowiada kosz klienta (na przykład, jeżeli łączna masa elementów kosza jest większa niż maksymalna wysokość określoną w kategoriach wagowych)."
+
+#: includes/plugins/shipping/shipping/data.php:383
+msgid "Comportement hors tranches"
+msgstr "Zachowanie się plastry"
+
+#: includes/plugins/shipping/shipping/data.php:387
+msgid "Prendre la tranche la plus grande"
+msgstr "Weź największy kawałek"
+
+#: includes/plugins/shipping/shipping/data.php:388
+msgid "Désactiver le transporteur"
+msgstr "Wyłącz nośnik"
+
+#: includes/plugins/shipping/shipping/data.php:398
+msgid "Plages"
+msgstr "plaże"
+
+#: includes/plugins/shipping/shipping/data.php:403 includes/plugins/shipping/shipping/data.php:413 includes/plugins/shipping/shipping/data.php:631
+msgid "Sera appliquée lorsque le poids est"
+msgstr "Będą stosowane, gdy masa jest"
+
+#: includes/plugins/shipping/shipping/data.php:407 includes/plugins/shipping/shipping/data.php:630
+msgid "kg"
+msgstr "kg"
+
+#: includes/plugins/shipping/shipping/data.php:423
+msgid "All"
+msgstr "wszystko"
+
+#: includes/plugins/shipping/shipping/data.php:457
+msgid "Ajouter une nouvelle tranche"
+msgstr "Dodaj nową transzę"
+
+#: includes/plugins/shipping/shipping/data.php:470
+msgid "Vous devez enregistrer ce transport avant d'y ajouter des destinations d'expédition et coûts."
+msgstr "Musisz się zarejestrować ten transport przed dodaniem kosztów wysyłki i miejsca przeznaczenia."
+
+#: includes/plugins/shipping/shipping/data.php:483
+msgid "Largeur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "Maksymalna szerokość zarządzany przez tego przewoźnika. Dołącz do & quot; 0 & quot; lub pozostaw puste, aby pominąć tę opcję. Wartość musi być liczbą całkowitą."
+
+#: includes/plugins/shipping/shipping/data.php:483
+msgid "Largeur maximum du paquet (cm)"
+msgstr "Maksymalna szerokość pakietu (cm)"
+
+#: includes/plugins/shipping/shipping/data.php:491
+msgid "Hauteur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "Maksymalna wysokość zarządzany przez tego przewoźnika. Dołącz do & quot; 0 & quot; lub pozostaw puste, aby pominąć tę opcję. Wartość musi być liczbą całkowitą."
+
+#: includes/plugins/shipping/shipping/data.php:491
+msgid "Hauteur maximum du paquet (cm)"
+msgstr "Maksymalna wysokość paczka (cm)"
+
+#: includes/plugins/shipping/shipping/data.php:499
+msgid "Profondeur maximale gérée par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option. La valeur doit être un entier."
+msgstr "Maksymalna głębokość zarządzany przez tego przewoźnika. Dołącz do & quot; 0 & quot; lub pozostaw puste, aby pominąć tę opcję. Wartość musi być liczbą całkowitą."
+
+#: includes/plugins/shipping/shipping/data.php:499
+msgid "Profondeur maximum du paquet (cm)"
+msgstr "Maksymalna głębokość opakowaniu (cm)"
+
+#: includes/plugins/shipping/shipping/data.php:507
+msgid "Poids maximal géré par ce transporteur. Inscrivez &quot;0&quot; ou laissez vide pour ignorer cette option."
+msgstr "Maksymalna waga obsługiwana przez tego przewoźnika. Dołącz do & quot; 0 & quot; lub pozostaw puste, aby pominąć tę opcję."
+
+#: includes/plugins/shipping/shipping/data.php:507
+msgid "Poids maximum du paquet (kg)"
+msgstr "Maksymalna waga opakowania (kg)"
+
+#: includes/plugins/shipping/shipping/data.php:514
+msgid "Cochez tous les groupes qui ont accès à ce transporteur."
+msgstr "Sprawdź wszystkie grupy, które mają dostęp do tego przewoźnika."
+
+#: includes/plugins/shipping/shipping/data.php:514
+msgid "Accès des groupes"
+msgstr "grupy Dostęp"
+
+#: includes/plugins/shipping/shipping/data.php:526
+msgid "Nom du groupe"
+msgstr "Nazwa grupy"
+
+#: includes/plugins/shipping/shipping/data.php:556
+msgid "Vous devez enregistrer ce transport avant d'y ajouter la taille, poids et groupes associés."
+msgstr "Musisz się zarejestrować ten transport przed dodaniem wielkości, wagi i powiązanych grup."
+
+#: includes/plugins/shipping/shipping/data.php:564
+msgid "Informations de transporteur"
+msgstr "Nośnik informacji"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "Le transporteur est"
+msgstr "Przewoźnik"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "Offert"
+msgstr "oferowany"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "payant"
+msgstr "zwracając"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "et le délai de livraison affiché est :"
+msgstr "i wyświetlany jest czas dostawy:"
+
+#: includes/plugins/shipping/shipping/data.php:570
+msgid "jours."
+msgstr "dni."
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "Le coût d'envoi est calculé"
+msgstr "Koszt wysyłki jest obliczany"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "en fonction du poids"
+msgstr "w stosunku do ciężaru"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "en fonction du prix"
+msgstr "według ceny"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "et la règle de taxe"
+msgstr "i zasady podatkowe"
+
+#: includes/plugins/shipping/shipping/data.php:571
+msgid "est appliquée"
+msgstr "nakłada"
+
+#: includes/plugins/shipping/shipping/data.php:572
+msgid "Ce transporteur peut livrer des commandes de"
+msgstr "Ten nośnik może dostarczyć rozkazy"
+
+#: includes/plugins/shipping/shipping/data.php:572
+msgid "Si la commande est hors de cette tranche, le comportement est défini comme : prendre la tranche la plus grande."
+msgstr "Jeśli zamówienie jest poza tym zakresem, zachowanie określa się jako: Weź największy kawałek."
+
+#: includes/plugins/shipping/shipping/data.php:573
+msgid "Ce transporteur sera proposé pour les zones :"
+msgstr "Nośnik zostanie zaproponowana dla obszarów:"
+
+#: includes/plugins/shipping/shipping/data.php:585
+msgid "Et il sera proposé pour les groupes de clients suivants :"
+msgstr "A zostaną zaoferowane do następujących grup klientów:"
+
+#: includes/plugins/shipping/shipping/data.php:601
+msgid "Vous devez enregistrer ce transport avant de percevoir la Récapitulatif."
+msgstr "Musisz się zarejestrować ten transport przed otrzymaniem podsumowanie."
+
+#: includes/plugins/shipping/shipping/data.php:613
+msgid "Vous devez enregistrer ce transport avant d'afficher les informations de transporteur."
+msgstr "Musisz zarejestrować ten przewoźnik przed wyświetleniem informacji."
+
+#: includes/plugins/shipping/shipping/data.php:628
+msgid "Sera appliquée lorsque le prix est"
+msgstr "Będą stosowane, gdy cena jest"
+
+#: includes/plugins/shipping/shipping/list.php:21
+msgid "Liste des Transports"
+msgstr "Lista Transport"
+
+#: includes/plugins/shipping/shipping/list.php:25
+msgid "Nom de Transport"
+msgstr "Nazwa transportowa"
+
+#: includes/plugins/shipping/shipping/list.php:26
+msgid "Délai Min"
+msgstr "czas min"
+
+#: includes/plugins/shipping/shipping/list.php:27
+msgid "Délai Max"
+msgstr "Maksymalne opóźnienie"
+
+#: includes/plugins/shipping/shipping/list.php:28
+msgid "Vitesse (km)"
+msgstr "Prędkość (km)"
+
+#: includes/plugins/shipping/shipping/list.php:29
+msgid "Largeur Max"
+msgstr "Maksymalna szerokość"
+
+#: includes/plugins/shipping/shipping/list.php:30
+msgid "Hauteur Max"
+msgstr "Maksymalna wysokość"
+
+#: includes/plugins/shipping/shipping/list.php:31
+msgid "Profondeur Max"
+msgstr "Maksymalna głębokość"
+
+#: includes/plugins/shipping/shipping/list.php:32
+msgid "Poids Max"
+msgstr "masa całkowita"
+
+#: includes/plugins/shipping/shipping/list.php:36
+msgid "Ajouter un Transport"
+msgstr "Dodaj transportowe"
+
+#: includes/plugins/shop/shop/list.php:8
+msgid "Gestion de Boutique"
+msgstr "Zarządzanie Shop"
+
+#: includes/plugins/shop/shop/list.php:13
+msgid "Afficher \"Ajouter au Panier\""
+msgstr "Pokaż \\ \"Dodaj do koszyka \""
+
+#: includes/plugins/users/groups/data.php:7
+msgid "AJOUTER UNE GROUPE UTILISATEUR"
+msgstr "DODAJ grup użytkowników"
+
+#: includes/plugins/users/groups/data.php:20
+msgid "Ajouter une Groupe"
+msgstr "Dodaj grupę"
+
+#: includes/plugins/users/groups/data.php:31 includes/plugins/users/groups/data.php:94
+msgid "Nom du groupe :"
+msgstr "Nazwa grupy:"
+
+#: includes/plugins/users/groups/data.php:71
+msgid "MODIFIER UNE GROUPE"
+msgstr "Edycja grupy"
+
+#: includes/plugins/users/groups/data.php:89
+msgid "Modifier le groupe"
+msgstr "Edycja grupy"
+
+#: includes/plugins/users/groups/data.php:104
+msgid "Sauvegarder"
+msgstr "oszczędzać"
+
+#: includes/plugins/users/groups/list.php:6
+msgid "Gestion des groups"
+msgstr "Zarządzanie grupami"
+
+#: includes/plugins/users/groups/list.php:10
+msgid "Nom de Groupe"
+msgstr "Nazwa grupy"
+
+#: includes/plugins/users/groups/list.php:15
+msgid "Ajouter une groupe"
+msgstr "Dodaj grupę"
+
+#: includes/plugins/users/login/login.php:128
+msgid "OkadShop"
+msgstr "OkadShop"
+
+#: includes/plugins/users/login/login.php:128
+msgid "Connexion"
+msgstr "Zaloguj się"
+
+#: includes/plugins/users/login/login.php:139
+msgid "SE CONNECTER"
+msgstr "CONNECT"
+
+#: includes/plugins/users/login/login.php:141
+msgid "Retour au Site"
+msgstr "Powrót do strony"
+
+#: includes/plugins/users/users/data.php:218
+msgid "Félicitation votre compte a été bien crée. <br>Nous vous remercions de vous être inscrit(e) chez OkadShop.<br><br>"
+msgstr "Gratulujemy konta tworzona jest dobrze. Największa Dziękujemy za rejestrację (e) w OkadShop. Największa"
+
+#: includes/plugins/users/users/data.php:223 includes/plugins/users/users/data.php:244
+msgid "Une email a été envoyé au Client."
+msgstr "E-mail został wysłany do Klienta."
+
+#: includes/plugins/users/users/data.php:302
+msgid "Modifier les informations Client"
+msgstr "Informacje Edycja klienta"
+
+#: includes/plugins/users/users/data.php:310 includes/plugins/users/users/list.php:38
+msgid "Ajouter un Client"
+msgstr "Dodaj klienta"
+
+#: includes/plugins/users/users/data.php:341
+msgid "Champs requis"
+msgstr "wymagane pola"
+
+#: includes/plugins/users/users/data.php:342
+msgid "Les Champs suivants sont obligatoire :"
+msgstr "Poniższe pola są obowiązkowe:"
+
+#: includes/plugins/users/users/data.php:348
+msgid "Information client"
+msgstr "informacji o klientach"
+
+#: includes/plugins/users/users/data.php:355
+msgid "N° client"
+msgstr "Identyfikator klienta"
+
+#: includes/plugins/users/users/data.php:362
+msgid "Civilité"
+msgstr "grzeczność"
+
+#: includes/plugins/users/users/data.php:372 includes/plugins/users/users/data.php:601
+msgid "Prénom *"
+msgstr "Imię *"
+
+#: includes/plugins/users/users/data.php:384
+msgid "Adresse E-mail *"
+msgstr "Adres e-mail *"
+
+#: includes/plugins/users/users/data.php:396
+msgid "Mot de passe"
+msgstr "hasło"
+
+#: includes/plugins/users/users/data.php:399
+msgid "5 caractères min (Remplir ce champs pour changer le mot de passe)."
+msgstr "5 znaków min (pola wymagane do zmiany hasła)."
+
+#: includes/plugins/users/users/data.php:409
+msgid "Date d’inscription"
+msgstr "Meldunek"
+
+#: includes/plugins/users/users/data.php:429
+msgid "En attente"
+msgstr "w oczekiwaniu"
+
+#: includes/plugins/users/users/data.php:430
+msgid "Suspendu"
+msgstr "zawieszony"
+
+#: includes/plugins/users/users/data.php:437
+msgid "Cette utilisateur est admin"
+msgstr "Ten użytkownik jest admin"
+
+#: includes/plugins/users/users/data.php:444
+msgid "Envoyer un email"
+msgstr "Wyślij e-mail"
+
+#: includes/plugins/users/users/data.php:449
+msgid "Contenu de l'email"
+msgstr "treść wiadomości"
+
+#: includes/plugins/users/users/data.php:451
+msgid "Félicitation votre compte a été bien crée. Nous vous remercions de vous être inscrit(e) chez OkadShop."
+msgstr "Gratulujemy konta tworzona jest dobrze. Dziękujemy za rejestrację (e) w OkadShop."
+
+#: includes/plugins/users/users/data.php:457 includes/plugins/users/users/data.php:534 includes/plugins/users/users/data.php:678 includes/plugins/users/users/data.php:697 includes/plugins/users/users/data.php:717
+#: includes/plugins/users/users/data.php:812 includes/plugins/users/users/data.php:887
+msgid "Valider"
+msgstr "uprawomocnić"
+
+#: includes/plugins/users/users/data.php:463
+msgid "Informations de la société"
+msgstr "Informacje o firmie"
+
+#: includes/plugins/users/users/data.php:469 includes/plugins/users/users/data.php:607
+msgid "Société *"
+msgstr "firma *"
+
+#: includes/plugins/users/users/data.php:475
+msgid "Activité *"
+msgstr "* aktywność"
+
+#: includes/plugins/users/users/data.php:481
+msgid "N° d’entreprise *"
+msgstr "Numer firmy *"
+
+#: includes/plugins/users/users/data.php:487
+msgid "Registre du commerce"
+msgstr "Rejestr Handlowy"
+
+#: includes/plugins/users/users/data.php:496
+msgid "Si vous êtes en création d’entreprise"
+msgstr "Jeśli rozpoczęcie działalności"
+
+#: includes/plugins/users/users/data.php:497
+msgid "Indiquez « en cours » dans les champs société, activité etsiret"
+msgstr "Wskazywać \"trwa\" w polu firmy, działalność etsiret"
+
+#: includes/plugins/users/users/data.php:500
+msgid "Site web"
+msgstr "witryna internetowa"
+
+#: includes/plugins/users/users/data.php:506
+msgid "Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)"
+msgstr "W przypadku krajów spoza UE, należy skontaktować się z rejestru handlowego (wymagane)"
+
+#: includes/plugins/users/users/data.php:509
+msgid "Date début d’activité"
+msgstr "Spółka utworzyła"
+
+#: includes/plugins/users/users/data.php:515
+msgid "Détail du projet"
+msgstr "szczegóły projektu"
+
+#: includes/plugins/users/users/data.php:524
+msgid "Sélectionnez une Statut"
+msgstr "Wybierz status"
+
+#: includes/plugins/users/users/data.php:565
+msgid "Les adresses de Client"
+msgstr "Adres klienta"
+
+#: includes/plugins/users/users/data.php:567
+msgid "Ajouter une nouvelle adresse"
+msgstr "Dodaj nowy adres"
+
+#: includes/plugins/users/users/data.php:575
+msgid "Nom de l’adresse"
+msgstr "Nazwa adresu"
+
+#: includes/plugins/users/users/data.php:578
+msgid "Sélectionnez une adresse"
+msgstr "Wybierz adres"
+
+#: includes/plugins/users/users/data.php:585
+msgid "Sélectionnez une adresse dessus"
+msgstr "Wybierz adres powyżej"
+
+#: includes/plugins/users/users/data.php:585
+msgid "remplir les champs suivant pour ajouter un nouvelle addresse"
+msgstr "wypełnić poniższe pola, aby dodać nowy adres"
+
+#: includes/plugins/users/users/data.php:589
+msgid "Nom de l'adresse *"
+msgstr "Nazwa Adres *"
+
+#: includes/plugins/users/users/data.php:613
+msgid "Adresse *"
+msgstr "* adres"
+
+#: includes/plugins/users/users/data.php:627
+msgid "Code postal *"
+msgstr "Kod pocztowy *"
+
+#: includes/plugins/users/users/data.php:633
+msgid "Ville *"
+msgstr "miasto *"
+
+#: includes/plugins/users/users/data.php:639
+msgid "Pays *"
+msgstr "Kraj *"
+
+#: includes/plugins/users/users/data.php:649
+msgid "Adresse IP"
+msgstr "adres IP"
+
+#: includes/plugins/users/users/data.php:655
+msgid "Téléphone fixe"
+msgstr "telefon"
+
+#: includes/plugins/users/users/data.php:658
+msgid "Téléphone fixe (pas obligatoire)"
+msgstr "Telefon (nie wymagane)"
+
+#: includes/plugins/users/users/data.php:662
+msgid "Téléphone portable *"
+msgstr "Telefon komórkowy *"
+
+#: includes/plugins/users/users/data.php:672
+msgid "Imprimer une étiquette"
+msgstr "Wydrukować etykietę"
+
+#: includes/plugins/users/users/data.php:684
+msgid "Information complémentaires"
+msgstr "Dodatkowe informacje"
+
+#: includes/plugins/users/users/data.php:703
+msgid "Commentaire (en interne uniquement)"
+msgstr "Komentarz (tylko do użytku wewnętrznego)"
+
+#: includes/plugins/users/users/data.php:708
+msgid "Cette note sera affichée pour tous les employés, mais pas au client."
+msgstr "Ta notatka będzie wyświetlana przez wszystkich pracowników, a nie do klienta."
+
+#: includes/plugins/users/users/data.php:723
+msgid "Historique des messsages"
+msgstr "Komunikat ten History"
+
+#: includes/plugins/users/users/data.php:731
+msgid "Envoyer un email au client"
+msgstr "Wyślij e-mail do klienta"
+
+#: includes/plugins/users/users/data.php:734
+msgid "Envoyez cette email"
+msgstr "Wyslij e-mail"
+
+#: includes/plugins/users/users/data.php:740
+msgid "Historique des messages"
+msgstr "Historia Wiadomość"
+
+#: includes/plugins/users/users/data.php:777
+msgid "Admin"
+msgstr "administrator"
+
+#: includes/plugins/users/users/data.php:798
+msgid "Aucune messages dans ce dossier !"
+msgstr "Brak wiadomości w tym folderze!"
+
+#: includes/plugins/users/users/data.php:804
+msgid "Supprimer ce Dossier"
+msgstr "Usunąć ten folder"
+
+#: includes/plugins/users/users/data.php:818
+msgid "Historique devis / commande"
+msgstr "Historyczne cytat / zamów"
+
+#: includes/plugins/users/users/data.php:826
+msgid "Historique devis"
+msgstr "cytaty historyczne"
+
+#: includes/plugins/users/users/data.php:832 includes/plugins/users/users/data.php:863
+msgid "Nom de Devis"
+msgstr "Cytat Nazwa"
+
+#: includes/plugins/users/users/data.php:835
+msgid "Valable jusqu’au"
+msgstr "dostępny do"
+
+#: includes/plugins/users/users/data.php:857
+msgid "Historique Commandes"
+msgstr "Historia zamówień"
+
+#: includes/plugins/users/users/list.php:23
+msgid "Gestion des clients"
+msgstr "Customer Management"
+
+#: includes/plugins/users/users/list.php:27
+msgid "Numéro"
+msgstr "liczba"
+
+#: includes/plugins/users/users/list.php:28
+msgid "Prénom"
+msgstr "imię"
+
+#: includes/plugins/users/users/list.php:30
+msgid "Société"
+msgstr "spółka"
+
+#: includes/plugins/users/users/list.php:31
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/plugins/users/users/list.php:33
+msgid "Téléphone"
+msgstr "telefon"

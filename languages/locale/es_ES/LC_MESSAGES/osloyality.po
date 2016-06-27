@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:43+0100\n"
+"PO-Revision-Date: 2016-05-30 13:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-loyalty\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: loyalty.module.php:45 pages/loyalty-points.php:21
+msgid "Points de fidélité"
+msgstr "fidelidad"
+
+#: loyalty.module.php:46
+msgid "Paramètres des Points"
+msgstr "Configuración de Puntos"
+
+#: pages/loyalty-points.php:27
+msgid "Points de fidélité pour chaque Client"
+msgstr "Puntos de fidelidad para cada cliente"
+
+#: pages/loyalty-points.php:33
+msgid "N° Client"
+msgstr "Nº CLIENTE"
+
+#: pages/loyalty-points.php:34
+msgid "Nom"
+msgstr "Apellido"
+
+#: pages/loyalty-points.php:35
+msgid "Prénom"
+msgstr "Nombre"
+
+#: pages/loyalty-points.php:36
+msgid "Téléphone fixe"
+msgstr "Teléfono fijo"
+
+#: pages/loyalty-points.php:37
+msgid "Téléphone portable"
+msgstr "Teléfono móvil"
+
+#: pages/loyalty-points.php:38
+msgid "Pays"
+msgstr "País"
+
+#: pages/loyalty-points.php:39
+msgid "Nombre de Points"
+msgstr "Número de puntos"
+
+#: pages/loyalty-settings.php:9
+msgid "Bien Enregistré"
+msgstr "Aunque Registrados"
+
+#: pages/loyalty-settings.php:11
+msgid "Non Enregistré"
+msgstr "no registrado"
+
+#: pages/loyalty-settings.php:19
+msgid "Point de fidelite"
+msgstr "Punto de lealtad"
+
+#: pages/loyalty-settings.php:19
+msgid "Configuration"
+msgstr "Configuración"
+
+#: pages/loyalty-settings.php:24
+msgid "Point de fidelite Details"
+msgstr "fidelidad punto Detalles"
+
+#: pages/loyalty-settings.php:28
+msgid "la valeur de"
+msgstr "el valor de"
+
+#: pages/loyalty-settings.php:28
+msgid "Point de fidélité:"
+msgstr "punto de fidelidad:"
+
+#: pages/loyalty-settings.php:32
+msgid "Enregistrer"
+msgstr "Guardar"

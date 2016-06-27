@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-27 16:02+0000\n"
+"PO-Revision-Date: 2016-05-30 12:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-contact\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact.module.php:34 contact.module.php:47
+msgid "Formulaire de Contact"
+msgstr "Contact form"
+
+#: contact.module.php:35
+msgid "Afficher les emails envyé depuis le formulaire de contact."
+msgstr "Afficher les emails envoyé depuis le formulaire de contact."
+
+#: contact.module.php:48 pages/messages.php:46
+msgid "Liste des Messages"
+msgstr "Message List"
+
+#: contact.module.php:49 pages/contact-config.php:41
+msgid "Paramètres de Messagerie"
+msgstr "Mail Settings"
+
+#: pages/contact-config.php:47
+msgid "Signature des messages"
+msgstr "Message signature"
+
+#: pages/contact-config.php:52
+msgid "Signature..."
+msgstr "Signature..."
+
+#: pages/contact-config.php:57
+msgid "Souvegarder la signature"
+msgstr "Sauvegarder la signature"
+
+#: pages/messages.php:52
+msgid "Numéro"
+msgstr "Number"
+
+#: pages/messages.php:53
+msgid "Date et heure"
+msgstr "Date and hour"
+
+#: pages/messages.php:54 pages/view-message.php:218
+msgid "Expéditeur"
+msgstr "Sender"
+
+#: pages/messages.php:55 pages/view-message.php:219
+msgid "Société"
+msgstr "Society"
+
+#: pages/messages.php:56 pages/view-message.php:220
+msgid "Numéro d’entreprise"
+msgstr "Business Number"
+
+#: pages/messages.php:57 pages/view-message.php:221
+msgid "E-mail"
+msgstr "E-mail"
+
+#: pages/messages.php:58 pages/view-message.php:225
+msgid "Pays"
+msgstr "Country"
+
+#: pages/messages.php:59 pages/messages.php:74
+msgid "Actions"
+msgstr "stock"
+
+#: pages/messages.php:76
+msgid "Voir le message"
+msgstr "View Post"
+
+#: pages/view-message.php:205
+msgid "Mesagerie"
+msgstr "mesagerie"
+
+#: pages/view-message.php:208
+msgid "Liste des messages"
+msgstr "Message List"
+
+#: pages/view-message.php:222
+msgid "Adresse"
+msgstr "Address"
+
+#: pages/view-message.php:223
+msgid "Code Postal"
+msgstr "Postal code"
+
+#: pages/view-message.php:224
+msgid "Ville"
+msgstr "City"
+
+#: pages/view-message.php:226
+msgid "Addresse IP"
+msgstr "IP address"
+
+#: pages/view-message.php:227
+msgid "Téléphone"
+msgstr "Phone"
+
+#: pages/view-message.php:231
+msgid "Ce client est un nouveau prospect."
+msgstr "This client is a new prospect."
+
+#: pages/view-message.php:232
+msgid "Créer un compte"
+msgstr "Create an account"
+
+#: pages/view-message.php:234
+msgid "Ce client est en compte."
+msgstr "This client is included."
+
+#: pages/view-message.php:235
+msgid "Voir le profile"
+msgstr "View profile"
+
+#: pages/view-message.php:248
+msgid "Objet de message"
+msgstr "Object message"
+
+#: pages/view-message.php:251
+msgid "Message..."
+msgstr "Message..."
+
+#: pages/view-message.php:258
+msgid "Envoyez"
+msgstr "Send"
+
+#: pages/view-message.php:291 pages/view-message.php:363
+msgid "Ajouter un Dossier"
+msgstr "Add a Folder"
+
+#: pages/view-message.php:308
+msgid "Sans sujet"
+msgstr "no topic"
+
+#: pages/view-message.php:308
+msgid "N°"
+msgstr "NOT"
+
+#: pages/view-message.php:316
+msgid "Déplacer"
+msgstr "Move"
+
+#: pages/view-message.php:323
+msgid "Répondre"
+msgstr "Reply"
+
+#: pages/view-message.php:324
+msgid "Transférer"
+msgstr "To transfer"
+
+#: pages/view-message.php:325
+msgid "Supprimer"
+msgstr "Remove"
+
+#: pages/view-message.php:326
+msgid "Spam"
+msgstr "spam"
+
+#: pages/view-message.php:329
+msgid "Le client ne l'a pas encore lu"
+msgstr "The customer has not yet read"
+
+#: pages/view-message.php:342
+msgid "Pas de messages dans ce dossier !"
+msgstr "No messages in this folder!"
+
+#: pages/view-message.php:348
+msgid "Supprimer ce Dossier"
+msgstr "Delete This Folder"
+
+#: pages/view-message.php:367
+msgid "Nom de dossier"
+msgstr "Folder name"
+
+#: pages/view-message.php:375
+msgid "Souvegarder"
+msgstr "Souvegarder"
+
+#: pages/view-message.php:390
+msgid ""
+"Cette action supprime définitivement le dossier et ces messages de la base de donné. Êtes-vous vraiment "
+"sûr ?"
+msgstr "This action permanently deletes the folder and the messages of the base given. Are you really sure?"
+
+#: pages/view-message.php:399
+msgid "Le dossier a été supprimer."
+msgstr "The file was deleted."
+
+#: pages/view-message.php:439
+msgid "Le message a été supprimer."
+msgstr "The message was deleted."

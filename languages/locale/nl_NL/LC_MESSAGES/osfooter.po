@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:27+0100\n"
+"PO-Revision-Date: 2016-05-30 13:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../modules/os-lang\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax/product.php:20
+msgid "Veuillez sélectionner le produit et la langue"
+msgstr "Selecteer het product en taal"
+
+#: ajax/product.php:31 ajax/product.php:80
+msgid "La Traduction a été mise a jour."
+msgstr "De vertaling is bijgewerkt."
+
+#: ajax/product.php:41 ajax/product.php:89
+msgid "La Traduction a été bien ajouté."
+msgstr "De vertaling is goed gezegd."
+
+#: ajax/product.php:70
+msgid "Veuillez sélectionner la categorie et la langue"
+msgstr "Selecteer de categorie en taal"
+
+#: oslang.module.php:46 pages/oslang_product_translate.php:15
+#: pages/oslang_settings.php:25
+msgid "Traduire une produit"
+msgstr "Vertaal Product"
+
+#: oslang.module.php:47 pages/oslang_categories_translate.php:15
+#: pages/oslang_settings.php:29
+msgid "Traduire une categorie"
+msgstr "Translate een categorie"
+
+#: oslang.module.php:48 pages/oslang_cms_translate.php:15
+msgid "Traduire une Page"
+msgstr "Het vertalen van een pagina"
+
+#: pages/oslang_categories_translate.php:19
+msgid "Liste des categories"
+msgstr "Categorieënlijst"
+
+#: pages/oslang_categories_translate.php:27
+msgid "Ajouter la traduction d'une categorie"
+msgstr "vertaling toevoegen van een categorie"
+
+#: pages/oslang_categories_translate.php:30
+msgid "Nom Original du categorie"
+msgstr "Oorspronkelijke naam van de categorie"
+
+#: pages/oslang_categories_translate.php:33
+msgid "Sélectionnez une categorie"
+msgstr "Selecteer een categorie"
+
+#: pages/oslang_categories_translate.php:43 pages/oslang_cms_translate.php:43
+#: pages/oslang_product_translate.php:43
+msgid "Langue"
+msgstr "Taal"
+
+#: pages/oslang_categories_translate.php:46 pages/oslang_cms_translate.php:46
+#: pages/oslang_product_translate.php:46
+msgid "Sélectionnez une Langue"
+msgstr "Selecteer een taal"
+
+#: pages/oslang_categories_translate.php:57 pages/oslang_cms_translate.php:57
+#: pages/oslang_product_translate.php:57
+msgid "Nom"
+msgstr "naam"
+
+#: pages/oslang_categories_translate.php:63 pages/oslang_cms_translate.php:63
+#: pages/oslang_product_translate.php:69
+msgid "Description"
+msgstr "OMSCHRIJVING"
+
+#: pages/oslang_categories_translate.php:70 pages/oslang_cms_translate.php:76
+#: pages/oslang_product_translate.php:76
+msgid "Annuler"
+msgstr "Afzeggen"
+
+#: pages/oslang_categories_translate.php:72 pages/oslang_cms_translate.php:78
+#: pages/oslang_product_translate.php:78
+msgid "Sauvegarder"
+msgstr "besparen"
+
+#: pages/oslang_cms_translate.php:19
+msgid "Liste des Page"
+msgstr "lijst Pagina"
+
+#: pages/oslang_cms_translate.php:27
+msgid "Ajouter la traduction d'une Page"
+msgstr "Voeg de vertaling van pagina"
+
+#: pages/oslang_cms_translate.php:30
+msgid "Nom Original du Page"
+msgstr "Oorspronkelijke naam van de pagina"
+
+#: pages/oslang_cms_translate.php:33
+msgid "Sélectionnez une Page"
+msgstr "Pagina selecteren"
+
+#: pages/oslang_cms_translate.php:69
+msgid "content"
+msgstr "inhoud"
+
+#: pages/oslang_product_translate.php:19
+msgid "Liste des produit"
+msgstr "Lijst van product"
+
+#: pages/oslang_product_translate.php:27
+msgid "Ajouter la traduction d'un produit"
+msgstr "Voeg de vertaling van een product"
+
+#: pages/oslang_product_translate.php:30
+msgid "Nom Original du produit"
+msgstr "Naam van het product Original"
+
+#: pages/oslang_product_translate.php:33
+msgid "Sélectionnez un produit"
+msgstr "Selecteer een Product"
+
+#: pages/oslang_product_translate.php:63
+msgid "Résumé"
+msgstr "Samenvatting"
+
+#: pages/oslang_settings.php:13
+msgid "Page configuration"
+msgstr "configuratiepagina"

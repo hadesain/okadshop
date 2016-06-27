@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:36+0100\n"
+"PO-Revision-Date: 2016-05-30 10:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-lang\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax/product.php:20
+msgid "Veuillez sélectionner le produit et la langue"
+msgstr "يرجى تحديد المنتج واللغة"
+
+#: ajax/product.php:31 ajax/product.php:80
+msgid "La Traduction a été mise a jour."
+msgstr "تم تحديث الترجمة."
+
+#: ajax/product.php:41 ajax/product.php:89
+msgid "La Traduction a été bien ajouté."
+msgstr "وقد قيل أيضا الترجمة."
+
+#: ajax/product.php:70
+msgid "Veuillez sélectionner la categorie et la langue"
+msgstr "الرجاء تحديد الفئة واللغة"
+
+#: oslang.module.php:46 pages/oslang_product_translate.php:15
+#: pages/oslang_settings.php:25
+msgid "Traduire une produit"
+msgstr "ترجمة المنتج"
+
+#: oslang.module.php:47 pages/oslang_categories_translate.php:15
+#: pages/oslang_settings.php:29
+msgid "Traduire une categorie"
+msgstr "ترجم فئة"
+
+#: oslang.module.php:48 pages/oslang_cms_translate.php:15
+msgid "Traduire une Page"
+msgstr "ترجمة صفحة"
+
+#: pages/oslang_categories_translate.php:19
+msgid "Liste des categories"
+msgstr "قائمة الفئات"
+
+#: pages/oslang_categories_translate.php:27
+msgid "Ajouter la traduction d'une categorie"
+msgstr "إضافة الترجمة للفئة"
+
+#: pages/oslang_categories_translate.php:30
+msgid "Nom Original du categorie"
+msgstr "الاسم الأصلي للفئة"
+
+#: pages/oslang_categories_translate.php:33
+msgid "Sélectionnez une categorie"
+msgstr "حدد فئة"
+
+#: pages/oslang_categories_translate.php:43 pages/oslang_cms_translate.php:43
+#: pages/oslang_product_translate.php:43
+msgid "Langue"
+msgstr "لغة"
+
+#: pages/oslang_categories_translate.php:46 pages/oslang_cms_translate.php:46
+#: pages/oslang_product_translate.php:46
+msgid "Sélectionnez une Langue"
+msgstr "اختر اللغة"
+
+#: pages/oslang_categories_translate.php:57 pages/oslang_cms_translate.php:57
+#: pages/oslang_product_translate.php:57
+msgid "Nom"
+msgstr "الإسم"
+
+#: pages/oslang_categories_translate.php:63 pages/oslang_cms_translate.php:63
+#: pages/oslang_product_translate.php:69
+msgid "Description"
+msgstr "وصف"
+
+#: pages/oslang_categories_translate.php:70 pages/oslang_cms_translate.php:76
+#: pages/oslang_product_translate.php:76
+msgid "Annuler"
+msgstr "إلغاء"
+
+#: pages/oslang_categories_translate.php:72 pages/oslang_cms_translate.php:78
+#: pages/oslang_product_translate.php:78
+msgid "Sauvegarder"
+msgstr "حفظ"
+
+#: pages/oslang_cms_translate.php:19
+msgid "Liste des Page"
+msgstr "قائمة الصفحة"
+
+#: pages/oslang_cms_translate.php:27
+msgid "Ajouter la traduction d'une Page"
+msgstr "إضافة ترجمة الصفحة"
+
+#: pages/oslang_cms_translate.php:30
+msgid "Nom Original du Page"
+msgstr "الاسم الأصلي للصفحة"
+
+#: pages/oslang_cms_translate.php:33
+msgid "Sélectionnez une Page"
+msgstr "حدد صفحة"
+
+#: pages/oslang_cms_translate.php:69
+msgid "content"
+msgstr "محتوى"
+
+#: pages/oslang_product_translate.php:19
+msgid "Liste des produit"
+msgstr "قائمة المنتجات"
+
+#: pages/oslang_product_translate.php:27
+msgid "Ajouter la traduction d'un produit"
+msgstr "إضافة الترجمة للمنتج"
+
+#: pages/oslang_product_translate.php:30
+msgid "Nom Original du produit"
+msgstr "اسم المنتج الأصلي"
+
+#: pages/oslang_product_translate.php:33
+msgid "Sélectionnez un produit"
+msgstr "حدد المنتج"
+
+#: pages/oslang_product_translate.php:63
+msgid "Résumé"
+msgstr "ملخص"
+
+#: pages/oslang_settings.php:13
+msgid "Page configuration"
+msgstr "صفحة التكوين"

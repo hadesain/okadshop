@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-06 16:19+0000\n"
+"PO-Revision-Date: 2016-06-06 16:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/cartpanel\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cartpanel.module.php:23 cartpanel.module.php:34
+msgid "Panier"
+msgstr "Notepad"
+
+#: cartpanel.module.php:28
+msgid "Aucun produit"
+msgstr "Aucun produit"
+
+#: cartpanel.module.php:30
+msgid "Total"
+msgstr "Overall"
+
+#: cartpanel.module.php:35
+msgid "Commander"
+msgstr "Order"

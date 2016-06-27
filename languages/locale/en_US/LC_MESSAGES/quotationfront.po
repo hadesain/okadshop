@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 16:51+0100\n"
+"PO-Revision-Date: 2016-05-30 10:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/quotationfront\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: php/includes/ajax.php:52
+msgid "Message Envoyé"
+msgstr "Sent"
+
+#: php/includes/ajax.php:54 php/includes/ajax.php:55
+msgid "Message Non Envoyé"
+msgstr "Message Not Sent"
+
+#: php/includes/ajax.php:84 quotationfront.module.php:48
+msgid "Le produit a bien été ajouté au devis"
+msgstr "The product has been added to the quote"
+
+#: php/includes/ajax.php:85 quotationfront.module.php:313 quotationfront.module.php:318 quotationfront.module.php:326
+#: quotationfront.module.php:334
+msgid "Continuer mon devis"
+msgstr "Continue my quote"
+
+#: php/includes/ajax.php:86
+msgid "Soumettre mon devis"
+msgstr "Submit my quote"
+
+#: php/includes/ajax.php:213 php/includes/ajax.php:354 quotationfront.module.php:195 quotationfront.module.php:385
+#: quotationfront.module.php:698
+msgid "Référence"
+msgstr "Reference"
+
+#: php/includes/ajax.php:219
+msgid "Prix du lot"
+msgstr "Lot price"
+
+#: php/includes/ajax.php:230
+msgid ""
+"Ce produit n'existe pas dans cette déclinaison. <br> \n"
+"            Vous pouvez néanmoins en sélectionner une autre"
+msgstr "This product does not exist in this variation. <br> \\ n You can still select another"
+
+#: php/includes/ajax.php:235
+msgid "En achetant ce produit vous pouvez gagner jusqu'à"
+msgstr "By buying this product you can collect up"
+
+#: php/includes/ajax.php:235 php/includes/ajax.php:505 quotationfront.module.php:304 quotationfront.module.php:502
+#: quotationfront.module.php:756
+msgid "points de fidélité"
+msgstr "reward points"
+
+#: php/includes/ajax.php:243 quotationfront.module.php:62
+msgid "Quantité"
+msgstr "Amount"
+
+#: php/includes/ajax.php:247 quotationfront.module.php:66
+msgid "Ajouter au devis"
+msgstr "Add to quote"
+
+#: php/includes/ajax.php:265 php/includes/ajax.php:276 php/includes/ajax.php:287 php/includes/ajax.php:318
+#: php/includes/ajax.php:319 php/includes/ajax.php:320 php/includes/ajax.php:324 php/includes/ajax.php:327
+#: php/includes/ajax.php:328 php/includes/ajax.php:508 php/includes/ajax.php:529
+msgid "en étude"
+msgstr "in study"
+
+#: php/includes/ajax.php:282 php/includes/ajax.php:284 quotationfront.module.php:838 quotationfront.module.php:840
+#: quotationfront.module.php:844 quotationfront.module.php:846
+msgid "à"
+msgstr "at"
+
+#: php/includes/ajax.php:282 quotationfront.module.php:838 quotationfront.module.php:844
+msgid "semaines"
+msgstr "weeks"
+
+#: php/includes/ajax.php:284 quotationfront.module.php:840 quotationfront.module.php:846
+msgid "Jours"
+msgstr "5 days"
+
+#: php/includes/ajax.php:294 quotationfront.module.php:870
+msgid "Economique"
+msgstr "Economic"
+
+#: php/includes/ajax.php:296 quotationfront.module.php:879
+msgid "Express"
+msgstr "Express"
+
+#: php/includes/ajax.php:304 quotationfront.module.php:1073
+msgid "Télécharger"
+msgstr "Download"
+
+#: php/includes/ajax.php:305
+msgid "Accepter le devis"
+msgstr "Accept the quote"
+
+#: php/includes/ajax.php:306
+msgid "Modifier le devis"
+msgstr "Edit the quote"
+
+#: php/includes/ajax.php:307
+msgid "Refuser le devis"
+msgstr "Reject quote"
+
+#: php/includes/ajax.php:308
+msgid "Nous contacter"
+msgstr "Contact us"
+
+#: php/includes/ajax.php:313 quotationfront.module.php:1076
+msgid "Modifier"
+msgstr "Edit"
+
+#: php/includes/ajax.php:314
+msgid "Modifier l’adresse"
+msgstr "Change Address"
+
+#: php/includes/ajax.php:323
+msgid "Renouveller"
+msgstr "renew"
+
+#: php/includes/ajax.php:338 quotationfront.module.php:369 quotationfront.module.php:1035
+msgid "Date"
+msgstr "Date 26.09.2010"
+
+#: php/includes/ajax.php:339 quotationfront.module.php:370 quotationfront.module.php:1038
+msgid "État"
+msgstr "state"
+
+#: php/includes/ajax.php:353 php/includes/ajax.php:573 quotationfront.module.php:136 quotationfront.module.php:384
+#: quotationfront.module.php:640
+msgid "Produit"
+msgstr "Product"
+
+#: php/includes/ajax.php:355 quotationfront.module.php:137 quotationfront.module.php:386 quotationfront.module.php:641
+msgid "Description"
+msgstr "description:"
+
+#: php/includes/ajax.php:356 quotationfront.module.php:138 quotationfront.module.php:387 quotationfront.module.php:642
+msgid "Prix unitaire"
+msgstr "Unit price"
+
+#: php/includes/ajax.php:357 quotationfront.module.php:139 quotationfront.module.php:388 quotationfront.module.php:643
+msgid "Qté"
+msgstr "Qty"
+
+#: php/includes/ajax.php:358 quotationfront.module.php:141 quotationfront.module.php:389 quotationfront.module.php:644
+#: quotationfront.module.php:1036
+msgid "Prix total"
+msgstr "PRIX TOTAL"
+
+#: php/includes/ajax.php:381 quotationfront.module.php:196 quotationfront.module.php:699
+msgid "Colisage"
+msgstr "packing"
+
+#: php/includes/ajax.php:382 quotationfront.module.php:197 quotationfront.module.php:700
+msgid "Poids"
+msgstr "Weight"
+
+#: php/includes/ajax.php:382 quotationfront.module.php:197 quotationfront.module.php:198 quotationfront.module.php:700
+#: quotationfront.module.php:701
+msgid "du pack"
+msgstr "pack"
+
+#: php/includes/ajax.php:427 quotationfront.module.php:277 quotationfront.module.php:450 quotationfront.module.php:736
+msgid "Total produits HT"
+msgstr "Total HT products"
+
+#: php/includes/ajax.php:432 quotationfront.module.php:454
+msgid "Remise globale"
+msgstr "overall discount"
+
+#: php/includes/ajax.php:438 quotationfront.module.php:458
+msgid "Bon de réduction"
+msgstr "Voucher"
+
+#: php/includes/ajax.php:445 quotationfront.module.php:462
+msgid "Avoir"
+msgstr "Things to see"
+
+#: php/includes/ajax.php:452 quotationfront.module.php:257 quotationfront.module.php:466 quotationfront.module.php:740
+msgid "Code promo"
+msgstr "Promo code"
+
+#: php/includes/ajax.php:459 quotationfront.module.php:470
+msgid "Frais de transport"
+msgstr "Transport costs"
+
+#: php/includes/ajax.php:463 quotationfront.module.php:474
+msgid "TOTAL HT"
+msgstr "Tax excl. total"
+
+#: php/includes/ajax.php:485
+msgid "Poids total"
+msgstr "Total weight"
+
+#: php/includes/ajax.php:496 quotationfront.module.php:497
+msgid "Devis valable jusqu’au"
+msgstr "Quote valid until"
+
+#: php/includes/ajax.php:505 quotationfront.module.php:304 quotationfront.module.php:502 quotationfront.module.php:756
+msgid "En validant votre demande, vous pouvez collecter"
+msgstr "By validating your application you can collect"
+
+#: php/includes/ajax.php:505 quotationfront.module.php:304 quotationfront.module.php:502 quotationfront.module.php:756
+msgid "pouvant être transformé(s) en un bon de réduction de"
+msgstr "can be converted (s) in a voucher of"
+
+#: php/includes/ajax.php:505 quotationfront.module.php:304 quotationfront.module.php:502 quotationfront.module.php:756
+msgid "sur votre prochaine commande. (offre non cumulable)"
+msgstr "on your next order. (non accumilative offer)"
+
+#: php/includes/ajax.php:522 php/includes/ajax.php:599
+msgid "J’accepte ce devis et je procède au paiement"
+msgstr "I accept this quote and I shall pay"
+
+#: php/includes/ajax.php:526
+msgid "Règlement"
+msgstr "14 By-laws)."
+
+#: php/includes/ajax.php:528
+msgid "Modes de règlement acceptés"
+msgstr "Accepted payment methods"
+
+#: php/includes/ajax.php:529
+msgid "Modalités de règlement"
+msgstr "Terms of Payment"
+
+#: php/includes/ajax.php:532
+msgid "+ d’informations sur le règlement"
+msgstr "More information about the settlement"
+
+#: php/includes/ajax.php:538 php/includes/ajax.php:561
+msgid "Livraison"
+msgstr "Delivery"
+
+#: php/includes/ajax.php:540
+msgid "Poids total estimé (hors emballage)"
+msgstr "estimated total weight (including packaging)"
+
+#: php/includes/ajax.php:541
+msgid "Vous avez accepté de recevoir votre commande dans un emballage recyclé"
+msgstr "You have agreed to receive your order in a recycled packaging"
+
+#: php/includes/ajax.php:543
+msgid "Mode de transport"
+msgstr "Mode of transport"
+
+#: php/includes/ajax.php:544 quotationfront.module.php:861
+msgid "Transporteur"
+msgstr "Carrier"
+
+#: php/includes/ajax.php:545
+msgid "Délais de livraison"
+msgstr "Delivery delay"
+
+#: php/includes/ajax.php:548
+msgid "+ d’informations sur le transport et les taxes."
+msgstr "More information about transport and taxes."
+
+#: php/includes/ajax.php:554
+msgid "Adresses"
+msgstr "Address"
+
+#: php/includes/ajax.php:555
+msgid "Facturation"
+msgstr "Billing"
+
+#: php/includes/ajax.php:570
+msgid "Une question, une demande ?"
+msgstr "A question, a request ?"
+
+#: php/includes/ajax.php:580 php/includes/ajax.php:622 php/includes/ajax.php:651
+msgid "Envoyer"
+msgstr "Send:"
+
+#: php/includes/ajax.php:593
+msgid "Je refuse ce devis"
+msgstr "I refuse this quote"
+
+#: php/includes/ajax.php:596
+msgid "Je souhaite modifier mon devis"
+msgstr "I want to change my quote"
+
+#: php/includes/ajax.php:615
+msgid "Nous sommes déçus que vous ne donniez pas suite à votre commande"
+msgstr "We are disappointed that you give not on demand"
+
+#: php/includes/ajax.php:616
+msgid "expliquez en nous la raison, nous pourrons certainement vous satisfaire."
+msgstr "explain to us the reason, we can certainly satisfy you."
+
+#: quotationfront.module.php:140
+msgid "Action"
+msgstr "Action"
+
+#: quotationfront.module.php:198 quotationfront.module.php:701
+msgid "prix du lot"
+msgstr "price of the lot"
+
+#: quotationfront.module.php:198 quotationfront.module.php:701
+msgid "Par"
+msgstr "par"
+
+#: quotationfront.module.php:211
+msgid "Supprimer ce produit"
+msgstr "Delete this article"
+
+#: quotationfront.module.php:254
+msgid "Utiliser un code promotionnel"
+msgstr "Use promotional code"
+
+#: quotationfront.module.php:261
+msgid "OK"
+msgstr "OK"
+
+#: quotationfront.module.php:277
+msgid ""
+"Les tarifs export s’entendent toujours HT, les taxes se règlent dans le pays d’importation. Plus d’info sur : Transport & "
+"Taxes."
+msgstr "The export prices are always quoted VAT, taxes are settled in the country of import. More info on: Transport & Taxes."
+
+#: quotationfront.module.php:284
+msgid "Bon de réduction :"
+msgstr "Voucher :"
+
+#: quotationfront.module.php:288
+msgid "OTAL HT"
+msgstr "OTAL HT"
+
+#: quotationfront.module.php:307 quotationfront.module.php:758
+msgid "Les tarifs export s’entendent toujours HT, les taxes se règlent dans le pays d’importation. Plus d’info sur"
+msgstr "The export prices are always quoted VAT, taxes are settled in the country of import. More on"
+
+#: quotationfront.module.php:307 quotationfront.module.php:758
+msgid "Transport & Taxes"
+msgstr "Transport & Taxes"
+
+#: quotationfront.module.php:311
+msgid "Valider la Modification"
+msgstr "Confirm Changes"
+
+#: quotationfront.module.php:317 quotationfront.module.php:325
+msgid "suivant"
+msgstr "following"
+
+#: quotationfront.module.php:333
+msgid "Veuillez compléter votre commande afin d’atteindre le minimum de commande de"
+msgstr "Please complete your order to reach the minimum control"
+
+#: quotationfront.module.php:339
+msgid "Votre devis est vide"
+msgstr "Your estimate is empty"
+
+#: quotationfront.module.php:478
+msgid "Acompte"
+msgstr "Advance payment"
+
+#: quotationfront.module.php:482
+msgid "Solde"
+msgstr "Balance"
+
+#: quotationfront.module.php:486
+msgid "Total économisé"
+msgstr "total saved"
+
+#: quotationfront.module.php:543
+msgid "message à propos de votre devis"
+msgstr "Post about your quote"
+
+#: quotationfront.module.php:565
+msgid "Modification de devis"
+msgstr "Changing quote"
+
+#: quotationfront.module.php:588
+msgid "Demander un devis"
+msgstr "Ask for a quote"
+
+#: quotationfront.module.php:594
+msgid "Produits Non enregistré"
+msgstr "Not registered Products"
+
+#: quotationfront.module.php:594
+msgid "Retour au site"
+msgstr "Return to Site"
+
+#: quotationfront.module.php:615
+msgid "Nous vous remercions pour votre consultation"
+msgstr "Thank you for your consultation"
+
+#: quotationfront.module.php:616
+msgid "Votre demande va être soigneusement étudiée et votre devis vous sera envoyé dans les plus brefs délais"
+msgstr "Your request will be carefully studied and your quote will be sent as soon as possible"
+
+#: quotationfront.module.php:616
+msgid "max 48h ouvrées"
+msgstr "max 48 working hours"
+
+#: quotationfront.module.php:617
+msgid "Vous pouvez suivre votre devis pas à pas et nous contacter à tout moment depuis"
+msgstr "You can track your quotes and stepping contact us at any time from"
+
+#: quotationfront.module.php:617
+msgid "votre compte"
+msgstr "your account"
+
+#: quotationfront.module.php:619
+msgid "Retour à l’accueil"
+msgstr "Back to Home"
+
+#: quotationfront.module.php:744
+msgid "Points de fidélité"
+msgstr "Fidelity"
+
+#: quotationfront.module.php:776
+msgid "Valider La modification du devis"
+msgstr "Accept The modification of quotes"
+
+#: quotationfront.module.php:779
+msgid "Envoyer ma demande de devis"
+msgstr "Send request my quote"
+
+#: quotationfront.module.php:784
+msgid ""
+"Si vous voulez nous laisser un message à propos de votre devis, merci de bien vouloir le renseigner dans le champ ci-"
+"dessous."
+msgstr "If you want to leave us a message about your quote, thank you to kindly inquire into the field below."
+
+#: quotationfront.module.php:798
+msgid "J'ai lu les conditions générales de vente et j'y adhère sans réserve"
+msgstr "I have read the terms and conditions of service and I adhere without reservation"
+
+#: quotationfront.module.php:799
+msgid "Lire les Conditions Générales de Vente"
+msgstr "Read Terms & Conditions"
+
+#: quotationfront.module.php:800
+msgid "Veuillez accepter nos Conditions Générales de Vente pour continuer"
+msgstr "Please accept our Terms and Conditions to continue"
+
+#: quotationfront.module.php:801 quotationfront.module.php:916
+msgid "Précédent"
+msgstr "."
+
+#: quotationfront.module.php:855
+msgid "Choisissez votre mode de livraison"
+msgstr "Choose your delivery method"
+
+#: quotationfront.module.php:860
+msgid "Mode de livraison"
+msgstr "Delivery method"
+
+#: quotationfront.module.php:862
+msgid "Délais de Transit"
+msgstr "Transit times"
+
+#: quotationfront.module.php:862
+msgid "à compter de l’envoi"
+msgstr "from sending"
+
+#: quotationfront.module.php:870
+msgid "le moins cher"
+msgstr "the cheapest"
+
+#: quotationfront.module.php:879
+msgid "le plus rapide"
+msgstr "the fastest"
+
+#: quotationfront.module.php:902
+msgid "Emballage recyclé"
+msgstr "recycled packaging"
+
+#: quotationfront.module.php:903
+msgid "J'accepte de recevoir ma commande dans un emballage recyclé"
+msgstr "I agree to receive my order in a recycled packaging"
+
+#: quotationfront.module.php:907
+msgid "+ d’informations sur le transport et les taxes"
+msgstr "More information about transport and taxes"
+
+#: quotationfront.module.php:914
+msgid "Valider la modification"
+msgstr "Confirm change"
+
+#: quotationfront.module.php:916
+msgid "Continuer mes achats"
+msgstr "Continue shopping"
+
+#: quotationfront.module.php:917
+msgid "Suivant"
+msgstr "following"
+
+#: quotationfront.module.php:971
+msgid "demander une prolongation ou une réactualisation."
+msgstr "request an extension or an update."
+
+#: quotationfront.module.php:1030
+msgid "Historique de votre devis"
+msgstr "History of your quote"
+
+#: quotationfront.module.php:1034
+msgid "Devis/Facture"
+msgstr "Quote / Invoice"
+
+#: quotationfront.module.php:1037
+msgid "Paiement"
+msgstr "Payment"
+
+#: quotationfront.module.php:1039
+msgid "Devis"
+msgstr "quotation"
+
+#: quotationfront.module.php:1040
+msgid "Facture"
+msgstr "Bill"
+
+#: quotationfront.module.php:1049
+msgid "Devis N°"
+msgstr "Quote No."
+
+#: quotationfront.module.php:1058 quotationfront.module.php:1060 quotationfront.module.php:1088 quotationfront.module.php:1115
+msgid "Détail"
+msgstr "Detail"
+
+#: quotationfront.module.php:1068
+msgid "Valable jusqu'au"
+msgstr "Valid until"
+
+#: quotationfront.module.php:1074
+msgid "Valider et payer"
+msgstr "Confirm and pay"
+
+#: quotationfront.module.php:1075
+msgid "Details"
+msgstr "Details"
+
+#: quotationfront.module.php:1099
+msgid "Commande N°"
+msgstr "Order"
+
+#: quotationfront.module.php:1137
+msgid "Suivre votre Devis pas à pas"
+msgstr "Watch your step not Work"
+
+#: quotationfront.module.php:1155
+msgid "Validation de Commande Num"
+msgstr "Control Validation Num"

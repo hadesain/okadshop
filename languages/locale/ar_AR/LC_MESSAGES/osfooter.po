@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 15:26+0100\n"
+"PO-Revision-Date: 2016-05-30 10:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-footer\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: os-footer.module.php:91
+msgid "Footer Configuration"
+msgstr "تكوين تذييل"
+
+#: os-footer.module.php:192
+msgid "Configuration"
+msgstr "ترتيب"
+
+#: os-footer.module.php:197
+msgid "Footer Company Details"
+msgstr "تذييل معلومات الشركة"
+
+#: os-footer.module.php:202
+msgid "Changer Image footer"
+msgstr "تغيير تذييل صورة"
+
+#: os-footer.module.php:208 os-footer.module.php:249 os-footer.module.php:275
+#: os-footer.module.php:292 os-footer.module.php:318 os-footer.module.php:335
+#: os-footer.module.php:361
+msgid "Title"
+msgstr "لقب"
+
+#: os-footer.module.php:212
+msgid "Address1"
+msgstr "Address1"
+
+#: os-footer.module.php:216
+msgid "Address2"
+msgstr "Address2"
+
+#: os-footer.module.php:221
+msgid "Phone"
+msgstr "هاتف"
+
+#: os-footer.module.php:225
+msgid "Mail"
+msgstr "بريد"
+
+#: os-footer.module.php:230 os-footer.module.php:375
+msgid "Enregistrer"
+msgstr "سجل"
+
+#: os-footer.module.php:244
+msgid "Footer Block"
+msgstr "تذييل بلوك"
+
+#: os-footer.module.php:268 os-footer.module.php:311 os-footer.module.php:354
+msgid "Souvegarder"
+msgstr "Souvegarder"
+
+#: os-footer.module.php:277 os-footer.module.php:363
+msgid "lien"
+msgstr "[رابط]"
+
+#: os-footer.module.php:279 os-footer.module.php:322 os-footer.module.php:365
+msgid "Ajouter lien"
+msgstr "إضافة رابط"
+
+#: os-footer.module.php:290
+msgid "Footer Block 2"
+msgstr "تذييل بلوك 2"

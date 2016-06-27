@@ -1,0 +1,1095 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-06 09:26+0000\n"
+"PO-Revision-Date: 2016-06-06 09:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../themes/tesla\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: css/fancybox/jquery.fancybox.pack.js:35
+msgid "width"
+msgstr "breedte"
+
+#: footer.php:70
+msgid "Newsletter"
+msgstr "nieuwsbrief"
+
+#: footer.php:71
+msgid "Inscrivez-vous à notre newsletter pour recevoir des offres exclusives"
+msgstr "Meld je aan voor onze nieuwsbrief om exclusieve aanbiedingen te ontvangen"
+
+#: footer.php:75 modules/order/cart.php:114
+msgid "Votre adresse mail"
+msgstr "uw e-mail"
+
+#: footer.php:77 modules/order/cart.php:116
+msgid "OK"
+msgstr "OK"
+
+#: footer.php:104 modules/account/history.php:87 modules/order/adresse.php:43 modules/order/capture.php:21 modules/order/cart.php:32 modules/order/cheque.php:27 modules/order/livraison.php:20 modules/order/livraison.php:23 modules/order/livraison.php:36 modules/order/order-confirmation.php:31 modules/order/paiement.php:31
+msgid "Livraison"
+msgstr "levering"
+
+#: footer.php:105
+msgid "Où que vous soyez, nous pouvons vous livrer !"
+msgstr "Waar je ook bent, kunnen wij leveren!"
+
+#: footer.php:106 footer.php:114 footer.php:122
+msgid "Cliquez ici pour en savoir plus"
+msgstr "Klik hier voor meer"
+
+#: footer.php:106 footer.php:114 footer.php:122 footer.php:130 modules/product/product.php:231
+msgid "En savoir plus"
+msgstr "MEER WETEN"
+
+#: footer.php:112
+msgid "Paiement sécurisé "
+msgstr "veilig betalen "
+
+#: footer.php:113
+#, php-format
+msgid "Règlement 100% sécurisé !"
+msgstr ""
+
+#: footer.php:120
+msgid "Programme fidélité"
+msgstr "loyaliteitsprogramma"
+
+#: footer.php:121
+msgid "Votre fidélité récompensée ! "
+msgstr "Uw trouw beloond! "
+
+#: footer.php:128
+msgid "Service client"
+msgstr "customer service"
+
+#: footer.php:129
+msgid "Notre service client est à votre disposition du Lundi au vendredi de 10h à 17h et le Samedi de 10 à 12h."
+msgstr "Onze klantenservice is bereikbaar van maandag tot en met vrijdag van 10u tot 17u en zaterdag van 10 tot 12u."
+
+#: footer.php:135
+msgid "Grossiste/ fournisseur en artisanat marocain."
+msgstr "Groothandelaar / leverancier Marokkaanse ambacht."
+
+#: footer.php:144
+msgid "Tous droits réservés"
+msgstr "n"
+
+#: header.php:68 modules/account/account.php:5 modules/account/account.php:52 modules/account/addresses.php:16 modules/account/addresses.php:61 modules/account/adresse.php:30 modules/account/discount.php:6 modules/account/discount.php:43 modules/account/history.php:7 modules/account/history.php:123 modules/account/identity.php:15 modules/account/identity.php:153 modules/account/invoices.php:7 modules/account/invoices.php:125 modules/account/login.php:3 modules/account/loyalty-program.php:7
+#: modules/account/loyalty-program.php:48 modules/account/myalerts.php:3 modules/account/myalerts.php:13 modules/account/order-follow.php:3 modules/account/order-follow.php:13 modules/account/order-slip.php:3 modules/account/order-slip.php:13 modules/account/password.php:56 modules/account/quotation.php:6 modules/account/quotation.php:15 modules/account/referralprogram-program.php:3 modules/account/referralprogram-program.php:13 modules/account/register.php:9 modules/cms/cms.php:10 modules/order/adresse.php:26
+#: modules/order/capture.php:4 modules/order/cart.php:10 modules/order/cheque.php:10 modules/order/livraison.php:19 modules/order/order-confirmation.php:14 modules/order/order-confirmation.php:44 modules/order/order.php:3 modules/order/paiement.php:13 modules/pages/contact.php:76 modules/pages/sitemap.php:7 modules/pages/sitemap.php:50 modules/pages/sitemap.php:81 modules/product/category.php:49 modules/product/product.php:30 modules/search/search.php:15 views/new-products.php:54 views/nos-fabricant.php:6
+#: views/promos.php:58 views/viewed-products.php:57
+msgid "Accueil"
+msgstr "Onthaal"
+
+#: header.php:69 header.php:199 modules/pages/contact.php:77 modules/pages/sitemap.php:88
+msgid "Contact"
+msgstr "Contact :"
+
+#: header.php:70 modules/pages/sitemap.php:8 modules/pages/sitemap.php:11
+msgid "Plan du site"
+msgstr "Sitemap"
+
+#: header.php:103 modules/account/account.php:48
+msgid "Déconnexion"
+msgstr "Afmelden"
+
+#: header.php:105
+msgid "Bienvenue"
+msgstr "Welkom"
+
+#: header.php:106 modules/account/login.php:7 modules/account/login.php:77
+msgid "Identifiez-vous"
+msgstr "Log in"
+
+#: header.php:108 header.php:197 modules/account/account.php:6 modules/account/account.php:9 modules/account/addresses.php:17 modules/account/adresse.php:31 modules/account/discount.php:7 modules/account/history.php:8 modules/account/identity.php:16 modules/account/invoices.php:8 modules/account/loyalty-program.php:8 modules/account/myalerts.php:4 modules/account/order-follow.php:4 modules/account/order-slip.php:4 modules/account/quotation.php:7 modules/account/referralprogram-program.php:4
+msgid "Mon compte"
+msgstr "mijn rekening"
+
+#: header.php:121 header.php:122
+msgid "Panier"
+msgstr "mand"
+
+#: header.php:137
+msgid "Rechercher un produit..."
+msgstr "Zoek een product ..."
+
+#: header.php:190
+msgid "Nouveautés"
+msgstr "nieuw"
+
+#: header.php:191 modules/pages/sitemap.php:22 views/promos.php:59 views/promos.php:62
+msgid "Promotions"
+msgstr "promoties"
+
+#: header.php:195 modules/pages/sitemap.php:87
+msgid "Créer un compte"
+msgstr "Maak een account aan"
+
+#: modules/account/account.php:12
+msgid "Bienvenue sur votre page d'accueil. Vous pouvez gérer vos informations personnelles, vos commandes ainsi que vos adresses."
+msgstr "Welkom op uw startpagina. U kunt uw persoonlijke gegevens, uw bestellingen en uw adres te beheren."
+
+#: modules/account/account.php:15 modules/account/quotation.php:8
+msgid "Historique de votre devis"
+msgstr "Geschiedenis van uw offerte"
+
+#: modules/account/account.php:18
+msgid "Historique et détails de mes commandes"
+msgstr "Geschiedenis en de details van mijn orders"
+
+#: modules/account/account.php:21
+msgid "Historique et détails de mes factures"
+msgstr "Geschiedenis en de details van mijn rekeningen"
+
+#: modules/account/account.php:30 modules/account/addresses.php:18 modules/account/addresses.php:21
+msgid "Mes adresses"
+msgstr "mijn adressen"
+
+#: modules/account/account.php:33
+msgid "Mes informations personnelles"
+msgstr "Mijn persoonlijke gegevens"
+
+#: modules/account/account.php:36
+msgid "Mes bons de réductions"
+msgstr "mijn waardebonnen"
+
+#: modules/account/account.php:39 modules/account/loyalty-program.php:9 modules/account/loyalty-program.php:12 modules/account/referralprogram-program.php:5 modules/account/referralprogram-program.php:8
+msgid "Mes points de fidélité"
+msgstr "Mijn spaarpunten"
+
+#: modules/account/addresses.php:24
+msgid "Choisissez vos adresses de facturation et de livraison. Ces dernières seront présélectionnées lors de vos commandes. Vous pouvez également ajouter d'autres adresses, ce qui est particulièrement intéressant pour envoyer des cadeaux ou recevoir votre commande au bureau."
+msgstr "Kies uw facturering en levering. Deze zullen vooraf geselecteerde bij het bestellen zijn. U kunt ook andere adressen, die van bijzonder belang is om geschenken te sturen of uw bestelling ontvangen op het kantoor toe te voegen."
+
+#: modules/account/addresses.php:25
+msgid "Vos adresses sont listées ci-dessous :"
+msgstr "Adressen zijn hieronder opgesomd:"
+
+#: modules/account/addresses.php:26
+msgid "Pensez à les tenir à jour si ces dernières venaient à changer."
+msgstr "Vergeet niet om hen te houden bijgewerkt als ze waren om te veranderen."
+
+#: modules/account/addresses.php:42
+msgid "Mettre à jour"
+msgstr "التحديث"
+
+#: modules/account/addresses.php:45 modules/order/adresse.php:100 modules/order/adresse.php:115
+msgid "Supprimer"
+msgstr "Uitschrijven"
+
+#: modules/account/addresses.php:55
+msgid "Ajouter une adresse"
+msgstr "Voeg een adres"
+
+#: modules/account/addresses.php:60 modules/account/adresse.php:197 modules/account/discount.php:42 modules/account/history.php:122 modules/account/identity.php:152 modules/account/invoices.php:124 modules/account/loyalty-program.php:47 modules/account/myalerts.php:12 modules/account/order-follow.php:12 modules/account/order-slip.php:12 modules/account/quotation.php:14 modules/account/referralprogram-program.php:12 modules/order/order-confirmation.php:43
+msgid "Retour à votre compte"
+msgstr "Keer terug naar je account"
+
+#: modules/account/adresse.php:20 modules/account/adresse.php:21 modules/order/adresse.php:99 modules/order/adresse.php:114
+msgid "Modifier cette adresse"
+msgstr "Verander dit adres"
+
+#: modules/account/adresse.php:23
+msgid "Ajouter une nouvelle adresse"
+msgstr "Voeg een nieuw adres"
+
+#: modules/account/adresse.php:24
+msgid "Pour ajouter une nouvelle adresse, merci de remplir ce formulaire."
+msgstr "Om een ​​nieuw adres toe te voegen, dank u voor het invullen van dit formulier."
+
+#: modules/account/adresse.php:48
+msgid "ereur d'ajout"
+msgstr "ereur Toegevoegd"
+
+#: modules/account/adresse.php:50 modules/account/identity.php:30 modules/account/login.php:53
+msgid "Vérifier votre champ"
+msgstr "Controleer uw vakgebied"
+
+#: modules/account/adresse.php:69 modules/account/register.php:259
+msgid "Votre adresse"
+msgstr "uw adres"
+
+#: modules/account/adresse.php:76 modules/account/identity.php:59 modules/account/register.php:81 modules/account/register.php:266 modules/pages/contact.php:116
+msgid "Prénom"
+msgstr "Voornaam"
+
+#: modules/account/adresse.php:82 modules/account/identity.php:53 modules/account/register.php:87 modules/account/register.php:272 modules/pages/contact.php:124
+msgid "Nom"
+msgstr "naam"
+
+#: modules/account/adresse.php:90 modules/account/register.php:180 modules/pages/contact.php:134
+msgid "Société"
+msgstr "Bedrijf :"
+
+#: modules/account/adresse.php:98 modules/account/register.php:280 modules/order/adresse.php:39 modules/order/capture.php:17 modules/order/cart.php:28 modules/order/cheque.php:23 modules/order/livraison.php:32 modules/order/order-confirmation.php:27 modules/order/paiement.php:27 modules/pages/contact.php:162
+msgid "Adresse"
+msgstr "adres"
+
+#: modules/account/adresse.php:107 modules/account/register.php:296 modules/pages/contact.php:176
+msgid "Code postal"
+msgstr "postcode"
+
+#: modules/account/adresse.php:113 modules/account/register.php:302 modules/pages/contact.php:185
+msgid "Ville"
+msgstr "stad"
+
+#: modules/account/adresse.php:121 modules/account/register.php:310 modules/pages/contact.php:195
+msgid "Pays"
+msgstr "land"
+
+#: modules/account/adresse.php:145 modules/account/register.php:338
+msgid "Téléphone fixe"
+msgstr "telefoon"
+
+#: modules/account/adresse.php:151 modules/account/register.php:344
+msgid "Téléphone portable"
+msgstr "mobiele telefoon"
+
+#: modules/account/adresse.php:159 modules/account/register.php:352
+msgid "Nom de l'adresse"
+msgstr "Naam van het adres"
+
+#: modules/account/adresse.php:167 modules/account/register.php:360
+msgid "Informations complémentaires"
+msgstr "Bijkomende informatie"
+
+#: modules/account/adresse.php:183 modules/account/identity.php:146 modules/account/register.php:450
+msgid "Champs requis"
+msgstr "Verplichte velden"
+
+#: modules/account/adresse.php:196
+msgid "Annuler"
+msgstr "Afzeggen"
+
+#: modules/account/discount.php:8 modules/account/discount.php:11
+msgid "Vos bons de réductions"
+msgstr "uw coupon"
+
+#: modules/account/discount.php:16
+msgid "Code"
+msgstr "code"
+
+#: modules/account/discount.php:17 modules/order/cart.php:49 modules/order/paiement.php:45
+msgid "Description"
+msgstr "OMSCHRIJVING"
+
+#: modules/account/discount.php:18 modules/account/history.php:101 modules/order/cart.php:51 modules/order/paiement.php:47
+msgid "Qté"
+msgstr "Aantal"
+
+#: modules/account/discount.php:19
+msgid "Valeur"
+msgstr "(waarde = € 22,37)"
+
+#: modules/account/discount.php:20
+msgid "Minimum"
+msgstr "minimum"
+
+#: modules/account/discount.php:21
+msgid "Expiration"
+msgstr "vervaltijd"
+
+#: modules/account/discount.php:39
+msgid "Taxes comprises"
+msgstr "taksen inbegrepen"
+
+#: modules/account/history.php:9 modules/account/history.php:15
+msgid "Historique de vos commandes"
+msgstr "Bestel Geschiedenis"
+
+#: modules/account/history.php:21 modules/account/invoices.php:26
+msgid "Commande"
+msgstr "BESTELLING"
+
+#: modules/account/history.php:22 modules/account/history.php:62 modules/account/invoices.php:22 modules/account/loyalty-program.php:20
+msgid "Date"
+msgstr "datum"
+
+#: modules/account/history.php:23 modules/account/history.php:103 modules/account/invoices.php:23 modules/order/cart.php:52 modules/order/paiement.php:48
+msgid "Prix total"
+msgstr "Totale prijs €"
+
+#: modules/account/history.php:24 modules/account/invoices.php:24 modules/order/adresse.php:51 modules/order/capture.php:29 modules/order/cart.php:40 modules/order/cheque.php:31 modules/order/livraison.php:40 modules/order/paiement.php:35
+msgid "Paiement"
+msgstr "betaling"
+
+#: modules/account/history.php:25 modules/account/history.php:63 modules/account/invoices.php:25
+msgid "État"
+msgstr "staat"
+
+#: modules/account/history.php:26 modules/account/invoices.php:27
+msgid "Télécharger"
+msgstr "downloaden"
+
+#: modules/account/history.php:47
+msgid "Vous n'avez pas encore passé de commande."
+msgstr "Je bent nog niet besteld."
+
+#: modules/account/history.php:56
+msgid "Méthode de paiement :"
+msgstr "Betaalmethode:"
+
+#: modules/account/history.php:58
+msgid "Suivre votre commande pas à pas :"
+msgstr "Volg je stepper control:"
+
+#: modules/account/history.php:76
+msgid "Facturation"
+msgstr "{0}1.3.9{/0} {1}           {/1} {0}Facturatie.{/0}"
+
+#: modules/account/history.php:100 modules/order/cart.php:48 modules/order/paiement.php:44
+msgid "Produit"
+msgstr "product"
+
+#: modules/account/history.php:102 modules/order/cart.php:50 modules/order/paiement.php:46
+msgid "Prix unitaire"
+msgstr "unit Prijs"
+
+#: modules/account/history.php:111 modules/order/cart.php:153 modules/order/paiement.php:110
+msgid "Total TTC :"
+msgstr "Totaal € BTW inbegrepen"
+
+#: modules/account/identity.php:17 modules/account/identity.php:20 modules/account/register.php:67
+msgid "Vos informations personnelles"
+msgstr "Uw persoonlijke gegevens"
+
+#: modules/account/identity.php:24
+msgid "Bien enregistrer"
+msgstr "Hoewel register"
+
+#: modules/account/identity.php:28
+msgid "ereur d'enregistrement"
+msgstr "registratie ereur"
+
+#: modules/account/identity.php:42
+msgid "N'hésitez pas à modifier vos informations personnelles si celles-ci ont changé."
+msgstr "Voel je vrij om uw persoonlijke gegevens veranderen als ze zijn veranderd."
+
+#: modules/account/identity.php:45 modules/account/register.php:71
+msgid "Civilité"
+msgstr "beleefdheid"
+
+#: modules/account/identity.php:47 modules/account/register.php:73
+msgid "Mr"
+msgstr "De heer"
+
+#: modules/account/identity.php:49 modules/account/register.php:76
+msgid "Mme"
+msgstr "Mw."
+
+#: modules/account/identity.php:65 modules/account/login.php:20 modules/account/login.php:62 modules/account/password.php:73 modules/account/password.php:97 modules/account/register.php:95 modules/pages/contact.php:154
+msgid "Adresse e-mail"
+msgstr "E-mailadres"
+
+#: modules/account/identity.php:71
+msgid "Mot de passe actuell"
+msgstr "Password Actuell"
+
+#: modules/account/identity.php:77
+msgid "Nouveau mot de passe"
+msgstr "nieuw wachtwoord"
+
+#: modules/account/identity.php:83
+msgid "Confirmation"
+msgstr "تأكيد"
+
+#: modules/account/identity.php:91
+msgid "Date de naissance"
+msgstr "Geboortedatum"
+
+#: modules/account/identity.php:144
+msgid "Recevez les offres spéciales de nos partenaires"
+msgstr "Ontvang speciale aanbiedingen van onze partners"
+
+#: modules/account/identity.php:147
+msgid "Conformément aux dispositions de la loi du n°78-17 du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et d'opposition sur les données nominatives vous concernant."
+msgstr "Op grond van de wet 78-17 van 6 januari 1978, hebt u recht op toegang, rectificatie en verzet van de persoonsgegevens."
+
+#: modules/account/invoices.php:9
+msgid "Historique de vos factures."
+msgstr "Geschiedenis van uw facturen."
+
+#: modules/account/invoices.php:15
+msgid "Historique de vos factures"
+msgstr "Geschiedenis van uw facturen"
+
+#: modules/account/invoices.php:21
+msgid "Facture"
+msgstr "rekening"
+
+#: modules/account/invoices.php:49
+msgid "Vous n'avez pas de facture"
+msgstr "U hoeft geen rekening hebben"
+
+#: modules/account/login.php:4 modules/account/register.php:10
+msgid "Identifiant"
+msgstr "inloggen"
+
+#: modules/account/login.php:13 modules/account/login.php:24 modules/account/register.php:61 modules/pages/contact.php:107
+msgid "Créez votre compte"
+msgstr "account aanmaken"
+
+#: modules/account/login.php:18
+msgid "Saisissez votre adresse e-mail pour créer votre compte :"
+msgstr "Vul uw e-mailadres aan je account aan te maken:"
+
+#: modules/account/login.php:34
+msgid "Déjà enregistré"
+msgstr "al geregistreerd"
+
+#: modules/account/login.php:66 modules/account/password.php:77 modules/account/register.php:99
+msgid "Mot de passe"
+msgstr "Wachtwoord"
+
+#: modules/account/login.php:70 modules/account/password.php:57 modules/account/password.php:61
+msgid "Mot de passe oublié ?"
+msgstr "Wachtwoord vergeten?"
+
+#: modules/account/login.php:72
+msgid "Attention : si vous venez de créer votre compte, un délai de 24 à 48 h ouvrées est nécessaire."
+msgstr "Waarschuwing: Als u uw account binnen 24 tot 48 uur geschapen gewerkte is vereist."
+
+#: modules/account/loyalty-program.php:19 modules/order/adresse.php:47 modules/order/capture.php:5 modules/order/capture.php:8 modules/order/capture.php:25 modules/order/cart.php:36
+msgid "Devis"
+msgstr "BESTEK"
+
+#: modules/account/loyalty-program.php:21
+msgid "Points"
+msgstr "punten"
+
+#: modules/account/loyalty-program.php:36
+msgid "Total de points disponibles"
+msgstr "Totaal punten beschikbaar"
+
+#: modules/account/loyalty-program.php:42 modules/account/referralprogram-program.php:9
+msgid "Aucun point de fidélité pour le moment."
+msgstr "Geen loyaliteitspunten voor nu."
+
+#: modules/account/myalerts.php:5 modules/account/myalerts.php:8
+msgid "Mes alertes"
+msgstr "Mijn meldingen"
+
+#: modules/account/myalerts.php:9
+msgid "Vous n'avez souscrit à aucune alerte."
+msgstr "Je bent geabonneerd op eventuele waarschuwingen."
+
+#: modules/account/order-follow.php:5 modules/account/order-follow.php:8
+msgid "Retour produits"
+msgstr "Terug producten"
+
+#: modules/account/order-follow.php:9
+msgid "Vous n'avez aucun retour produits."
+msgstr "Je hebt geen terugkeer producten."
+
+#: modules/account/order-slip.php:5 modules/account/order-slip.php:8
+msgid "Avoirs"
+msgstr "participaties"
+
+#: modules/account/order-slip.php:9
+msgid "Vous n'avez reçu aucun avoir."
+msgstr "U heeft geen activa ontvangen."
+
+#: modules/account/password.php:9
+msgid "Aucun utilisateur avec cette adresse existe."
+msgstr "Geen gebruiker met deze adres bestaat."
+
+#: modules/account/password.php:18
+msgid "Votre clé de récupération de mot de passe a été envoyé à votre adresse e-mail."
+msgstr "Wachtwoord herstel sleutel is verzonden naar uw e-mailadres."
+
+#: modules/account/password.php:42
+msgid "Votre mot de passe a été réinitialisé avec succès."
+msgstr "Uw wachtwoord is met succes gereset."
+
+#: modules/account/password.php:47
+msgid "Vos mots de passe ne correspondent pas."
+msgstr "Uw wachtwoorden komen niet overeen."
+
+#: modules/account/password.php:50
+msgid "Votre clé de réinitialisation de mot est invalide."
+msgstr "Uw wachtwoord reset sleutel is ongeldig."
+
+#: modules/account/password.php:81
+msgid "Confiré Mot de passe"
+msgstr "Confire Password"
+
+#: modules/account/password.php:86 modules/account/password.php:101
+msgid "Valider"
+msgstr "Fiateren"
+
+#: modules/account/password.php:95
+msgid "Veuillez renseigner votre adresse e-mail afin de recevoir votre nouveau mot de passe."
+msgstr "Vul uw e-mailadres om een ​​nieuw wachtwoord te ontvangen."
+
+#: modules/account/password.php:109
+msgid "Retour à la page d'identification"
+msgstr "Terug naar login pagina"
+
+#: modules/account/register.php:4
+msgid "E-mail déjà enregistré"
+msgstr "E-mail al geregistreerd"
+
+#: modules/account/register.php:4
+msgid "connectez-vous"
+msgstr "logboek"
+
+#: modules/account/register.php:21
+msgid ""
+"Nous sommes actuellement en congés, <br>\n"
+"\t\t\t\t\tnous procéderons à la validation de votre compte dès notre retour prévu le :"
+msgstr "We zijn momenteel op vakantie, Frankrijk \\ n \\ t \\ t \\ t \\ t \\ tnous doorgaan met de validatie van uw account bij onze terugkeer verwacht op:"
+
+#: modules/account/register.php:23
+msgid "Merci de votre compréhension"
+msgstr "Dank u voor uw begrip"
+
+#: modules/account/register.php:25
+msgid "Bonjour"
+msgstr "Hallo"
+
+#: modules/account/register.php:25
+msgid ""
+"nous vous remercions de vous être inscrit(e) chez OKADSHOP. <br><br>\n"
+"\t\t\t\t\tAprès vérification des données fournies, nous vous enverrons un e-mail de confirmation contenant vos identifiants et mot de passe. (sous 24h à 48h ouvrées)<br><br>\n"
+"\t\t\t\t\tVous pourrez alors vous connecter, découvrir nos tarifs réservés aux professionnels et effectuer votre première demande de devis en ligne.<br><br>\n"
+"\t\t\t\t\tDans l’attente, nous vous invitons à prendre connaissance des différentes rubriques d’informations :"
+msgstr ""
+"wij danken u voor uw inschrijving (e) in OKADSHOP. <br> \\ n \\ t \\ t \\ t \\ t \\ tAprès verificatie van de verstrekte gegevens, sturen wij u een bevestigings e-mail met uw gebruikersnaam en wachtwoord. (Binnen 24 uur tot 48 werkuren) <br> \\ n \\ t \\ t \\ t \\ t \\ tJe kan vervolgens verbinding, ontdek onze speciale tarieven voor professionals en maak uw eerste offerteaanvraag online. <br> < br> \\ n \\ t \\ t \\ t \\ t \\ t in de tussentijd, nodigen wij u uit om de verschillende onderdelen van "
+"informatie te lezen:"
+
+#: modules/account/register.php:30
+msgid "Demander une devis"
+msgstr "Vraag een offerte aan"
+
+#: modules/account/register.php:31
+msgid "Transport et Taxes"
+msgstr "Transport en Belastingen"
+
+#: modules/account/register.php:32
+msgid "Paiement sécurisé"
+msgstr "veilig betalen"
+
+#: modules/account/register.php:33
+msgid "Programme de fidélité"
+msgstr "loyaliteitsprogramma"
+
+#: modules/account/register.php:34
+msgid "Conditions d’utilisation"
+msgstr "Voorwaarden"
+
+#: modules/account/register.php:44
+msgid "Error d'inscription"
+msgstr "registratie Error"
+
+#: modules/account/register.php:101
+msgid "(5 caractères min.)"
+msgstr "(5 tekens min.)"
+
+#: modules/account/register.php:160
+msgid "Votre société"
+msgstr "uw bedrijf"
+
+#: modules/account/register.php:167
+msgid "Statuts"
+msgstr "artikelen"
+
+#: modules/account/register.php:169
+msgid "Je suis un professionnel"
+msgstr "Ik ben een professional"
+
+#: modules/account/register.php:171
+msgid "Je suis en création d’entreprise"
+msgstr "Ik ben het starten van een bedrijf"
+
+#: modules/account/register.php:188
+msgid "Activité"
+msgstr "activiteit"
+
+#: modules/account/register.php:196
+msgid "Site web"
+msgstr "website"
+
+#: modules/account/register.php:204
+msgid "N° de siret / TVA"
+msgstr "No. Siret / BTW"
+
+#: modules/account/register.php:212
+msgid "Pour les pays hors U.E, veuillez joindre votre registre du commerce (obligatoire)"
+msgstr "Voor landen buiten de EU, neem dan contact op met uw handelsregister (verplicht)"
+
+#: modules/account/register.php:213
+msgid "Registre du commerce"
+msgstr "handelsregister"
+
+#: modules/account/register.php:218
+msgid "Ces données seront vérifiées, veillez donc à nous communiquer un numéro d’entreprise correct (le votre et non celui d’un tiers) auquel cas votre demande ne pourra aboutir."
+msgstr "Deze gegevens worden gecontroleerd, dus zorg ervoor om ons een goede zakelijke nummer (van jou en niet dat van een derde), in welk geval uw aanvraag zal niet slagen."
+
+#: modules/account/register.php:224
+msgid "Si vous êtes en création d’entreprise"
+msgstr "Als u een bedrijf te starten"
+
+#: modules/account/register.php:225
+msgid "Indiquez « en cours » dans les champs société, activité et siret"
+msgstr "Geef \"lopende\" in het veld bedrijf, de activiteiten en Siret"
+
+#: modules/account/register.php:231
+msgid "Préciser la date de début de votre activité"
+msgstr "Geef de startdatum van uw bedrijf"
+
+#: modules/account/register.php:243
+msgid "Parlez nous de votre projet :"
+msgstr "Vertel ons over uw project:"
+
+#: modules/account/register.php:248
+msgid "Attention ! Votre demande d’ouverture de compte fera l’objet d’une étude. Dans le cas où votre demande serait acceptée, la création de votre entreprise devra nous être confirmée 15 jours avant la date prévue de votre début d’activité. Si tel n’était pas le cas, votre compte sera alors suspendu jusqu’à réception de votre confirmation."
+msgstr "Waarschuwing! Je account opening aanvraag zal worden bestudeerd. Als uw aanvraag wordt goedgekeurd, zal de oprichting van uw bedrijf worden bevestigd in 15 dagen voor de geplande aanvang van de activiteit. Als dit niet het geval is, wordt uw account opgeschort totdat de ontvangst van uw bevestiging."
+
+#: modules/order/adresse.php:30 modules/pages/sitemap.php:34
+msgid "Adresses"
+msgstr "adres"
+
+#: modules/order/adresse.php:35 modules/order/capture.php:13 modules/order/cart.php:20 modules/order/cheque.php:19 modules/order/livraison.php:28 modules/order/order-confirmation.php:23 modules/order/paiement.php:23
+msgid "Résumé"
+msgstr "Samenvatting"
+
+#: modules/order/adresse.php:57
+msgid "Choisissez une adresse de livraison :"
+msgstr "Kies een verzendadres:"
+
+#: modules/order/adresse.php:68
+msgid "Utiliser la même adresse pour la facturation"
+msgstr "Gebruik hetzelfde adres voor de facturering"
+
+#: modules/order/adresse.php:75 modules/order/adresse.php:124
+msgid "Ajoutez une nouvelle adresse"
+msgstr "Voeg een nieuw adres"
+
+#: modules/order/adresse.php:78
+msgid "Choisissez une adresse de facturation  :"
+msgstr "Kies een factuuradres:"
+
+#: modules/order/adresse.php:90
+msgid "Votre adresse de livraison"
+msgstr "Leveringsadres:"
+
+#: modules/order/adresse.php:105
+msgid "Votre adresse de facturation"
+msgstr "Uw factuuradres"
+
+#: modules/order/adresse.php:147 modules/order/adresse.php:165 modules/order/cart.php:219 modules/order/livraison.php:101
+msgid "Suivant"
+msgstr "volgend"
+
+#: modules/order/adresse.php:148 modules/order/adresse.php:166 modules/order/cart.php:220
+msgid "Continuer mes achats"
+msgstr "VERDER GAAN MET MIJN AANKOPEN"
+
+#: modules/order/adresse.php:148 modules/order/adresse.php:166 modules/order/livraison.php:102
+msgid "Précédent"
+msgstr "Vorige"
+
+#: modules/order/adresse.php:157
+msgid "Validé la modification"
+msgstr "gevalideerd modificatie"
+
+#: modules/order/cart.php:11
+msgid "Votre devis"
+msgstr "uw offerte"
+
+#: modules/order/cart.php:14
+msgid "Récapitulatif des produits ajoutés au devis"
+msgstr "Samenvatting van de producten toegevoegd aan quotes"
+
+#: modules/order/cart.php:77 modules/order/paiement.php:73 modules/product/product.php:166
+msgid "Référence :"
+msgstr "المرجع :"
+
+#: modules/order/cart.php:79 modules/product/category.php:172
+msgid "En stock"
+msgstr "In voorraad"
+
+#: modules/order/cart.php:81 modules/product/category.php:174
+msgid "Out of stock"
+msgstr "Niet op voorraad"
+
+#: modules/order/cart.php:83
+msgid "Supprimer ce produit"
+msgstr "Verwijder dit artikel"
+
+#: modules/order/cart.php:110
+msgid "Utiliser un code promotionnel :"
+msgstr "Gebruik promotiecode:"
+
+#: modules/order/cart.php:112
+msgid "Code promo:"
+msgstr "Promotiecode"
+
+#: modules/order/cart.php:132 modules/order/paiement.php:94
+msgid "Total produits HT :"
+msgstr "Totaal belastingen:"
+
+#: modules/order/cart.php:136 modules/order/paiement.php:98
+msgid "Total livraison TTC :"
+msgstr "Totaal levering omvat:"
+
+#: modules/order/cart.php:140 modules/order/paiement.php:102
+msgid "Taux TVA :"
+msgstr "BTW-tarief:"
+
+#: modules/order/cart.php:144 modules/order/paiement.php:106
+msgid "Total TVA :"
+msgstr "Totaal BTW:"
+
+#: modules/order/cart.php:218
+msgid "actualiser le panier"
+msgstr "actualiseren van de kar"
+
+#: modules/order/cart.php:218
+msgid "Actualiser le panier"
+msgstr "cart-update"
+
+#: modules/order/cheque.php:11 modules/order/cheque.php:34
+msgid "Paiement par chèque"
+msgstr "stroomden"
+
+#: modules/order/cheque.php:14
+msgid "Récapitulatif de commande"
+msgstr "Bestel Samenvatting"
+
+#: modules/order/cheque.php:41
+msgid "Vous avez choisi de régler par chèque."
+msgstr "U heeft gekozen om te betalen met een cheque."
+
+#: modules/order/cheque.php:42
+msgid "Voici un bref récapitulatif de votre commande :"
+msgstr "Hier is een korte samenvatting van uw bestelling:"
+
+#: modules/order/cheque.php:49
+msgid "Le montant total de votre commande s'élève à"
+msgstr "Het totale bedrag van uw bestelling is de moeite waard"
+
+#: modules/order/cheque.php:49
+msgid "TTC"
+msgstr "Alle taksen inbegrepen"
+
+#: modules/order/cheque.php:50
+msgid "Nous acceptons plusieurs devises pour les chèques."
+msgstr "Wij aanvaarden meerdere valuta's voor de controles."
+
+#: modules/order/cheque.php:53
+msgid "Merci de choisir parmi les suivantes :"
+msgstr "Dank u om te kiezen uit de volgende opties:"
+
+#: modules/order/cheque.php:55
+msgid "Euro"
+msgstr "euro"
+
+#: modules/order/cheque.php:56
+msgid "Dollar"
+msgstr "dollar"
+
+#: modules/order/cheque.php:58
+msgid "L'ordre et l'adresse du chèque seront affichés sur la page suivante."
+msgstr "De volgorde en het adres van de cheque zal worden geplaatst op de volgende pagina."
+
+#: modules/order/cheque.php:60
+msgid "Merci de confirmer votre commande en cliquant sur"
+msgstr "Dank u uw bestelling te bevestigen door te klikken op"
+
+#: modules/order/cheque.php:60 modules/order/cheque.php:64
+msgid "Je confirme ma commande"
+msgstr "Ik bevestig mijn bestelling"
+
+#: modules/order/cheque.php:65
+msgid "Autres moyens de paiement"
+msgstr "Overige betalingen"
+
+#: modules/order/order-confirmation.php:15 modules/order/order-confirmation.php:18 modules/order/order.php:4
+msgid "Confirmation de commande"
+msgstr "orderbevestiging"
+
+#: modules/order/order-confirmation.php:35
+msgid "Envoi Devis"
+msgstr "verzenden Offerte"
+
+#: modules/order/order-confirmation.php:43
+msgid "Retour aux commandes"
+msgstr "Terug in de controle"
+
+#: modules/order/order-confirmation.php:44
+msgid "Retour à l'accueil"
+msgstr "Terug naar huis"
+
+#: modules/order/order-confirmation.php:47
+msgid "Votre commande n'a pas enregistrée"
+msgstr "Uw bestelling wordt niet geregistreerd"
+
+#: modules/order/order.php:6 modules/order/paiement.php:18
+msgid "Choisissez votre méthode de paiement"
+msgstr "Kies uw betaalmethode"
+
+#: modules/order/paiement.php:14
+msgid "Votre méthode de paiement"
+msgstr "Uw betaalmethode"
+
+#: modules/order/paiement.php:17
+msgid "Nous vous remercions pour votre commande."
+msgstr "Hartelijk dank voor uw bestelling."
+
+#: modules/pages/contact.php:7
+msgid "Captcha erroné."
+msgstr "Captcha verkeerd."
+
+#: modules/pages/contact.php:11
+msgid "Le nom est un champ obligatoir"
+msgstr "De naam is een veld obligatoir"
+
+#: modules/pages/contact.php:14
+msgid "Le prenom est un champ obligatoir"
+msgstr "De eerste naam is een veld obligatoir"
+
+#: modules/pages/contact.php:17
+msgid "L'adresse e-mail est un champ obligatoir"
+msgstr "Het e-mailadres is een veld obligatoir"
+
+#: modules/pages/contact.php:20
+msgid "Le Pays est un champ obligatoir"
+msgstr "Het land is een gebied obligatoir"
+
+#: modules/pages/contact.php:23
+msgid "La Téléphone  est un champ obligatoir"
+msgstr "De telefoon is een veld obligatoir"
+
+#: modules/pages/contact.php:80
+msgid "Service client - Contactez-nous"
+msgstr "Customer Service - Contact"
+
+#: modules/pages/contact.php:83
+msgid "Nous vous remercions pour votre message. Une réponse vous sera apportée dans les plus brefs délais (max 48h)"
+msgstr "Hartelijk dank voor uw bericht. Een antwoord zal zo spoedig worden gegeven als mogelijk (max 48 uur)"
+
+#: modules/pages/contact.php:91
+msgid "Envoyez un message"
+msgstr "Stuur een bericht"
+
+#: modules/pages/contact.php:103
+msgid "Pour des questions à propos d'une commande ou des informations sur nos produits."
+msgstr "Voor vragen over een bestelling of voor informatie over onze producten."
+
+#: modules/pages/contact.php:107
+msgid "Vous êtes un professionnel ou en création d’entreprise et vous souhaitez avoir accès à nos tarifs ?"
+msgstr "Je bent een professional of een bedrijf en u wilt toegang tot onze tarieven?"
+
+#: modules/pages/contact.php:108
+msgid "Vous possédez déjà un compte ?"
+msgstr "Je hebt al een account?"
+
+#: modules/pages/contact.php:108
+msgid "Connectez vous"
+msgstr "Log"
+
+#: modules/pages/contact.php:144
+msgid "N° de siret / TVA<"
+msgstr "No. Siret / BTW <"
+
+#: modules/pages/contact.php:222
+msgid "Téléphone"
+msgstr "Telefoonnummer"
+
+#: modules/pages/contact.php:234
+msgid "Message"
+msgstr "bericht"
+
+#: modules/pages/contact.php:238
+msgid "Fichier joint"
+msgstr "gehechtheid"
+
+#: modules/pages/contact.php:249
+msgid "Captcha"
+msgstr "Captcha"
+
+#: modules/pages/contact.php:253
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: modules/pages/contact.php:262
+msgid "Envoyer"
+msgstr "Verzenden"
+
+#: modules/pages/sitemap.php:19
+msgid "Nos offres"
+msgstr "onze aanbiedingen"
+
+#: modules/pages/sitemap.php:21 views/new-products.php:55 views/new-products.php:58
+msgid "Nouveaux produits"
+msgstr "nieuwe producten"
+
+#: modules/pages/sitemap.php:23
+msgid "nos fabricants"
+msgstr "onze fabrikanten"
+
+#: modules/pages/sitemap.php:23
+msgid "Nos fabricants"
+msgstr "onze fabrikanten"
+
+#: modules/pages/sitemap.php:24 views/viewed-products.php:58 views/viewed-products.php:61
+msgid "Produits déjà vus"
+msgstr "Producten al gezien"
+
+#: modules/pages/sitemap.php:30 modules/pages/sitemap.php:32
+msgid "Votre compte"
+msgstr "uw account"
+
+#: modules/pages/sitemap.php:33
+msgid "Informations personnelles"
+msgstr "persoonlijke informatie"
+
+#: modules/pages/sitemap.php:35
+msgid "Bons de réduction"
+msgstr "korting"
+
+#: modules/pages/sitemap.php:36
+msgid "Historique des commandes"
+msgstr "orders geschiedenis"
+
+#: modules/pages/sitemap.php:37
+msgid "Vos devis"
+msgstr "uw schattingen"
+
+#: modules/pages/sitemap.php:49
+msgid "Catégories"
+msgstr "Categorieën"
+
+#: modules/pages/sitemap.php:80
+msgid "Pages"
+msgstr "Pages"
+
+#: modules/product/category.php:50
+msgid "Categories"
+msgstr "categorieën"
+
+#: modules/product/category.php:60
+msgid "Aucun produit dans cette catégorie."
+msgstr "Geen producten in deze categorie."
+
+#: modules/product/category.php:62 views/new-products.php:66 views/nos-fabricant.php:10 views/promos.php:69 views/viewed-products.php:68
+msgid "Il y a"
+msgstr "er"
+
+#: modules/product/category.php:62
+msgid "produits"
+msgstr "Streekproducten"
+
+#: modules/product/category.php:115 views/new-products.php:78 views/promos.php:81 views/viewed-products.php:80
+msgid "Afficher :"
+msgstr "Show:"
+
+#: modules/product/category.php:124 views/new-products.php:87 views/promos.php:90 views/viewed-products.php:89
+msgid "Tri :"
+msgstr "Tri:"
+
+#: modules/product/category.php:127 views/new-products.php:90 views/promos.php:93 views/viewed-products.php:92
+msgid "Du – cher au + cher"
+msgstr "Du - laag naar hoog"
+
+#: modules/product/category.php:128 views/new-products.php:91 views/promos.php:94 views/viewed-products.php:93
+msgid "Du + cher au – cher"
+msgstr "Hoog naar - duur"
+
+#: modules/product/category.php:129 views/new-products.php:92 views/promos.php:95 views/viewed-products.php:94
+msgid "Nouveauté"
+msgstr "Nieuwe in 2014!"
+
+#: modules/product/category.php:130 views/new-products.php:93 views/promos.php:96 views/viewed-products.php:95
+msgid "Popularité"
+msgstr "populariteit"
+
+#: modules/product/category.php:153 modules/product/category.php:190 modules/search/search.php:36 modules/search/search.php:71 views/new-products.php:116 views/new-products.php:151 views/promos.php:119 views/promos.php:154 views/viewed-products.php:118 views/viewed-products.php:153
+msgid "Voir ce produit"
+msgstr "Zie dit artikel"
+
+#: modules/product/category.php:183 modules/product/category.php:188
+msgid "Ajouter au panier"
+msgstr "Toevoegen aan winkelwagentje"
+
+#: modules/product/product.php:31
+msgid "Products"
+msgstr "producten"
+
+#: modules/product/product.php:125
+msgid "Plus de détails..."
+msgstr "Meer details ..."
+
+#: modules/product/product.php:190
+msgid ""
+"Ce produit n'existe pas dans cette déclinaison. <br> \n"
+"\t\t\t\t\t\tVous pouvez néanmoins en sélectionner une autre."
+msgstr "Dit product bestaat niet in deze variant. <br> \\ n \\ t \\ t \\ t \\ t \\ t \\ tJe kan nog een ander kiezen."
+
+#: modules/product/product.php:195
+msgid "En achetant ce produit vous pouvez gagner jusqu'à "
+msgstr "Bij aanschaf van dit product kunt u verzamelen up "
+
+#: modules/product/product.php:195
+msgid "points de fidélité"
+msgstr "loyaliteitspunten"
+
+#: modules/product/product.php:234
+msgid "Télécharger la fiche technique"
+msgstr "Download datasheet"
+
+#: modules/product/product.php:267
+msgid "Accessoires"
+msgstr "accessoires"
+
+#: modules/product/product.php:290
+msgid "Voir ce Produit"
+msgstr "Zie dit artikel"
+
+#: modules/product/product.php:304
+msgid "autres produits dans la même catégorie :"
+msgstr "andere producten in dezelfde categorie:"
+
+#: modules/search/search.php:16
+msgid "Recherche"
+msgstr "Opzoeken"
+
+#: modules/search/search.php:21
+msgid "résultats ont été trouvés."
+msgstr "resultaten zijn gevonden."
+
+#: modules/search/search.php:69 views/new-products.php:149 views/promos.php:152 views/viewed-products.php:151
+msgid "Ajouter au devis"
+msgstr "Voeg toe aan offerte"
+
+#: modules/search/search.php:82
+msgid "Aucun résultat trouvé"
+msgstr "Geen resultaten gevonden"
+
+#: views/new-products.php:64 views/viewed-products.php:66
+msgid "Aucun produit."
+msgstr "Geen producten."
+
+#: views/new-products.php:66 views/promos.php:69 views/viewed-products.php:68
+msgid "produits."
+msgstr "Streekproducten"
+
+#: views/nos-fabricant.php:7 views/nos-fabricant.php:9
+msgid "Nos fabricant"
+msgstr "onze fabrikant"
+
+#: views/nos-fabricant.php:10
+msgid "marques."
+msgstr "merken."

@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkadShop\n"
+"POT-Creation-Date: 2016-05-30 13:01+0000\n"
+"PO-Revision-Date: 2016-05-30 13:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/os-analytics\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: analytics.module.php:30
+msgid "Dashboard Analytics & Stats"
+msgstr ""
+
+#: analytics.module.php:31
+msgid "Afficher les statistiques dans le tableau de bord."
+msgstr ""
+
+#: analytics.module.php:44 pages/analytics.php:81
+msgid "Google Analytics"
+msgstr ""
+
+#: analytics.module.php:45
+msgid "Statistiques de Site"
+msgstr ""
+
+#: analytics.module.php:46
+msgid "Parametres"
+msgstr ""
+
+#: pages/analytics-config.php:16
+msgid "Configuration de Google Analytics"
+msgstr ""
+
+#: pages/analytics-config.php:22
+msgid "Configuration"
+msgstr ""
+
+#: pages/analytics-config.php:26
+msgid "ID client"
+msgstr ""
+
+#: pages/analytics-config.php:35
+msgid "Annuler"
+msgstr ""
+
+#: pages/analytics-config.php:36
+msgid "Sauvegarder"
+msgstr ""
+
+#: pages/analytics.php:92
+msgid "Vous n'avez pas ajouter un ID Client"
+msgstr ""
+
+#: pages/analytics.php:93
+msgid "Cliquer ici pour l'ajouter."
+msgstr ""
+
+#: pages/analytics.php:100
+msgid "Visiteurs par Pays"
+msgstr ""
+
+#: pages/analytics.php:110
+msgid "Taux"
+msgstr ""
+
+#: pages/analytics.php:119
+msgid "Sessions"
+msgstr ""
