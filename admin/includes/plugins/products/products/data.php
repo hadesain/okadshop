@@ -43,7 +43,6 @@ function DELETE($ID)
     if( empty($data['count']) ){
     	$common->delete('product_associated', 'WHERE id_product='.$ID);
     	$common->delete('product_attachments', 'WHERE id_product='.$ID);
-    	$common->delete('product_attributes', 'WHERE id_product='.$ID);
     	$common->delete('product_category', 'WHERE id_product='.$ID);
     	$common->delete('product_images', 'WHERE id_product='.$ID);
     	$common->delete('product_tags', 'WHERE id_product='.$ID);
@@ -397,7 +396,7 @@ if(isset($id_product) && $id_product > 0){
 	//Product Attributes
 	$attributes = $os_product->getAttributes();
 	//Generate Json attributes 
-	$att_json = $os_product->AttributesToJson($id_product);
+	/*$att_json = $os_product->AttributesToJson($id_product);
 	if(!empty($att_json)){
 		$attr_array = array();
 		foreach ($att_json as $key => $attr) {
@@ -411,7 +410,7 @@ if(isset($id_product) && $id_product > 0){
 		$json_attributes = json_encode($attr_array);
 	}else{
 		$json_attributes = '';
-	}
+	}*/
 	//Product Declinaisons
 	$product_declinaisons = $os_product->getProductDeclinaisons($id_product);
 	//Product Attachments
