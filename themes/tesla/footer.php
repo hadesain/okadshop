@@ -154,7 +154,7 @@
     }
   ?>
   <?php if (!isset($_SESSION['home_popup'])): ?>
-  <?php $home_popup_block_content =  ?>
+  <?php $home_popup_block_content = select_mete_value('home_popup_block_content'); ?>
       <div class="modal fade" tabindex="-1" role="dialog" id="home_popup_block">
         <div class="modal-dialog">
           <div class="modal-content text-center">
