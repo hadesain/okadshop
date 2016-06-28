@@ -164,7 +164,7 @@ INSERT INTO `{loyalty_state}` (`id`, `id_lang`, `name`) VALUES
 
 INSERT INTO `{meta_value}` (`id`, `name`, `value`) VALUES
 (1, 'quick_sales', ''),
-(2, 'os_quick_sales_active', '0');
+(2, 'os_quick_sales_active', '0'),
 (3, 'bankwire_details', 'Your bankwire acount details.'),
 (4, 'bankwire_adresse', 'Your bank adresse for bankwire.'),
 (5, 'newproduct_nbproduct', '12'),
@@ -180,8 +180,8 @@ INSERT INTO `{meta_value}` (`id`, `name`, `value`) VALUES
 (15, 'displayPrice', 'yes'),
 (16, 'selling_rule', 'cart'),
 (17, 'top_header_description', 'OkadShop Ecommerce CMS'),
-(21, 'superslider_description', 'Mercedes-Benz AMG Classe E');
-(22, 'bankwire_owner', 'OkadShop'),
+(21, 'superslider_description', 'Mercedes-Benz AMG Classe E'),
+(22, 'bankwire_owner', 'OkadShop');
 
 --
 -- Contenu de la table `modules`
