@@ -288,7 +288,10 @@ if ( $_GET['action'] == "delete" ) return;
     }else{
       $id_dir = 1;
     }
-    $messages = $common->select('contact_messages', array('*'), "WHERE `from`=$id_customer AND id_directory=$id_dir ORDER BY id DESC");
+    if( $contact_active )
+    {
+      $messages = $common->select('contact_messages', array('*'), "WHERE `from`=$id_customer AND id_directory=$id_dir ORDER BY id DESC");
+    }
     //$messages = $contact->get_message_by_directory($id_customer, $id_dir);
     //(select COUNT(*) from contact_directories) AS total')
   /*============================================================*/
