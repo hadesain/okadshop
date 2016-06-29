@@ -266,5 +266,6 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
 </script> -->
 <!-- End of ClickDesk -->
 
+<?=os_footer();?>
 </body>
 </html>

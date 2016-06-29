@@ -63,7 +63,7 @@ $floatdir = "right";
 
   </script>
 
-  <?=os_head();?>
+  <?=os_header();?>
 </head>
 <body class="wrapper">
   <header id="header">

@@ -1,18 +1,18 @@
 <?php
 class OS_Common {
 
-  /*protected $global_weight = 0;
-  
-  protected $total_quantity = 0;
-  protected $total_weight   = 0;
-  protected $total_tax      = 0;
-  protected $total_discount = 0;
-  protected $total_tht      = 0;
-  protected $total_ttc      = 0;*/
   public $os_scripts = array();
+  public $os_styles = array();
 
 
-  //os_inject_scripts
+  /**
+   * add scripts to header
+   * 
+   * @param string $src file source.
+   * @param int    $pos file position.
+   * 
+   * @return array $os_scripts.
+   **/
   function os_inject_scripts($src, $pos) {
     try {
       if( !in_array($src, $this->os_scripts) )
@@ -27,7 +27,11 @@ class OS_Common {
     }
   }
 
-  //render_scripts
+
+  /**
+   * render scripts
+   * @return $javascript
+   **/
   function os_render_scripts() {
     try {
       $scripts = $this->msort($this->os_scripts, array('pos'));
@@ -39,6 +43,66 @@ class OS_Common {
     } catch (Exception $e) {
       exit;
     }
+  }
+
+
+  /**
+   * add styles to header
+   * 
+   * @param string $src file source.
+   * @param int    $pos file position.
+   * 
+   * @return array $os_styles.
+   **/
+  function os_inject_styles($src, $pos) {
+    try {
+      if( !in_array($src, $this->os_styles) )
+      {
+        $this->os_styles[]['src'] = $src;
+        end($this->os_styles);
+        $key = key($this->os_styles);
+        $this->os_styles[ $key ]['pos'] = $pos;
+      }
+    } catch (Exception $e) {
+      exit;
+    }
+  }
+
+
+  /**
+   * render styles
+   * @return $stylesheet
+   **/
+  function os_render_styles(){
+    try {
+      $styles = $this->msort($this->os_styles, array('pos'));
+      $stylesheet = "";
+      foreach ($styles as $key => $style) {
+        $stylesheet .= '<link href="'.$style['src'].'" position="'.$style['pos'].'" rel="stylesheet" type="text/css" />';
+      }
+      return $stylesheet;
+    } catch (Exception $e) {
+      exit;
+    }
+  }
+
+
+
+  /**
+   * get module page content
+   * 
+   * @param array $pages The array to pages.
+   * 
+   * @return html.
+   **/
+  public function get_module_page_content($pages){
+    global $website_root;
+    if( empty($_GET['slug']) || empty($_GET['page']) ) return false;
+    $page_path = $website_root.'modules/'.$_GET['slug'].'/pages/'.$_GET['page'].'.php';
+    if( file_exists($page_path) ){
+      include $page_path;
+    }
+    return fasle;
   }
 
 

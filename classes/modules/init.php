@@ -134,7 +134,19 @@ function update_cron_job($name, $active, $cron_date="", $cron_time=""){
   return false;
 }
 
-function os_head(){
+//print styles
+function os_header(){
+	global $common;
+	return $common->os_render_styles();
+}
+
+//print javascript
+function os_footer(){
 	global $common;
 	return $common->os_render_scripts();
+}
+
+//return to dashboard
+function go_dashboard(){
+	return _BASE_URL_."admin/index.php";
 }

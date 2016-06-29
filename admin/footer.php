@@ -76,5 +76,7 @@
     
   });
   </script>
+
+  <?=os_footer();?>
 </body>
 </html>
