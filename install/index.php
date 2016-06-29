@@ -23,16 +23,7 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of OkadShop
  */
-session_start();
-
-
-//i18n change langue
-if (isset($_POST['default_lang'])) {
-?>
-  <script>document.cookie = "default_lang=<?=$_POST['default_lang'];?>";</script>
-<?php
-//$_COOKIE['default_lang'] = $_POST['default_lang'];
-}
+//session_start();
 
 require_once "locale/i18n.php";
 require_once "classes/install.class.php";
@@ -46,8 +37,6 @@ $countries = $os->get_json_file($c_path);
 $a_path = "json/activities.json";
 $activities = $os->get_json_file($a_path);
 
-
-
 //get project directory
 $server_dir = explode('/', $_SERVER['REQUEST_URI']); 
 unset($server_dir[0]);
@@ -55,9 +44,6 @@ $shop_uri = implode("/", $server_dir);
 $shop_uri = "/".str_replace("install/index.php", "", $shop_uri);
 $domain = $_SERVER['HTTP_HOST'];
 
-/*echo "<pre>";
-print_r($domain);
-echo "</pre>";*/
 ?>
 <!DOCTYPE html>
 <html dir="<?=$direction;?>" lang="<?=$locale;?>">
@@ -88,14 +74,14 @@ echo "</pre>";*/
         </button>
         <img src="logo.png" class="logo">
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+      <!--div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#"><?=T_("Forums");?></a></li>
-          <li><a href="#"><?=T_("Blog");?></a></li>
-          <li><a href="#"><?=T_("Documentation");?></a></li>
-          <li><a href="#"><?=T_("Support");?></a></li>
+          <li class="active"><a href="#"><?//=T_("Forums");?></a></li>
+          <li><a href="#"><?//=T_("Blog");?></a></li>
+          <li><a href="#"><?//=T_("Documentation");?></a></li>
+          <li><a href="#"><?//=T_("Support");?></a></li>
         </ul>
-      </div><!--/.nav-collapse -->
+      </div--><!--/.nav-collapse -->
     </div><!--/.container -->
   </nav>
 
@@ -135,7 +121,7 @@ echo "</pre>";*/
 
         <div class="col-sm-9">
           <div class="tab-content" id="content">
-            <div class="alert alert-danger" id="alert">
+            <div class="alert alert-danger" id="alert" style="display:none;">
               <button type="button" class="close" data-dismiss="alert">x</button>
               <strong></strong>
             </div>
@@ -143,14 +129,14 @@ echo "</pre>";*/
             <div class="tab-pane active" id="welcome">
               <h2><?=T_("Bienvenue sur l'installation de OkadShop 1.0.0");?></a></h2>
               <p><?=T_("L'installation de OkadShop est simple et rapide. Dans quelques minutes, vous ferez partie d'une communauté de plus actifs des marchands. Vous êtes sur le point de créer votre propre boutique en ligne, unique en son genre, que vous pourrez gérer très facilement au quotidien.");?></p>
-              <p><?=T_('Besoin d\'aide ? N\'hésitez pas à <a href="#" target="_blank">regarder cette courte vidéo</a>, ou à parcourir notre <a href="#" target="_blank">documentation</a>.');?></p>
+              <!--p><?//=T_('Besoin d\'aide ? N\'hésitez pas à <a href="#" target="_blank">regarder cette courte vidéo</a>, ou à parcourir notre <a href="#" target="_blank">documentation</a>.');?></p-->
             
               <h3 style="margin-bottom: 10px;"><?=T_("Continuer l'installation en :");?></h3>
               <div class="col-sm-3" style="padding:0px;">
                 <form action="" id="lang_form" method="post">
                   <select id="default_lang" name="default_lang" class="form-control">
-                    <option value="fr_FR">Français</option>
-                    <option value="en_US" <?=(isset($_COOKIE['default_lang']) && $_COOKIE['default_lang']=="en_US") ? 'selected' : '';?>>English</option>
+                    <option value="en_US">English</option>
+                    <option value="fr_FR" <?=(isset($_COOKIE['default_lang']) && $_COOKIE['default_lang']=="fr_FR") ? 'selected' : '';?>>Français</option>
                     <option value="ar_AR" <?=(isset($_COOKIE['default_lang']) && $_COOKIE['default_lang']=="ar_AR") ? 'selected' : '';?>>العربية</option>
                     <option value="es_ES" <?=(isset($_COOKIE['default_lang']) && $_COOKIE['default_lang']=="es_ES") ? 'selected' : '';?>>Español</option>
                     <option value="de_DE" <?=(isset($_COOKIE['default_lang']) && $_COOKIE['default_lang']=="de_DE") ? 'selected' : '';?>>Deutsch</option>
@@ -627,11 +613,26 @@ function os_run_installation(){
       .text("<?=T_('l\'installation est complète !');?>");
       $('#go_home').removeClass('hidden');
 
+      os_send_email(shop_data, user_data);
+
       }catch (e) {
         $('.loading').hide();
         $('#alert').empty().show().text("<?=T_('Une erreur est survenue !');?>");
       }
       
+    }
+  });
+}
+
+
+function os_send_email(shop_data, user_data){
+  //send statistiques email
+  $.ajax({
+    type: "POST",
+    data: {shop:shop_data, user:user_data},
+    url: 'ajax/email.php',
+    success: function(data){ 
+      console.log("email was send.");      
     }
   });
 }

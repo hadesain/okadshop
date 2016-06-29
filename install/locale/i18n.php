@@ -21,19 +21,17 @@
 
 */
 
-error_reporting(E_ALL | E_STRICT);
-
-// define constants
-define('DEFAULT_LOCALE', 'en_GB');
-
-
 require_once('../languages/gettext/gettext.inc');
 
-$supported_locales = array('ar_AR', 'en_GB', 'fr_FR');
-$encoding = 'UTF-8';
+//i18n change langue
+if (isset($_POST['default_lang'])) {
+  $_COOKIE['default_lang'] = $_POST['default_lang'];
+}
 
-$locale = (isset($_SESSION['code_lang'])) ? $_SESSION['code_lang'] : DEFAULT_LOCALE;
-$direction = (isset($_SESSION['code_lang']) && $_SESSION['code_lang'] == "ar_AR") ? 'rtl' : "ltr";
+//set encoding
+$encoding = 'UTF-8';
+$locale = (isset($_COOKIE['default_lang'])) ? $_COOKIE['default_lang'] : "en_US";
+$direction = (isset($_COOKIE['default_lang']) && $_COOKIE['default_lang'] == "ar_AR") ? 'rtl' : "ltr";
 putenv("LANGUAGE=$locale");
 
 // gettext setup

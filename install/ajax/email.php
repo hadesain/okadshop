@@ -23,25 +23,31 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of OkadShop
  */
+set_time_limit(120);
 
 //class des mails
 require_once '../../classes/mails/mails.class.php';
 
+$shop = json_decode($_POST['shop'], true);
+$user = json_decode($_POST['user'], true);
+
+if( empty($shop) || empty($user) ) return;
 
 //send statistiques email
 $mails    = new Mails();
 $sender   = "no-reply@okadshop.com";
 $receiver = "contact@okadshop.com";
 $subject  = "New Okadshop installation";
-$content  = '<strong>First name : </strong>'. $user['first_name'] .'<br>';
-$content .= '<strong>Last name : </strong>'. $user['last_name'] .'<br>';
+$content  = '<strong>First name : </strong>'. $user['firstname'] .'<br>';
+$content .= '<strong>Last name : </strong>'. $user['lastname'] .'<br>';
 $content .= '<strong>Email : </strong>'. $user['email'] .'<br>';
-$content .= '<strong>ID lang : </strong>'. $user['id_lang'] .'<br>';
-$content .= '<strong>ID gender : </strong>'. $user['id_gender'] .'<br>';
 $content .= '<strong>Shop name : </strong>'. $shop['name'] .'<br>';
 $content .= '<strong>Home url : </strong>'. $shop['home_url'] .'<br>';
 $content .= '<strong>ID activity : </strong>'. $shop['activity'] .'<br>';
 $content .= '<strong>Country : </strong>'. $shop['country'] .'<br>';
 $content .= '<strong>Created Date : </strong>'. date('Y-m-d H:s:m') .'<br>';
 
-$mails->SendFastMail($sender, $receiver, $subject, $content);
+$success = $mails->SendFastMail($sender, $receiver, $subject, $content);
+if( $success ){
+	echo "done";
+}
