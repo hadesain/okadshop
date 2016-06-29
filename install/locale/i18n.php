@@ -24,7 +24,7 @@
 error_reporting(E_ALL | E_STRICT);
 
 // define constants
-define('DEFAULT_LOCALE', 'fr_FR');
+define('DEFAULT_LOCALE', 'en_GB');
 
 
 require_once('../languages/gettext/gettext.inc');

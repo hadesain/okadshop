@@ -19,8 +19,6 @@ $floatdir = "right";
   <!-- CSS -->
   <link href="<?=$themeDir;?>css/bootstrap.min.css" rel="stylesheet">
   
-  
-  
   <link href="<?=$themeDir;?>css/font-awesome.min.css" rel="stylesheet">
    <link href="<?=$themeDir;?>css/datepicker/datepicker3.min.css" rel="stylesheet" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="<?=$themeDir;?>css/flexslider.css" type="text/css" media="screen" />
@@ -47,22 +45,10 @@ $floatdir = "right";
   </script>
   <script src="<?= $themeDir;?>js/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.0-rc.1/jquery-ui.min.js" integrity="sha256-mFypf4R+nyQVTrc8dBd0DKddGB5AedThU73sLmLWdc0=" crossorigin="anonymous"></script>
-
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-62016326-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-
   <?=os_header();?>
 </head>
 <body class="wrapper">
@@ -79,9 +65,9 @@ $floatdir = "right";
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="float:left;">
           <ul class="links">
-            <li><a href="<?= WebSite;?>" title="<?=l("Accueil", "tesla");?>" class="selected"><?=l("Accueil", "tesla");?></span></a></li><!-- <i class="fa fa-home"></i><span>  -->
-            <li><a href="<?= WebSite;?>contact" title="<?=l("Contact", "tesla");?>"><span> <?=l("Contact", "tesla");?></span></a></li><!-- <i class="fa fa-envelope"></i> -->
-            <li><a href="<?= WebSite;?>sitemap" title="<?=l("Plan du site", "tesla");?>"><span> <?=l("Plan du site", "tesla");?></span></a></li><!-- <i class="fa fa-sitemap"></i> -->
+            <li><a href="<?= WebSite;?>" title="<?=l("Accueil", "tesla");?>" class="selected"><?=l("Accueil", "tesla");?></span></a></li>
+            <li><a href="<?= WebSite;?>contact" title="<?=l("Contact", "tesla");?>"><span> <?=l("Contact", "tesla");?></span></a></li>
+            <li><a href="<?= WebSite;?>sitemap" title="<?=l("Plan du site", "tesla");?>"><span> <?=l("Plan du site", "tesla");?></span></a></li>
           </ul>
 
           <?php 
@@ -203,9 +189,6 @@ $floatdir = "right";
                     } 
                   } 
                   ?>
-                 
-                 <!--  <li class=""><a href="<?= WebSite; ?>views/new-products"><?=l("Nouveautés", "tesla");?></a></li>
-                  <li><a href="<?= WebSite; ?>views/promos"><?=l("Promotions", "tesla");?></a></li> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-<?=$floatdir;?>">
                   <?php if (!$cUser): ?>
@@ -231,11 +214,7 @@ $floatdir = "right";
     <div class="row">
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 hidden-xs hidden-sm" id="sidebar">
         <div class="block">
-          <?php //include_once('includes/sidebar.php'); ?>
-          <?php  execute_section_hooks('sec_sidebar');
-                // execute_hooks_by_section('sec_sidebar');
-                 //execute_hooks_by_section('sec_front_footer');
-           ?>
+          <?php  execute_section_hooks('sec_sidebar');?>
         </div>
       </div><!--/ .sidebar -->
       <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9" id="content">

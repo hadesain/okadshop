@@ -25,8 +25,6 @@
  */
 
 require_once "../classes/install.class.php";
-//class des mails
-require_once '../../classes/mails/mails.class.php';
 
 set_time_limit(120);
 
@@ -106,26 +104,7 @@ try {
             //write config file
             $write = $os->write_config("../../config/config.inc.php", $config);
             if( $write ){
-
-
-              //send statistiques email
-              $mails    = new Mails();
-              $sender   = "no-reply@okadshop.com";
-              $receiver = "contact@okadshop.com";
-              $subject  = "New Okadshop installation";
-              $content  = '<strong>First name : </strong>'. $user['first_name'] .'<br>';
-              $content .= '<strong>Last name : </strong>'. $user['last_name'] .'<br>';
-              $content .= '<strong>Email : </strong>'. $user['email'] .'<br>';
-              $content .= '<strong>ID lang : </strong>'. $user['id_lang'] .'<br>';
-              $content .= '<strong>ID gender : </strong>'. $user['id_gender'] .'<br>';
-              $content .= '<strong>Shop name : </strong>'. $shop['name'] .'<br>';
-              $content .= '<strong>Home url : </strong>'. $shop['home_url'] .'<br>';
-              $content .= '<strong>ID activity : </strong>'. $shop['activity'] .'<br>';
-              $content .= '<strong>Country : </strong>'. $shop['country'] .'<br>';
-              $content .= '<strong>Created Date : </strong>'. date('Y-m-d H:s:m') .'<br>';
-
-              $mails->SendFastMail($sender, $receiver, $subject, $content);
-
+              
               echo json_encode("done");
 
             }
