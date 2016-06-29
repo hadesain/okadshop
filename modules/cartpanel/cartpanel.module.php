@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 //register module infos
 global $hooks;
 $module_id = dirname(__DIR__);
@@ -20,23 +24,23 @@ function cartpanel_display(){
 	$output .='<!-- cart panel -->
 				<div class="panel" id="cart_block">
 				  <div class="panel-heading">
-				    <h3 class="panel-title">Panier</h3>
+				    <h3 class="panel-title">'.l('Panier','cartpanel').'</h3>
 				  </div>
 				  <div class="panel-body">
 				    <div class="expanded" id="cart_block_list">
 				      <div id="product-cart-list"></div>
-				      <p id="cart_block_no_products" class="hidden">Aucun produit</p>
+				      <p id="cart_block_no_products" class="hidden">'.l('Aucun produit','cartpanel').'</p>
 				      <p id="cart-prices"> 
-				        <span>Total</span> 
-				        <span class="price ajax_block_cart_total" id="cart_block_total">0,00 €</span>
+				        <span>'.l('Total','cartpanel').'</span> 
+				        <span class="price ajax_block_cart_total" id="cart_block_total"><span class="price-value">0,00</span> <span>'.CURRENCY.'</span></span>
 				      </p>
 				      <p id="cart-buttons"> 
-				        <a class="button_small" href="'.WebSite.'cart/" title="Panier">Panier</a> 
-				        <a class="exclusive" href="'.WebSite.'cart/" id="button_order_cart" title="Commander">Commander</a>
+				        <a class="button_small" href="'.WebSite.'cart/" title="Panier">'.l('Panier','cartpanel').'</a> 
+				        <a class="exclusive" href="'.WebSite.'cart/" id="button_order_cart" title="">'.l('Commander','cartpanel').'</a>
 				      </p>
 				    </div>
 				  </div>
 				</div>';
 	echo $output;
 }
-add_hook('sec_sidebar','cartpanel_display', 'display cart panel');
+add_hook('sec_sidebar', 'cartpanel', 'cartpanel_display', 'display cart panel');

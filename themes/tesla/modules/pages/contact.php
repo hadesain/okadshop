@@ -1,74 +1,170 @@
-<?php 
-$CurrentUser = getCurrentUser();
-if (isset($_POST['submitContact'])) {
+<?php  
 
-			$error = array();
-			if (!isset($_POST['captcha']) || empty($_POST['captcha']) || $_POST['captcha'] != $_SESSION['captcha']['code']) {
-				$error[] = l('Captcha erroné.');
-			}
+/*$mail = new PHPMailer;
 
-			if (!isset($_POST['firstname']) || empty($_POST['firstname'])) {
-				$error[] = l('Le nom est un champ obligatoir');
-			}
-			if (!isset($_POST['lastname']) || empty($_POST['lastname'])) {
-				$error[] = l('Le prenom est un champ obligatoir');
-			}
-			if (!isset($_POST['email']) || empty($_POST['email'])) {
-				$error[] = l('L\'adresse e-mail est un champ obligatoir');
-			}
-			if (!isset($_POST['id_country']) || empty($_POST['id_country'])) {
-				$error[] = l('Le Pays est un champ obligatoir');
-			}
-			if (!isset($_POST['mobile']) || empty($_POST['mobile'])) {
-				$error[] = l('La Téléphone  est un champ obligatoir');
-			}
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-			
-			
-			if (empty($error)) {
-				$data = array(
-					'id_receiver' => 1,
-					'firstname' => addslashes($_POST['firstname']),
-					'lastname' => addslashes($_POST['lastname']),
-					'company' => addslashes($_POST['company']),
-					'siret_tva' => addslashes($_POST['siret_tva']),
-					'email' => addslashes($_POST['email']),
-					'adresse' => addslashes($_POST['adresse']),
-					'adresse2' => addslashes($_POST['adresseligne2']),
-					'zipcode' => addslashes($_POST['zipcode']),
-					'city' => addslashes($_POST['city']),
-					'mobile' => addslashes($_POST['mobile']),
-					'message' => addslashes($_POST['message']),
-					'id_country' => addslashes($_POST['id_country']),
-					'ip' => get_client_ip_country()
-					);
-				if (isset($CurrentUser['uid'])) {
-					$data['id_sender'] = $CurrentUser['uid'];
-					$data['from'] = $CurrentUser['uid'];
-				}
-				$resMSG = saveData('contact_messages',$data);
-				if ($resMSG && isset($_FILES['attachement']) && $_FILES['attachement']['size']>0) {
-					$allowed =  array('gif','png' ,'jpg','pdf');
-					$filename = $_FILES['attachement']['name'];
-					$ext = pathinfo($filename, PATHINFO_EXTENSION);
-					if(in_array($ext,$allowed) ) {
-					  	$uploaddir = ROOTPATH."files/attachments/contact/$resMSG/";
-						if (!file_exists($uploaddir)) {
-						    mkdir($uploaddir, 0777, true);
-						}
-						$uploadfile = $uploaddir . basename($_FILES['attachement']['name']);
-						if (move_uploaded_file($_FILES['attachement']['tmp_name'], $uploadfile)) {
-							$attachement = basename($_FILES['attachement']['name']);
-							$params = array(
-													'attachement' => $attachement,
-												);
-							$condition = " WHERE id = $resMSG";
-							$ret = updateData('contact_messages',$params,$condition);
-						}
-					}
-				}
-			}			
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'user@example.com';                 // SMTP username
+$mail->Password = 'secret';                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
+
+$mail->setFrom('from@example.com', 'Mailer');
+$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
+$mail->addAddress('ellen@example.com');               // Name is optional
+$mail->addReplyTo('info@example.com', 'Information');
+$mail->addCC('cc@example.com');
+$mail->addBCC('bcc@example.com');
+
+$mail->addAttachment('files/attachments/ag.png');         // Add attachments
+$mail->addAttachment('files/attachments/ag.png', 'new.png');    // Optional name
+$mail->isHTML(true);                                  // Set email format to HTML
+
+$mail->Subject = 'Here is the subject';
+$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Message has been sent';
 }
+
+
+
+
+
+die();*/
+global $_CONFIG;
+$id_lang = $_CONFIG['lang'];
+$contact_trans = $hooks->select('contact_trans',array('*'),'WHERE id_lang = '.$id_lang);
+$send_msg = "";
+
+if (isset($_POST['submitContact'])) {
+	$contact_Receiver = $hooks->select('contact',array('*'),'WHERE id = '.$_POST['objet']);
+
+	if (isset($contact_Receiver[0]['email'])) {
+		$contact_Receiver = $contact_Receiver[0];
+	}else
+		$contact_Receiver = null;
+
+	$data = array(
+			"Receiver" => $contact_Receiver['email'],
+			"Sender" => $_POST['email'],
+			"reference" => $_POST['reference'],
+			"message" => $_POST['message'],
+			);
+	$attachement_file = "";
+	$attachement = "";
+
+	if ( isset($contact_Receiver['save_msg']) && $contact_Receiver['save_msg'] == "1") {
+		$contact_messages_data = array(
+							"email" => $data['Sender'],
+							"receiver" => $data['Receiver'],
+							"id_receiver" => 1,
+							"message" => $data['message'],
+							"object" => 'Référence de commande :'. $data['reference']
+							);
+		$resMSG = $hooks->save('contact_messages',$contact_messages_data);
+		if ($resMSG && isset($_FILES['attachement']) && $_FILES['attachement']['size']>0) {
+			$allowed =  array('gif','png' ,'jpg','pdf','doc','docx');
+			$filename = $_FILES['attachement']['name'];
+			$ext = pathinfo($filename, PATHINFO_EXTENSION);
+			if(in_array($ext,$allowed) ) {
+			  	$uploaddir = ROOTPATH."files/attachments/contact/$resMSG/";
+
+				if (!file_exists($uploaddir)) {
+				    mkdir($uploaddir, 0777, true);
+				}
+
+				$uploadfile = $uploaddir . basename($_FILES['attachement']['name']);
+				if (move_uploaded_file($_FILES['attachement']['tmp_name'], $uploadfile)) {
+					$attachement = basename($_FILES['attachement']['name']);
+					$params = array(
+											'attachement' => $attachement,
+										);
+					$condition = " WHERE id = $resMSG";
+					$ret = updateData('contact_messages',$params,$condition);
+					$attachement_file = $uploaddir.$attachement;
+
+				}
+			}
+		}
+		
+	}
+
+	$email = new PHPMailer();
+	$email->From      = $data['Receiver'];
+	$email->FromName  = '';
+	$email->Subject   = l('Référence de commande : '). $data['reference'];
+	$email->Body      = $data['message'];
+	$email->AddAddress( $data['Receiver'] );
+
+	if (isset($_FILES['attachement']) && $_FILES['attachement']['size']>0) {
+		$email->AddAttachment($_FILES['attachement']['tmp_name'],$_FILES['attachement']['name']);
+	}
+	
+
+	$res = $email->Send();
+
+
+	if($res){
+		$send_msg = '<div class="alert alert-success" role="alert"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Votre message a bien été envoyé à notre équipe.</div>';
+		
+	}
+	else
+		$send_msg = '<div class="alert alert-danger" role="alert"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Il y a des erreurs.</div>';
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+/*
+	$headers  = "From: Client < $data[email]>\r\n";
+	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+	$Sender   = $data['Sender'];
+	$Receiver = $data['Receiver'];
+    $Subject  = "contact";
+    $Content  = 'Référence de commande :'. $data['reference'].',<br><br>';
+    $Content .= $data['message'];
+
+	if(mail($Receiver,$Subject,$Content,$headers)){
+		$send_msg = '<div class="alert alert-success" role="alert"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Votre message a bien été envoyé à notre équipe.</div>';
+		if (isset($contact_Receiver['save_msg']) && $contact_Receiver['save_msg'] == "1") {
+			$contact_messages_data = array(
+									"email" => $data['Sender'],
+									"id_receiver" => 1,
+									"message" => $data['message'],
+									"object" => 'Référence de commande :'. $data['reference']
+									);
+			$hooks->save('contact_messages',$contact_messages_data);
+		}
+	}
+	else
+		$send_msg = '<div class="alert alert-danger" role="alert"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Il y a des erreurs.</div>';*/
+
+	}
+
+
 ?>
 
 	<!-- Main content start here -->
@@ -78,11 +174,6 @@ if (isset($_POST['submitContact'])) {
 	</ol>
 
 	<h1><?= l("Service client - Contactez-nous", "tesla");?></h1>
-	<?php if (isset($resMSG) && $resMSG): ?>
-		<div class="alert alert-success" role="alert">
-			<?= l("Nous vous remercions pour votre message. Une réponse vous sera apportée dans les plus brefs délais (max 48h)", "tesla");?>
-		</div>
-	<?php else: ?>
 
 	<div class="contact-form">
 		<div class="panel panel-default">
@@ -91,149 +182,56 @@ if (isset($_POST['submitContact'])) {
 		  		<strong><?= l("Envoyez un message", "tesla");?></strong>
 		  	</h3>
 		  </div>
-		  <?php if (isset($error) && !empty($error)): ?>
-		  	<div class="alert alert-danger" role="alert">
-		  		<?php foreach ($error as $key => $value){
-		  			echo $value."<br>";
-		  		} ?>
-		  	</div>
-		  <?php endif ?>
+
 		  <div class="panel-body">
 		   	<form role="form" enctype="multipart/form-data" method="POST"> 
+		   		<p>
+		   			<?=$send_msg; ?>
+		   		</p>
 		   		<p class="bold"><?= l("Pour des questions à propos d'une commande ou des informations sur nos produits.", "tesla");?></p>
 				  <br>
-				  <?php if (!isconnected()): ?>
-				  	<div style="color: #DA9B39;padding-left: 10px;">
-				  		<p><?= l("Vous êtes un professionnel ou en création d’entreprise et vous souhaitez avoir accès à nos tarifs ?", "tesla");?> <a class="text-underline" href="<?= WebSite;?>account/register"><?= l("Créez votre compte", "tesla");?></a></p>
-				  		<p><?= l("Vous possédez déjà un compte ?", "tesla");?> <a class="text-underline" href="<?= WebSite;?>account/login"><?= l("Connectez vous", "tesla");?></a></p>
-				  	</div>
-				  <?php endif ?>
+
 				 
 				  <div class="row">
-			   		
-			   		<div class="col-xs-12 col-md-6">
+			   		<div class="col-xs-12">
 			   			<div class="form-group">
-							  <label ><?= l("Prénom", "tesla");?><sup>*</sup></label>
+							  <label ><?= l("Objet", "tesla");?><sup>*</sup></label>
 							  <p>
-							  	<input type="text" class="form-control" name="lastname" value="<?= 	(isset($CurrentUser['last_name']) && !empty($CurrentUser['last_name'])) ? $CurrentUser['last_name'] : htmlentities($_POST['lastname']) ?>" required="required">
+							  	<select name="objet" id="contact_objet">
+							  		<?php foreach ($contact_trans as $key => $value): ?>
+							  			<option value="<?=$value['id_contact'] ?>" data-description="<?=$value['description'] ?>"><?=$value['name']; ?></option>
+							  		<?php endforeach ?>
+							    </select>
 								</p>
+								<p> <label class="contact_objet_label"></label></p>
 							</div>
 			   		</div>
-			   		<div class="col-xs-12 col-md-6">
-			   			<div class="form-group">
-							  <label ><?= l("Nom", "tesla");?><sup>*</sup></label>
-							  <p>
-							 		<input type="text" class="form-control" name="firstname" value="<?= (isset($CurrentUser['first_name']) && !empty($CurrentUser['first_name'])) ? $CurrentUser['first_name'] : htmlentities($_POST['firstname']); ?>" required="required">
-								</p>
-							</div>
-						</div>
 			   	</div>	
-			   	<div class="row">
-		   			<div class="col-xs-12 col-md-6">
-		   				<div class="form-group">
-						    <label for=""><?= l("Société", "tesla");?></label>
-						    <p>
-						    	<input type="text" class="form-control" name="company" value="<?= (isset($CurrentUser['company']) && !empty($CurrentUser['company'])) ? $CurrentUser['company'] : htmlentities($_POST['company']); ?>">
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-		   			<div class="col-xs-12 col-md-6">
-		   				<div class="form-group">
-						    <label for="siret_tva"><?= l("N° de siret / TVA<", "tesla");?>/label>
-						    <p>
-						    	<input type="text" class="form-control" name="siret_tva" value="<?=  (isset($CurrentUser['siret_tva']) && !empty($CurrentUser['siret_tva'])) ? $CurrentUser['siret_tva'] : htmlentities($_POST['siret_tva']); ?>" >
-						  	</p>
-						  </div>
-						</div>
-		   		</div>
+
 		   		<div class="row">
 			   		<div class="col-xs-12 col-md-6">
 							<div class="form-group">
 							  <label for="exampleInputEmail1"><?= l("Adresse e-mail", "tesla");?><sup>*</sup></label>
-							  <input type="email" class="form-control" name="email" value="<?= (isset($CurrentUser['email']) && !empty($CurrentUser['email'])) ? $CurrentUser['email'] : htmlentities($_POST['email']); ?>" required="required">
+							  <input type="email" class="form-control" name="email" value="" required="required">
 							</div>
 						</div>
 					</div>
-		   		<div class="row">
-			   		<div class="col-xs-12 col-md-6">
-			   			<div class="form-group">
-							  <label for="adresse"><?= l("Adresse", "tesla");?></label>
-							  <p>
-							  <input type="text" class="form-control" name="adresse" value="<?= (isset($CurrentUser['addresse']) && !empty($CurrentUser['addresse'])) ? $CurrentUser['addresse'] : htmlentities($_POST['adresse']); ?>">
-							  <p>
-							  	<!-- <span class="form_info">Numéro dans la rue, boîte postale, nom de la société</span> -->
-								</p>
-								</p>
-							</div>
-						</div>
-			   	</div>	
+	
+
+
 			   		<div class="row">
 			   			<div class="col-xs-12 col-md-6">
 			   				<div class="form-group">
+							    <label for="telp"><?= l("Référence de commande", "tesla");?> <sup>*</sup></label>
 							    <p>
-							    	<label for="codep"><?= l("Code postal", "tesla");?></label>
-							    </p>
-							    <p>
-							    	<input type="text" class="form-control" name="zipcode" value="<?= (isset($CurrentUser['codepostal']) && !empty($CurrentUser['codepostal'])) ? $CurrentUser['codepostal'] : htmlentities($_POST['zipcode']); ?>">
-							  	</p>
-							  </div>
-							</div>
-			   			<div class="col-xs-12 col-md-6">
-			   				<div class="form-group">
-							    <label for="city"><?= l("Ville", "tesla");?></label>
-							    <p>
-							    	<input type="text" class="form-control" name="city" value="<?= (isset($CurrentUser['city']) && !empty($CurrentUser['city'])) ? $CurrentUser['city'] : htmlentities($_POST['city']); ?>">
-							  	</p>
-							  </div>
-			   			</div>
-			   		</div>	
-			   		<div class="row">
-			   			<div class="col-xs-12 col-md-6">
-			   				<div class="form-group">
-							    <label for="pays"><?= l("Pays", "tesla");?><sup>*</sup></label>
-							    <p>
-							    	<select id="pays" name="id_country" >
-							    		<?php
-							    			$contry = getAllContry();
-							    			$iso_code = getCurrentCountrycode();
-							    			$uc = (isset($CurrentUser['id_country']) && !empty($CurrentUser['id_country'])) ? $CurrentUser['id_country'] : htmlentities($_POST['id_country']);
-							    			if ($contry) {
-							    			 	foreach ($contry as $key => $value) {
-							    			 		if ($uc ==$value['id']) {
-							    			 			echo '<option value="'.$value['id'].'" selected>'.$value['name'].'</option>';
-							    			 		}else if ($iso_code ==$value['iso_code']) {
-							    			 			echo '<option value="'.$value['id'].'" selected>'.$value['name'].'</option>';
-							    			 		}
-							    			 		else
-							    			 		 	echo '<option value="'.$value['id'].'">'.$value['name'].'</option>';
-							    			 	}
-							    			 } 
-							    		?>
-							    	</select>
-							    </p>
-							  </div>
-							</div>
-			   		</div>	
-			   		<div class="row">
-			   			<div class="col-xs-12 col-md-6">
-			   				<div class="form-group">
-							    <label for="telp"><?= l("Téléphone", "tesla");?> <sup>*</sup></label>
-							    <p>
-							    	<input type="text" class="form-control" name="mobile" value="<?=  (isset($CurrentUser['mobile']) && !empty($CurrentUser['mobile'])) ? $CurrentUser['mobile'] : htmlentities($_POST['mobile']); ?>" required="required">
+							    	<input type="text" class="form-control" name="reference" value="" required="required">
 							  	</p>
 							  </div>
 			   			</div>
 			   		</div>
 
-			   		
 			   		<div class="row">
 			   			<div class="col-xs-12">
-			   				<div class="form-group">
-							    <label for="infos"><?= l("Message", "tesla");?> <sup>*</sup></label>
-							    <textarea class="form-control" rows="3" name="message" required="required"><?=  htmlentities($_POST['message']); ?></textarea>
-							  </div>
 							  <div class="form-group">
 							    <label for="Fichier"><?= l("Fichier joint", "tesla");?> </label>
 							    <p>
@@ -242,22 +240,18 @@ if (isset($_POST['submitContact'])) {
 							  </div>
 			   			</div>
 			   		</div>
-			   		
-			   		<div class="row">
+
+						<div class="row">
 			   			<div class="col-xs-12">
-			   				<div class="form-group">
-							    <label for="captcha"><?= l("Captcha", "tesla");?> <sup>*</sup></label>
-							    <p>
-							    <?php
-						   			$_SESSION['captcha'] = simple_php_captcha();
-										echo '<img src="' . $_SESSION['captcha']['image_src'] . '" alt="'.l("CAPTCHA", "tesla").'" />';  
-						   		?>
-						   		</p>
-						   		<p><input type="text" name="captcha"  required="required"></p>
-						   		
+							  <div class="form-group">
+							    <label for="infos"><?= l("Message", "tesla");?> <sup>*</sup></label>
+							    <textarea class="form-control" rows="10" name="message" required="required"></textarea>
 							  </div>
-							</div>
-						</div>
+			   			</div>
+			   		</div>
+
+
+ 
 				  <p class="submit-btn">
 				  	<input type="submit" name="submitContact" id="submitContact" value="<?= l("Envoyer", "tesla");?>" class="exclusive btn btn-sm btn-default button_large" style="float: right;">
 					</p>
@@ -265,32 +259,3 @@ if (isset($_POST['submitContact'])) {
 		  </div>
 		</div>
 	</div>
-	<?php endif ?>
-	<?php $messages = getUserContactMsg($_SESSION['user']); ?>
-	<?php if ($messages && !empty($messages)): ?>
-		<div class="panel panel-default">
-			<div class="container">
-			   <div class="row">
-			      <div class="message-wrap col-lg-8">
-			         <div class="msg-wrap">
-			         	<?php foreach ($messages as $key => $msg): ?>
-			         		<div class="media msg " id="msg_num_<?= $msg['id'];  ?>">
-				               <div class="media-body">
-				                  <small class="pull-right time"><i class="fa fa-clock-o"></i> <?= $msg['cdate'];  ?></small>
-				                  <h5 class="media-heading" style="color: #003bb3;font-weight: 700;"><?= $msg['sender'];  ?></h5>
-				                  <small class="col-lg-10"><b><?= $msg['message'];  ?></b> <br>
-				                  	<?php if (!empty($msg['attachement'])): ?>
-					                  	<b>Fichier Joint : </b>
-					                  	<a download="<?= $msg['attachement']; ?>" href="<?= WebSite.'files/attachments/contact/'.$msg['id'].'/'.$msg['attachement']; ?>"><?= $msg['attachement']; ?></a>
-					                  <?php endif ?>
-				                  </small>
-				               </div>
-				            </div>
-			         	<?php endforeach ?>
-			         </div>
-			      </div>
-			   </div>
-			</div>
-		</div>
-	<?php endif ?>
-	

@@ -23,6 +23,9 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
 
+if (!defined('_OS_VERSION_'))
+  exit;
+
 
 $module_path = dirname(__DIR__) ."/os-lang/";
 
@@ -42,10 +45,10 @@ $hooks->register_module('os-lang', $data);
 
 //Register a custom menu page.
 global $os_admin_menu;
-$os_lang = $os_admin_menu->add('<i class="fa fa-language"></i>OsLang', '?module=modules&slug=os-lang&page=oslang_product_translate');
-$os_lang->add(l('Traduire une produit',"oslang"), '?module=modules&slug=os-lang&page=oslang_product_translate');
-$os_lang->add(l('Traduire une categorie',"oslang"), '?module=modules&slug=os-lang&page=oslang_categories_translate');
-$os_lang->add(l('Traduire une Page',"oslang"), '?module=modules&slug=os-lang&page=oslang_cms_translate');
+$os_lang = $os_admin_menu->add('<i class="fa fa-language"></i>'.l('Traduction de contenu',"oslang"), '?module=modules&slug=os-lang&page=oslang_product_translate');
+$os_lang->add(l('Produits',"oslang"), '?module=modules&slug=os-lang&page=oslang_product_translate');
+$os_lang->add(l('Catégories',"oslang"), '?module=modules&slug=os-lang&page=oslang_categories_translate');
+$os_lang->add(l('Pages',"oslang"), '?module=modules&slug=os-lang&page=oslang_cms_translate');
 function os_lang_install(){
 	global $hooks;
 	global $module_path;

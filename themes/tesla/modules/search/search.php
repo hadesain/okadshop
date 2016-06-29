@@ -62,13 +62,11 @@ if (isset($_POST['search_query']) && !empty($_POST['search_query'])) {
 			  			<label for="comparator_item_1">Comparer</label>
 			  		</p> -->
 			  		<div class="btns">
-			  			<a class="button"><i class="fa fa-search"></i></a>
-			  			<!-- <a href="" class="exclusive ">Ajouter au panier</a> -->
-						<!-- <a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> Voir ce produit</a> -->
-			  			<?php if (isConnected()): ?>
-			  				<a href="#add_to_quoataion_form" class="exclusive add_to_quoataion_btn" idproduct="<?= $value['id']; ?>"><?= l("Ajouter au devis", "tesla");?></a>
+			  			<a class="button"  href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>"><i class="fa fa-search"></i></a>
+			  			<?php if (displayAddToCart($value['qty'])): ?>
+			  				<a l="<?=$value['id']; ?>" t="<?=$value['name']; ?>" q="1" href="#" class="exclusive ajax_add_to_cart_button" idproduct="<?= $value['id']; ?>" p="<?= $value['sell_price'];?>"><?=l("Ajouter au panier", "tesla");?></a>
 			  			<?php else: ?>
-			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?= l("Voir ce produit", "tesla");?></a>
+			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?=l("Voir ce produit", "tesla");?> </a>
 			  			<?php endif ?>
 			  		</div>
 	  			</div>

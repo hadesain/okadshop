@@ -1,4 +1,4 @@
-	<?php  
+ 	<?php  
 		goConnected();
 		$user_orders = getOrderList($_SESSION['user']);
 	?>
@@ -38,7 +38,11 @@
 						<td><?= $order_detail['total']['ttc'].' '.$order_detail['order']['currency_sign'] ?></td>
 						<td><?= $order["payment_method"] ?></td>
 						<td><strong><?= $order['current_state'] ?></strong></td>
-						<td><strong><a download="download" href="<?= WebSite.'pdf/order.php?id_order='.$order['id']; ?>"><i class="fa fa-download" aria-hidden="true"></i></a></strong></td>
+						<td>
+						<?php if ($order['id_state'] == 2): ?>
+							<strong><a download="download" href="<?= WebSite.'pdf/order.php?id_order='.$order['id']; ?>"><i class="fa fa-download" aria-hidden="true"></i></a></strong>
+						<?php endif ?>
+						</td>
 					</tr>
 				<?php endforeach ?>
 			</tbody>

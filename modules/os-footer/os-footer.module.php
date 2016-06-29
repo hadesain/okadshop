@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 //register module infos
 require_once('php/function.php'); 
 global $hooks;
@@ -58,7 +62,7 @@ function footer_displaycompany(){
             <p class="mail">'.$footer_company_mail.'</p>';
 	echo $output;
 }
-add_hook('sec_footercompany','footer_displaycompany', 'Display footer company');
+add_hook('sec_footercompany', 'os-footer', 'footer_displaycompany', 'Display footer company');
 
 function footer_displayblocks(){
 	$output = "";
@@ -85,7 +89,7 @@ function footer_displayblocks(){
 
 	echo $output;
 }
-add_hook('sec_footerblocks','footer_displayblocks', 'Display footer blocks');
+add_hook('sec_footerblocks', 'os-footer', 'footer_displayblocks', 'Display footer blocks');
 
 global $p_theme;
 $p_theme->add( l('Footer Configuration','osfooter'), '?module=modules&slug=os-footer&page=footer_settings');
@@ -167,7 +171,7 @@ function page_footer_settings(){
 			$filename = $_FILES['footer_image']['name'];
 			$ext = pathinfo($filename, PATHINFO_EXTENSION);
 			if(in_array($ext,$allowed) ) {
-				$uploaddir = HOME."modules/os-footer/assets/images/";
+				$uploaddir = "../modules/os-footer/assets/images/";
 				$uploadfile = $uploaddir . basename($_FILES['footer_image']['name']);
 				if (move_uploaded_file($_FILES['footer_image']['tmp_name'], $uploadfile)) {
 					$attachement = basename($_FILES['footer_image']['name']);

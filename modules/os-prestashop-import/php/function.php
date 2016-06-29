@@ -65,11 +65,14 @@ function rrmdir($dir) {
       if ($object != "." && $object != "..") {
         if (filetype($dir."/".$object) == "dir") 
            rrmdir($dir."/".$object); 
-        else unlink   ($dir."/".$object);
+        else {
+        	chmod($dir . '/' . $object, 0755);
+        	unlink   ($dir."/".$object);
+        }
       }
     }
     reset($objects);
-    rmdir($dir);
+   // rmdir($dir);
   }
  }
 
@@ -103,17 +106,17 @@ function rmdir_recursive($dir)
 
 function createDir($dir){
 	if (!file_exists($dir)) {
-		mkdir($dir, 777);
+		mkdir($dir, 0755,true);
 	}
 }
 function prestashop_import_files(){
 
 	$prestashop_dir = dirname(__DIR__) .'/php/prestashop/';
 
-	rrmdir('../files/attachments');
+	/*rrmdir('../files/attachments');
 	rrmdir('../files/category');
 	rrmdir('../files/cms');
-	rrmdir('../files/products');
+	rrmdir('../files/products');*/
 
 	createDir('../files/attachments');
 	createDir('../files/category');
@@ -158,6 +161,7 @@ function run_sql_file( $file ){
       global $DB;
       $query = file_get_contents( $file );
       $stmt  = $DB->prepare($query);
+      echo "string";
       if( $stmt->execute() ) return true;
     }
     return false;
@@ -180,11 +184,15 @@ function recurse_copy($src,$dst,$acceptedsize = null) {
               $sizeName = explode('-', $file);
               $sizeName = end($sizeName);
               if (in_array($sizeName,$acceptedsize)) {
-               copy($src . '/' . $file,$dst . '/' . $file);
-
+              	chmod($src . '/' . $file, 0755);
+               	copy($src . '/' . $file,$dst . '/' . $file);
+              	chmod($dst . '/' . $file, 0755);
               }
             }else
-              copy($src . '/' . $file,$dst . '/' . $file);  
+
+	            chmod($src . '/' . $file, 0755);
+	           	copy($src . '/' . $file,$dst . '/' . $file);
+	          	chmod($dst . '/' . $file, 0755);
           } 
       } 
   } 
@@ -364,7 +372,7 @@ function pto_import_attachements(){
 	$query_line  = "";
 	$error = true;
 	if (!file_exists($jsondir."attachments/")) {
-	    mkdir($jsondir."attachments/", 0777, true);
+	    mkdir($jsondir."attachments/", 0755, true);
 	}
 	foreach ($ps_attachment_lang_custom as $key => $attachment) {
 		$old_file = $jsondir."download/". $attachment['file'];
@@ -377,7 +385,9 @@ function pto_import_attachements(){
 	/*		echo $old_file."<br>";
 			echo $old_file."<br>";
 			die();*/
+			chmod($old_file, 0755);
 			if(copy($old_file, $new_file)){
+				chmod($new_file, 0755);
 				$query_line .= " ('".$attachment['name']."','".$slug."','".$attachment['description']."','".$attachment['file_name']."',".$attachment['id_product'].",now()),";
 			}
 			//rename($old_file , $new_file);
@@ -843,10 +853,11 @@ function listFolderFiles($dir){
                             echo $path.'<br><br>';
                             echo $dirP.'/'.$newImgName;*/
                             if (!file_exists($dirP)) {
-                                mkdir($dirP, 0777, true);
+                                mkdir($dirP, 0755, true);
                             }
-                           
+                            chmod($path, 0755);
                             copy($path, $dirP.'/'.$newImgName);
+							chmod( $dirP.'/'.$newImgName, 0755);
                             //exit();
                         }
                     }

@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 //register module infos
 global $hooks;
 $data = array(
@@ -8,6 +12,7 @@ $data = array(
 	"website" => "http://moullablad.com",
 	"category" => "front_office_features",
 	"version" => "1.0.0",
+	"config" => "productsphares_settings"
 );
 $hooks->register_module('productsphares', $data);
 
@@ -18,12 +23,24 @@ function productsphares_install(){
 
 function productsphares_displayProduct(){
 	global $hooks;
-	$output = "";
 
+	$output = "";
+	$home_product = $hooks->select('home_product',array('id_product'),' ORDER BY position ASC');
+	if ($home_product)
+		$home_product_ids = implode(",", array_column( $home_product,'id_product'));
+	else
+		$home_product_ids = "";
+	$homeProduct = array();
+	if (!empty($home_product_ids)) {
+		$homeProduct = $hooks->select('products',array('*')," WHERE id in ($home_product_ids)");
+		$product = new product();
+		$homeProduct = $product->oslang_migrate_product($homeProduct,true);
+	}
+	
 	$output .= '<div class="home-product product-list">
 								<h4>'.l("NOTRE SÉLECTION",'productsphares').'</h4>
 							<div class="row padding15">';
-	$homeProduct = getHomeProduct(6);
+	
 	if (isset($homeProduct) && $homeProduct){
 		$i=0;
 		foreach ($homeProduct as $key => $value){
@@ -39,8 +56,12 @@ function productsphares_displayProduct(){
 				$src =  themeDir.'images/no-image.jpg';	
 			}	 
 			$product_p = "";
-			/*$product_btn = '<a href="'.WebSite.'product/'.$value['id'].'-'.$value['permalink'].'" class="exclusive"> '.l("Voir ce produit",'productsphares').'</a>';*/
-			$product_btn = '<a l="'.$value['id'].'" t="'.$value['name'].'" q="1" href="#" class="exclusive ajax_add_to_cart_button" idproduct="'.$value['id'].'" p="'.$value['sell_price'].'">'.l("Ajouter au panier", "artiza").'</a>';
+			/**/
+			if (displayAddToCart($value['qty'])){
+				$product_btn = '<a l="'.$value['id'].'" t="'.$value['name'].'" q="1" href="#" class="exclusive ajax_add_to_cart_button" idproduct="'.$value['id'].'" p="'.$value['sell_price'].'">'.l("Ajouter au panier", "productsphares").'</a>';
+			}else{
+				$product_btn = '<a href="'.WebSite.'product/'.$value['id'].'-'.$value['permalink'].'" class="exclusive"> '.l("Voir ce produit",'productsphares').'</a>';
+			}
 			if (displayPrice()){
   				$product_p ='<div class="product-price">
 		  			<p>'.$english_format_number = number_format($value['sell_price'], 2, '.', '').' '.CURRENCY.'</p>
@@ -80,4 +101,23 @@ function productsphares_displayProduct(){
 		echo $output;
 	//var_dump($homeProduct);
 }
-add_hook('sec_home_center_buttom','productsphares_displayProduct');
+add_hook('sec_home_center_buttom', 'productsphares', 'productsphares_displayProduct', 'Products phares display');
+
+
+/**
+ *=============================================================
+ * LOAD PAGE BY CONDITION
+ *=============================================================
+ */
+if( isset($_GET['slug']) && $_GET['slug'] == 'productsphares' ){
+
+	//we have a page in url !!!
+	if( isset($_GET['page']) ){
+		if( $_GET['page'] == 'productsphares_settings'){
+			include 'pages/productsphares_settings.php';
+		}
+	}
+
+/*============================================================*/
+} //END CONDITIONS
+/*============================================================*/

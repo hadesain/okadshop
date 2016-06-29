@@ -1,4 +1,9 @@
-<?php require_once('php/function.php'); 
+<?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
+require_once('php/function.php'); 
 
 //register module infos
 global $hooks;
@@ -46,6 +51,8 @@ function paypalexpress_install(){
 	  `cdate` DATE NOT NULL,
 		`udate` DATE NOT NULL
 	) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
+	$DB->query($query);
+	
 	$query = "DELETE FROM `"._DB_PREFIX_."payment_methodes` WHERE value = 'PayPal'";
 	$DB->query($query);
 
@@ -55,6 +62,7 @@ function paypalexpress_install(){
 
 	$query = "INSERT INTO `"._DB_PREFIX_."paypalexpress_setting` (`id`, `username`, `password`, `signature`) VALUES (NULL, '', '', '');";
 	$DB->query($query);
+
 }
 
 
@@ -96,7 +104,7 @@ function paypal_paymentdisplay(){
 								<p class="payment_module">
 								<img src="../modules/paypalexpress/assets/images/paypal.png" style="width:86px;height:49px;"/>
 							    <a href="javascript:;" title="Payer par paypal" id="send_paypal2">
-							       Payer par PayPal
+							       '.l('Payer par paypal','paypalexpress').'
 							    </a>
 							  </p>
 							</form>';
@@ -106,7 +114,7 @@ function paypal_paymentdisplay(){
 	<script type="text/javascript" src="<?= WebSite ?>modules/paypalexpress/assets/js/script.js"></script>
 	<?php
 }
-add_hook('sec_payment_list','paypal_paymentdisplay', 'Display paypal payment');
+add_hook('sec_payment_list', 'paypalexpress', 'paypal_paymentdisplay', 'Display paypal payment');
 
 
 global $p_payments;
@@ -125,7 +133,7 @@ function page_paypalsetting(){
 	$paypalexpress_password = select_mete_value("paypalexpress_password");
 	$paypalexpress_signature = select_mete_value("paypalexpress_signature");*/
 	$paypalexpress_option = getPaypalOption();
-	if (!$paypalexpress_option || empty($paypalexpress_option)) {
+	if (!$paypalexpress_option) {/* || empty($paypalexpress_option)*/
 		return;
 	}
 

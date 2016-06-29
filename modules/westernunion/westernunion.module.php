@@ -1,4 +1,9 @@
-<?php require_once 'php/function.php';
+<?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
+require_once 'php/function.php';
 
 //register module infos
 global $hooks;
@@ -22,31 +27,27 @@ function westernunion_install(){
 	$DB->query($query);
 }
 function western_paymentdisplay(){
-	$quotation_edit = _GET('quotation_edit'); 
+	/*echo "here!";
+	return;*/
+	/*$quotation_edit = _GET('quotation_edit'); 
 	if (!$quotation_edit) {
 		return;
 	}
 
-	/*$quotation =  getQuotationById($_SESSION['idquotation'],'',$_SESSION['user']);
+	$quotation =  getQuotationById($_SESSION['idquotation'],'',$_SESSION['user']);
 	if (!isset($quotation['total_devis'])) {
 		return;
 	}*/
 
 
-	global $hooks;
-	$quotation =  $hooks->get_quotation($quotation_edit,$_SESSION['user']);
-	if (!isset($quotation['total'])) {
-		return;
-	}
-	if ($quotation['status']['slug'] != 'quote_available') {
-	  	return;
-	}
+	 
 	$output = "";
 	/*<img alt="Payer par Western Union" height="49" src="'.WebSite.'modules/westernunion/assets/images/western.png" width="110">*/
 	$output .= '<form method="POST" action=""  enctype="multipart/form-data" id="western_form">
 								<input type="hidden" name="western" />
 								<p class="payment_module">
 							    <a href="javascript:;" title="" id="send_western">
+							    	<img alt="Payer par virement bancaire"  style="width:86px;height:49px;" src="'.WebSite.'modules/westernunion/assets/images/western.png"/>
 							       '.l('Payer par','westernunion').' Western Union 
 							    </a>
 							  </p>
@@ -65,17 +66,21 @@ function western_paymentdisplay(){
 								  <li class=""></li>
 								  <li class=""></li>
 								  <li class=""></li>
-								  <li class=""><b>Montant du transfert :</b> '.$quotation['total']['tht'].' €</li>
+								  <li class=""><b>Montant du transfert :</b>'.MontantGlobal().' </li>
 								</ul>
 								<br>'.l('Un email contenant ces informations vous a été envoyé','westernunion').'. 
 								<br><br>
 									<div class="alert alert-danger">
-										'.l('Merci de nous communiquer votre confirmation pour le','westernunion').' '.$quotation['quotation']['expiration_date'].' '.l('au plus tard','westernunion').'.
+										'.l('Merci de nous communiquer votre confirmation pour le','westernunion').'   '.l('au plus tard','westernunion').'.
 									</div>
 									<br><b>'.l('Votre commande sera enregistrée dès réception de votre transfert','westernunion').'.</b> <br>
 									'.l('Dans l’attente, notre service client se tient à votre entière disposition pour toute question ou information complémentaire','westernunion').'.<br>
 								</div>
 							</div>
+							<p class="cart_navigation">
+					      <input type="submit" name="confim_westernunion" value="'.l("confirmé la commande", "westernunion").'" class="exclusive  pull-right">
+					      <a href="'.WebSite.'" class="button_large">'.l("Retour au site", "westernunion").'.</a>
+					    </p>
 						</form>
 						</div><br><br>';
 						$output .= "<script>setTimeout(function(){ 
@@ -83,14 +88,22 @@ function western_paymentdisplay(){
 					        scrollTop: $('.payment_detail').offset().top},
 					        'slow');
 						}, 1000);</script>";
-	}
 
+
+		/**/
+		//var_dump($data);
+		
+	}
+	if (isset($_POST['confim_westernunion'])) {
+		include 'pages/confirm_western.php';
+	}
 	echo $output;
+
 	?>
 	<script type="text/javascript" src="<?= WebSite ?>modules/westernunion/assets/js/script.js"></script>
 	<?php
 }
-add_hook('sec_payment_list','western_paymentdisplay');
+add_hook('sec_payment_list', 'westernunion', 'western_paymentdisplay', 'western payment display');
 
 function page_westernunion_settings(){
 	$output = "";

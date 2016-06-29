@@ -38,10 +38,41 @@ $(document).ready(function($){
 		}
 		if (result == 0) {
 			cartAction('suppression',l,null,null,null,null);
+			
 			refrechPage();
-		};		
+		};	
+		
+		var tmp = '';
+		$('.cart_quantity_input').each(function(){ 
+			var qty = $(this).val();
+			var l = $(this).attr('l');
+			tmp += '"'+l+'":'+qty+',';
+		});
+		tmp = '{'+tmp.slice(0,-1)+'}';
+		refrechCartQtys(tmp);
+
 	});
 
+	$('.refresh_qty_product').click(function(){
+		var parent = $(this).parent().parent();
+    	var idproduct = parent.attr("pid");
+    	var dec = parent.attr("dec");
+    	var qty = parent.find("input[type=number]").val();
+    	jQuery.ajax({
+			url: WebSite+"includes/cart/index.php",
+			data:{action:'updateQteProduct',idproduct:idproduct,dec:dec,qty:qty},
+			type: "POST",
+			success:function(data){
+				if(data == 1){
+					location.reload();
+				}
+			},
+			error:function (){}
+		});
+
+	});
+
+	
 	$('#cart_panel_refresh').click(function(){
 		var tmp = '';
 		$('.cart_quantity_input').each(function(){ 
@@ -163,7 +194,7 @@ function refreshCart(){
 				var p = json['prixProduit'][i];
 				var q = json['qteProduit'][i];
 				total += (p*q);
-				panel_cart += '<dt class="item" id="cart_block_product_'+l+'"><span class="quantity-formated"><span class="quantity">'+q+'</span>x</span> <a class="cart_block_product_name" href="#" title="'+t+'">'+t.substr(0, 10)+'...</a> <span class="remove_link"><a class="ajax_cart_block_remove_link" href="javascript:;" l="'+l+'" rel="nofollow" title="supprimer cet produit du panier">&nbsp;</a></span> <span class="price">'+p*q+' €</span></dt>';
+				panel_cart += '<dt class="item" id="cart_block_product_'+l+'"><span class="quantity-formated"><span class="quantity">'+q+'</span>x</span> <a class="cart_block_product_name" href="#" title="'+t+'">'+t.substr(0, 10)+'...</a> <span class="remove_link"><a class="ajax_cart_block_remove_link" href="javascript:;" l="'+l+'" rel="nofollow" title="supprimer cet produit du panier">&nbsp;</a></span> <span class="price">'+p*q+' '+CURRENCY+'</span></dt>';
 				panel_cart += '<dd class="first_item" id="cart_block_combination_of_'+l+'"><a href="#" title="'+t+'">'+t+'</a></dd>';
 			};
 			panel_cart +='</dl>';
@@ -173,9 +204,9 @@ function refreshCart(){
 		}
 		total = parseFloat(total).toFixed(2);
 		$('#cart_block_list #product-cart-list').html(panel_cart);
-		$('#cart_block_total').html(total+' &euro;');
+		$('#cart_block_total .price-value').html(total);
 		$('#shopping_cart .product_quantity').html(nb);
-		$('#shopping_cart .product_total').html(total+' &euro;');
+		$('#shopping_cart .product_total').html(total);
 		deleteProduct();
 		deleteProductFromCartPage();
 	},

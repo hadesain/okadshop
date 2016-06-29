@@ -1,2 +1,2 @@
-# OKADshop
-OKADshop is a free and open source E-commerce CMS or web application, created for shoping for merchants and customers. Based on PHP as a web programming language, it support the most known payments such as paypal and other services, its support any language and localized for most world countries, the design mobile friendly, ...
+# okadshop
+OKADshop is a free E-commerce solution for all kind of stores, you can sell digital files or computers or pictures or any other kind of products or services such as subscriptions and more!

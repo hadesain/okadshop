@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-05-27 15:24+0100\n"
-"PO-Revision-Date: 2016-05-30 10:10+0000\n"
+"POT-Creation-Date: 2016-06-07 11:38+0000\n"
+"PO-Revision-Date: 2016-06-07 11:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -16,6 +16,54 @@ msgstr ""
 "X-Poedit-KeywordsList: l\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: newproduct.module.php:23
+#: newproduct.module.php:19
+msgid "Nouveaux Produits"
+msgstr "منتجات جديدة"
+
+#: newproduct.module.php:26 newproduct.module.php:95
 msgid "Nouveautés"
 msgstr "منتجات جدبدة"
+
+#: newproduct.module.php:112
+msgid "Ajouter au panier"
+msgstr "أضف إلى السلة"
+
+#: newproduct.module.php:129
+msgid "En stock"
+msgstr "في المخزن"
+
+#: newproduct.module.php:132
+msgid "Comparer"
+msgstr "مقارنة"
+
+#: pages/newproduct_settings.php:15
+msgid "Page configuration"
+msgstr "صفحة التكوين"
+
+#: pages/newproduct_settings.php:25
+msgid "Afficher les nouveaux produits dans la page d'accueil"
+msgstr "عرض منتجات جديدة على الصفحة الرئيسية"
+
+#: pages/newproduct_settings.php:28
+msgid "activé"
+msgstr "يعمل"
+
+#: pages/newproduct_settings.php:34
+msgid "Le nombre des produits sur la page"
+msgstr "عدد المنتجات في الصفحة"
+
+#: pages/newproduct_settings.php:41
+msgid "Annuler"
+msgstr "إلغاء"
+
+#: pages/newproduct_settings.php:43
+msgid "Sauvegarder"
+msgstr "حفظ"
+
+#: php/ajax.php:19
+msgid "Veuillez remplire tous les champs"
+msgstr "يرجى تعبئة جميع الحقول"
+
+#: php/ajax.php:29
+msgid "Bien enregistré."
+msgstr "على الرغم من تسجيلها."

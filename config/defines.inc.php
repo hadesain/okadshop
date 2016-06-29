@@ -26,48 +26,20 @@
 
 //set global
 date_default_timezone_set('Africa/Casablanca');
-
 //defines
 define('APP','OkadShop CMS');
 define('DS','/');
-define('WSDIR', $server_dir[1].DS );
+define('WSDIR', _BASE_URL_ );
 define('HOME_URL', $website_url );
 define('WEBROOT',  $website_root );
 define('ROOTPATH',  $website_root );
-/*$l_sign = "";
-if (isset($_SESSION['code_lang'])) {
-	$l_sign = explode('_', $_SESSION['code_lang'])[0].'/';
-}*/
-define('WebSite', $website_url);
-
-//Modules directory
+define("_OS_VERSION_", "1.0.0");
 define('DOMAIN', $website_root . 'languages/locale');
 define("MODULES_PATH", $website_root . 'modules/');
 define('THEME_DIR', 'themes/tesla/');
-define('themeFolder', 'tesla');
-//MAX  MEMORY SIZE
 define("MAX_SIZE", ini_get('post_max_size'));
-
-//defaults values
-define("USER_ID", 1);
-define("LANG_ID", 1);
-define("CURRENCY", "€");
-
 //front office
+define('themeFolder', 'tesla');
+define('WebSite', $website_url);
 define('themeDir', $website_url . 'themes/tesla/');
-//echo WebSite;
-
-//global vars
 $themeDir = $website_url.'themes/tesla/';
-
-//front office
-//get this from database
-//define('WebSite', 'http://192.168.1.50:81/okadshop/');
-//date_default_timezone_set('Africa/Casablanca');
-//define('website_dir','okadshop');
-//define('WSDIR',website_dir.'/');
-//
-//define("ROOTPATH",$_SERVER["DOCUMENT_ROOT"] . '/' . WSDIR);
-//define("MODULES_PATH",$_SERVER["DOCUMENT_ROOT"] . '/'.WSDIR.'modules/');
-//$themeDir = WebSite.'themes/'.themeFolder.'/';
-//themeDir

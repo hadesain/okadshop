@@ -17,6 +17,7 @@ if($action !== null)
    if (!$erreur) {
       switch ($action) {
         case 'saveProductTranslate':
+          //echo $_POST['code_lang'];
           if (empty($_POST['id_product']) || empty($_POST['code_lang'])) {
             $return['error'] = l("Veuillez sélectionner le produit et la langue","oslang");
           }else{
@@ -26,7 +27,10 @@ if($action !== null)
               $data = array(
                 "name" => $_POST['name'],
                 "long_description" => $_POST['long_description'],
-                "short_description" => $_POST['short_description']
+                "short_description" => $_POST['short_description'],
+                "meta_title" => $_POST['meta_title'],
+                "meta_description" => $_POST['meta_description'],
+                "meta_keywords" => $_POST['meta_keywords']
               );
               $oslang_product_item = $hooks->update('lang_product',$data,$condition);
               $return['msg'] = l('La Traduction a été mise a jour.',"oslang");
@@ -36,7 +40,10 @@ if($action !== null)
                 "code_lang" => $_POST['code_lang'],
                 "name" => $_POST['name'],
                 "long_description" => $_POST['long_description'],
-                "short_description" => $_POST['short_description']
+                "short_description" => $_POST['short_description'],
+                "meta_title" => $_POST['meta_title'],
+                "meta_description" => $_POST['meta_description'],
+                "meta_keywords" => $_POST['meta_keywords']
               );
               $oslang_product_item = $hooks->save('lang_product',$data);
               $return['msg'] = l('La Traduction a été bien ajouté.',"oslang");

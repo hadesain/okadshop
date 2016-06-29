@@ -1,0 +1,41 @@
+.block{background: #fff;padding: 20px;border: 0;margin-bottom: 15px;}
+.block-title{
+	border: none;
+	font-size: 1.2em;
+	line-height: 2.2em;
+	height: 2.2em;
+	text-transform: uppercase;
+	border-bottom: solid 1px #eee;
+	padding: 0 0 0 5px;
+	margin: -20px -16px 15px -16px;
+}
+
+
+
+.sortable, .connected {
+  margin: auto;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sortable li, .connected li {
+  list-style: none;
+  border: 1px solid #CCC;
+  background: #F6F6F6;
+  font-family: "Tahoma";
+  color: #1C94C4;
+  margin: 5px;
+  padding: 5px;
+  cursor: move;
+}
+
+li.sortable-placeholder {
+	border: 1px dashed #CCC;
+	background: none;
+	min-height: 32px;
+}

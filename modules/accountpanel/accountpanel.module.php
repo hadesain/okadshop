@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+  
 //register module infos
 global $hooks;
 $data = array(
@@ -59,4 +63,4 @@ function accountpanel_display(){
 	}
 	echo $output;
 }
-add_hook('sec_sidebar','accountpanel_display', 'display account panel');
+add_hook('sec_sidebar', 'accountpanel', 'accountpanel_display', 'display account panel');

@@ -1,0 +1,12 @@
+.list-group{
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 5px;
+}
+
+.list-group-item{
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding: 10px 15px;
+}

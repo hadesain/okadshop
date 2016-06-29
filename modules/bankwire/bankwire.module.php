@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+  
 //register module infos
 global $hooks;
 $data = array(
@@ -43,7 +47,7 @@ function bankwire_paymentdisplay(){
 	<script type="text/javascript" src="<?= WebSite ?>modules/bankwire/assets/js/script.js"></script>
 	<?php
 }
-add_hook('sec_payment_list','bankwire_paymentdisplay');
+add_hook('sec_payment_list', 'bankwire', 'bankwire_paymentdisplay', 'bankwire payment display');
 
 global $p_payments;
 $p_payments->add( l("bankwire setting", "bankwire"), '?module=modules&slug=bankwire&page=bankwiresetting');

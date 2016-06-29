@@ -5,6 +5,15 @@ if(!file_exists('config/config.inc.php'))
 }
 
 require_once 'config/bootstrap.php';
+
+//check if we request admin directory
+global $common;
+$admin_dir = $common->get_admin_directory_name();
+if( isset($_GET['Module']) && $_GET['Module'] == $admin_dir ){
+	echo '<script>window.location.href="'._BASE_URL_. $admin_dir ."/index.php".'"</script>';
+	exit;
+}
+
 require_once 'includes/cart/cart.php';
 
 $account = new account();
@@ -14,11 +23,11 @@ $cart = array();
 $cart['selling_rule'] = $selling_rule;
 switch ($selling_rule) {
 	case 'quotation':
-		$cart['info']['title'] = l("Mon devis", "artiza");
+		$cart['info']['title'] = l("Mon devis", "okadshop");
 		$cart['active'] = true;
 		break;
 	case 'cart':
-		$cart['info']['title'] = l("Panier", "artiza");
+		$cart['info']['title'] = l("Panier", "okadshop");
 		$cart['active'] = true;
 		break;
 	default:
@@ -37,6 +46,18 @@ if (isset($_GET['Module']) && !empty($_GET['Module'])) {
 				if(function_exists($function)){
 					$function();
 				}else echo $pageError;
+			}else echo $pageError;
+			break;
+		case 'contact':
+			$contact_file =  THEME_DIR.'/modules/pages/contact.php';
+			if (file_exists($contact_file)) {
+				require_once $contact_file;
+			}else echo $pageError;
+			break;
+		case 'sitemap':
+			$sitemap_file =  THEME_DIR.'/modules/pages/sitemap.php';
+			if (file_exists($sitemap_file)) {
+				require_once $sitemap_file;
 			}else echo $pageError;
 			break;
 		case 'account':

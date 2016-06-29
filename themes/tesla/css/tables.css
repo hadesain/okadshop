@@ -158,3 +158,17 @@ table th.carrier_price {
 .quotation-detail li:before{
   content: none !important;
 }
+.alert-danger{
+    background-color: #f3515c;
+    border-color: #d4323d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.alert-success{
+  background-color: #55c65e;
+  border-color: #48b151;
+  color: #fff;
+  font-weight: bold;
+}
+

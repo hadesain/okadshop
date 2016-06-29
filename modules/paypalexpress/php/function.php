@@ -17,6 +17,7 @@ function getPaypalOption(){
     $res = $res->fetch(PDO::FETCH_ASSOC);
     return $res;
 	} catch (Exception $e) {
+		//echo $e;
 		return false;
 	}
 }

@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 //register module infos
 global $hooks;
 $data = array(
@@ -43,4 +47,4 @@ function usergroups_display(){
 			</div>';
 	echo $output;
 }
-add_hook('sec_register_form','usergroups_display', 'user groups display');
+add_hook('sec_register_form', 'superslider', 'usergroups_display', 'user groups display');

@@ -1,4 +1,7 @@
 <?php  
+if (!defined('_OS_VERSION_'))
+  exit;
+
 
 require_once('php/function.php'); 
 
@@ -30,15 +33,16 @@ function page_prestashop_import_settings(){
 
 		$prestashop_dir = dirname(__DIR__) .'/os-prestashop-import/php/prestashop/';
 		//echo $prestashop_dir;
+		
 		rrmdir($prestashop_dir.'attachments');
 		rrmdir($prestashop_dir.'category');
 		rrmdir($prestashop_dir.'cms');
 		rrmdir($prestashop_dir.'products');
 
-		mkdir($prestashop_dir.'attachments', 777);
-		mkdir($prestashop_dir.'category', 777);
-		mkdir($prestashop_dir.'cms', 777);
-		mkdir($prestashop_dir.'products', 777);
+		mkdir($prestashop_dir.'attachments',  0755,true);
+		mkdir($prestashop_dir.'category',  0755,true);
+		mkdir($prestashop_dir.'cms',  0755,true);
+		mkdir($prestashop_dir.'products',  0755,true);
 
 		$file_name = $_FILES['okadshop_file']['name'];
 

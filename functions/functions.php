@@ -9,10 +9,42 @@ function getUsersGroup(){
 	return $user->getUsersGroup();
 }
 
+if (! function_exists('array_column')) {
+    function array_column(array $input, $columnKey, $indexKey = null) {
+        $array = array();
+        foreach ($input as $value) {
+            if ( ! isset($value[$columnKey])) {
+                trigger_error("Key \"$columnKey\" does not exist in array");
+                return false;
+            }
+            if (is_null($indexKey)) {
+                $array[] = $value[$columnKey];
+            }
+            else {
+                if ( ! isset($value[$indexKey])) {
+                    trigger_error("Key \"$indexKey\" does not exist in array");
+                    return false;
+                }
+                if ( ! is_scalar($value[$indexKey])) {
+                    trigger_error("Key \"$indexKey\" does not contain scalar value");
+                    return false;
+                }
+                $array[$value[$indexKey]] = $value[$columnKey];
+            }
+        }
+        return $array;
+    }
+}
+
 function selling_rule(){
   global $hooks;
   $selling_rule = $hooks->select_meta_value("selling_rule");
   return $selling_rule;
+}
+function displayAddToCart($paramt){
+  if ($paramt>0)
+   return true;
+  return false;
 }
 function displayPrice(){
   return true;
@@ -138,10 +170,13 @@ function getThumbnail($PID,$size,$imgid = false){
 	$name = $tmp[0];
 	$type = end($tmp);
 	$link = 'files/products/'.$PID.'/'.$name.'-'.$size.'.'.$type;
+  
+  return $link;
+/*
 	if (file_exists(getcwd().'/'.$link)) {
 		return $link;
 	}
-	return false;
+	return false;*/
 }
 
 function getProductImage($PID){
@@ -411,6 +446,11 @@ function getProductByOption($options = array()){
 	return $res;
   }
 
+    function getCmsByCatId($id){
+      $general = new general();
+      $res =  $general->getCmsByCatId($id);
+      return $res;
+    }
 
   function getCatImg($cid,$size = null){
   	$product = new product();
@@ -570,10 +610,17 @@ function getProductAssociated($id){
 }
 
 function get_meta_data($type){
+  $product = new product();
+  if (empty($_GET['Module'])) {
+    $res =  $product->get_meta_data($type,null,'home');
+    if ($res && !empty($res)) {
+      return $res;
+    }
+    return;
+  }
   if (isset($_GET['Module']) && !empty($_GET['Module']) && isset($_GET['ID']) && !empty($_GET['ID'])) {
-    
     //if ($_GET['Module'] == "product") {/*categories*/
-      $product = new product();
+     
       $res =  $product->get_meta_data($type,$_GET['ID'],$_GET['Module']);
       if ($res && !empty($res)) {
         return $res;
@@ -640,12 +687,12 @@ function recoverUserPassword($email,$pwrurl){
       //Send mail to user with password.
       $Mails = new Mails();
       $Content = "Cher utilisateur,\n\nSi cet e-mail ne vous concerne pas s'il vous plaît ignorer. 
-                  Il semble que vous avez demandé un nouveau mot de passe sur notre site web marocartiza.com
+                  Il semble que vous avez demandé un nouveau mot de passe sur notre site web OkadShop.com
                    \n\nPour réinitialiser votre mot de passe, s'il vous plaît cliquez sur le lien ci-dessous. 
                    Si vous ne pouvez pas cliquer dessus, s'il vous plaît le coller dans la barre d'adresse 
                    de votre navigateur Web.\n\n".$pwrurl."\n\nMerci, L'Administration";
 
-      $res = $Mails->SendFastMail('no-reply@maroc-artiza.com',$email,'marocartiza.com - Réinitialiser le mot de passe',$Content);
+      $res = $Mails->SendFastMail('no-reply@okadshop.com',$email,'OkadShop.com - Réinitialiser le mot de passe',$Content);
       if ($res) {
        return true;
       }
@@ -732,7 +779,12 @@ function generateRandomString($length = 10) {
         $id_zone = $id_zone[0]['id_zone'];
         $carrier_zones =  $hooks->select('carrier_zones', array('id_carrier'), ' WHERE active=1 AND id_zone ='.$id_zone);
         if (is_array($carrier_zones) && !empty($carrier_zones)) {
-          $id_carriers = implode(',',array_column($carrier_zones, 'id_carrier'));
+          $tmp = array();
+          foreach ($carrier_zones as $key => $value) {
+            $tmp[] = $value['id_carrier'];
+          }
+          $id_carriers = implode(',',$tmp);
+
           if (!empty($id_carriers)) {
             $carrier = $hooks->select('carrier', array('*'), ' WHERE id in('.$id_carriers.')');
           }
@@ -773,4 +825,26 @@ function generateRandomString($length = 10) {
       chageUrl($actual_link);
     }
   }
+
+  function feature_product($id,$lang){
+    global $DB;
+    try {
+      $query = "SELECT ft.name,fvt.value FROM `"._DB_PREFIX_."feature_product` fp,`"._DB_PREFIX_."feature_trans` ft, `"._DB_PREFIX_."feature_value_trans` fvt 
+                WHERE fp.id_feature = ft.id_feature AND fp.id_feature_value = fvt.id_value  AND ft.id_lang =  $lang 
+                AND fvt.id_lang = $lang AND fp.`id_product` = $id AND fp.custom = '' ";
+      $res = $DB->query($query);
+      $res = $res->fetchAll(PDO::FETCH_ASSOC);
+
+      $query2 = "SELECT ft.name, fp.custom as value FROM `"._DB_PREFIX_."feature_product` fp,`"._DB_PREFIX_."feature_trans` ft
+                 WHERE fp.id_feature = ft.id_feature AND ft.id_lang = $lang AND fp.custom !=  '' AND fp.`id_product` = $id";
+      $res2 = $DB->query($query2);
+      $res2 = $res2->fetchAll(PDO::FETCH_ASSOC);
+      $res = array_merge($res, $res2);
+
+      return $res;
+    } catch (Exception $e) {
+      return false;
+    }
+  }
+
 ?>

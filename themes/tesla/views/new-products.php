@@ -1,7 +1,12 @@
 <?php 
 		//$condition = " product_condition = 'new'";
 		$new_product_duration = select_mete_value('new_product_duration');
+		if (!$new_product_duration || empty($new_product_duration)) {
+			$new_product_duration = 30;
+		}
 		$condition = " DATEDIFF(now(),p.cdate) <= ".$new_product_duration;
+		$nbproduct = getCount('products' ," DATEDIFF(now(),cdate) <= ".$new_product_duration);
+
 		$params = array(
 						"orderby" => " reference ASC",
 						"page" => 1,
@@ -56,10 +61,6 @@
 </ol>
 
 <h1><?=l("Nouveaux produits", "tesla");?>
-	<?php 
-		$condition = " product_condition = 'new'";
-		$nbproduct = getCount('products' ,$condition); 
-	?>
 	<?php if (!$nbproduct || $nbproduct ==0): ?>
 		<span class="category-product-count"> <?=l("Aucun produit.", "tesla");?></span>
 	<?php else: ?>
@@ -128,7 +129,7 @@
 	  			<div class="box2">
 	  				<?php if (displayPrice()): ?>
 	  				<div class="product-price">
-			  			<p><?= $value['sell_price'];?> &euro;</p>
+			  			<p><?= $value['sell_price'];?> <<?= CURRENCY; ?></p>
 			  		</div>
 			  		<?php endif ?>
 <!-- 			  		<?php if ($value['qty']>0): ?>
@@ -142,13 +143,11 @@
 			  			<label for="comparator_item_1">Comparer</label>
 			  		</p> -->
 			  		<div class="btns">
-			  			<a class="button"><i class="fa fa-search"></i></a>
-			  			<!-- <a href="" class="exclusive ">Ajouter au panier</a> -->
-						<!-- <a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> Voir ce produit</a> -->
-			  			<?php if (isConnected()): ?>
-			  				<a href="#add_to_quoataion_form" class="exclusive add_to_quoataion_btn" idproduct="<?= $value['id']; ?>"><?=l("Ajouter au devis", "tesla");?></a>
+			  			<a class="button"  href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>"><i class="fa fa-search"></i></a>
+			  			<?php if (displayAddToCart($value['qty'])): ?>
+			  				<a l="<?=$value['id']; ?>" t="<?=$value['name']; ?>" q="1" href="#" class="exclusive ajax_add_to_cart_button" idproduct="<?= $value['id']; ?>" p="<?= $value['sell_price'];?>"><?=l("Ajouter au panier", "tesla");?></a>
 			  			<?php else: ?>
-			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> <?=l("Voir ce produit", "tesla");?></a>
+			  				<a href="<?=  WebSite.'product/'.$value['id'].'-'.$value['permalink'] ?>" class="exclusive"> Voir ce produit</a>
 			  			<?php endif ?>
 			  		</div>
 	  			</div>

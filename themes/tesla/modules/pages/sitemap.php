@@ -79,14 +79,17 @@ $cUser = getCurrentUser();
 							<div class="sitemap_block">
 					         <h3><?= l("Pages", "tesla");?></h3>
 					         <div class="tree_top"><a href="<?= WebSite; ?>" title="<?= l("Accueil", "tesla");?>"><?= l("Accueil", "tesla");?></a></div>
-					         <?php $accueil_cms = getCmsByCatTitle('Accueil'); ?>
-					         <ul class="tree">
-					         	<?php foreach ($accueil_cms as $key => $value): ?>
-					         		<li><a href="<?= WebSite.'cms/'.$value['id'].'-'.$value['permalink']; ?>" title=""><?= $value['title']; ?></a></li>
-					         	<?php endforeach ?>
-					         	<li><a href="<?= WebSite ?>account/login" title="<?= l("Créer un compte", "tesla");?>"><?= l("Créer un compte", "tesla");?></a></li>
-					         	<li><a href="<?= WebSite ?>cms/contact" title="<?= l("Contact", "tesla");?>"><?= l("Contact", "tesla");?></a></li>
-					         </ul>
+					         <?php $accueil_cms = getCmsByCatId(1); ?>
+					         <?php if (is_array($accueil_cms)): ?>
+					         	<ul class="tree">
+						         	<?php foreach ($accueil_cms as $key => $value): ?>
+						         		<li><a href="<?= WebSite.'cms/'.$value['id'].'-'.$value['permalink']; ?>" title=""><?= $value['title']; ?></a></li>
+						         	<?php endforeach ?>
+						         	<li><a href="<?= WebSite ?>account/login" title="<?= l("Créer un compte", "tesla");?>"><?= l("Créer un compte", "tesla");?></a></li>
+						         	<li><a href="<?= WebSite ?>cms/contact" title="<?= l("Contact", "tesla");?>"><?= l("Contact", "tesla");?></a></li>
+						         </ul>
+					         <?php endif ?>
+					         
 					      </div>
 						</div>
 					</div>

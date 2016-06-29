@@ -1,4 +1,8 @@
 <?php 
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 $bienvenue_slug = "os-relance-bienvenue";
 
 //register module infos

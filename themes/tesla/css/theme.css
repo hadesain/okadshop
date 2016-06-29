@@ -1775,3 +1775,17 @@ a.button_large:hover{color: inherit !important;}
   width: inherit;
   float: right;
 }
+
+.navbar-header:hover .navbar-brand-home-menu{
+  background-color: #EDEDED;
+}
+
+/*.nav>li>a {
+    padding: 10px 14px;
+}*/
+
+
+#logo img{
+  margin-bottom: 8px;
+  height: 100px;
+}

@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 //register module infos
 global $hooks;
 $data = array(
@@ -171,4 +175,4 @@ function page_slidersettings() {
 
 	echo $output;
 }
-add_hook('sec_home_center','superslider_displayFront', 'super slider display Front');
+add_hook('sec_home_center', 'superslider', 'superslider_displayFront', 'super slider display Front');

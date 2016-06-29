@@ -2181,8 +2181,8 @@ msgid "Retour au Site"
 msgstr "Terug naar de site"
 
 #: includes/plugins/users/users/data.php:218
-msgid "Félicitation votre compte a été bien crée. <br>Nous vous remercions de vous être inscrit(e) chez MarocArtiza.<br><br>"
-msgstr "Gefeliciteerd met uw account is goed aangemaakt. <br> Bedankt voor het registreren (e) in MarocArtiza. <br>"
+msgid "Félicitation votre compte a été bien crée. <br>Nous vous remercions de vous être inscrit(e) chez OkadShop.<br><br>"
+msgstr "Gefeliciteerd met uw account is goed aangemaakt. <br> Bedankt voor het registreren (e) in OkadShop. <br>"
 
 #: includes/plugins/users/users/data.php:223 includes/plugins/users/users/data.php:244
 msgid "Une email a été envoyé au Client."
@@ -2257,8 +2257,8 @@ msgid "Contenu de l'email"
 msgstr "E-mail inhoud"
 
 #: includes/plugins/users/users/data.php:451
-msgid "Félicitation votre compte a été bien crée. Nous vous remercions de vous être inscrit(e) chez MarocArtiza."
-msgstr "Gefeliciteerd met uw account is goed aangemaakt. Bedankt voor uw (e) in MarocArtiza."
+msgid "Félicitation votre compte a été bien crée. Nous vous remercions de vous être inscrit(e) chez OkadShop."
+msgstr "Gefeliciteerd met uw account is goed aangemaakt. Bedankt voor uw (e) in OkadShop."
 
 #: includes/plugins/users/users/data.php:457 includes/plugins/users/users/data.php:534 includes/plugins/users/users/data.php:678 includes/plugins/users/users/data.php:697 includes/plugins/users/users/data.php:717
 #: includes/plugins/users/users/data.php:812 includes/plugins/users/users/data.php:887

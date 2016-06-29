@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-07 11:25+0000\n"
+"PO-Revision-Date: 2016-06-07 11:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../modules/bankwire\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bankwire.module.php:35
+msgid "Payer par virement bancaire"
+msgstr "الدفع عن طريق التحويل المصرفي"
+
+#: bankwire.module.php:36
+msgid "Payer par Virement Bancaire"
+msgstr "الدفع عن طريق التحويل المصرفي"
+
+#: bankwire.module.php:49
+msgid "bankwire setting"
+msgstr "وضع bankwire"
+
+#: bankwire.module.php:58
+msgid "Bien Enregistré"
+msgstr "على الرغم من المسجلين"
+
+#: bankwire.module.php:70 pages/bankwire_confirm.php:113
+msgid "Virement Bancaire"
+msgstr "حوالة مصرفية"
+
+#: bankwire.module.php:70
+msgid "Configuration"
+msgstr "ترتيب"
+
+#: bankwire.module.php:75
+msgid "Contact detail"
+msgstr "تفاصيل الاتصال"
+
+#: bankwire.module.php:79
+msgid "Propriétaire du compte"
+msgstr "صاحب الحساب"
+
+#: bankwire.module.php:83
+msgid "details"
+msgstr "تفاصيل"
+
+#: bankwire.module.php:89
+msgid "Adresse de la banque"
+msgstr "عنوان البنك"
+
+#: pages/bankwire_confirm.php:88
+msgid "Accueil"
+msgstr "الرئيسية"
+
+#: pages/bankwire_confirm.php:89
+msgid "Payment methode"
+msgstr "طريقة الدفع"
+
+#: pages/bankwire_confirm.php:90
+msgid "Payment par Virement Bancaire"
+msgstr "الدفع عن طريق التحويل المصرفي"
+
+#: pages/bankwire_confirm.php:97
+msgid "Résumé"
+msgstr "ملخص"
+
+#: pages/bankwire_confirm.php:101
+msgid "Adresse"
+msgstr "عنوان"
+
+#: pages/bankwire_confirm.php:105
+msgid "Livraison"
+msgstr "تسليم"
+
+#: pages/bankwire_confirm.php:109
+msgid "Paiement"
+msgstr "دفع"
+
+#: pages/bankwire_confirm.php:113
+msgid "Order Confirmation"
+msgstr "تأكيد الطلب"
+
+#: pages/bankwire_confirm.php:115
+msgid "S'il vous plaît envoyez-nous un virement bancaire avec"
+msgstr "يرجى ان ترسل الينا التحويل المصرفي مع"
+
+#: pages/bankwire_confirm.php:116
+msgid "Montant"
+msgstr "القيمة"
+
+#: pages/bankwire_confirm.php:117
+msgid "Nom du titulaire de compte"
+msgstr "اسم صاحب الحساب"
+
+#: pages/bankwire_confirm.php:118
+msgid "Inclure ces détails"
+msgstr "وتشمل هذه التفاصيل"
+
+#: pages/bankwire_confirm.php:119
+msgid "Nom de banque"
+msgstr "اسم البنك"
+
+#: pages/bankwire_confirm.php:120
+msgid ""
+"Ne pas oublier d'insérer votre référence de l'ordre  dans le sujet de votre virement bancaire."
+msgstr "لا تنسى أن تتضمن إشارة طلبك في موضوع التحويل المصرفي الخاص بك."
+
+#: pages/bankwire_confirm.php:121
+msgid "Votre commande sera envoyée dès que nous recevons le paiement."
+msgstr "سوف ترسل طلبك في أقرب وقت ممكن عندما تلقينا الدفع."
+
+#: pages/bankwire_confirm.php:122
+msgid ""
+"Si vous avez des questions, des commentaires ou des préoccupations, s'il vous plaît contacter "
+"notre équipe d'assistance à la clientèle d'experts."
+msgstr "إذا كان لديك أسئلة أو تعليقات أو استفسارات، يرجى الاتصال بفريق الدعم مع العميل الخبراء."
+
+#: pages/bankwire_confirm.php:128
+msgid "confirmé la commande"
+msgstr "تأكيد الطلب"
+
+#: pages/bankwire_confirm.php:129
+msgid "Retour au site"
+msgstr "العودة الى الموقع"
