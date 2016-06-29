@@ -148,5 +148,12 @@ function os_footer(){
 
 //return to dashboard
 function go_dashboard(){
-	return _BASE_URL_."admin/index.php";
+	$admin_dir = get_admin_dir();
+	return _BASE_URL_. $admin_dir ."/index.php";
+}
+
+//get admin directory
+function get_admin_dir(){
+	global $common;
+	return $common->get_admin_directory_name();
 }

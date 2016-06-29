@@ -5,6 +5,15 @@ if(!file_exists('config/config.inc.php'))
 }
 
 require_once 'config/bootstrap.php';
+
+//check if we request admin directory
+global $common;
+$admin_dir = $common->get_admin_directory_name();
+if( isset($_GET['Module']) && $_GET['Module'] == $admin_dir ){
+	echo '<script>window.location.href="'._BASE_URL_. $admin_dir ."/index.php".'"</script>';
+	exit;
+}
+
 require_once 'includes/cart/cart.php';
 
 $account = new account();

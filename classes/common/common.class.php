@@ -107,6 +107,42 @@ class OS_Common {
 
 
   /**
+   * get admin directory name
+   *
+   * 
+   * @return string.
+   **/
+  public function get_admin_directory_name($excludes=array()){
+    global $website_root;
+    if( empty($excludes) ){
+      $excludes = array('.git', 'classes', 'config', 'files', 'functions', 'includes', 'install', 'languages', 'modules', 'os-updates', 'pdf', 'themes');
+    }
+
+    //get admin directory
+    $directories = scandir($website_root);
+    foreach ($directories as $key => $directory) {
+      if( is_dir($directory) && !in_array($directory, $excludes) ) {
+        $files = glob( $website_root. $directory ."/*.{php}", GLOB_BRACE);
+        foreach ($files as $key => $full_path) {
+          if (preg_match('/adminbar.php$/', $full_path)) {
+            $admin_dir = dirname($full_path);
+            $admin_dir = str_replace("\\", "/", $admin_dir);
+            $admin_dir = str_replace($website_root, "", $admin_dir);
+          }
+        }
+      }
+    }
+
+    if( $admin_dir != "" ) 
+      return $admin_dir;
+    return false;
+  }
+
+
+  
+
+
+  /**
    * Sort a 2 dimensional array based on 1 or more indexes.
    * 
    * msort() can be used to sort a rowset like array on one or more
