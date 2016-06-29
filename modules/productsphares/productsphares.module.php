@@ -1,4 +1,8 @@
 <?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
 //register module infos
 global $hooks;
 $data = array(

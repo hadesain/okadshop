@@ -24,6 +24,11 @@
  * International Registered Trademark & Property of OkadShop
  */
 
+if (!defined('_OS_VERSION_'))
+  exit;
+
+
+
 include 'classes/contact.class.php';
 
 $module_path = dirname(__DIR__);

@@ -24,6 +24,9 @@
  * International Registered Trademark & Property of OkadShop
  */
 
+if (!defined('_OS_VERSION_'))
+  exit;
+
 
 //register module infos
 global $hooks;

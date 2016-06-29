@@ -1,4 +1,7 @@
 <?php  
+if (!defined('_OS_VERSION_'))
+  exit;
+
 
 require_once('php/function.php'); 
 

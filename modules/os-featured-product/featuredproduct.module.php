@@ -22,6 +22,9 @@
  * @copyright 2016 Moullablad SARL
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  */
+if (!defined('_OS_VERSION_'))
+  exit;
+
 
 
 $module_path = dirname(__DIR__) ."/os-featured-product/";

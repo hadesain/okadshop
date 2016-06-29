@@ -1,4 +1,8 @@
-<?php require_once "php/includes/function.php";
+<?php
+if (!defined('_OS_VERSION_'))
+  exit;
+
+require_once "php/includes/function.php";
 
 //register module infos
 global $hooks;
