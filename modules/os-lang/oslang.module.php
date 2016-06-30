@@ -66,17 +66,17 @@ function os_lang_install(){
 if( isset($_GET['slug']) && $_GET['slug'] == 'os-lang' ){
 
 	//we have a page in url !!!
-	if( isset($_GET['page']) ){
-		if( $_GET['page'] == 'oslang_settings'){
-			include 'pages/oslang_settings.php';
-		}else if( $_GET['page'] == 'oslang_categories_translate'){
-			include 'pages/oslang_categories_translate.php';
-		}else if( $_GET['page'] == 'oslang_product_translate'){
-			include 'pages/oslang_product_translate.php';
-		}else if( $_GET['page'] == 'oslang_cms_translate'){
-			include 'pages/oslang_cms_translate.php';
-		}
-	}
+	// if( isset($_GET['page']) ){
+	// 	if( $_GET['page'] == 'oslang_settings'){
+	// 		include 'pages/oslang_settings.php';
+	// 	}else if( $_GET['page'] == 'oslang_categories_translate'){
+	// 		include 'pages/oslang_categories_translate.php';
+	// 	}else if( $_GET['page'] == 'oslang_product_translate'){
+	// 		include 'pages/oslang_product_translate.php';
+	// 	}else if( $_GET['page'] == 'oslang_cms_translate'){
+	// 		include 'pages/oslang_cms_translate.php';
+	// 	}
+	// }
 
 /*============================================================*/
 } //END CONDITIONS

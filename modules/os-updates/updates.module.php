@@ -40,13 +40,3 @@ $analytics_data = array(
 	"version" => "1.0.0",
 );
 $hooks->register_module('os-updates', $analytics_data);
-
-
-if( isset($_GET['slug']) && $_GET['slug'] == 'os-updates' ){
-	//we have a page in url !!!
-	if( isset($_GET['page']) ){
-		if( $_GET['page'] == 'update-core' ){
-			include 'pages/update-core.php';
-		}
-	}
-}

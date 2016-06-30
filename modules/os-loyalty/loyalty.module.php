@@ -67,12 +67,12 @@ function os_loyalty_install(){
 if( isset($_GET['slug']) && $_GET['slug'] == 'os-loyalty' ){
 
 	//we have a page in url !!!
-	if( isset($_GET['page']) ){
-		if( $_GET['page'] == 'loyalty-settings' ){
-			include 'pages/loyalty-settings.php';
-		}elseif( $_GET['page'] == 'loyalty-points' ){
-			include 'pages/loyalty-points.php';
-		}
-	}
+	// if( isset($_GET['page']) ){
+	// 	if( $_GET['page'] == 'loyalty-settings' ){
+	// 		include 'pages/loyalty-settings.php';
+	// 	}elseif( $_GET['page'] == 'loyalty-points' ){
+	// 		include 'pages/loyalty-points.php';
+	// 	}
+	// }
 
 } //END CONDITIONS

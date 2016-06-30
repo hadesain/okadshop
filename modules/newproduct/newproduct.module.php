@@ -73,11 +73,11 @@ add_hook('sec_sidebar', 'newproduct', 'newproduct_display', 'Display Futured pro
 if( isset($_GET['slug']) && $_GET['slug'] == 'newproduct' ){
 
 	//we have a page in url !!!
-	if( isset($_GET['page']) ){
-		if( $_GET['page'] == 'newproduct_settings'){
-			include 'pages/newproduct_settings.php';
-		}
-	}
+	// if( isset($_GET['page']) ){
+	// 	if( $_GET['page'] == 'newproduct_settings'){
+	// 		include 'pages/newproduct_settings.php';
+	// 	}
+	// }
 
 /*============================================================*/
 } //END CONDITIONS
