@@ -565,7 +565,7 @@ function os_validate_form(){
   //set active
   if( !error ){
     $('#go_home .home').attr('href', home_url);
-    $('#go_home .back').attr('href', home_url+'/admin/index.php');
+    $('#go_home .back').attr('href', home_url+'admin/index.php');
     $('#shop_data').empty().val( JSON.stringify(shop) );
     $('#user_data').empty().val( JSON.stringify(user) );
 
