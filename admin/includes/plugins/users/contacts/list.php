@@ -1,36 +1,4 @@
 <?php
-// $Args = array(
-// 	'Select' => array(
-// 		'id' => _DB_PREFIX_.'contact.id',
-// 		'name' => _DB_PREFIX_.'contact_trans.name', 
-// 		'description' => _DB_PREFIX_.'contact_trans.description', 
-// 		'email' => _DB_PREFIX_.'contact.email'
-// 	),
-// 	'From' => array( _DB_PREFIX_.'contact'),
-// 	'Where' => array(_DB_PREFIX_.'contact_trans.id_lang','=',1), //array(_DB_PREFIX_.'contact_trans.id_lang'),
-// 	'Join' => array(
-// 		array( _DB_PREFIX_.'contact_trans', _DB_PREFIX_.'contact_trans.id_contact', _DB_PREFIX_.'contact.id', 'left'),
-// 	),
-// 	'Module'=> array('contacts', l("Contacts", "admin")),
-// 	'Operations' => array('edit','delete'),
-// 	'THead' => array(
-// 		l("ID", "admin"), 
-// 		l("Titre", "admin"), 
-// 		l("Adresse Email", "admin"), 
-// 		l("Description", "admin"),
-// 		l("Actions", "admin")
-// 	),
-// 	'Files' => array(),
-// 	'Butons' =>	array(
-// 		array( l("Ajouter un Contact", "admin"),'?module=contacts&action=add','add_nw','add button', l("Ajouter un Contact", "admin"),'facebox','iconAdd'),
-// 	),
-// 	'UPLOADFIELDS' => array()
-// 	);
-// $Tables = new Tables();
-// $DATATABLE = $Tables->GET($Args);
-
-
-
 global $common;
 global $_CONFIG;
 $id_lang = $_CONFIG['id_lang'];
@@ -42,7 +10,7 @@ $contacts = $common->select(
 ?>
 <div class="top-menu padding0">
   <div class="top-menu-title">
-    <h3><i class="fa fa-magic"></i> <?=l("Caractéristiques", "admin");?></h3>
+    <h3><i class="fa fa-envelope"></i> <?=l("Contacts", "admin");?></h3>
   </div>
   <div class="top-menu-button">
     <a href="?module=contacts&amp;action=add" class="btn btn-primary"><?=l("Ajouter un contact", "admin");?></a>

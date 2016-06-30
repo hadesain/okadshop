@@ -27,7 +27,7 @@ $os_customers = $os_admin_menu->add('<i class="fa fa-users"></i>'. l("Clients", 
 	$os_customers->add( l("Clients", "admin"), '?module=users');
 	//$os_customers->add('Adresses', '?module=addresses');
 	$os_customers->add( l("Groups", "admin"), '?module=groups');
-	//$os_customers->add( l("Contacts", "admin"), '?module=contacts');
+	$os_customers->add( l("Contacts", "admin"), '?module=contacts');
 
 $os_cart_rule = $os_admin_menu->add('<i class="fa fa-tags"></i>'. l("Promotions", "admin"), '?module=cart');
 	$os_cart_rule->add( l("Règles panier", "admin"), '?module=cart');

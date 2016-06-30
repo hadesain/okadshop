@@ -25,11 +25,12 @@
  */
 
 
-//delete featured
+//delete contact
 function DELETE($ID)
 {
   global $common;
-  $common->delete('contact_trans', 'WHERE id_feature='.$ID);
+  echo "am here";
+  $common->delete('contact_trans', 'WHERE id_contact='.$ID);
   $common->delete('contact', 'WHERE id='.$ID);
   echo '<script>window.location.href="?module=contacts"</script>';
 }
