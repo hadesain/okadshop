@@ -3,15 +3,11 @@ function page_loyalty_points(){
 
 global $DB;
 $query = "SELECT u.clt_number, u.first_name, u.last_name, u.phone, u.mobile, 
-					c.name as country, SUM(q.loyalty_points) as points
-					FROM "._DB_PREFIX_."quotations q, "._DB_PREFIX_."users u, "._DB_PREFIX_."countries c
-					WHERE q.id_customer=u.id GROUP BY id_customer";
+					c.name as country, SUM(o.loyalty_points) as points
+					FROM "._DB_PREFIX_."orders o, "._DB_PREFIX_."users u, "._DB_PREFIX_."countries c
+					WHERE o.id_customer=u.id GROUP BY id_customer";
 $rows = $DB->query($query);
 $points = $rows->fetchAll(PDO::FETCH_ASSOC);
-
-/*echo "<pre>";
-print_r($points);
-echo "</pre>";*/
 ?>
 
 
