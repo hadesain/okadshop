@@ -338,7 +338,7 @@ echo '</pre>';
 			//Uploading Files
 			//$uploadDir = UPLOADS_PATH.'attachments/'.$id_product.'/';
 			$uploadDir = '../files/attachments/';
-			$extensions=array('jpg', 'gif', 'png', 'pdf', 'doc', 'ppt', 'odt', 'docx', 'xlsx', 'pptx', 'psd');
+			$extensions=array('jpg', 'gif', 'png', 'pdf', 'doc', 'ppt', 'odt', 'docx', 'xlsx', 'pptx', 'psd', 'rar', 'zip');
 			$upload_success = $os_product->uploadFiles($_FILES['attachment'],$uploadDir,$extensions);
 			$attachment = str_replace($uploadDir, "", $upload_success[0]);
 			$name = $_POST['attachment']['name'];
@@ -1381,7 +1381,7 @@ $product_categories = $os_product->select('categories', array('id', 'name'));
 							<div class="col-md-6">
 								<input type="file" name="attachment" id="attachments" required>	
 								<small><?=l("Mettre un fichier en ligne depuis votre poste de travail", "admin");?> (<?=MAX_SIZE;?> <?=l("max.", "admin");?>)</small>
-								<small><?=l("Formats autorisés :", "admin");?> .jpg, .gif, .png, .doc, .ppt, .odt, .docx, .xlsx, .pptx, .psd.</small>
+								<small><?=l("Formats autorisés :", "admin");?> .jpg, .gif, .png, .doc, .ppt, .odt, .docx, .xlsx, .pptx, .psd , .rar, .zip</small>
 							</div>
 						</div>
 						<div class="form-group">
@@ -1521,7 +1521,7 @@ $(document).ready(function(){
 	//jQuery Filer
   $('#attachments').filer({
     maxSize: <?=intval(MAX_SIZE);?>,
-    extensions: ['jpg', 'gif', 'png', 'pdf', 'doc', 'ppt', 'odt', 'docx', 'xlsx', 'pptx', 'psd']
+    extensions: ['jpg', 'gif', 'png', 'pdf', 'doc', 'ppt', 'odt', 'docx', 'xlsx', 'pptx', 'psd', 'rar', 'zip']
   });
 
   $('.datepicker').datepicker({
