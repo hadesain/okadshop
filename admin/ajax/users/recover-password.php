@@ -32,36 +32,62 @@ if(!isset($_SERVER['HTTP_X_REQUESTED_WITH'])
 	die();
 }
 
-include '../../../config/bootstrap.php';
 
+try {
+	include '../../../config/bootstrap.php';
 
-//prepare data
-global $common;
-$receiver = $_POST['email'];
-if( $receiver == "" ) return;
+	//prepare data
+	global $common;
+	$receiver = $_POST['email'];
+	if( $receiver == "" ) return;
 
-//check if user exist
-$exist = $common->select("users", array('id'), "WHERE email='".$receiver."'");
-if( !$exist[0]['id'] ){
-	$return['error']  = l("No user registered with that email address.", "admin");
-	echo json_encode( $return );
+	//check if user exist
+	$exist = $common->select("users", array('id', 'last_name'), "WHERE email='".$receiver."'");
+	if( !$exist[0]['id'] ){
+		$return['error']  = l("No user registered with that email address.", "admin");
+		echo json_encode( $return );
+		exit;
+	}
+
+	$last_name = "";
+	if( $exist[0]['last_name'] != "" ) $last_name = $exist[0]['last_name'];
+
+	//get admin email
+	$admin = $common->select("users", array('email'), "WHERE user_type='admin' ORDER BY id ASC");
+
+	//generate new password
+	$password = $common->generate_random_string(8);
+
+	//update user password
+	$update_success = $common->update("users", array('password' => md5($password)), "WHERE id=".$exist[0]['id']);
+
+	if( $update_success )
+	{
+		//prepare args
+		$headers  = "From: ".APP." <".$admin[0]['email'].">\r\n". 
+								"MIME-Version: 1.0" . "\r\n" . 
+								"Content-type: text/html; charset=UTF-8" . "\r\n"; 
+		$subject  = 'Reset Your Password';
+		$message  = '<strong>Hi '.$last_name.',</strong><br>';
+		$message .= 'We got a request to reset your admin aria pasword.<br>';
+		$message .= 'This is your new password : '.$password.'<br>';
+		$success  = mail($receiver, $subject, $message, $headers); 
+
+		//return message
+		if( $success ){
+			$return['success'] = l("Email with password was sent to your Inbox.", "admin");
+			echo json_encode( $return );
+		}else{
+			$return['error'] = l("Error sending email.", "admin");
+			echo json_encode( $return );
+		}
+
+	}else{
+		$return['error'] = l("Error updating password, try again.", "admin");
+		echo json_encode( $return );
+	}
+
+	
+} catch (Exception $e) {
 	exit;
-}
-
-$headers  = "From: ".APP." <no-reply@okadshop.com>\r\n". 
-						"MIME-Version: 1.0" . "\r\n" . 
-						"Content-type: text/html; charset=UTF-8" . "\r\n"; 
-$subject  = 'Reset Your Password';
-$message  = '<strong>Hi,</strong><br>';
-$message .= 'We got a request to reset your admin aria pasword.<br>';
-$message .= 'This is your new password : <br>';
-$success  = mail($receiver, $subject, $message, $headers); 
-
-//return message
-if( $success ){
-	$return['success'] = l("Email with password was sent to your Inbox.", "admin");
-	echo json_encode( $return );
-}else{
-	$return['error'] = l("Error sending email email.", "admin");
-	echo json_encode( $return );
 }
